@@ -1,0 +1,38 @@
+name: TCG Preorder Bot
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # toutes les 2h
+  workflow_dispatch:         # bouton manuel
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run bot
+        env:
+          TELEGRAM_TOKEN_2:  ${{ secrets.TELEGRAM_TOKEN_2 }}
+          TELEGRAM_CHAT_ID_2: ${{ secrets.TELEGRAM_CHAT_ID_2 }}
+          GIST_TOKEN:        ${{ secrets.GIST_TOKEN }}
+          GIST_ID:           ${{ secrets.GIST_ID }}
+        run: python preorder_scan.py
