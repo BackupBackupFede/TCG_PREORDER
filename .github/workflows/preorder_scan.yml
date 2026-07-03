@@ -1,5 +1,8 @@
 name: TCG Preorder Bot
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 */2 * * *"   # toutes les 2h
@@ -31,8 +34,15 @@ jobs:
 
       - name: Run bot
         env:
-          TELEGRAM_TOKEN_2:  ${{ secrets.TELEGRAM_TOKEN_2 }}
+          TELEGRAM_TOKEN_2:   ${{ secrets.TELEGRAM_TOKEN_2 }}
           TELEGRAM_CHAT_ID_2: ${{ secrets.TELEGRAM_CHAT_ID_2 }}
-          GIST_TOKEN:        ${{ secrets.GIST_TOKEN }}
-          GIST_ID:           ${{ secrets.GIST_ID }}
         run: python preorder_scan.py
+
+      - name: Commit & Push si changement
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git pull --rebase origin main
+          git add saved_products.json
+          git diff --cached --quiet || git commit -m "update products $(date -u +'%Y-%m-%d %H:%M')"
+          git push

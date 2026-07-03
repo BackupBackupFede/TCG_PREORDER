@@ -7,8 +7,7 @@ import os
 # CONFIG
 # ======================
 
-# Nom du fichier dans le Gist
-GIST_FILENAME = "tcg_saved_products.json"
+DATA_FILE = "saved_products.json"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -69,59 +68,23 @@ def detect_preorder_from_text(text):
     return any(kw in t for kw in PREORDER_KEYWORDS)
 
 # ======================
-# STORAGE — GitHub Gist
+# STORAGE
 # ======================
 
-def _gist_headers():
-    token = os.getenv("GIST_TOKEN")
-    if not token:
-        raise RuntimeError("GIST_TOKEN non défini")
-    return {"Authorization": f"token {token}", "Accept": "application/vnd.github+json"}
-
 def load_saved():
-    gist_id = os.getenv("GIST_ID")
-    if not gist_id:
-        print("[storage] GIST_ID non défini, démarrage à vide")
+    if not os.path.exists(DATA_FILE):
         return {}
-    try:
-        r = requests.get(f"https://api.github.com/gists/{gist_id}",
-                         headers=_gist_headers(), timeout=10)
-        r.raise_for_status()
-        content = r.json()["files"][GIST_FILENAME]["content"]
-        return json.loads(content)
-    except Exception as e:
-        print(f"[storage] Impossible de lire le Gist : {e}")
-        return {}
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 def save(products, old):
     if old == products:
         print("[storage] Aucun changement")
         return False
-
-    gist_id = os.getenv("GIST_ID")
-    payload = {"files": {GIST_FILENAME: {"content": json.dumps(products, indent=2, ensure_ascii=False)}}}
-
-    try:
-        if gist_id:
-            r = requests.patch(f"https://api.github.com/gists/{gist_id}",
-                               headers=_gist_headers(), json=payload, timeout=10)
-        else:
-            # Premier run : crée le Gist et affiche son ID
-            payload["description"] = "TCG Preorder Bot — état des produits"
-            payload["public"] = False
-            r = requests.post("https://api.github.com/gists",
-                              headers=_gist_headers(), json=payload, timeout=10)
-            r.raise_for_status()
-            new_id = r.json()["id"]
-            print(f"[storage] Gist créé ! Ajoute ce GIST_ID dans tes secrets : {new_id}")
-            return True
-
-        r.raise_for_status()
-        print("[storage] Gist mis à jour")
-        return True
-    except Exception as e:
-        print(f"[storage] Erreur sauvegarde Gist : {e}")
-        return False
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
+        json.dump(products, f, indent=2, ensure_ascii=False)
+    print("[storage] Sauvegarde OK")
+    return True
 
 # ======================
 # SCRAPERS
