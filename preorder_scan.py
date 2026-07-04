@@ -323,59 +323,78 @@ def get_all_products():
 # ALERTING
 # ======================
 
-STOCK_EMOJI = {
-    "preorder":   "⏳",
-    "disponible": "✅",
-    "rupture":    "❌",
-    "unknown":    "❓",
+# Seuls ces types déclenchent une alerte Telegram
+ALERT_PRIORITY = ["NEW_PREORDER", "PREORDER", "RESTOCK"]
+
+ALERT_CONFIG = {
+    "NEW_PREORDER": {"emoji": "🆕⏳", "label": "NOUVEAU en PRÉCO"},
+    "PREORDER":     {"emoji": "⏳",   "label": "PASSÉ en PRÉCO"},
+    "RESTOCK":      {"emoji": "🔥",   "label": "RETOUR EN STOCK"},
 }
 
-def build_alert(alert_type, product):
-    emojis = {
-        "NEW_PREORDER": "🆕⏳",
-        "NEW":          "🆕",
-        "PREORDER":     "⏳",
-        "RESTOCK":      "🔥",
-    }
-    labels = {
-        "NEW_PREORDER": "NOUVEAU en PRÉCO",
-        "NEW":          "NOUVEAU",
-        "PREORDER":     "PASSÉ en PRÉCO",
-        "RESTOCK":      "RETOUR EN STOCK",
-    }
-    e = emojis.get(alert_type, "❗")
-    l = labels.get(alert_type, alert_type)
+def build_alert_block(alert_type, product):
+    cfg = ALERT_CONFIG[alert_type]
     p = product
-    stock_e = STOCK_EMOJI.get(p["stock"], "❓")
     return (
-        f"{e} <b>{l}</b>\n"
+        f"{cfg['emoji']} <b>{cfg['label']}</b>\n"
         f"📦 {p['name']}\n"
-        f"🏪 {p['boutique']} · {p['category']}\n"
-        f"💰 {p['price']}   {stock_e} {p['stock']}\n"
+        f"🏪 {p['boutique']}\n"
+        f"💰 {p['price']}\n"
         f"🔗 {p['link']}"
     )
+
+def build_telegram_message(alerts):
+    # Grouper par catégorie puis par type
+    from collections import defaultdict
+    by_cat = defaultdict(lambda: defaultdict(list))
+    for t, p in alerts:
+        by_cat[p["category"]][t].append(p)
+
+    lines = ["🚨 <b>ALERTES TCG</b> 🚨"]
+
+    for cat in ["One Piece", "Pokemon"]:
+        if cat not in by_cat:
+            continue
+
+        # Résumé de la catégorie
+        cat_alerts = by_cat[cat]
+        precos  = len(cat_alerts.get("NEW_PREORDER", [])) + len(cat_alerts.get("PREORDER", []))
+        restocks = len(cat_alerts.get("RESTOCK", []))
+        summary_parts = []
+        if precos:
+            summary_parts.append(f"⏳ {precos} préco{'s' if precos > 1 else ''}")
+        if restocks:
+            summary_parts.append(f"🔥 {restocks} restock{'s' if restocks > 1 else ''}")
+
+        lines.append(f"\n<b>── {cat} ──</b>  {' · '.join(summary_parts)}")
+
+        # Détail par type (précos d'abord, restocks ensuite)
+        for alert_type in ["NEW_PREORDER", "PREORDER", "RESTOCK"]:
+            for p in cat_alerts.get(alert_type, []):
+                lines.append("\n" + build_alert_block(alert_type, p))
+                lines.append("─────────────────")
+
+    return "\n".join(lines).rstrip("─────────────────").strip()
 
 # ======================
 # MAIN
 # ======================
 
 def main():
-    print("🔍 Scan des produits...")
+    print("Scan des produits...")
 
     old     = load_saved()
     current = get_all_products()
 
-    print(f"\n📊 {len(current)} produits détectés au total\n")
+    print(f"\n{len(current)} produits detectes au total\n")
 
     alerts = []
 
     for k, v in current.items():
         if k not in old:
-            # Produit tout nouveau
             if v["stock"] == "preorder":
                 alerts.append(("NEW_PREORDER", v))
-            else:
-                alerts.append(("NEW", v))
+            # Les simples nouveaux disponibles sont ignorés (trop de bruit)
         else:
             prev_stock = old[k]["stock"]
             curr_stock = v["stock"]
@@ -386,8 +405,7 @@ def main():
                     alerts.append(("RESTOCK", v))
 
     if alerts:
-        msg = "🚨 <b>ALERTES TCG</b> 🚨\n\n"
-        msg += "\n\n─────────────────\n\n".join(build_alert(t, p) for t, p in alerts)
+        msg = build_telegram_message(alerts)
         print(msg)
         send_telegram(msg)
         print(f"\n[alert] {len(alerts)} alerte(s) envoyee(s) sur Telegram")
