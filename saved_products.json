@@ -175,6 +175,7 @@
     "boutique": "Fantasysphere",
     "category": "Pokemon"
   },
+<<<<<<< HEAD
   "Fantasysphere::Pokemon::Boite de 36 Boosters - Ecarlate et Violet - Aventure Ensemble [SV9][EV09] - Pokémon - FR": {
     "name": "Boite de 36 Boosters - Ecarlate et Violet - Aventure Ensemble [SV9][EV09] - Pokémon - FR",
     "link": "https://www.fantasysphere.net/product/boite-de-24-boosters-ecarlate-et-violet-aventure-ensemble-sv9-ev09-pokemon-fr-10035892",
@@ -199,6 +200,8 @@
     "boutique": "Fantasysphere",
     "category": "Pokemon"
   },
+=======
+>>>>>>> ea5c35a (filter EN only, improve alerts)
   "Fantasysphere::Pokemon::Boite de 15 Boosters - 151 Pokémon Gathering - Pokémon - Chinois Simplifié": {
     "name": "Boite de 15 Boosters - 151 Pokémon Gathering - Pokémon - Chinois Simplifié",
     "link": "https://www.fantasysphere.net/product/boite-de-15-boosters-151-pokemon-gathering-pokemon-chinois-simplifie-10045139",
@@ -215,14 +218,6 @@
     "boutique": "Fantasysphere",
     "category": "Pokemon"
   },
-  "Fantasysphere::Pokemon::Boite de 36 Boosters - Mega-Evolution : Flammes Fantasmagoriques [ME02][PFL] - Pokémon - FR": {
-    "name": "Boite de 36 Boosters - Mega-Evolution : Flammes Fantasmagoriques [ME02][PFL] - Pokémon - FR",
-    "link": "https://www.fantasysphere.net/product/boite-de-36-boosters-mega-evolution-flammes-fantasmagoriques-me02-meg-pokemon-fr-10040346",
-    "price": "N/A",
-    "stock": "rupture",
-    "boutique": "Fantasysphere",
-    "category": "Pokemon"
-  },
   "Fantasysphere::Pokemon::Boite de 15 Boosters - 151 Pokémon Surprise - Pokémon - Chinois Simplifié": {
     "name": "Boite de 15 Boosters - 151 Pokémon Surprise - Pokémon - Chinois Simplifié",
     "link": "https://www.fantasysphere.net/product/boite-de-15-boosters-151-pokemon-surprise-pokemon-chinois-simplifie-10038540",
@@ -231,6 +226,7 @@
     "boutique": "Fantasysphere",
     "category": "Pokemon"
   },
+<<<<<<< HEAD
   "Fantasysphere::Pokemon::Boite de 36 Boosters - Ecarlate et Violet - Rivalités Destinées [SV10][EV10] - Pokémon - FR": {
     "name": "Boite de 36 Boosters - Ecarlate et Violet - Rivalités Destinées [SV10][EV10] - Pokémon - FR",
     "link": "https://www.fantasysphere.net/product/boite-de-36-boosters-ecarlate-et-violet-rivalites-destinees-sv10-ev10-pokemon-fr-10037480",
@@ -263,6 +259,8 @@
     "boutique": "Fantasysphere",
     "category": "Pokemon"
   },
+=======
+>>>>>>> ea5c35a (filter EN only, improve alerts)
   "Aiala::One Piece::PREORDER One Piece Card Game OP-16 booster box English": {
     "name": "PREORDER One Piece Card Game OP-16 booster box English",
     "link": "https://aialaocio.com/en/products/preorder-one-piece-card-game-op-16-booster-box-ingles",
@@ -1083,6 +1081,7 @@
     "name": "One Piece OP17 Display 24 boosters -  JCC FR",
     "link": "https://ludisphere.fr/products/one-piece-op17-display-24-boosters-jcc-fr",
     "price": "138,00 €",
+<<<<<<< HEAD
     "stock": "rupture",
     "boutique": "Ludisphere",
     "category": "One Piece"
@@ -1091,6 +1090,8 @@
     "name": "Boite 24 blisters Les Sept de la Mer d'Azur OP14 (FR)",
     "link": "https://ludisphere.fr/products/case-24-blisters-les-sept-de-la-mer-dazur-op14-fr",
     "price": "128,00 €",
+=======
+>>>>>>> ea5c35a (filter EN only, improve alerts)
     "stock": "rupture",
     "boutique": "Ludisphere",
     "category": "One Piece"
@@ -1103,51 +1104,11 @@
     "boutique": "Ludisphere",
     "category": "One Piece"
   },
-  "Ludisphere::One Piece::One Piece Starter Deck Luffy Ace ST-30 (FR)": {
-    "name": "One Piece Starter Deck Luffy Ace ST-30 (FR)",
-    "link": "https://ludisphere.fr/products/one-piece-starter-deck-luffy-ace-st-30-fr",
-    "price": "18,00 €",
-    "stock": "rupture",
-    "boutique": "Ludisphere",
-    "category": "One Piece"
-  },
-  "Ludisphere::One Piece::One Piece Card Game – OP16 L'Heure de la Bataille Décisive Pack 2 Boosters (FR)": {
-    "name": "One Piece Card Game – OP16 L'Heure de la Bataille Décisive Pack 2 Boosters (FR)",
-    "link": "https://ludisphere.fr/products/one-piece-card-game-op16-lheure-de-la-bataille-decisive-pack-2-boosters-fr-copie",
-    "price": "11,00 €",
-    "stock": "rupture",
-    "boutique": "Ludisphere",
-    "category": "One Piece"
-  },
-  "Ludisphere::One Piece::One Piece Boite 24 boosters L'Heure de la Bataille Décisive OP16 (FR)": {
-    "name": "One Piece Boite 24 boosters L'Heure de la Bataille Décisive OP16 (FR)",
-    "link": "https://ludisphere.fr/products/boite-24-boosters-lheure-de-la-bataille-decisive-op16-fr",
-    "price": "128,00 €",
-    "stock": "rupture",
-    "boutique": "Ludisphere",
-    "category": "One Piece"
-  },
-  "Ludisphere::One Piece::One Piece Card Game – OP15 Aventure sur l’Île de Dieu Pack 2 Boosters (FR)": {
-    "name": "One Piece Card Game – OP15 Aventure sur l’Île de Dieu Pack 2 Boosters (FR)",
-    "link": "https://ludisphere.fr/products/one-piece-op15-aventure-sur-lile-de-dieu-pack-2-boosters-fr",
-    "price": "11,00 €",
-    "stock": "rupture",
-    "boutique": "Ludisphere",
-    "category": "One Piece"
-  },
   "Ludisphere::One Piece::One Piece Card Game – Premium Card Collection: Best Selection Vol. 6": {
     "name": "One Piece Card Game – Premium Card Collection: Best Selection Vol. 6",
     "link": "https://ludisphere.fr/products/one-piece-card-game-premium-card-collection-best-selection-vol-6",
     "price": "37,50 €",
     "stock": "preorder",
-    "boutique": "Ludisphere",
-    "category": "One Piece"
-  },
-  "Ludisphere::One Piece::Boite 24 boosters Aventure sur l'ile de Dieu OP15 (FR)": {
-    "name": "Boite 24 boosters Aventure sur l'ile de Dieu OP15 (FR)",
-    "link": "https://ludisphere.fr/products/boite-24-boosters-aventure-sur-lile-de-dieu-op15-fr",
-    "price": "128,00 €",
-    "stock": "rupture",
     "boutique": "Ludisphere",
     "category": "One Piece"
   },
@@ -1163,22 +1124,6 @@
     "name": "Boite 24 boosters Héroines Edition EB03 (EN)",
     "link": "https://ludisphere.fr/products/boite-24-boosters-heroines-edition-eb03-en",
     "price": "128,00 €",
-    "stock": "rupture",
-    "boutique": "Ludisphere",
-    "category": "One Piece"
-  },
-  "Ludisphere::One Piece::Boite de 12 Tin Pack One Piece Vol 2 (FR)": {
-    "name": "Boite de 12 Tin Pack One Piece Vol 2 (FR)",
-    "link": "https://ludisphere.fr/products/boite-de-12-tin-pack-one-piece-vol-2",
-    "price": "134,00 €",
-    "stock": "rupture",
-    "boutique": "Ludisphere",
-    "category": "One Piece"
-  },
-  "Ludisphere::One Piece::Lot de 3 Tin Pack One Piece Vol 2 (FR)": {
-    "name": "Lot de 3 Tin Pack One Piece Vol 2 (FR)",
-    "link": "https://ludisphere.fr/products/lot-de-3-tin-pack-one-piece-vol-2-fr",
-    "price": "40,00 €",
     "stock": "rupture",
     "boutique": "Ludisphere",
     "category": "One Piece"
@@ -1199,34 +1144,10 @@
     "boutique": "Ludisphere",
     "category": "One Piece"
   },
-  "Ludisphere::One Piece::One Piece Egg Head ST-29 (FR)": {
-    "name": "One Piece Egg Head ST-29 (FR)",
-    "link": "https://ludisphere.fr/products/one-piece-starter-deck-noir-marshall-d-teach-st-29-fr",
-    "price": "17,00 €",
-    "stock": "rupture",
-    "boutique": "Ludisphere",
-    "category": "One Piece"
-  },
   "Ludisphere::One Piece::Boite 24 boosters The Azure sea's Seven OP14 (EN)": {
     "name": "Boite 24 boosters The Azure sea's Seven OP14 (EN)",
     "link": "https://ludisphere.fr/products/boite-24-boosters-les-sept-de-la-mer-dazur-op14-en",
     "price": "107,00 €",
-    "stock": "rupture",
-    "boutique": "Ludisphere",
-    "category": "One Piece"
-  },
-  "Ludisphere::One Piece::Boite 24 boosters Les Sept de la Mer d'Azur OP14 (FR)": {
-    "name": "Boite 24 boosters Les Sept de la Mer d'Azur OP14 (FR)",
-    "link": "https://ludisphere.fr/products/boite-24-boosters-les-sept-de-la-mer-dazur-op14-fr",
-    "price": "128,00 €",
-    "stock": "rupture",
-    "boutique": "Ludisphere",
-    "category": "One Piece"
-  },
-  "Ludisphere::One Piece::Boite 24 boosters Héroines Edition EB03 (FR)": {
-    "name": "Boite 24 boosters Héroines Edition EB03 (FR)",
-    "link": "https://ludisphere.fr/products/boite-24-boosters-heroines-edition-eb03-fr",
-    "price": "128,00 €",
     "stock": "rupture",
     "boutique": "Ludisphere",
     "category": "One Piece"
@@ -1243,14 +1164,6 @@
     "name": "One Piece OP13 Carrying on his Will Display 24 boosters (EN)",
     "link": "https://ludisphere.fr/products/one-piece-op13-carrying-on-his-will-display-24-boosters-en",
     "price": "96,50 €",
-    "stock": "rupture",
-    "boutique": "Ludisphere",
-    "category": "One Piece"
-  },
-  "Ludisphere::One Piece::One Piece OP13 Successeurs Display 24 boosters (FR)": {
-    "name": "One Piece OP13 Successeurs Display 24 boosters (FR)",
-    "link": "https://ludisphere.fr/products/one-piece-op13-successeurs-display-24-boosters-fr",
-    "price": "128,00 €",
     "stock": "rupture",
     "boutique": "Ludisphere",
     "category": "One Piece"

@@ -30,6 +30,20 @@ LUDISPHERE_ONE_PIECE = "https://ludisphere.fr/collections/one-piece-card-game-pr
 # Mots-clés qui indiquent un statut précommande dans les boutons/labels
 PREORDER_KEYWORDS = ["précommande", "precommande", "pre-order", "preorder", "pre order", "réserver", "reserver"]
 
+# Langues autorisées — on ignore tout ce qui n'est pas EN
+ALLOWED_LANGS = ["(en)", "- en", "_en"]
+
+def is_english(name):
+    n = name.lower()
+    # Exclure explicitement FR et JP
+    if "(fr)" in n or "- fr" in n or "(jp)" in n or "- jp" in n:
+        return False
+    # Si la langue est explicitement EN, on garde
+    if any(tag in n for tag in ALLOWED_LANGS):
+        return True
+    # Pas de tag langue → on garde (boutiques NL/ES qui ne taguent pas)
+    return True
+
 # ======================
 # TELEGRAM
 # ======================
@@ -120,6 +134,8 @@ def scrape_fantasysphere(url, category):
         else:
             stock = "disponible"
 
+        if not is_english(name):
+            continue
         key = f"Fantasysphere::{category}::{name}"
         products[key] = {"name": name, "link": link, "price": price, "stock": stock,
                          "boutique": "Fantasysphere", "category": category}
@@ -164,6 +180,8 @@ def scrape_aiala(url, category):
             sold_out = card.select_one(".sold-out, .soldout")
             stock = "rupture" if sold_out else "disponible"
 
+        if not is_english(name):
+            continue
         key = f"Aiala::{category}::{name}"
         products[key] = {"name": name, "link": link, "price": price, "stock": stock,
                          "boutique": "Aiala Ocio", "category": category}
@@ -209,6 +227,8 @@ def scrape_tcgpower(url, category):
             qty = variants[0].get("stock", 0) if variants else 0
             stock = "disponible" if qty > 0 else "rupture"
 
+        if not is_english(name):
+            continue
         key = f"TCGPower::{category}::{name}"
         products[key] = {"name": name, "link": link, "price": price, "stock": stock,
                          "boutique": "TCG Power", "category": category}
@@ -245,6 +265,8 @@ def scrape_mysterymedia(url, category):
         else:
             stock = "disponible"
 
+        if not is_english(name):
+            continue
         key = f"MysteryMedia::{category}::{name}"
         products[key] = {"name": name, "link": link, "price": price, "stock": stock,
                          "boutique": "Mystery Media", "category": category}
@@ -284,6 +306,8 @@ def scrape_ludisphere(url, category):
         else:
             stock = "disponible"
 
+        if not is_english(name):
+            continue
         key = f"Ludisphere::{category}::{name}"
         products[key] = {"name": name, "link": link, "price": price, "stock": stock,
                          "boutique": "Ludisphere", "category": category}
