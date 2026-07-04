@@ -111,30 +111,6 @@
     "boutique": "Fantasysphere",
     "category": "Pokemon"
   },
-  "Fantasysphere::Pokemon::Boite de 36 Boosters - Mega-Evolution : Chaos Ascendant [ME04][CRI] - Pokémon - FR": {
-    "name": "Boite de 36 Boosters - Mega-Evolution : Chaos Ascendant [ME04][CRI] - Pokémon - FR",
-    "link": "https://www.fantasysphere.net/product/boite-de-36-boosters-mega-evolution-chaos-ascendant-me04-cri-pokemon-fr-10042470",
-    "price": "209,90 €",
-    "stock": "disponible",
-    "boutique": "Fantasysphere",
-    "category": "Pokemon"
-  },
-  "Fantasysphere::Pokemon::Boite de 36 Boosters - Mega-Evolution : Equilibre Parfait [ME03][POR] - Pokémon - FR": {
-    "name": "Boite de 36 Boosters - Mega-Evolution : Equilibre Parfait [ME03][POR] - Pokémon - FR",
-    "link": "https://www.fantasysphere.net/product/boite-de-36-boosters-mega-evolution-equilibre-parfait-me03-por-pokemon-fr-10041385",
-    "price": "199,90 €",
-    "stock": "disponible",
-    "boutique": "Fantasysphere",
-    "category": "Pokemon"
-  },
-  "Fantasysphere::Pokemon::Boite de 36 Boosters - Mega-Evolution [ME01][MEG] - Pokémon - FR": {
-    "name": "Boite de 36 Boosters - Mega-Evolution [ME01][MEG] - Pokémon - FR",
-    "link": "https://www.fantasysphere.net/product/boite-de-36-boosters-ecarlate-et-violet-mega-evolution-me01-meg-pokemon-fr-10038513",
-    "price": "N/A",
-    "stock": "disponible",
-    "boutique": "Fantasysphere",
-    "category": "Pokemon"
-  },
   "Fantasysphere::Pokemon::Boite de 15 Boosters - Gem Pack Vol.2 - Pokémon - Chinois Simplifié": {
     "name": "Boite de 15 Boosters - Gem Pack Vol.2 - Pokémon - Chinois Simplifié",
     "link": "https://www.fantasysphere.net/product/boite-de-15-boosters-gem-pack-vol-2-pokemon-chinois-simplifie-10038058",
@@ -146,14 +122,6 @@
   "Fantasysphere::Pokemon::Boite de 15 Boosters - 151 Pokémon Hope - Pokémon - Chinois Simplifié": {
     "name": "Boite de 15 Boosters - 151 Pokémon Hope - Pokémon - Chinois Simplifié",
     "link": "https://www.fantasysphere.net/product/boite-de-15-boosters-151-pokemon-hope-pokemon-chinois-simplifie-10038056",
-    "price": "N/A",
-    "stock": "disponible",
-    "boutique": "Fantasysphere",
-    "category": "Pokemon"
-  },
-  "Fantasysphere::Pokemon::Boite de 36 Boosters + Promo - Ecarlate et Violet - Aventure Ensemble [SV9][EV09] - Pokémon - FR": {
-    "name": "Boite de 36 Boosters + Promo - Ecarlate et Violet - Aventure Ensemble [SV9][EV09] - Pokémon - FR",
-    "link": "https://www.fantasysphere.net/product/boite-de-36-boosters-promo-ecarlate-et-violet-aventure-ensemble-sv9-ev09-pokemon-fr-10037262",
     "price": "N/A",
     "stock": "disponible",
     "boutique": "Fantasysphere",
@@ -171,30 +139,6 @@
     "name": "Boite de 15 Boosters - Gem Pack Vol.1 - Pokémon - Chinois Simplifié",
     "link": "https://www.fantasysphere.net/product/boite-de-15-boosters-gem-pack-vol-1-pokemon-chinois-10036952",
     "price": "99,00 €",
-    "stock": "disponible",
-    "boutique": "Fantasysphere",
-    "category": "Pokemon"
-  },
-  "Fantasysphere::Pokemon::Boite de 36 Boosters - Ecarlate et Violet - Aventure Ensemble [SV9][EV09] - Pokémon - FR": {
-    "name": "Boite de 36 Boosters - Ecarlate et Violet - Aventure Ensemble [SV9][EV09] - Pokémon - FR",
-    "link": "https://www.fantasysphere.net/product/boite-de-24-boosters-ecarlate-et-violet-aventure-ensemble-sv9-ev09-pokemon-fr-10035892",
-    "price": "N/A",
-    "stock": "disponible",
-    "boutique": "Fantasysphere",
-    "category": "Pokemon"
-  },
-  "Fantasysphere::Pokemon::Pokémon - Display - Boite de 36 Boosters - Ecarlate et Violet - Flammes Obsidiennes [SV3][EV03] - FR": {
-    "name": "Pokémon - Display - Boite de 36 Boosters - Ecarlate et Violet - Flammes Obsidiennes [SV3][EV03] - FR",
-    "link": "https://www.fantasysphere.net/product/pokemon-display-boite-de-36-boosters-ecarlate-et-violet-flammes-obsidiennes-sv3-ev03-fr",
-    "price": "N/A",
-    "stock": "disponible",
-    "boutique": "Fantasysphere",
-    "category": "Pokemon"
-  },
-  "Fantasysphere::Pokemon::Pokémon - Display - Boite de 36 Boosters - Ecarlate et Violet - Evolutions à Paldea [SV2][EV02] - FR": {
-    "name": "Pokémon - Display - Boite de 36 Boosters - Ecarlate et Violet - Evolutions à Paldea [SV2][EV02] - FR",
-    "link": "https://www.fantasysphere.net/product/pokemon-display-boite-de-36-boosters-ecarlate-et-violet-evolutions-a-paldea-sv2-ev02-fr",
-    "price": "N/A",
     "stock": "disponible",
     "boutique": "Fantasysphere",
     "category": "Pokemon"
@@ -219,38 +163,6 @@
     "name": "Boite de 15 Boosters - 151 Pokémon Surprise - Pokémon - Chinois Simplifié",
     "link": "https://www.fantasysphere.net/product/boite-de-15-boosters-151-pokemon-surprise-pokemon-chinois-simplifie-10038540",
     "price": "69,90 €",
-    "stock": "rupture",
-    "boutique": "Fantasysphere",
-    "category": "Pokemon"
-  },
-  "Fantasysphere::Pokemon::Boite de 36 Boosters - Ecarlate et Violet - Rivalités Destinées [SV10][EV10] - Pokémon - FR": {
-    "name": "Boite de 36 Boosters - Ecarlate et Violet - Rivalités Destinées [SV10][EV10] - Pokémon - FR",
-    "link": "https://www.fantasysphere.net/product/boite-de-36-boosters-ecarlate-et-violet-rivalites-destinees-sv10-ev10-pokemon-fr-10037480",
-    "price": "N/A",
-    "stock": "rupture",
-    "boutique": "Fantasysphere",
-    "category": "Pokemon"
-  },
-  "Fantasysphere::Pokemon::Pokémon - Display - Boite de 36 Boosters - Ecarlate et Violet - Etincelles Déferlantes [SV8][EV08] - FR": {
-    "name": "Pokémon - Display - Boite de 36 Boosters - Ecarlate et Violet - Etincelles Déferlantes [SV8][EV08] - FR",
-    "link": "https://www.fantasysphere.net/product/pokemon-display-boite-de-36-boosters-ecarlate-et-violet-etincelles-deferlantes-sv8-ev08-fr-10034947",
-    "price": "N/A",
-    "stock": "rupture",
-    "boutique": "Fantasysphere",
-    "category": "Pokemon"
-  },
-  "Fantasysphere::Pokemon::Pokémon - Display - Boite de 36 Boosters - Tempete Argentee [EB12] - FR": {
-    "name": "Pokémon - Display - Boite de 36 Boosters - Tempete Argentee [EB12] - FR",
-    "link": "https://www.fantasysphere.net/product/pokemon-display-boite-de-36-boosters-tempete-argentee-eb12-fr",
-    "price": "N/A",
-    "stock": "rupture",
-    "boutique": "Fantasysphere",
-    "category": "Pokemon"
-  },
-  "Fantasysphere::Pokemon::Pokémon - Display - Boite de 36 Boosters - Origine Perdue [EB11] - FR": {
-    "name": "Pokémon - Display - Boite de 36 Boosters - Origine Perdue [EB11] - FR",
-    "link": "https://www.fantasysphere.net/product/pokemon-display-boite-de-36-boosters-origine-perdue-eb11-fr",
-    "price": "N/A",
     "stock": "rupture",
     "boutique": "Fantasysphere",
     "category": "Pokemon"
@@ -555,7 +467,7 @@
     "name": "Booster Bundle Ascended Heroes",
     "link": "https://www.tcgpower.nl/product/22999169/booster-bundle-ascended-heroes",
     "price": "N/A",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "TCG Power",
     "category": "Pokemon"
   },
@@ -1075,14 +987,6 @@
     "name": "One Piece OP17 Display 24 boosters -  JCC FR",
     "link": "https://ludisphere.fr/products/one-piece-op17-display-24-boosters-jcc-fr",
     "price": "138,00 €",
-    "stock": "rupture",
-    "boutique": "Ludisphere",
-    "category": "One Piece"
-  },
-  "Ludisphere::One Piece::Boite 24 blisters Les Sept de la Mer d'Azur OP14 (FR)": {
-    "name": "Boite 24 blisters Les Sept de la Mer d'Azur OP14 (FR)",
-    "link": "https://ludisphere.fr/products/case-24-blisters-les-sept-de-la-mer-dazur-op14-fr",
-    "price": "128,00 €",
     "stock": "rupture",
     "boutique": "Ludisphere",
     "category": "One Piece"
