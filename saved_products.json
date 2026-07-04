@@ -175,7 +175,6 @@
     "boutique": "Fantasysphere",
     "category": "Pokemon"
   },
-<<<<<<< HEAD
   "Fantasysphere::Pokemon::Boite de 36 Boosters - Ecarlate et Violet - Aventure Ensemble [SV9][EV09] - Pokémon - FR": {
     "name": "Boite de 36 Boosters - Ecarlate et Violet - Aventure Ensemble [SV9][EV09] - Pokémon - FR",
     "link": "https://www.fantasysphere.net/product/boite-de-24-boosters-ecarlate-et-violet-aventure-ensemble-sv9-ev09-pokemon-fr-10035892",
@@ -200,8 +199,6 @@
     "boutique": "Fantasysphere",
     "category": "Pokemon"
   },
-=======
->>>>>>> ea5c35a (filter EN only, improve alerts)
   "Fantasysphere::Pokemon::Boite de 15 Boosters - 151 Pokémon Gathering - Pokémon - Chinois Simplifié": {
     "name": "Boite de 15 Boosters - 151 Pokémon Gathering - Pokémon - Chinois Simplifié",
     "link": "https://www.fantasysphere.net/product/boite-de-15-boosters-151-pokemon-gathering-pokemon-chinois-simplifie-10045139",
@@ -226,7 +223,6 @@
     "boutique": "Fantasysphere",
     "category": "Pokemon"
   },
-<<<<<<< HEAD
   "Fantasysphere::Pokemon::Boite de 36 Boosters - Ecarlate et Violet - Rivalités Destinées [SV10][EV10] - Pokémon - FR": {
     "name": "Boite de 36 Boosters - Ecarlate et Violet - Rivalités Destinées [SV10][EV10] - Pokémon - FR",
     "link": "https://www.fantasysphere.net/product/boite-de-36-boosters-ecarlate-et-violet-rivalites-destinees-sv10-ev10-pokemon-fr-10037480",
@@ -259,8 +255,6 @@
     "boutique": "Fantasysphere",
     "category": "Pokemon"
   },
-=======
->>>>>>> ea5c35a (filter EN only, improve alerts)
   "Aiala::One Piece::PREORDER One Piece Card Game OP-16 booster box English": {
     "name": "PREORDER One Piece Card Game OP-16 booster box English",
     "link": "https://aialaocio.com/en/products/preorder-one-piece-card-game-op-16-booster-box-ingles",
@@ -1081,7 +1075,6 @@
     "name": "One Piece OP17 Display 24 boosters -  JCC FR",
     "link": "https://ludisphere.fr/products/one-piece-op17-display-24-boosters-jcc-fr",
     "price": "138,00 €",
-<<<<<<< HEAD
     "stock": "rupture",
     "boutique": "Ludisphere",
     "category": "One Piece"
@@ -1090,8 +1083,6 @@
     "name": "Boite 24 blisters Les Sept de la Mer d'Azur OP14 (FR)",
     "link": "https://ludisphere.fr/products/case-24-blisters-les-sept-de-la-mer-dazur-op14-fr",
     "price": "128,00 €",
-=======
->>>>>>> ea5c35a (filter EN only, improve alerts)
     "stock": "rupture",
     "boutique": "Ludisphere",
     "category": "One Piece"

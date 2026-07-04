@@ -88,8 +88,14 @@ def detect_preorder_from_text(text):
 def load_saved():
     if not os.path.exists(DATA_FILE):
         return {}
-    with open(DATA_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError) as e:
+        # État corrompu (ex: marqueurs de conflit git) → on repart de zéro
+        # plutôt que de tuer le run. Coût: une rafale d'alertes "nouveau".
+        print(f"⚠️ {DATA_FILE} illisible ({e}) — état réinitialisé")
+        return {}
 
 def save(products, old):
     if old == products:
