@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
+import re
 
 # ======================
 # CONFIG
@@ -26,6 +27,17 @@ MYSTERYMEDIA_ONE_PIECE   = "https://mysterymedia.nl/product-categorie/trading-ca
 MYSTERYMEDIA_ONE_PIECE_D = "https://mysterymedia.nl/product-categorie/trading-card-games/one-piece/page/2/"
 
 LUDISPHERE_ONE_PIECE = "https://ludisphere.fr/collections/one-piece-card-game-precommande"
+
+PHILIBERT_ONE_PIECE = "https://www.philibertnet.com/fr/15860-one-piece-le-jeu-de-cartes"
+PHILIBERT_POKEMON   = "https://www.philibertnet.com/fr/212-pokemon"
+PHILIBERT_PRECO_TCG = "https://www.philibertnet.com/fr/578-precommandes/s-3/categorie-jeux_de_cartes_a_collectionner_et_jeux_de_cartes_evolutifs"
+
+ULTRAJEUX_ONE_PIECE_EN      = "https://www.ultrajeux.com/cat-0-1031-379-one-piece-card-game-booster-anglais.html"
+ULTRAJEUX_POKEMON_DISPLAYS  = "https://www.ultrajeux.com/cat-0-4-469-pokemon-boite-de-boosters-francais.html"
+
+# Produits scellés pertinents pour le flip (filtre Philibert, catalogue trop large)
+SEALED_KEYWORDS = ["booster", "display", "boîte", "boite", "coffret",
+                   "bundle", "collection", "etb", "box", "tripack"]
 
 # Mots-clés qui indiquent un statut précommande dans les boutons/labels
 PREORDER_KEYWORDS = ["précommande", "precommande", "pre-order", "preorder", "pre order", "réserver", "reserver"]
@@ -80,6 +92,22 @@ def detect_preorder_from_text(text):
     """Retourne True si le texte contient un mot-clé de précommande."""
     t = text.lower()
     return any(kw in t for kw in PREORDER_KEYWORDS)
+
+def parse_price(price_str):
+    """'99,00 €' / '€ 1.299,95' / '89.95' → float, sinon None."""
+    if not price_str:
+        return None
+    s = re.sub(r"[^\d,.]", "", str(price_str))
+    if not s:
+        return None
+    if "," in s and "." in s:      # format 1.299,95
+        s = s.replace(".", "").replace(",", ".")
+    else:
+        s = s.replace(",", ".")
+    try:
+        return round(float(s), 2)
+    except ValueError:
+        return None
 
 # ======================
 # STORAGE
@@ -320,6 +348,107 @@ def scrape_ludisphere(url, category):
 
     return products
 
+def scrape_philibert(url, category):
+    r = safe_request(url)
+    if not r:
+        return {}
+
+    soup = BeautifulSoup(r.text, "html.parser")
+    products = {}
+    is_preco_page = "precommandes" in url
+
+    for card in soup.select(".product-card"):
+        title_tag = card.select_one("a.product-card__title")
+        if not title_tag:
+            continue
+        name = title_tag.get_text(strip=True)
+        link = "https://www.philibertnet.com" + title_tag.get("href", "")
+
+        # La page préco TCG mélange tous les jeux → rattachement via le nom
+        cat = category
+        if is_preco_page:
+            n = name.lower()
+            if "one piece" in n:
+                cat = "One Piece"
+            elif "pok" in n:
+                cat = "Pokemon"
+            else:
+                continue
+
+        # Scellé uniquement (le catalogue Philibert est très large)
+        if not any(k in name.lower() for k in SEALED_KEYWORDS):
+            continue
+
+        # Langue explicite sur la carte : OP = anglais, Pokémon = français, JP exclu
+        lang_tag = card.select_one(".product-card__feature")
+        lang = lang_tag.get_text(strip=True) if lang_tag else ""
+        if lang == "Japonais":
+            continue
+        if cat == "One Piece" and lang == "Français":
+            continue
+
+        price_tag = card.select_one(".product-card__price")
+        price = price_tag.get_text(strip=True) if price_tag else "N/A"
+
+        stock_tag  = card.select_one("p.stock-label")
+        stock_txt  = stock_tag.get_text(strip=True).lower() if stock_tag else ""
+        labels_tag = card.select_one(".product-card__labels")
+        labels_txt = labels_tag.get_text(" ", strip=True).lower() if labels_tag else ""
+        if is_preco_page or detect_preorder_from_text(stock_txt + " " + labels_txt):
+            stock = "preorder"
+        elif "indisponible" in stock_txt:
+            stock = "rupture"
+        elif card.select_one("[data-action='add']"):
+            stock = "disponible"
+        else:
+            stock = "rupture"
+
+        if not is_english(name):
+            continue
+        key = f"Philibert::{cat}::{name}"
+        products[key] = {"name": name, "link": link, "price": price, "stock": stock,
+                         "boutique": "Philibert", "category": cat}
+
+    return products
+
+
+def scrape_ultrajeux(url, category):
+    r = safe_request(url)
+    if not r:
+        return {}
+
+    soup = BeautifulSoup(r.text, "html.parser")
+    products = {}
+
+    for block in soup.select(".block_produit"):
+        title_tag = block.select_one("p.titre a")
+        if not title_tag:
+            continue
+        name = (title_tag.get("title") or title_tag.get_text(strip=True)).strip()
+        link = "https://www.ultrajeux.com/" + title_tag.get("href", "")
+
+        price_tag = block.select_one("span.prix")
+        price = price_tag.get_text(strip=True) if price_tag else "N/A"
+
+        dispo = block.select_one("p.disponibilite")
+        d = dispo.get_text(" ", strip=True).lower() if dispo else ""
+        if detect_preorder_from_text(d):
+            stock = "preorder"
+        elif "indisponible" in d or "rupture" in d or "épuisé" in d:
+            stock = "rupture"
+        elif "disponible" in d:
+            stock = "disponible"
+        else:
+            stock = "rupture"
+
+        if not is_english(name):
+            continue
+        key = f"Ultrajeux::{category}::{name}"
+        products[key] = {"name": name, "link": link, "price": price, "stock": stock,
+                         "boutique": "Ultrajeux", "category": category}
+
+    return products
+
 # ======================
 # AGGREGATION
 # ======================
@@ -337,6 +466,11 @@ def get_all_products():
         (scrape_mysterymedia,  MYSTERYMEDIA_ONE_PIECE,   "One Piece"),
         (scrape_mysterymedia,  MYSTERYMEDIA_ONE_PIECE_D, "One Piece"),
         (scrape_ludisphere,    LUDISPHERE_ONE_PIECE,   "One Piece"),
+        (scrape_philibert,     PHILIBERT_ONE_PIECE,    "One Piece"),
+        (scrape_philibert,     PHILIBERT_POKEMON,      "Pokemon"),
+        (scrape_philibert,     PHILIBERT_PRECO_TCG,    "One Piece"),  # cat déduite du nom
+        (scrape_ultrajeux,     ULTRAJEUX_ONE_PIECE_EN,     "One Piece"),
+        (scrape_ultrajeux,     ULTRAJEUX_POKEMON_DISPLAYS, "Pokemon"),
     ]
 
     for fn, url, cat in scrapers:
@@ -354,22 +488,29 @@ def get_all_products():
 # ======================
 
 # Seuls ces types déclenchent une alerte Telegram
-ALERT_PRIORITY = ["NEW_PREORDER", "PREORDER", "RESTOCK"]
+ALERT_PRIORITY = ["NEW_PREORDER", "PREORDER", "RESTOCK", "PRICE_DROP"]
+
+# Baisse de prix minimale pour alerter (vidage de stock)
+PRICE_DROP_MIN = 0.10   # −10%
 
 ALERT_CONFIG = {
     "NEW_PREORDER": {"emoji": "🆕⏳", "label": "NOUVEAU en PRÉCO"},
     "PREORDER":     {"emoji": "⏳",   "label": "PASSÉ en PRÉCO"},
     "RESTOCK":      {"emoji": "🔥",   "label": "RETOUR EN STOCK"},
+    "PRICE_DROP":   {"emoji": "📉",   "label": "BAISSE DE PRIX"},
 }
 
 def build_alert_block(alert_type, product):
     cfg = ALERT_CONFIG[alert_type]
     p = product
+    price_line = f"💰 {p['price']}"
+    if alert_type == "PRICE_DROP" and p.get("old_price"):
+        price_line = f"💰 {p['old_price']} → <b>{p['price']}</b>"
     return (
         f"{cfg['emoji']} <b>{cfg['label']}</b>\n"
         f"📦 {p['name']}\n"
         f"🏪 {p['boutique']}\n"
-        f"💰 {p['price']}\n"
+        f"{price_line}\n"
         f"🔗 {p['link']}"
     )
 
@@ -390,16 +531,19 @@ def build_telegram_message(alerts):
         cat_alerts = by_cat[cat]
         precos  = len(cat_alerts.get("NEW_PREORDER", [])) + len(cat_alerts.get("PREORDER", []))
         restocks = len(cat_alerts.get("RESTOCK", []))
+        drops = len(cat_alerts.get("PRICE_DROP", []))
         summary_parts = []
         if precos:
             summary_parts.append(f"⏳ {precos} préco{'s' if precos > 1 else ''}")
         if restocks:
             summary_parts.append(f"🔥 {restocks} restock{'s' if restocks > 1 else ''}")
+        if drops:
+            summary_parts.append(f"📉 {drops} baisse{'s' if drops > 1 else ''}")
 
         lines.append(f"\n<b>── {cat} ──</b>  {' · '.join(summary_parts)}")
 
-        # Détail par type (précos d'abord, restocks ensuite)
-        for alert_type in ["NEW_PREORDER", "PREORDER", "RESTOCK"]:
+        # Détail par type (précos d'abord, restocks, puis baisses de prix)
+        for alert_type in ALERT_PRIORITY:
             for p in cat_alerts.get(alert_type, []):
                 lines.append("\n" + build_alert_block(alert_type, p))
                 lines.append("─────────────────")
@@ -433,6 +577,12 @@ def main():
                     alerts.append(("PREORDER", v))
                 elif curr_stock == "disponible":
                     alerts.append(("RESTOCK", v))
+            # Vidage de stock : baisse de prix sur un produit achetable
+            if curr_stock != "rupture":
+                old_p = parse_price(old[k].get("price"))
+                new_p = parse_price(v.get("price"))
+                if old_p and new_p and new_p <= old_p * (1 - PRICE_DROP_MIN):
+                    alerts.append(("PRICE_DROP", {**v, "old_price": old[k]["price"]}))
 
     if alerts:
         msg = build_telegram_message(alerts)

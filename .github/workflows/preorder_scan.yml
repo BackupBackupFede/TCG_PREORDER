@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 */2 * * *"   # toutes les 2h
+    - cron: "*/30 * * * *"  # toutes les 30 min (~1450 min/mois, sous les 2000 gratuites)
   workflow_dispatch:         # bouton manuel
 
 jobs:
