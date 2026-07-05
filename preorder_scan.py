@@ -37,7 +37,13 @@ ULTRAJEUX_POKEMON_DISPLAYS  = "https://www.ultrajeux.com/cat-0-4-469-pokemon-boi
 
 # Produits scellés pertinents pour le flip (filtre Philibert, catalogue trop large)
 SEALED_KEYWORDS = ["booster", "display", "boîte", "boite", "coffret",
-                   "bundle", "collection", "etb", "box", "tripack"]
+                   "bundle", "collection", "etb", "box", "tripack",
+                   "elite trainer"]
+
+# Dealabs — veille communautaire : couvre la grande distribution (Carrefour,
+# Auchan, Fnac, Leclerc...) que leurs bot-walls rendent inscrapables en direct
+DEALABS_POKEMON_RSS = "https://www.dealabs.com/rss/groupe/pokemon"
+DEALABS_NOUVEAUX_RSS = "https://www.dealabs.com/rss/nouveaux"
 
 # Mots-clés qui indiquent un statut précommande dans les boutons/labels
 PREORDER_KEYWORDS = ["précommande", "precommande", "pre-order", "preorder", "pre order", "réserver", "reserver"]
@@ -412,6 +418,56 @@ def scrape_philibert(url, category):
     return products
 
 
+def scrape_dealabs(url, category):
+    """RSS Dealabs. Ne garde que les deals TCG scellés (franchise + produit).
+    category est ignorée : déduite du titre (le flux 'nouveaux' mélange tout)."""
+    r = safe_request(url)
+    if not r:
+        return {}
+
+    products = {}
+    for item in re.findall(r"<item>(.*?)</item>", r.text, re.S):
+        m_title = re.search(r"<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", item, re.S)
+        m_link  = re.search(r"<link>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</link>", item, re.S)
+        if not m_title or not m_link:
+            continue
+        title = m_title.group(1).strip()
+        link  = m_link.group(1).strip()
+        t = title.lower()
+
+        # Bruit : jeux vidéo (catégorie RSS) et versions japonaises
+        m_cat = re.search(r"<category>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</category>", item, re.S)
+        rss_cat = m_cat.group(1).lower() if m_cat else ""
+        if "jeux vidéo" in rss_cat or "console" in rss_cat:
+            continue
+        if "japonais" in t or "(jp)" in t:
+            continue
+
+        if "one piece" in t:
+            cat = "One Piece"
+        elif "pokemon" in t or "pokémon" in t:
+            cat = "Pokemon"
+        else:
+            continue
+        if not any(k in t for k in SEALED_KEYWORDS):
+            continue
+
+        # Enseigne + prix fournis par le flux (pepper:merchant)
+        m_merch = re.search(r'<pepper:merchant name="([^"]*)"(?:\s+price="([^"]*)")?', item)
+        merchant = m_merch.group(1) if m_merch else ""
+        price = (m_merch.group(2) if m_merch and m_merch.group(2) else None)
+        if not price:
+            m_price = re.search(r"(\d+(?:[.,]\d{1,2})?)\s*€", title)
+            price = f"{m_price.group(1)}€" if m_price else "N/A"
+
+        key = f"Dealabs::{cat}::{title}"
+        products[key] = {"name": title, "link": link, "price": price, "stock": "deal",
+                         "boutique": f"Dealabs ({merchant})" if merchant else "Dealabs",
+                         "category": cat}
+
+    return products
+
+
 def scrape_ultrajeux(url, category):
     r = safe_request(url)
     if not r:
@@ -471,6 +527,8 @@ def get_all_products():
         (scrape_philibert,     PHILIBERT_PRECO_TCG,    "One Piece"),  # cat déduite du nom
         (scrape_ultrajeux,     ULTRAJEUX_ONE_PIECE_EN,     "One Piece"),
         (scrape_ultrajeux,     ULTRAJEUX_POKEMON_DISPLAYS, "Pokemon"),
+        (scrape_dealabs,       DEALABS_POKEMON_RSS,        "Pokemon"),
+        (scrape_dealabs,       DEALABS_NOUVEAUX_RSS,       "mixte"),
     ]
 
     for fn, url, cat in scrapers:
@@ -488,7 +546,7 @@ def get_all_products():
 # ======================
 
 # Seuls ces types déclenchent une alerte Telegram
-ALERT_PRIORITY = ["NEW_PREORDER", "PREORDER", "RESTOCK", "PRICE_DROP"]
+ALERT_PRIORITY = ["NEW_PREORDER", "PREORDER", "RESTOCK", "PRICE_DROP", "DEAL"]
 
 # Baisse de prix minimale pour alerter (vidage de stock)
 PRICE_DROP_MIN = 0.10   # −10%
@@ -498,6 +556,7 @@ ALERT_CONFIG = {
     "PREORDER":     {"emoji": "⏳",   "label": "PASSÉ en PRÉCO"},
     "RESTOCK":      {"emoji": "🔥",   "label": "RETOUR EN STOCK"},
     "PRICE_DROP":   {"emoji": "📉",   "label": "BAISSE DE PRIX"},
+    "DEAL":         {"emoji": "🛒",   "label": "BON PLAN Dealabs"},
 }
 
 def build_alert_block(alert_type, product):
@@ -532,6 +591,7 @@ def build_telegram_message(alerts):
         precos  = len(cat_alerts.get("NEW_PREORDER", [])) + len(cat_alerts.get("PREORDER", []))
         restocks = len(cat_alerts.get("RESTOCK", []))
         drops = len(cat_alerts.get("PRICE_DROP", []))
+        deals = len(cat_alerts.get("DEAL", []))
         summary_parts = []
         if precos:
             summary_parts.append(f"⏳ {precos} préco{'s' if precos > 1 else ''}")
@@ -539,6 +599,8 @@ def build_telegram_message(alerts):
             summary_parts.append(f"🔥 {restocks} restock{'s' if restocks > 1 else ''}")
         if drops:
             summary_parts.append(f"📉 {drops} baisse{'s' if drops > 1 else ''}")
+        if deals:
+            summary_parts.append(f"🛒 {deals} deal{'s' if deals > 1 else ''}")
 
         lines.append(f"\n<b>── {cat} ──</b>  {' · '.join(summary_parts)}")
 
@@ -568,6 +630,8 @@ def main():
         if k not in old:
             if v["stock"] == "preorder":
                 alerts.append(("NEW_PREORDER", v))
+            elif v["stock"] == "deal":
+                alerts.append(("DEAL", v))
             # Les simples nouveaux disponibles sont ignorés (trop de bruit)
         else:
             prev_stock = old[k]["stock"]
