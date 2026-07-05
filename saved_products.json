@@ -1606,5 +1606,13 @@
     "stock": "disponible",
     "boutique": "Ultrajeux",
     "category": "Pokemon"
+  },
+  "Dealabs::Pokemon::Pokébox Pokémon Méga Clair de Lune - Méga-Ectoplasma ex (4 Boosters + 1 Carte Promo)": {
+    "name": "Pokébox Pokémon Méga Clair de Lune - Méga-Ectoplasma ex (4 Boosters + 1 Carte Promo)",
+    "link": "https://www.dealabs.com/bons-plans/pokebox-pokemon-mega-clair-de-lune-mega-ectoplasma-ex-4-boosters-1-carte-promo-3362278",
+    "price": "21,44€",
+    "stock": "deal",
+    "boutique": "Dealabs (E.Leclerc)",
+    "category": "Pokemon"
   }
 }
