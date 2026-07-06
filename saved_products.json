@@ -1082,16 +1082,16 @@
   "Philibert::Pokemon::Pokémon ME05 Nuit Noire - Coffret Dresseur d'Élite": {
     "name": "Pokémon ME05 Nuit Noire - Coffret Dresseur d'Élite",
     "link": "https://www.philibertnet.com/fr/pokemon/177323-pokemon-coffret-dresseur-d-elite-me05-nuit-noire-2100001360948.html",
-    "price": "N/A",
-    "stock": "disponible",
+    "price": "69,95€",
+    "stock": "preorder",
     "boutique": "Philibert",
     "category": "Pokemon"
   },
   "Philibert::Pokemon::Pokémon ME05 Nuit Noire - TriPack Opermine": {
     "name": "Pokémon ME05 Nuit Noire - TriPack Opermine",
     "link": "https://www.philibertnet.com/fr/pokemon/177322-pokemon-me05-nuit-noire-tripack-opermine-2100001360931.html",
-    "price": "N/A",
-    "stock": "rupture",
+    "price": "19,95€",
+    "stock": "preorder",
     "boutique": "Philibert",
     "category": "Pokemon"
   },
