@@ -47,6 +47,16 @@ SEALED_KEYWORDS = ["booster", "display", "boîte", "boite", "coffret",
 DEALABS_POKEMON_RSS = "https://www.dealabs.com/rss/groupe/pokemon"
 DEALABS_NOUVEAUX_RSS = "https://www.dealabs.com/rss/nouveaux"
 
+# Vinted — sourcing inversé : displays/cases de particuliers sous le prix
+# retail. (Leboncoin est derrière Datadome → infaisable en requests ;
+# utiliser les recherches sauvegardées de l'app à la place.)
+VINTED_QUERIES = [
+    ("one piece display", "One Piece"),
+    ("pokemon display",   "Pokemon"),
+]
+VINTED_MAX_ALERTS   = 5      # cap par run (le 1er run voit tout comme nouveau)
+VINTED_DISCOUNT_MIN = 0.10   # deal si ≤ 90% du meilleur prix retail connu
+
 # Mots-clés qui indiquent un statut précommande dans les boutons/labels
 PREORDER_KEYWORDS = ["précommande", "precommande", "pre-order", "preorder", "pre order", "réserver", "reserver"]
 
@@ -60,8 +70,8 @@ def is_english(name, category=None):
     # ailleurs dans le nom (ex: "Japanese 3rd Anniversary Set English Version")
     if "english" in n or any(tag in n for tag in ALLOWED_LANGS):
         return True
-    # Exclure JP quel que soit le jeu
-    if re.search(r"\((?:jp|jap)\)|\bjp\b|japanese|japonais", n):
+    # Exclure JP et KR quel que soit le jeu
+    if re.search(r"\((?:jp|jap|kr)\)|\bjp\b|\bjap\b|\bkr\b|japanese|japonais|korean|cor[ée]en", n):
         return False
     # FR taggué explicitement
     if "(fr)" in n or "- fr" in n:
@@ -175,7 +185,8 @@ def extract_set_code(name):
 TIER_RULES = [
     ("case",          [r"\bcase\b", r"\bcarton\b"]),
     ("display-promo", [r"box\s*topper", r"avec carte promo"]),
-    ("double-pack",   [r"double\s*pack"]),
+    ("double-pack",   [r"double\s*pack", r"duo\s*packs?"]),
+    ("blister",       [r"\bblisters?\b"]),
     ("display",       [r"\bdisplay\b", r"bo[iî]te de \d+\s*boosters",
                        r"bo[iî]te \d+\s*boosters", r"\b\d+\s*boosters\b",
                        r"booster\s*box", r"boosterbox"]),
@@ -655,6 +666,58 @@ def scrape_ultrajeux(url, category):
 
     return products
 
+def scrape_vinted(query, category):
+    """API catalogue anonyme Vinted. Le warm-up sur /catalog fournit le cookie
+    access_token_web requis (la home ne suffit pas). Filtrage strict : code de
+    set + tier display/case + prix plausible — la recherche Vinted est floue
+    (cartes à l'unité, produits sans rapport...)."""
+    s = requests.Session()
+    s.headers.update({**HEADERS, "Accept-Language": "fr-FR,fr;q=0.9"})
+    try:
+        s.get("https://www.vinted.fr/catalog", params={"search_text": query}, timeout=15)
+        r = s.get("https://www.vinted.fr/api/v2/catalog/items",
+                  params={"search_text": query, "order": "newest_first", "per_page": 48},
+                  headers={"Accept": "application/json"}, timeout=15)
+        r.raise_for_status()
+        items = r.json().get("items", [])
+    except Exception as e:
+        print(f"❌ Erreur Vinted ({query}): {e}")
+        return {}
+
+    # Annonces de produits ouverts/incomplets — sans valeur pour le flip
+    OPENED_RE = re.compile(r"ouvert|opened|\bvide\b|\bempty\b|sans booster|incomplet", re.I)
+
+    products = {}
+    for it in items:
+        title = (it.get("title") or "").strip()
+        if not title or not it.get("id"):
+            continue
+        if OPENED_RE.search(title):
+            continue
+        p = it.get("price")
+        amount = p.get("amount") if isinstance(p, dict) else p
+        price = f"{amount} €"
+
+        if not is_english(title, category):
+            continue
+        code = extract_set_code(title)
+        tier = classify_tier(title, price, category)
+        if not code or tier not in ARBITRAGE_TIERS:
+            continue
+        pv = parse_price(price)
+        lo, hi = PRICE_SANITY.get((category, tier), (0, 10**6))
+        # Plancher élargi (les deals sont SOUS le retail) mais pas trop :
+        # un display à -60% est un fake ou un mauvais étiquetage
+        if not pv or not (lo * 0.4 <= pv <= hi):
+            continue
+
+        link = it.get("url") or f"https://www.vinted.fr/items/{it['id']}"
+        key = f"Vinted::{category}::{it['id']}"
+        products[key] = {"name": title, "link": link, "price": price, "stock": "vinted",
+                         "boutique": "Vinted", "category": category}
+
+    return products
+
 # ======================
 # AGGREGATION
 # ======================
@@ -680,6 +743,7 @@ def get_all_products():
         (scrape_dealabs,       DEALABS_POKEMON_RSS,        "Pokemon"),
         (scrape_dealabs,       DEALABS_NOUVEAUX_RSS,       "mixte"),
     ]
+    scrapers += [(scrape_vinted, q, cat) for q, cat in VINTED_QUERIES]
 
     for fn, url, cat in scrapers:
         try:
@@ -696,13 +760,14 @@ def get_all_products():
 # ======================
 
 # Seuls ces types déclenchent une alerte Telegram (ordre = priorité d'affichage)
-ALERT_PRIORITY = ["ARBITRAGE", "NEW_PREORDER", "PREORDER", "RESTOCK", "PRICE_DROP", "DEAL"]
+ALERT_PRIORITY = ["ARBITRAGE", "SOURCING", "NEW_PREORDER", "PREORDER", "RESTOCK", "PRICE_DROP", "DEAL"]
 
 # Baisse de prix minimale pour alerter (vidage de stock)
 PRICE_DROP_MIN = 0.10   # −10%
 
 ALERT_CONFIG = {
     "ARBITRAGE":    {"emoji": "💱",   "label": "ARBITRAGE"},
+    "SOURCING":     {"emoji": "🕵️",   "label": "SOURCING Vinted"},
     "NEW_PREORDER": {"emoji": "🆕⏳", "label": "NOUVEAU en PRÉCO"},
     "PREORDER":     {"emoji": "⏳",   "label": "PASSÉ en PRÉCO"},
     "RESTOCK":      {"emoji": "🔥",   "label": "RETOUR EN STOCK"},
@@ -716,6 +781,14 @@ def build_alert_block(alert_type, product):
     price_line = f"💰 {p['price']}"
     if alert_type == "PRICE_DROP" and p.get("old_price"):
         price_line = f"💰 {p['old_price']} → <b>{p['price']}</b>"
+    if alert_type == "SOURCING":
+        vs = f" (retail mini : {p['retail_ref']:.2f}€)" if p.get("retail_ref") else " (pas de réf. retail)"
+        return (
+            f"{cfg['emoji']} <b>{cfg['label']} {p.get('set_code', '')} ({p.get('tier', '')})</b>\n"
+            f"📦 {p['name']}\n"
+            f"💰 <b>{p['price']}</b>{vs}\n"
+            f"🔗 {p['link']}"
+        )
     if alert_type == "ARBITRAGE":
         return (
             f"{cfg['emoji']} <b>{cfg['label']} {p['set_code']} ({p['tier']}) "
@@ -750,6 +823,7 @@ def build_telegram_message(alerts):
         # Résumé de la catégorie
         cat_alerts = by_cat[cat]
         arbs    = len(cat_alerts.get("ARBITRAGE", []))
+        sourcing = len(cat_alerts.get("SOURCING", []))
         precos  = len(cat_alerts.get("NEW_PREORDER", [])) + len(cat_alerts.get("PREORDER", []))
         restocks = len(cat_alerts.get("RESTOCK", []))
         drops = len(cat_alerts.get("PRICE_DROP", []))
@@ -757,6 +831,8 @@ def build_telegram_message(alerts):
         summary_parts = []
         if arbs:
             summary_parts.append(f"💱 {arbs} arbitrage{'s' if arbs > 1 else ''}")
+        if sourcing:
+            summary_parts.append(f"🕵️ {sourcing} vinted")
         if precos:
             summary_parts.append(f"⏳ {precos} préco{'s' if precos > 1 else ''}")
         if restocks:
@@ -786,9 +862,15 @@ def main():
     old     = load_saved()
     current = get_all_products()
 
+    # Vinted en panne (403/Cloudflare) → on conserve les clés précédentes pour
+    # éviter de purger l'état et de re-alerter en rafale au retour
+    if not any(k.startswith("Vinted::") for k in current):
+        current.update({k: v for k, v in old.items() if k.startswith("Vinted::")})
+
     print(f"\n{len(current)} produits detectes au total\n")
 
     alerts = []
+    sourcing_candidates = []
 
     for k, v in current.items():
         if k not in old:
@@ -796,6 +878,8 @@ def main():
                 alerts.append(("NEW_PREORDER", v))
             elif v["stock"] == "deal":
                 alerts.append(("DEAL", v))
+            elif v["stock"] == "vinted":
+                sourcing_candidates.append(v)
             # Les simples nouveaux disponibles sont ignorés (trop de bruit)
         else:
             prev_stock = old[k]["stock"]
@@ -814,6 +898,27 @@ def main():
 
     # Comparaison de prix cross-boutiques sur les displays/cases normalisés
     alerts.extend(find_arbitrage_alerts(current, old))
+
+    # Sourcing Vinted : nouvelle annonce sous le meilleur prix retail connu
+    # (nos propres scrapers servent de référence de marché). Sans réf. retail,
+    # on alerte quand même — à toi de juger. Cap pour éviter le flood du 1er run.
+    if sourcing_candidates:
+        retail_groups = _arbitrage_groups(current)
+        picked = []
+        for v in sourcing_candidates:
+            code = extract_set_code(v["name"])
+            tier = classify_tier(v["name"], v.get("price"), v.get("category"))
+            pv = parse_price(v["price"])
+            rows = retail_groups.get((v["category"], code, tier))
+            enriched = {**v, "set_code": code, "tier": tier}
+            if rows:
+                retail_min = min(p for p, _, _ in rows)
+                if pv > retail_min * (1 - VINTED_DISCOUNT_MIN):
+                    continue  # pas moins cher que le retail → pas un deal
+                enriched["retail_ref"] = retail_min
+            picked.append((pv, enriched))
+        picked.sort(key=lambda x: x[0])
+        alerts.extend(("SOURCING", v) for _, v in picked[:VINTED_MAX_ALERTS])
 
     if alerts:
         msg = build_telegram_message(alerts)
