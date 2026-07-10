@@ -1542,5 +1542,29 @@
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
+  },
+  "Vinted::One Piece::9359107928": {
+    "name": "Display op 09",
+    "link": "https://www.vinted.fr/items/9359107928-display-op-09",
+    "price": "300.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::Pokemon::9363507362": {
+    "name": "Display EV8 Étincelles Déferlantes scellée",
+    "link": "https://www.vinted.fr/items/9363507362-display-ev8-etincelles-deferlantes-scellee",
+    "price": "240.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9363298024": {
+    "name": "Display Origin Perdu EB11 avec default FR",
+    "link": "https://www.vinted.fr/items/9363298024-display-origin-perdu-eb11-avec-default-fr",
+    "price": "370.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
   }
 }
