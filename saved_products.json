@@ -1559,14 +1559,6 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9366045210": {
-    "name": "Display One Piece EB03 anglais héroïne édition",
-    "link": "https://www.vinted.fr/items/9366045210-display-one-piece-eb03-anglais-heroine-edition",
-    "price": "240.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
   "Vinted::One Piece::9365942192": {
     "name": "Display one piece OP16 Français",
     "link": "https://www.vinted.fr/items/9365942192-display-one-piece-op16-francais",
@@ -1615,26 +1607,18 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9369962513": {
-    "name": "Demi display Pokémon EV9 aventures ensemble",
-    "link": "https://www.vinted.fr/items/9369962513-demi-display-pokemon-ev9-aventures-ensemble",
-    "price": "110.0 €",
+  "Vinted::Pokemon::9370191252": {
+    "name": "Demi displays EV10",
+    "link": "https://www.vinted.fr/items/9370191252-demi-displays-ev10",
+    "price": "160.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9369978459": {
-    "name": "Display EV10 rivalités destinées avec protection",
-    "link": "https://www.vinted.fr/items/9369978459-display-ev10-rivalites-destinees-avec-protection",
-    "price": "305.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9369917007": {
-    "name": "Demi display flammes fantasmagoriques pokemon me2",
-    "link": "https://www.vinted.fr/items/9369917007-demi-display-flammes-fantasmagoriques-pokemon-me2",
-    "price": "190.0 €",
+  "Vinted::Pokemon::9370163401": {
+    "name": "Display ev10",
+    "link": "https://www.vinted.fr/items/9370163401-display-ev10",
+    "price": "320.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
