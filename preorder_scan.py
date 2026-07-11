@@ -47,6 +47,12 @@ SEALED_KEYWORDS = ["booster", "display", "boîte", "boite", "coffret",
 DEALABS_POKEMON_RSS = "https://www.dealabs.com/rss/groupe/pokemon"
 DEALABS_NOUVEAUX_RSS = "https://www.dealabs.com/rss/nouveaux"
 
+# Maison de la Presse — circuit de distribution presse, quasi jamais monitoré
+# par les bots. Displays Pokémon régulièrement sous le prix des boutiques spé
+# (ex: EV09 à 215,64€ vs 299,90€ chez Ultrajeux). One Piece exclu : ils ne
+# vendent que du FR. Magento server-rendered, pas de bot-wall.
+MDP_POKEMON = "https://www.maisondelapresse.com/jeux-jouets/cartes-collectionner/cartes-pokemon.html?product_list_limit=36"
+
 # Vinted — sourcing inversé : displays/cases de particuliers sous le prix
 # retail. (Leboncoin est derrière Datadome → infaisable en requests ;
 # utiliser les recherches sauvegardées de l'app à la place.)
@@ -678,6 +684,43 @@ def scrape_ultrajeux(url, category):
 
     return products
 
+def scrape_maisondelapresse(url, category):
+    r = safe_request(url)
+    if not r:
+        return {}
+
+    soup = BeautifulSoup(r.text, "html.parser")
+    products = {}
+
+    for item in soup.select(".product-item"):
+        link_tag = item.select_one("a.product-item-link")
+        if not link_tag:
+            continue
+        name = link_tag.get_text(strip=True)
+        link = link_tag.get("href", "")
+
+        # Magento : en promo, ".price" apparaît deux fois (barré + soldé)
+        price_tag = item.select_one(".price-box .special-price .price") \
+                    or item.select_one(".price-box .price") \
+                    or item.select_one(".price")
+        price = price_tag.get_text(strip=True) if price_tag else "N/A"
+
+        if detect_preorder_from_text(item.text):
+            stock = "preorder"
+        elif item.select_one("button.tocart, form[data-role='tocart-form']"):
+            stock = "disponible"
+        else:
+            stock = "rupture"
+
+        if not is_english(name, category):
+            continue
+        key = f"MaisonPresse::{category}::{name}"
+        products[key] = {"name": name, "link": link, "price": price, "stock": stock,
+                         "boutique": "Maison de la Presse", "category": category}
+
+    return products
+
+
 def scrape_vinted(query, category):
     """API catalogue anonyme Vinted. Le warm-up sur /catalog fournit le cookie
     access_token_web requis (la home ne suffit pas). Filtrage strict : code de
@@ -752,6 +795,7 @@ def get_all_products():
         (scrape_philibert,     PHILIBERT_PRECO_TCG,    "One Piece"),  # cat déduite du nom
         (scrape_ultrajeux,     ULTRAJEUX_ONE_PIECE_DISPLAYS, "One Piece"),
         (scrape_ultrajeux,     ULTRAJEUX_POKEMON_DISPLAYS,   "Pokemon"),
+        (scrape_maisondelapresse, MDP_POKEMON,             "Pokemon"),
         (scrape_dealabs,       DEALABS_POKEMON_RSS,        "Pokemon"),
         (scrape_dealabs,       DEALABS_NOUVEAUX_RSS,       "mixte"),
     ]
