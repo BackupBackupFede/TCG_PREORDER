@@ -918,10 +918,15 @@ def main():
     old     = load_saved()
     current = get_all_products()
 
-    # Vinted en panne (403/Cloudflare) → on conserve les clés précédentes pour
-    # éviter de purger l'état et de re-alerter en rafale au retour
-    if not any(k.startswith("Vinted::") for k in current):
-        current.update({k: v for k, v in old.items() if k.startswith("Vinted::")})
+    # Boutique en panne (réseau, bot-wall, layout changé) → son scraper rend {}
+    # et toutes ses clés sortiraient de l'état, puis reviendraient au run
+    # suivant comme "nouveautés" (re-alertes parasites). On conserve l'état
+    # précédent de toute boutique absente du scan courant.
+    old_shops = {k.split("::")[0] for k in old}
+    cur_shops = {k.split("::")[0] for k in current}
+    for shop in old_shops - cur_shops:
+        print(f"⚠️ {shop} absent du scan — état précédent conservé")
+        current.update({k: v for k, v in old.items() if k.split("::")[0] == shop})
 
     print(f"\n{len(current)} produits detectes au total\n")
 
