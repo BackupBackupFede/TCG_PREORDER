@@ -1631,6 +1631,14 @@
     "boutique": "Dealabs (Le Coin des Barons)",
     "category": "Pokemon"
   },
+  "Vinted::One Piece::9372950408": {
+    "name": "Carton Booster op13 Treasure campaign",
+    "link": "https://www.vinted.fr/items/9372950408-carton-booster-op13-treasure-campaign",
+    "price": "750.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
   "Vinted::One Piece::9371841900": {
     "name": "One Piece TCG Display OP 15 EN Scellé",
     "link": "https://www.vinted.fr/items/9371841900-one-piece-tcg-display-op-15-en-scelle",
@@ -1663,22 +1671,6 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9367194360": {
-    "name": "One Piece OP16 Display (Neu/Sealed)",
-    "link": "https://www.vinted.fr/items/9367194360-one-piece-op16-display-neusealed",
-    "price": "170.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9366206274": {
-    "name": "Display op 13",
-    "link": "https://www.vinted.fr/items/9366206274-display-op-13",
-    "price": "300.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
   "Vinted::One Piece::9366618398": {
     "name": "Display one piece op-16 ENG scellé",
     "link": "https://www.vinted.fr/items/9366618398-display-one-piece-op-16-eng-scelle",
@@ -1687,34 +1679,10 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9372728632": {
-    "name": "Display bundle AP Chaos Ascendant Me04",
-    "link": "https://www.vinted.fr/items/9372728632-display-bundle-ap-chaos-ascendant-me04",
-    "price": "450.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9372636083": {
-    "name": "Display me05",
-    "link": "https://www.vinted.fr/items/9372636083-display-me05",
-    "price": "255.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9372637218": {
-    "name": "Carte pokémon Morpeko ex 117 Alternative me5 fr",
-    "link": "https://www.vinted.fr/items/9372637218-carte-pokemon-morpeko-ex-117-alternative-me5-fr",
+  "Vinted::Pokemon::9373368562": {
+    "name": "Demi display Pokemon ME04 : Chaos Ascendant",
+    "link": "https://www.vinted.fr/items/9373368562-demi-display-pokemon-me04-chaos-ascendant",
     "price": "140.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9372578652": {
-    "name": "Display pokemon EV03 flammes obsidiennes",
-    "link": "https://www.vinted.fr/items/9372578652-display-pokemon-ev03-flammes-obsidiennes",
-    "price": "200.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
