@@ -57,6 +57,17 @@ VINTED_QUERIES = [
 VINTED_MAX_ALERTS   = 5      # cap par run (le 1er run voit tout comme nouveau)
 VINTED_DISCOUNT_MIN = 0.10   # deal si ≤ 90% du meilleur prix retail connu
 
+# Une réf. retail n'est crédible que si elle est dans la bande MSRP : sur un
+# set épuisé, la seule boutique restante price au niveau collector (ex: EV02 à
+# 349,90€ chez Ultrajeux) et tout prix de revente normal passerait pour un
+# deal. Au-dessus du plafond (ou sans réf.) → pas d'alerte SOURCING du tout.
+CREDIBLE_RETAIL_CAP = {
+    ("One Piece", "display"): 160,
+    ("One Piece", "case"):    1500,
+    ("Pokemon",   "display"): 280,
+    ("Pokemon",   "case"):    1700,
+}
+
 # Mots-clés qui indiquent un statut précommande dans les boutons/labels
 PREORDER_KEYWORDS = ["précommande", "precommande", "pre-order", "preorder", "pre order", "réserver", "reserver"]
 
@@ -70,8 +81,9 @@ def is_english(name, category=None):
     # ailleurs dans le nom (ex: "Japanese 3rd Anniversary Set English Version")
     if "english" in n or any(tag in n for tag in ALLOWED_LANGS):
         return True
-    # Exclure JP et KR quel que soit le jeu
-    if re.search(r"\((?:jp|jap|kr)\)|\bjp\b|\bjap\b|\bkr\b|japanese|japonais|korean|cor[ée]en", n):
+    # Exclure JP et KR quel que soit le jeu ("japan/japon" couvre aussi
+    # japanese/japonais/japonaise)
+    if re.search(r"\((?:jp|jap|kr)\)|\bjp\b|\bjap\b|\bkr\b|japan|japon|korean|cor[ée]en", n):
         return False
     # FR taggué explicitement
     if "(fr)" in n or "- fr" in n:
@@ -782,7 +794,7 @@ def build_alert_block(alert_type, product):
     if alert_type == "PRICE_DROP" and p.get("old_price"):
         price_line = f"💰 {p['old_price']} → <b>{p['price']}</b>"
     if alert_type == "SOURCING":
-        vs = f" (retail mini : {p['retail_ref']:.2f}€)" if p.get("retail_ref") else " (pas de réf. retail)"
+        vs = f" (retail mini : {p['retail_ref']:.2f}€)"
         return (
             f"{cfg['emoji']} <b>{cfg['label']} {p.get('set_code', '')} ({p.get('tier', '')})</b>\n"
             f"📦 {p['name']}\n"
@@ -900,8 +912,9 @@ def main():
     alerts.extend(find_arbitrage_alerts(current, old))
 
     # Sourcing Vinted : nouvelle annonce sous le meilleur prix retail connu
-    # (nos propres scrapers servent de référence de marché). Sans réf. retail,
-    # on alerte quand même — à toi de juger. Cap pour éviter le flood du 1er run.
+    # (nos propres scrapers servent de référence de marché). Réf. crédible
+    # exigée : sans boutique qui vende le set à un prix MSRP-plausible, on ne
+    # peut pas juger un deal → silence plutôt que fausses alertes.
     if sourcing_candidates:
         retail_groups = _arbitrage_groups(current)
         picked = []
@@ -910,13 +923,16 @@ def main():
             tier = classify_tier(v["name"], v.get("price"), v.get("category"))
             pv = parse_price(v["price"])
             rows = retail_groups.get((v["category"], code, tier))
-            enriched = {**v, "set_code": code, "tier": tier}
-            if rows:
-                retail_min = min(p for p, _, _ in rows)
-                if pv > retail_min * (1 - VINTED_DISCOUNT_MIN):
-                    continue  # pas moins cher que le retail → pas un deal
-                enriched["retail_ref"] = retail_min
-            picked.append((pv, enriched))
+            if not rows:
+                continue
+            retail_min = min(p for p, _, _ in rows)
+            cap = CREDIBLE_RETAIL_CAP.get((v["category"], tier))
+            if not cap or retail_min > cap:
+                continue  # set épuisé pricé collector → réf. non crédible
+            if pv > retail_min * (1 - VINTED_DISCOUNT_MIN):
+                continue  # pas moins cher que le retail → pas un deal
+            picked.append((pv, {**v, "set_code": code, "tier": tier,
+                                "retail_ref": retail_min}))
         picked.sort(key=lambda x: x[0])
         alerts.extend(("SOURCING", v) for _, v in picked[:VINTED_MAX_ALERTS])
 
