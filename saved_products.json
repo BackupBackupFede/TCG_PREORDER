@@ -1639,14 +1639,6 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9382077961": {
-    "name": "OP 11 (Eng)",
-    "link": "https://www.vinted.fr/items/9382077961-op-11-eng",
-    "price": "250.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
   "Vinted::One Piece::9381999956": {
     "name": "One Piece 🇫🇷 display op14 neuve en français",
     "link": "https://www.vinted.fr/items/9381999956-one-piece-display-op14-neuve-en-francais",
@@ -1671,18 +1663,18 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9381969336": {
-    "name": "One Piece 🇫🇷 display op15 neuve en français",
-    "link": "https://www.vinted.fr/items/9381969336-one-piece-display-op15-neuve-en-francais",
-    "price": "160.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
   "Vinted::One Piece::9381892586": {
     "name": "One Piece 🇫🇷  Display PRB02",
     "link": "https://www.vinted.fr/items/9381892586-one-piece-display-prb02",
     "price": "200.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::One Piece::9381969336": {
+    "name": "One Piece 🇫🇷 display op15 neuve en français",
+    "link": "https://www.vinted.fr/items/9381969336-one-piece-display-op15-neuve-en-francais",
+    "price": "160.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -1699,14 +1691,6 @@
     "name": "Display OP15 français neuve boîte scellée",
     "link": "https://www.vinted.fr/items/9381458474-display-op15-francais-neuve-boite-scellee",
     "price": "225.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9381483301": {
-    "name": "Display OP PRB02 🇫🇷",
-    "link": "https://www.vinted.fr/items/9381483301-display-op-prb02",
-    "price": "190.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -1731,6 +1715,14 @@
     "name": "Display One Piece TCG OP06 wings of the captain US booster box",
     "link": "https://www.vinted.fr/items/9380782973-display-one-piece-tcg-op06-wings-of-the-captain-us-booster-box",
     "price": "280.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::One Piece::9381483301": {
+    "name": "Display OP PRB02 🇫🇷",
+    "link": "https://www.vinted.fr/items/9381483301-display-op-prb02",
+    "price": "190.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
