@@ -1663,18 +1663,18 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9374893857": {
-    "name": "Display One Piece OP16",
-    "link": "https://www.vinted.fr/items/9374893857-display-one-piece-op16",
-    "price": "185.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
   "Vinted::One Piece::9374745687": {
     "name": "Display One Piece OP 16",
     "link": "https://www.vinted.fr/items/9374745687-display-one-piece-op-16",
     "price": "200.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::One Piece::9374893857": {
+    "name": "Display One Piece OP16",
+    "link": "https://www.vinted.fr/items/9374893857-display-one-piece-op16",
+    "price": "185.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -1694,13 +1694,5 @@
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
-  },
-  "Vinted::Pokemon::9377377747": {
-    "name": "Pokémon Étincelles Déferlantes EV08 Display 36 Boosters FR Scellée Neuve",
-    "link": "https://www.vinted.fr/items/9377377747-pokemon-etincelles-deferlantes-ev08-display-36-boosters-fr-scellee-neuve",
-    "price": "239.99 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
   }
 }
