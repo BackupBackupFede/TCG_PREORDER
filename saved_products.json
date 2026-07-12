@@ -1639,6 +1639,14 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
+  "Vinted::One Piece::9382077961": {
+    "name": "OP 11 (Eng)",
+    "link": "https://www.vinted.fr/items/9382077961-op-11-eng",
+    "price": "250.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
   "Vinted::One Piece::9381999956": {
     "name": "One Piece 🇫🇷 display op14 neuve en français",
     "link": "https://www.vinted.fr/items/9381999956-one-piece-display-op14-neuve-en-francais",
@@ -1687,6 +1695,14 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
+  "Vinted::One Piece::9381953731": {
+    "name": "Box One Piece Card Game OP18 Inglese",
+    "link": "https://www.vinted.fr/items/9381953731-box-one-piece-card-game-op18-inglese",
+    "price": "139.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
   "Vinted::One Piece::9381458474": {
     "name": "Display OP15 français neuve boîte scellée",
     "link": "https://www.vinted.fr/items/9381458474-display-op15-francais-neuve-boite-scellee",
@@ -1719,26 +1735,42 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9384524810": {
-    "name": "Demi-display Pokémon Equilibre Parfait - ME03",
-    "link": "https://www.vinted.fr/items/9384524810-demi-display-pokemon-equilibre-parfait-me03",
-    "price": "124.9 €",
+  "Vinted::Pokemon::9385160248": {
+    "name": "Pokémon EV8.5",
+    "link": "https://www.vinted.fr/items/9385160248-pokemon-ev85",
+    "price": "120.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9384518623": {
-    "name": "Pokémon - Display Chaos Ascendant - ME04",
-    "link": "https://www.vinted.fr/items/9384518623-pokemon-display-chaos-ascendant-me04",
-    "price": "190.0 €",
+  "Vinted::Pokemon::9384769794": {
+    "name": "Coffret Pokémon scellé display bundle ev8.5 français",
+    "link": "https://www.vinted.fr/items/9384769794-coffret-pokemon-scelle-display-bundle-ev85-francais",
+    "price": "690.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9384296493": {
-    "name": "Demi display ev8 étincelles déferlantes",
-    "link": "https://www.vinted.fr/items/9384296493-demi-display-ev8-etincelles-deferlantes",
-    "price": "145.0 €",
+  "Vinted::Pokemon::9384752986": {
+    "name": "Coffret Pokémon scellé display me1 avec promo français",
+    "link": "https://www.vinted.fr/items/9384752986-coffret-pokemon-scelle-display-me1-avec-promo-francais",
+    "price": "420.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9385025983": {
+    "name": "Display Pokemon ME4 ME04 Mega évolution Chaos Ascendant",
+    "link": "https://www.vinted.fr/items/9385025983-display-pokemon-me4-me04-mega-evolution-chaos-ascendant",
+    "price": "245.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9384740122": {
+    "name": "Coffret Pokémon scellé display minitin ev2.5 français",
+    "link": "https://www.vinted.fr/items/9384740122-coffret-pokemon-scelle-display-minitin-ev25-francais",
+    "price": "280.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
