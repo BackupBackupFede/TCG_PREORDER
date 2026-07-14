@@ -1138,7 +1138,7 @@
   "Philibert::Pokemon::Pokémon - Coffret Dresseur d'Élite ME03 Méga-Évolution Équilibre Parfait": {
     "name": "Pokémon - Coffret Dresseur d'Élite ME03 Méga-Évolution Équilibre Parfait",
     "link": "https://www.philibertnet.com/fr/pokemon/171427-pokemon-coffret-dresseur-d-elite-me03-mega-evolution-equilibre-parfait-196214136380.html",
-    "price": "69,95€",
+    "price": "59,46€",
     "stock": "disponible",
     "boutique": "Philibert",
     "category": "Pokemon"
@@ -1639,14 +1639,6 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9394423463": {
-    "name": "Display sang royal op10",
-    "link": "https://www.vinted.fr/items/9394423463-display-sang-royal-op10",
-    "price": "180.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
   "Vinted::One Piece::9393726091": {
     "name": "One Piece Card Game - The World's Strongest Warriors OP-17 - Display da 24 Buste",
     "link": "https://www.vinted.fr/items/9393726091-one-piece-card-game-the-worlds-strongest-warriors-op-17-display-da-24-buste",
@@ -1678,5 +1670,21 @@
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
+  },
+  "Vinted::Pokemon::9395917763": {
+    "name": "Display Pokémon EV01 - Scellée",
+    "link": "https://www.vinted.fr/items/9395917763-display-pokemon-ev01-scellee",
+    "price": "229.99 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9395801116": {
+    "name": "Display me04 scellé",
+    "link": "https://www.vinted.fr/items/9395801116-display-me04-scelle",
+    "price": "205.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
   }
 }
