@@ -1751,13 +1751,13 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9409497652": {
-    "name": "Display pokemon 36 booster astres radieux eb10 scellé en français",
-    "link": "https://www.vinted.fr/items/9409497652-display-pokemon-36-booster-astres-radieux-eb10-scelle-en-francais",
-    "price": "315.99 €",
+  "Vinted::One Piece::9399307186": {
+    "name": "Display EB03 one piece",
+    "link": "https://www.vinted.fr/items/9399307186-display-eb03-one-piece",
+    "price": "220.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
-    "category": "Pokemon"
+    "category": "One Piece"
   },
   "Vinted::Pokemon::9409360719": {
     "name": "Mini display Ev10 Rivalités Destinés",
@@ -1767,10 +1767,18 @@
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9409363612": {
-    "name": "Mini display Ev 10 Rivalités Destinés",
-    "link": "https://www.vinted.fr/items/9409363612-mini-display-ev-10-rivalites-destines",
-    "price": "160.0 €",
+  "Vinted::Pokemon::9408938059": {
+    "name": "Display 36 Boosters Pokémon ME04 Chaos Ascendant Scellé",
+    "link": "https://www.vinted.fr/items/9408938059-display-36-boosters-pokemon-me04-chaos-ascendant-scelle",
+    "price": "175.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9409042414": {
+    "name": "Display ME4",
+    "link": "https://www.vinted.fr/items/9409042414-display-me4",
+    "price": "180.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
