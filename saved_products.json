@@ -1719,6 +1719,14 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
+  "Vinted::One Piece::9397123362": {
+    "name": "Cartes One Piece Card Game – Extension OP-16",
+    "link": "https://www.vinted.fr/items/9397123362-cartes-one-piece-card-game-extension-op-16",
+    "price": "252.5 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
   "Vinted::One Piece::9435560180": {
     "name": "Display one piece op16",
     "link": "https://www.vinted.fr/items/9435560180-display-one-piece-op16",
@@ -1727,10 +1735,26 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9439279398": {
-    "name": "Demi display Aventures Ensembles EV9",
-    "link": "https://www.vinted.fr/items/9439279398-demi-display-aventures-ensembles-ev9",
-    "price": "110.0 €",
+  "Vinted::Pokemon::9440122965": {
+    "name": "Display Nuit noire ME5",
+    "link": "https://www.vinted.fr/items/9440122965-display-nuit-noire-me5",
+    "price": "220.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9440021417": {
+    "name": "Display Pokémon : Super electric breaker/sv8",
+    "link": "https://www.vinted.fr/items/9440021417-display-pokemon-super-electric-breakersv8",
+    "price": "50.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9439676758": {
+    "name": "Demi-display ME05 - Nuit Noire",
+    "link": "https://www.vinted.fr/items/9439676758-demi-display-me05-nuit-noire",
+    "price": "135.99 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
