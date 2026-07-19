@@ -5,7 +5,10 @@ permissions:
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # toutes les 30 min (~1450 min/mois, sous les 2000 gratuites)
+    # Toutes les 15 min de 6h à 21h UTC (≈ 8h-23h45 Paris l'été) ; rien la
+    # nuit, les boutiques ne publient pas. 64 runs/jour ≈ 1984 min/mois sur un
+    # mois de 31 jours, juste sous les 2000 gratuites (repo privé, ~1 min/run).
+    - cron: "*/15 6-21 * * *"
   workflow_dispatch:         # bouton manuel
 
 jobs:
