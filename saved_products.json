@@ -1719,34 +1719,18 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9471872030": {
-    "name": "OP12 Display One Piece français + Case acrylique",
-    "link": "https://www.vinted.fr/items/9471872030-op12-display-one-piece-francais-case-acrylique",
-    "price": "220.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9471769661": {
-    "name": "OP12 Display One Piece Sealed scellé français",
-    "link": "https://www.vinted.fr/items/9471769661-op12-display-one-piece-sealed-scelle-francais",
-    "price": "195.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9471628593": {
-    "name": "One piece Op 16 booster display",
-    "link": "https://www.vinted.fr/items/9471628593-one-piece-op-16-booster-display",
-    "price": "180.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
   "Vinted::One Piece::9471332445": {
     "name": "One Piece PRB02 Display",
     "link": "https://www.vinted.fr/items/9471332445-one-piece-prb02-display",
     "price": "267.99 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::One Piece::9471872030": {
+    "name": "OP12 Display One Piece français + Case acrylique",
+    "link": "https://www.vinted.fr/items/9471872030-op12-display-one-piece-francais-case-acrylique",
+    "price": "220.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -1759,6 +1743,14 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
+  "Vinted::One Piece::9471769661": {
+    "name": "OP12 Display One Piece Sealed scellé français",
+    "link": "https://www.vinted.fr/items/9471769661-op12-display-one-piece-sealed-scelle-francais",
+    "price": "195.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
   "Vinted::One Piece::9470880008": {
     "name": "Display one piece op15-eb04fr",
     "link": "https://www.vinted.fr/items/9470880008-display-one-piece-op15-eb04fr",
@@ -1767,50 +1759,18 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9472543865": {
-    "name": "Demi Display (18 Boosters) Pokémon Mega Évolution ME01 Scellé NEUF FR 🇫🇷",
-    "link": "https://www.vinted.fr/items/9472543865-demi-display-18-boosters-pokemon-mega-evolution-me01-scelle-neuf-fr",
-    "price": "145.0 €",
+  "Vinted::One Piece::9471628593": {
+    "name": "One piece Op 16 booster display",
+    "link": "https://www.vinted.fr/items/9471628593-one-piece-op-16-booster-display",
+    "price": "180.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
-    "category": "Pokemon"
+    "category": "One Piece"
   },
-  "Vinted::Pokemon::9472493209": {
-    "name": "Demi Display Rivalités Destinées EV10",
-    "link": "https://www.vinted.fr/items/9472493209-demi-display-rivalites-destinees-ev10",
-    "price": "149.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9472476474": {
-    "name": "Display Pokémon ME01 Méga-Évolution Neuf FR 🇫🇷 Défaut de scellage",
-    "link": "https://www.vinted.fr/items/9472476474-display-pokemon-me01-mega-evolution-neuf-fr-defaut-de-scellage",
-    "price": "249.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9472424720": {
-    "name": "Pokémon Display EV8 Etincelles Deferlantes NEUF Scellé FR 🇫🇷",
-    "link": "https://www.vinted.fr/items/9472424720-pokemon-display-ev8-etincelles-deferlantes-neuf-scelle-fr",
-    "price": "259.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9472076523": {
-    "name": "Display flamme obsidienne (ev3)",
-    "link": "https://www.vinted.fr/items/9472076523-display-flamme-obsidienne-ev3",
-    "price": "220.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9472049806": {
-    "name": "Display chaos ascendant (me4)",
-    "link": "https://www.vinted.fr/items/9472049806-display-chaos-ascendant-me4",
-    "price": "200.0 €",
+  "Vinted::Pokemon::9468530372": {
+    "name": "Demi-display Pokémon ME04 Chaos Ascendant 18 boosters scellés FR",
+    "link": "https://www.vinted.fr/items/9468530372-demi-display-pokemon-me04-chaos-ascendant-18-boosters-scelles-fr",
+    "price": "119.99 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
