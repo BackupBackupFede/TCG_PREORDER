@@ -1615,6 +1615,70 @@
     "boutique": "Maison de la Presse",
     "category": "Pokemon"
   },
+  "MaisonPresse::Pokemon::Cahier range-cartes 180 cartes Pokémon": {
+    "name": "Cahier range-cartes 180 cartes Pokémon",
+    "link": "https://www.maisondelapresse.com/cahier-range-cartes-pokemon-pikachu-a4.html",
+    "price": "16,90 €",
+    "stock": "disponible",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Paquet de 10 feuilles classeur Pokémon": {
+    "name": "Paquet de 10 feuilles classeur Pokémon",
+    "link": "https://www.maisondelapresse.com/paquet-de-10-feuilles-classeur-pokemon.html",
+    "price": "5,90 €",
+    "stock": "disponible",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Bundle 6 boosters Mega Evolution - Nuit Noire ME05 Pokémon": {
+    "name": "Bundle 6 boosters Mega Evolution - Nuit Noire ME05 Pokémon",
+    "link": "https://www.maisondelapresse.com/bundle-boosters-me05-pokemon.html",
+    "price": "35,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Pack 3 boosters ME04 : Chaos Ascendant - Pokémon": {
+    "name": "Pack 3 boosters ME04 : Chaos Ascendant - Pokémon",
+    "link": "https://www.maisondelapresse.com/pack-3-boosters-me04-chaos-ascendant-pokemon.html",
+    "price": "17,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Coffret Ogerpon EX Premium Pokémon": {
+    "name": "Coffret Ogerpon EX Premium Pokémon",
+    "link": "https://www.maisondelapresse.com/coffret-premium-ogerpon-2024-pokemon.html",
+    "price": "49,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Cahier range-cartes 252 cartes ME04 : Chaos Ascendant - Pokémon": {
+    "name": "Cahier range-cartes 252 cartes ME04 : Chaos Ascendant - Pokémon",
+    "link": "https://www.maisondelapresse.com/cahier-range-cartes-252-cartes-me04-chaos-ascendant-pokemon.html",
+    "price": "18,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Cahier range-cartes 252 cartes Mega Evolution 01 Pokémon": {
+    "name": "Cahier range-cartes 252 cartes Mega Evolution 01 Pokémon",
+    "link": "https://www.maisondelapresse.com/cahier-range-cartes-252-cartes-mega-evolution-01-pokemon.html",
+    "price": "16,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "Dealabs::Pokemon::Coffret Pokémon Premium Méga Amphinobi-ex (labottesecretelarochelle.fr)": {
+    "name": "Coffret Pokémon Premium Méga Amphinobi-ex (labottesecretelarochelle.fr)",
+    "link": "https://www.dealabs.com/bons-plans/pokemon-coffret-premium-mega-amphinobi-ex-3382520",
+    "price": "N/A",
+    "stock": "deal",
+    "boutique": "Dealabs",
+    "category": "Pokemon"
+  },
   "Dealabs::Pokemon::Coffret Pokémon - Collection Premium Méga-Amphinobi-ex - King Jouet de Savenay (44)": {
     "name": "Coffret Pokémon - Collection Premium Méga-Amphinobi-ex - King Jouet de Savenay (44)",
     "link": "https://www.dealabs.com/bons-plans/coffret-pokemon-collection-premium-mega-amphinobi-ex-3380609",
@@ -1655,18 +1719,26 @@
     "boutique": "Dealabs (Le Coin des Barons)",
     "category": "Pokemon"
   },
-  "Vinted::One Piece::9500924849": {
-    "name": "Luffy promo op07-109",
-    "link": "https://www.vinted.fr/items/9500924849-luffy-promo-op07-109",
-    "price": "85.0 €",
+  "Vinted::One Piece::9502686061": {
+    "name": "One Piece OP16 booster display eng",
+    "link": "https://www.vinted.fr/items/9502686061-one-piece-op16-booster-display-eng",
+    "price": "159.99 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9498045892": {
-    "name": "OP14 Booster Box - The Azure Sea's Seven [Rotterdam]",
-    "link": "https://www.vinted.fr/items/9498045892-op14-booster-box-the-azure-seas-seven-rotterdam",
-    "price": "250.0 €",
+  "Vinted::One Piece::9502265661": {
+    "name": "Display OP16",
+    "link": "https://www.vinted.fr/items/9502265661-display-op16",
+    "price": "220.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::One Piece::9496207620": {
+    "name": "One Piece OP17 Display - The World's Strongest Warriors",
+    "link": "https://www.vinted.fr/items/9496207620-one-piece-op17-display-the-worlds-strongest-warriors",
+    "price": "299.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -1711,18 +1783,26 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9500793947": {
-    "name": "Carte gradée CCC 10 - Mega Dracolosse Ex 290/217 Alt ME2.5",
-    "link": "https://www.vinted.fr/items/9500793947-carte-gradee-ccc-10-mega-dracolosse-ex-290217-alt-me25",
-    "price": "700.0 €",
+  "Vinted::One Piece::9491774092": {
+    "name": "Display OP16 L'heure de la Bataille Décisive",
+    "link": "https://www.vinted.fr/items/9491774092-display-op16-lheure-de-la-bataille-decisive",
+    "price": "210.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::Pokemon::9502508142": {
+    "name": "Demi display Pokémon poing de fusion scellée EB08",
+    "link": "https://www.vinted.fr/items/9502508142-demi-display-pokemon-poing-de-fusion-scellee-eb08",
+    "price": "350.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9500668963": {
-    "name": "Display origine perdue eb11 Pokémon",
-    "link": "https://www.vinted.fr/items/9500668963-display-origine-perdue-eb11-pokemon",
-    "price": "400.0 €",
+  "Vinted::Pokemon::9502491555": {
+    "name": "display pokémon flammes obsidiennes EV03 écarlate et violet",
+    "link": "https://www.vinted.fr/items/9502491555-display-pokemon-flammes-obsidiennes-ev03-ecarlate-et-violet",
+    "price": "210.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
