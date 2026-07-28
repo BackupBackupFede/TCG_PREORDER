@@ -77,6 +77,16 @@ CREDIBLE_RETAIL_CAP = {
 # Mots-clés qui indiquent un statut précommande dans les boutons/labels
 PREORDER_KEYWORDS = ["précommande", "precommande", "pre-order", "preorder", "pre order", "réserver", "reserver"]
 
+# Détection préco MULTILINGUE — les boutiques UE "douve" (SK, CZ, PT, PL...)
+# taguent la préco dans leur langue ; le set FR/EN ci-dessus les raterait.
+PREORDER_ML = re.compile(
+    r"pr[ée]commande|pre-?order|pre-?sale|vorbestell|voorbestell|przedsprzeda|"
+    r"p[řr]edobjedn|predobjedn|prenotazion|reserva|pr[ée]-?venda|pre-?venta|"
+    r"el[őo]rendel|precomand|προπαραγγελ", re.I)
+
+# Tiers scellés dignes d'intérêt flip (on ignore boosters à l'unité, decks...)
+SHOPIFY_SEALED_TIERS = ("display", "display-promo", "case", "etb", "coffret", "double-pack")
+
 # Langues : One Piece = EN uniquement ; Pokémon = FR accepté (displays FR
 # monitorés volontairement, ex. Ultrajeux EV/ME)
 ALLOWED_LANGS = ["(en)", "- en", "_en"]
@@ -721,6 +731,61 @@ def scrape_maisondelapresse(url, category):
     return products
 
 
+def scrape_shopify_generic(url, boutique):
+    """Scraper Shopify générique via /products.json (endpoint public, aucune
+    auth). Ajouté pour les boutiques "douve" UE sélectionnées (cardyx.sk,
+    biridama.pt...). La catégorie est déduite par produit (nom + tags), la préco
+    est détectée en multilingue (PREORDER_ML). On ne garde que le scellé flip.
+
+    `boutique` = nom d'affichage ; `url` = origine du shop sans slash final."""
+    base = url.rstrip("/")
+    r = safe_request(f"{base}/products.json?limit=250")
+    if not r:
+        return {}
+    try:
+        items = r.json().get("products", [])
+    except Exception:
+        return {}
+
+    products = {}
+    for p in items:
+        name = (p.get("title") or "").strip()
+        if not name:
+            continue
+        tags = p.get("tags") or []
+        tagtext = " ".join(tags) if isinstance(tags, list) else str(tags)
+        blob = f"{name} {tagtext}".lower()
+        if "one piece" in blob or re.search(r"\bop[\s\-]?\d", blob):
+            category = "One Piece"
+        elif "pokemon" in blob or "pokémon" in blob:
+            category = "Pokemon"
+        else:
+            continue   # jeu indéterminé → on n'invente pas
+
+        variants = p.get("variants") or [{}]
+        prices = [x for x in (parse_price(v.get("price")) for v in variants) if x]
+        price = f"{min(prices):.2f} €" if prices else "N/A"
+
+        if classify_tier(name, price, category) not in SHOPIFY_SEALED_TIERS:
+            continue
+        if not is_english(name, category):
+            continue
+
+        handle = p.get("handle", "")
+        link = f"{base}/products/{handle}" if handle else base
+        signal = f"{tagtext} {p.get('product_type', '')} {(p.get('body_html') or '')[:2000]}"
+        if PREORDER_ML.search(signal):
+            stock = "preorder"
+        else:
+            stock = "disponible" if any(v.get("available") for v in variants) else "rupture"
+
+        key = f"{boutique}::{category}::{name}"
+        products[key] = {"name": name, "link": link, "price": price, "stock": stock,
+                         "boutique": boutique, "category": category}
+
+    return products
+
+
 def scrape_vinted(query, category):
     """API catalogue anonyme Vinted. Le warm-up sur /catalog fournit le cookie
     access_token_web requis (la home ne suffit pas). Filtrage strict : code de
@@ -798,6 +863,10 @@ def get_all_products():
         (scrape_maisondelapresse, MDP_POKEMON,             "Pokemon"),
         (scrape_dealabs,       DEALABS_POKEMON_RSS,        "Pokemon"),
         (scrape_dealabs,       DEALABS_NOUVEAUX_RSS,       "mixte"),
+        # Boutiques "douve" UE sélectionnées (Shopify /products.json) — cat.
+        # déduite par produit, le 3e champ sert de nom d'affichage boutique
+        (scrape_shopify_generic, "https://cardyx.sk",   "CardyX"),
+        (scrape_shopify_generic, "https://biridama.pt", "Biridama"),
     ]
     scrapers += [(scrape_vinted, q, cat) for q, cat in VINTED_QUERIES]
 
