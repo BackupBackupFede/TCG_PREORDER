@@ -1719,26 +1719,1130 @@
     "boutique": "Dealabs (Le Coin des Barons)",
     "category": "Pokemon"
   },
+  "CardyX::Pokemon::Pokémon TCG: Ascended Heroes - Mini Tin": {
+    "name": "Pokémon TCG: Ascended Heroes - Mini Tin",
+    "link": "https://cardyx.sk/products/pokemon-tcg-ascended-heroes-mini-tin",
+    "price": "28.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Pokémon Day 2026 Collection Sealed Case - (6x Collection Box)": {
+    "name": "Pokémon TCG: Pokémon Day 2026 Collection Sealed Case - (6x Collection Box)",
+    "link": "https://cardyx.sk/products/pokemon-tcg-pokemon-day-2026-collection-sealed-case-6x-collection-box",
+    "price": "239.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: White Flare Booster Bundle": {
+    "name": "Pokémon TCG: White Flare Booster Bundle",
+    "link": "https://cardyx.sk/products/pokemon-tcg-white-flare-booster-bundle",
+    "price": "79.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Scarlet & Violet - Surging Sparks Booster Box": {
+    "name": "Pokémon TCG: Scarlet & Violet - Surging Sparks Booster Box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-scarlet-violet-surging-sparks-booster-box",
+    "price": "319.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - Mega Evolution - Mini Tin": {
+    "name": "Pokémon TCG - Mega Evolution - Mini Tin",
+    "link": "https://cardyx.sk/products/pokemon-tcg-mega-evolution-mini-tin",
+    "price": "21.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Greninja ex Ultra Premium Collection": {
+    "name": "Pokémon TCG: Greninja ex Ultra Premium Collection",
+    "link": "https://cardyx.sk/products/pokemon-tcg-greninja-ex-ultra-premium-collection",
+    "price": "319.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG Mega Evolution: Phantasmal Flames - Elite Trainer Box - Pozor mierne poškodený": {
+    "name": "Pokémon TCG Mega Evolution: Phantasmal Flames - Elite Trainer Box - Pozor mierne poškodený",
+    "link": "https://cardyx.sk/products/pokemon-tcg-mega-evolution-phantasmal-flames-elite-trainer-box",
+    "price": "119.99 €",
+    "stock": "rupture",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Darkrai VSTAR Premium Collection": {
+    "name": "Pokémon TCG: Darkrai VSTAR Premium Collection",
+    "link": "https://cardyx.sk/products/pokemon-tcg-darkrai-vstar-premium-collection",
+    "price": "139.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Twilight Masquerade - 10x Elite Trainer Box (Case)": {
+    "name": "Pokémon TCG: Twilight Masquerade - 10x Elite Trainer Box (Case)",
+    "link": "https://cardyx.sk/products/pokemon-tcg-twilight-masquerade-10x-elite-trainer-box-case",
+    "price": "1499.00 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - Scarlet & Violet - Surging Sparks - Elite Trainer Box": {
+    "name": "Pokémon TCG - Scarlet & Violet - Surging Sparks - Elite Trainer Box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-scarlet-violet-surging-sparks-elite-trainer-box",
+    "price": "179.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Surging Sparks - 10x Elite Trainer Box (Case)": {
+    "name": "Pokémon TCG: Surging Sparks - 10x Elite Trainer Box (Case)",
+    "link": "https://cardyx.sk/products/pokemon-tcg-surging-sparks-10x-elite-trainer-box-case",
+    "price": "1799.00 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Ascended Heroes - Booster Bundle": {
+    "name": "Pokémon TCG: Ascended Heroes - Booster Bundle",
+    "link": "https://cardyx.sk/products/pokemon-tcg-ascended-heroes-booster-bundle",
+    "price": "79.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon Mega Greninja ex Premium Collection Box": {
+    "name": "Pokémon Mega Greninja ex Premium Collection Box",
+    "link": "https://cardyx.sk/products/pokemon-mega-greninja-ex-premium-collection-box",
+    "price": "64.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - Scarlet & Violet - Prismatic Evolutions - Binder Collection": {
+    "name": "Pokémon TCG - Scarlet & Violet - Prismatic Evolutions - Binder Collection",
+    "link": "https://cardyx.sk/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-binder-collection",
+    "price": "94.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - Scarlet & Violet - 151 - Mini Tin": {
+    "name": "Pokémon TCG - Scarlet & Violet - 151 - Mini Tin",
+    "link": "https://cardyx.sk/products/pokemon-tcg-scarlet-violet-151-mini-tin",
+    "price": "54.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Ascended Heroes First Partners Deluxe Pin Collection": {
+    "name": "Pokémon TCG: Ascended Heroes First Partners Deluxe Pin Collection",
+    "link": "https://cardyx.sk/products/pokemon-tcg-ascended-heroes-first-partners-deluxe-pin-collection",
+    "price": "73.99 €",
+    "stock": "rupture",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Mega Moonlit Tin - Clefable EX sealed case (6x tin)": {
+    "name": "Pokémon TCG: Mega Moonlit Tin - Clefable EX sealed case (6x tin)",
+    "link": "https://cardyx.sk/products/pokemon-tcg-mega-moonlit-tin-clefable-ex-sealed-case-6x-tin",
+    "price": "229.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Mega Moonlit Tin - Gengar EX sealed case (6x tin)": {
+    "name": "Pokémon TCG: Mega Moonlit Tin - Gengar EX sealed case (6x tin)",
+    "link": "https://cardyx.sk/products/pokemon-tcg-mega-moonlit-tin-gengar-sealed-case-6x-tin",
+    "price": "249.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - Lumiose City - Mini Tin": {
+    "name": "Pokémon TCG - Lumiose City - Mini Tin",
+    "link": "https://cardyx.sk/products/pokemon-tcg-lumiose-city-mini-tin",
+    "price": "15.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - Mega Evolution - Elite Trainer Box - Gardevoir": {
+    "name": "Pokémon TCG - Mega Evolution - Elite Trainer Box - Gardevoir",
+    "link": "https://cardyx.sk/products/pokemon-tcg-mega-evolution-elite-trainer-box-gardevoir",
+    "price": "119.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - Blaziken Ex - Special Collection": {
+    "name": "Pokémon TCG - Blaziken Ex - Special Collection",
+    "link": "https://cardyx.sk/products/pokemon-tcg-blaziken-ex-special-collection",
+    "price": "54.99 €",
+    "stock": "rupture",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokemon TCG - Pitch Black - 10x Elite Trainer Box (Case)": {
+    "name": "Pokemon TCG - Pitch Black - 10x Elite Trainer Box (Case)",
+    "link": "https://cardyx.sk/products/pokemon-tcg-pitch-black-10x-elite-trainer-box-case",
+    "price": "999.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Mega Evolution - Pitch Black - Elite Trainer Box": {
+    "name": "Pokémon TCG: Mega Evolution - Pitch Black - Elite Trainer Box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-mega-evolution-pitch-black-elite-trainer-box",
+    "price": "99.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Mega Evolution - Pitch Black - Booster Bundle": {
+    "name": "Pokémon TCG: Mega Evolution - Pitch Black - Booster Bundle",
+    "link": "https://cardyx.sk/products/pokemon-tcg-mega-evolution-pitch-black-booster-bundle",
+    "price": "54.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - Arceus V - Figure Collection": {
+    "name": "Pokémon TCG - Arceus V - Figure Collection",
+    "link": "https://cardyx.sk/products/pokemon-tcg-arceus-v-figure-collection",
+    "price": "144.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon Twilight Masquerade Elite Trainer Box - mierne poškodená fólia": {
+    "name": "Pokémon Twilight Masquerade Elite Trainer Box - mierne poškodená fólia",
+    "link": "https://cardyx.sk/products/pokemon-twilight-masquerade-elite-trainer-box-roztrhnuta-folia",
+    "price": "109.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Origin Forme Palkia VSTAR Premium Collection": {
+    "name": "Pokémon TCG: Origin Forme Palkia VSTAR Premium Collection",
+    "link": "https://cardyx.sk/products/pokemon-tcg-origin-forme-palkia-vstar-premium-collection",
+    "price": "119.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon Ogerpon ex Premium Collection Box": {
+    "name": "Pokémon Ogerpon ex Premium Collection Box",
+    "link": "https://cardyx.sk/products/pokemon-ogerpon-ex-premium-collection-box",
+    "price": "54.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Lucario VSTAR Premium Collection": {
+    "name": "Pokémon TCG: Lucario VSTAR Premium Collection",
+    "link": "https://cardyx.sk/products/pokemon-lucario-vstar-premium-collection",
+    "price": "129.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon: Mega Venusaur ex Premium Collection Box": {
+    "name": "Pokémon: Mega Venusaur ex Premium Collection Box",
+    "link": "https://cardyx.sk/products/pokemon-mega-venusaur-ex-premium-collection-box",
+    "price": "99.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Ascended Heroes Premium Poster Collection Mega Lucario": {
+    "name": "Pokémon TCG: Ascended Heroes Premium Poster Collection Mega Lucario",
+    "link": "https://cardyx.sk/products/pokemon-tcg-ascended-heroes-premium-poster-collection-mega-lucario",
+    "price": "169.99 €",
+    "stock": "rupture",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - XY - Evolutions - Elite Trainer Box - Charizard + ochranný akrylový box": {
+    "name": "Pokémon TCG - XY - Evolutions - Elite Trainer Box - Charizard + ochranný akrylový box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-xy-evolutions-elite-trainer-box-charizard",
+    "price": "869.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - XY - Evolutions - Elite Trainer Box - Blastoise + ochranný akrylový box": {
+    "name": "Pokémon TCG - XY - Evolutions - Elite Trainer Box - Blastoise + ochranný akrylový box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-xy-evolutions-elite-trainer-box-blastoise",
+    "price": "769.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Abyss Eye Booster Box": {
+    "name": "Pokémon TCG: Abyss Eye Booster Box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-abyss-eye-booster-box",
+    "price": "93.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::First Partner Illustration Collection Series 3": {
+    "name": "First Partner Illustration Collection Series 3",
+    "link": "https://biridama.pt/products/first-partner-illustration-collection-series-3",
+    "price": "43.00 €",
+    "stock": "preorder",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::30th Celebration Poster Collection": {
+    "name": "30th Celebration Poster Collection",
+    "link": "https://biridama.pt/products/30th-celebration-poster-collection",
+    "price": "N/A",
+    "stock": "preorder",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::30th Celebration Binder Collection": {
+    "name": "30th Celebration Binder Collection",
+    "link": "https://biridama.pt/products/30th-celebration-binder-collection",
+    "price": "N/A",
+    "stock": "preorder",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::30th Celebration: Alolan Exeggutor Tech Sticker Collection": {
+    "name": "30th Celebration: Alolan Exeggutor Tech Sticker Collection",
+    "link": "https://biridama.pt/products/30th-celebration-alolan-exeggutor-tech-sticker-collection",
+    "price": "N/A",
+    "stock": "preorder",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::30th Celebration: Lucario Tech Sticker Collection": {
+    "name": "30th Celebration: Lucario Tech Sticker Collection",
+    "link": "https://biridama.pt/products/30th-celebration-lucario-tech-sticker-collection",
+    "price": "N/A",
+    "stock": "preorder",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::30th Celebration Elite Trainer Box": {
+    "name": "30th Celebration Elite Trainer Box",
+    "link": "https://biridama.pt/products/30th-celebration-elite-trainer-box",
+    "price": "N/A",
+    "stock": "preorder",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::30th Celebration Booster Bundle": {
+    "name": "30th Celebration Booster Bundle",
+    "link": "https://biridama.pt/products/30th-celebration-booster-bundle",
+    "price": "N/A",
+    "stock": "preorder",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::30th Celebration: Day Mini Tin": {
+    "name": "30th Celebration: Day Mini Tin",
+    "link": "https://biridama.pt/products/30th-celebration-day-mini-tin",
+    "price": "N/A",
+    "stock": "preorder",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::30th Celebration: Night Mini Tin": {
+    "name": "30th Celebration: Night Mini Tin",
+    "link": "https://biridama.pt/products/30th-celebration-night-mini-tin",
+    "price": "N/A",
+    "stock": "preorder",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::One Piece::Admirable Collection Box Vol.1": {
+    "name": "Admirable Collection Box Vol.1",
+    "link": "https://biridama.pt/products/admirable-collection-box-vol-1",
+    "price": "180.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::Pokemon::CSV9.5 Terastal Gathering Booster Box": {
+    "name": "CSV9.5 Terastal Gathering Booster Box",
+    "link": "https://biridama.pt/products/csv9-5-terastal-gathering-booster-box",
+    "price": "115.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Gem Pack Vol. 5 Booster Box": {
+    "name": "Gem Pack Vol. 5 Booster Box",
+    "link": "https://biridama.pt/products/gem-pack-vol-5-booster-box",
+    "price": "49.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::CSV7C: Blade Awakening Booster Box": {
+    "name": "CSV7C: Blade Awakening Booster Box",
+    "link": "https://biridama.pt/products/csv7c-blade-awakening-booster-box",
+    "price": "32.50 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::CSV6C: True Mystery Booster Box": {
+    "name": "CSV6C: True Mystery Booster Box",
+    "link": "https://biridama.pt/products/csv6c-true-mystery-booster-box",
+    "price": "29.50 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::CSV5C: Dark Crystal Blaze Booster Box": {
+    "name": "CSV5C: Dark Crystal Blaze Booster Box",
+    "link": "https://biridama.pt/products/csv5c-dark-crystal-blaze-booster-box",
+    "price": "33.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::CSV4C: Bonus Round Booster Box": {
+    "name": "CSV4C: Bonus Round Booster Box",
+    "link": "https://biridama.pt/products/csv4c-bonus-round-booster-box",
+    "price": "40.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::CS2aC: Vivid Portrayals - Obsidian Booster Box": {
+    "name": "CS2aC: Vivid Portrayals - Obsidian Booster Box",
+    "link": "https://biridama.pt/products/cs2ac-vivid-portrayals-obsidian-booster-box",
+    "price": "65.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::CSV9C: Stellar Crystal Booster Box": {
+    "name": "CSV9C: Stellar Crystal Booster Box",
+    "link": "https://biridama.pt/products/csv9c-stellar-crystal-booster-box",
+    "price": "43.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::CSV8C: Brilliant Fantasy Booster Box": {
+    "name": "CSV8C: Brilliant Fantasy Booster Box",
+    "link": "https://biridama.pt/products/csv8c-brilliant-fantasy-booster-box",
+    "price": "34.50 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Pikachu V-UNION Card Frame Collection Box": {
+    "name": "Pikachu V-UNION Card Frame Collection Box",
+    "link": "https://biridama.pt/products/pikachu-v-union-card-frame-collection-box",
+    "price": "30.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Dream Painting Collection Water Figure Set": {
+    "name": "Dream Painting Collection Water Figure Set",
+    "link": "https://biridama.pt/products/dream-painting-collection-water-figure-set",
+    "price": "21.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::CSV9.5C: Terastal Gathering Quicksand Card Display Pendant Gift Box": {
+    "name": "CSV9.5C: Terastal Gathering Quicksand Card Display Pendant Gift Box",
+    "link": "https://biridama.pt/products/csv9-5c-terastal-gath-quick-card-display-pendant",
+    "price": "31.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::CSV9.5C: Terastal Gathering Tin Collection Box": {
+    "name": "CSV9.5C: Terastal Gathering Tin Collection Box",
+    "link": "https://biridama.pt/products/csv9-5c-terastal-gathering-tin-collection-box",
+    "price": "27.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Pitch Black Elite Trainer Box": {
+    "name": "Pitch Black Elite Trainer Box",
+    "link": "https://biridama.pt/products/pitch-black-elite-trainer-box",
+    "price": "80.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Pitch Black Booster Box": {
+    "name": "Pitch Black Booster Box",
+    "link": "https://biridama.pt/products/pitch-black-booster-box",
+    "price": "215.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Pitch Black Booster Bundle": {
+    "name": "Pitch Black Booster Bundle",
+    "link": "https://biridama.pt/products/pitch-black-booster-bundle",
+    "price": "42.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::One Piece::The Time of Battle Booster Box": {
+    "name": "The Time of Battle Booster Box",
+    "link": "https://biridama.pt/products/the-time-of-battle-booster-box",
+    "price": "90.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::Pokemon::Lumiose City: Mini Tin": {
+    "name": "Lumiose City: Mini Tin",
+    "link": "https://biridama.pt/products/lumiose-city-mini-tin",
+    "price": "15.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::First Partner Illustration Collection Series 2": {
+    "name": "First Partner Illustration Collection Series 2",
+    "link": "https://biridama.pt/products/first-partner-illustration-collection-series-2",
+    "price": "50.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Abyss Eye Booster Box": {
+    "name": "Abyss Eye Booster Box",
+    "link": "https://biridama.pt/products/m5-abyss-eye-booster-box",
+    "price": "98.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Chaos Rising Booster Bundle": {
+    "name": "Chaos Rising Booster Bundle",
+    "link": "https://biridama.pt/products/chaos-rising-booster-bundle",
+    "price": "39.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Chaos Rising Booster Box": {
+    "name": "Chaos Rising Booster Box",
+    "link": "https://biridama.pt/products/chaos-rising-booster-box",
+    "price": "215.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Chaos Rising Elite Trainer Box": {
+    "name": "Chaos Rising Elite Trainer Box",
+    "link": "https://biridama.pt/products/chaos-rising-elite-trainer-box",
+    "price": "90.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Mega Zygarde ex Premium Collection": {
+    "name": "Mega Zygarde ex Premium Collection",
+    "link": "https://biridama.pt/products/mega-zygarde-ex-premium-collection",
+    "price": "55.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Trainer Collection Gift Box S-Chinese": {
+    "name": "Trainer Collection Gift Box S-Chinese",
+    "link": "https://biridama.pt/products/trainer-collection-gift-box-s-chinese",
+    "price": "18.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Dream Painting Collection 151 Figure Set": {
+    "name": "Dream Painting Collection 151 Figure Set",
+    "link": "https://biridama.pt/products/dream-painting-collection-151-figure-set",
+    "price": "26.50 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Gem Pack Vol. 4 Booster Box": {
+    "name": "Gem Pack Vol. 4 Booster Box",
+    "link": "https://biridama.pt/products/gem-pack-vol-4-booster-box",
+    "price": "37.50 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::151C: Collect 151 Hope Booster Box": {
+    "name": "151C: Collect 151 Hope Booster Box",
+    "link": "https://biridama.pt/products/151c-collect-151-hope-booster-box",
+    "price": "60.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::The Acrylic Box - Pokemon Booster Box": {
+    "name": "The Acrylic Box - Pokemon Booster Box",
+    "link": "https://biridama.pt/products/booster-box-acrilico-tab",
+    "price": "22.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::The Acrylic Box - Booster Bundle Pokémon": {
+    "name": "The Acrylic Box - Booster Bundle Pokémon",
+    "link": "https://biridama.pt/products/the-acrylic-box-booster-bundle-pokemon",
+    "price": "19.50 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::The Acrylic Box - Pokemon Center ETB Plus": {
+    "name": "The Acrylic Box - Pokemon Center ETB Plus",
+    "link": "https://biridama.pt/products/tab-elite-trainer-box-plus",
+    "price": "25.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Ascended Heroes Booster Bundle": {
+    "name": "Ascended Heroes Booster Bundle",
+    "link": "https://biridama.pt/products/ascended-heroes-booster-bundle",
+    "price": "35.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Ninja Spinner Booster Box": {
+    "name": "Ninja Spinner Booster Box",
+    "link": "https://biridama.pt/products/m4-ninja-spinner-booster-box",
+    "price": "92.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::One Piece::Adventure on Kami's Island Booster Box (Asia Region Legal)": {
+    "name": "Adventure on Kami's Island Booster Box (Asia Region Legal)",
+    "link": "https://biridama.pt/products/one-piece-15-jp",
+    "price": "80.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::Pokemon::Black Bolt & White Flare: Unova Victini Illustration Collection": {
+    "name": "Black Bolt & White Flare: Unova Victini Illustration Collection",
+    "link": "https://biridama.pt/products/black-white-unova-victini-illustration-collection",
+    "price": "50.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::One Piece::Egghead Crisis Booster Box (Asia Region Lega)": {
+    "name": "Egghead Crisis Booster Box (Asia Region Lega)",
+    "link": "https://biridama.pt/products/egghead-crisis-booster-box-asia-region-lega",
+    "price": "75.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::Pokemon::Perfect Order Booster Bundle": {
+    "name": "Perfect Order Booster Bundle",
+    "link": "https://biridama.pt/products/perfect-order-booster-bundle",
+    "price": "35.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Perfect Order Booster Box": {
+    "name": "Perfect Order Booster Box",
+    "link": "https://biridama.pt/products/perfect-order-booster-box",
+    "price": "200.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Perfect Order Elite Trainer Box": {
+    "name": "Perfect Order Elite Trainer Box",
+    "link": "https://biridama.pt/products/perfect-order-elite-trainer-box",
+    "price": "80.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::First Partner Illustration Collection Series 1": {
+    "name": "First Partner Illustration Collection Series 1",
+    "link": "https://biridama.pt/products/first-partner-illustration-collection-series-1",
+    "price": "25.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Ascended Heroes: First Partners Deluxe Pin Collection": {
+    "name": "Ascended Heroes: First Partners Deluxe Pin Collection",
+    "link": "https://biridama.pt/products/ascended-heroes-first-partners-deluxe-pin-collection",
+    "price": "37.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Ascended Heroes: Mega Lucario Premium Poster Collection": {
+    "name": "Ascended Heroes: Mega Lucario Premium Poster Collection",
+    "link": "https://biridama.pt/products/ascended-heroes-mega-lucario-premium-poster-collection",
+    "price": "75.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::One Piece::Anime 25th Collection Booster Box (Non-English) DAMAGED": {
+    "name": "Anime 25th Collection Booster Box (Non-English) DAMAGED",
+    "link": "https://biridama.pt/products/anime-25th-collection-booster-box-non-english-damaged",
+    "price": "80.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::Pokemon::Ascended Heroes: Mini Tin": {
+    "name": "Ascended Heroes: Mini Tin",
+    "link": "https://biridama.pt/products/ascended-heroes-mini-tin",
+    "price": "15.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Nihil Zero Booster Box": {
+    "name": "Nihil Zero Booster Box",
+    "link": "https://biridama.pt/products/nihil-zero-booster-box",
+    "price": "70.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Ascended Heroes Elite Trainer Box": {
+    "name": "Ascended Heroes Elite Trainer Box",
+    "link": "https://biridama.pt/products/ascended-heroes-elite-trainer-box",
+    "price": "80.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Pokémon Day 2026 Collection": {
+    "name": "Pokémon Day 2026 Collection",
+    "link": "https://biridama.pt/products/pokemon-day-2026-collection",
+    "price": "45.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Ascended Heroes: Gastly Tech Sticker Collection": {
+    "name": "Ascended Heroes: Gastly Tech Sticker Collection",
+    "link": "https://biridama.pt/products/ascended-heroes-gastly-tech-sticker-collection",
+    "price": "25.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Ascended Heroes: Charmander Tech Sticker Collection": {
+    "name": "Ascended Heroes: Charmander Tech Sticker Collection",
+    "link": "https://biridama.pt/products/ascended-heroes-charmander-tech-sticker-collection",
+    "price": "25.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Stellar Crown 6 Booster Box Case": {
+    "name": "Stellar Crown 6 Booster Box Case",
+    "link": "https://biridama.pt/products/stellar-crown-6-booster-box-case",
+    "price": "1300.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Prismatic Evolutions Premium Figure Collection": {
+    "name": "Prismatic Evolutions Premium Figure Collection",
+    "link": "https://biridama.pt/products/prismatic-evolutions-premium-figure-collection",
+    "price": "150.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::One Piece::Awakening of the New Era Booster Box (Non-English)": {
+    "name": "Awakening of the New Era Booster Box (Non-English)",
+    "link": "https://biridama.pt/products/one-piece-05-jp",
+    "price": "200.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::One Piece::The Azure Sea's Seven Booster Box (Asia Region Legal)": {
+    "name": "The Azure Sea's Seven Booster Box (Asia Region Legal)",
+    "link": "https://biridama.pt/products/the-azure-seas-seven-booster-box-asia-region-legal",
+    "price": "70.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::Pokemon::Team Rocket's Moltres ex Ultra-Premium Collection": {
+    "name": "Team Rocket's Moltres ex Ultra-Premium Collection",
+    "link": "https://biridama.pt/products/team-rockets-moltres-ex-ultra-premium-collection",
+    "price": "260.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::151C: Collect 151 Gathering Booster Box": {
+    "name": "151C: Collect 151 Gathering Booster Box",
+    "link": "https://biridama.pt/products/151c-collect-151-gathering-booster-box",
+    "price": "60.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Mega Lucario ex Figure Collection": {
+    "name": "Mega Lucario ex Figure Collection",
+    "link": "https://biridama.pt/products/mega-lucario-ex-figure-collection",
+    "price": "46.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Mega Venusaur ex Premium Collection": {
+    "name": "Mega Venusaur ex Premium Collection",
+    "link": "https://biridama.pt/products/mega-venusaur-ex-premium-collection",
+    "price": "55.50 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Mega Charizard X ex Ultra-Premium Collection": {
+    "name": "Mega Charizard X ex Ultra-Premium Collection",
+    "link": "https://biridama.pt/products/mega-charizard-x-ex-ultra-premium-collection-2",
+    "price": "235.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Gem Pack Vol. 3 Booster Box": {
+    "name": "Gem Pack Vol. 3 Booster Box",
+    "link": "https://biridama.pt/products/gem-pack-vol-3-booster-box",
+    "price": "75.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Surging Sparks Booster Bundle Pokémon Center Version": {
+    "name": "Surging Sparks Booster Bundle Pokémon Center Version",
+    "link": "https://biridama.pt/products/booster-bundle-surging-sparks-usa",
+    "price": "60.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::MEGA Dream ex Booster Box": {
+    "name": "MEGA Dream ex Booster Box",
+    "link": "https://biridama.pt/products/mega-dream-ex-booster-box",
+    "price": "115.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::One Piece::Heroines Edition Booster Box (Asia Region Legal)": {
+    "name": "Heroines Edition Booster Box (Asia Region Legal)",
+    "link": "https://biridama.pt/products/heroines-edition-booster-box-asia-region-legal",
+    "price": "105.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::Pokemon::Phantasmal Flames Elite Trainer Box": {
+    "name": "Phantasmal Flames Elite Trainer Box",
+    "link": "https://biridama.pt/products/phantasmal-flames-elite-trainer-box",
+    "price": "80.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Phantasmal Flames Booster Box": {
+    "name": "Phantasmal Flames Booster Box",
+    "link": "https://biridama.pt/products/phantasmal-flames-booster-box",
+    "price": "218.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::151C: Collect 151 Surprises Booster Box": {
+    "name": "151C: Collect 151 Surprises Booster Box",
+    "link": "https://biridama.pt/products/collect-151-surprise-booster-box",
+    "price": "70.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Surging Sparks [2-Pack] ETB + Pokemon Center Booster Bundle": {
+    "name": "Surging Sparks [2-Pack] ETB + Pokemon Center Booster Bundle",
+    "link": "https://biridama.pt/products/surging-sparks-2-pack-etb-pokemon-center-bundle",
+    "price": "165.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Collect 151 The First Partner Display Set": {
+    "name": "Collect 151 The First Partner Display Set",
+    "link": "https://biridama.pt/products/collect-151-the-first-partner-display-set",
+    "price": "75.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Venusaur ex & Blastoise ex Premium Collection": {
+    "name": "Venusaur ex & Blastoise ex Premium Collection",
+    "link": "https://biridama.pt/products/venusaur-ex-blastoise-ex-premium-collection",
+    "price": "80.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::One Piece::Carrying on his Will Booster Box (Non-English)": {
+    "name": "Carrying on his Will Booster Box (Non-English)",
+    "link": "https://biridama.pt/products/carrying-will-booster-box-non-english",
+    "price": "110.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::Pokemon::Mega Evolution Booster Box": {
+    "name": "Mega Evolution Booster Box",
+    "link": "https://biridama.pt/products/mega-evolution-1-base-set-booster-box-english",
+    "price": "250.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Mega Evolution Elite Trainer Box": {
+    "name": "Mega Evolution Elite Trainer Box",
+    "link": "https://biridama.pt/products/mega-evolution-1-base-set-elite-trainer-box",
+    "price": "80.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Inferno X Booster Box": {
+    "name": "Inferno X Booster Box",
+    "link": "https://biridama.pt/products/m2-inferno-x-booster-box",
+    "price": "120.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Mega Symphonia Booster Box": {
+    "name": "Mega Symphonia Booster Box",
+    "link": "https://biridama.pt/products/mega-symphonia-booster-box",
+    "price": "90.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Mega Brave Booster Box": {
+    "name": "Mega Brave Booster Box",
+    "link": "https://biridama.pt/products/mega-brave-booster-box",
+    "price": "105.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::One Piece::Legacy of the Master Booster Box": {
+    "name": "Legacy of the Master Booster Box",
+    "link": "https://biridama.pt/products/legacy-of-the-master-booster-box",
+    "price": "90.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::One Piece::The Best Vol.2 Booster Box (Non-English)": {
+    "name": "The Best Vol.2 Booster Box (Non-English)",
+    "link": "https://biridama.pt/products/the-best-vol-2-booster-box-non-english",
+    "price": "60.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::One Piece::Legacy of the Master Booster Box (Non-English)": {
+    "name": "Legacy of the Master Booster Box (Non-English)",
+    "link": "https://biridama.pt/products/legacy-of-the-master-booster-box-non-english",
+    "price": "60.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::Pokemon::White Flare Binder Collection": {
+    "name": "White Flare Binder Collection",
+    "link": "https://biridama.pt/products/white-flare-binder-collection",
+    "price": "80.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Black Bolt Binder Collection": {
+    "name": "Black Bolt Binder Collection",
+    "link": "https://biridama.pt/products/black-bolt-binder-collection",
+    "price": "85.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Charizard Ex Special Collection": {
+    "name": "Charizard Ex Special Collection",
+    "link": "https://biridama.pt/products/charizard-ex-special-collection",
+    "price": "45.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Black Bolt & White Flare: Unova Poster Collection": {
+    "name": "Black Bolt & White Flare: Unova Poster Collection",
+    "link": "https://biridama.pt/products/black-white-unova-poster-collection",
+    "price": "45.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Black Bolt Elite Trainer Box": {
+    "name": "Black Bolt Elite Trainer Box",
+    "link": "https://biridama.pt/products/black-bolt-elite-trainer-box",
+    "price": "76.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::White Flare Elite Trainer Box": {
+    "name": "White Flare Elite Trainer Box",
+    "link": "https://biridama.pt/products/white-flare-elite-trainer-box",
+    "price": "76.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::One Piece::500 Years into the Future Booster Box (Non-English)": {
+    "name": "500 Years into the Future Booster Box (Non-English)",
+    "link": "https://biridama.pt/products/500-years-into-the-future-booster-box-non-english",
+    "price": "65.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::One Piece::Wings of the Captain Booster Box (Asia Region Legal)": {
+    "name": "Wings of the Captain Booster Box (Asia Region Legal)",
+    "link": "https://biridama.pt/products/wings-of-the-captain-display-non-english",
+    "price": "76.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::One Piece::Emperors in the New World Booster Box (Non-English)": {
+    "name": "Emperors in the New World Booster Box (Non-English)",
+    "link": "https://biridama.pt/products/one-piece-09-jp",
+    "price": "90.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::One Piece::Two Legends Booster Box (Non-English)": {
+    "name": "Two Legends Booster Box (Non-English)",
+    "link": "https://biridama.pt/products/one-piece-08-jp",
+    "price": "50.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "One Piece"
+  },
+  "Biridama::Pokemon::Paradigm Trigger Booster Box": {
+    "name": "Paradigm Trigger Booster Box",
+    "link": "https://biridama.pt/products/paradigm-trigger-booster-box",
+    "price": "100.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Incandescent Arcana Booster Box": {
+    "name": "Incandescent Arcana Booster Box",
+    "link": "https://biridama.pt/products/incandescent-arcana-booster-box",
+    "price": "105.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Lost Abyss Booster Box": {
+    "name": "Lost Abyss Booster Box",
+    "link": "https://biridama.pt/products/s11-lost-abyss-booster-box",
+    "price": "190.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Blue Sky Stream Booster Box": {
+    "name": "Blue Sky Stream Booster Box",
+    "link": "https://biridama.pt/products/s7r-blue-sky-stream-booster-box",
+    "price": "800.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Vstar Universe Booster Box": {
+    "name": "Vstar Universe Booster Box",
+    "link": "https://biridama.pt/products/s12a-vstar-universe-booster-box",
+    "price": "150.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Triplet Beat\tBooster Box": {
+    "name": "Triplet Beat\tBooster Box",
+    "link": "https://biridama.pt/products/sv1a-triplet-beat-booster-box",
+    "price": "104.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Clay Burst Booster Box": {
+    "name": "Clay Burst Booster Box",
+    "link": "https://biridama.pt/products/sv2d-clay-burst-booster-box",
+    "price": "95.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Pokémon Card 151 Booster Box": {
+    "name": "Pokémon Card 151 Booster Box",
+    "link": "https://biridama.pt/products/sv2a-151-booster-box",
+    "price": "81.50 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Vinted::One Piece::9517635231": {
+    "name": "Box op15",
+    "link": "https://www.vinted.fr/items/9517635231-box-op15",
+    "price": "180.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
   "Vinted::One Piece::9510596845": {
     "name": "One Piece OP16 booster display eng",
     "link": "https://www.vinted.fr/items/9510596845-one-piece-op16-booster-display-eng",
     "price": "159.99 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9515499374": {
-    "name": "Op16 display Eng",
-    "link": "https://www.vinted.fr/items/9515499374-op16-display-eng",
-    "price": "199.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9513588670": {
-    "name": "Display One Piece française - OP10",
-    "link": "https://www.vinted.fr/items/9513588670-display-one-piece-francaise-op10",
-    "price": "140.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -1751,98 +2855,18 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9513658733": {
-    "name": "Display One Piece française - OP11",
-    "link": "https://www.vinted.fr/items/9513658733-display-one-piece-francaise-op11",
-    "price": "250.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9513546411": {
-    "name": "Display One Piece française - OP16",
-    "link": "https://www.vinted.fr/items/9513546411-display-one-piece-francaise-op16",
-    "price": "190.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9513564239": {
-    "name": "Display One Piece Française - OP12",
-    "link": "https://www.vinted.fr/items/9513564239-display-one-piece-francaise-op12",
-    "price": "190.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9513556491": {
-    "name": "Display One Piece française - EB03",
-    "link": "https://www.vinted.fr/items/9513556491-display-one-piece-francaise-eb03",
-    "price": "210.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9513515835": {
-    "name": "Display One Piece française - OP14",
-    "link": "https://www.vinted.fr/items/9513515835-display-one-piece-francaise-op14",
-    "price": "210.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9513502480": {
-    "name": "Display op16",
-    "link": "https://www.vinted.fr/items/9513502480-display-op16",
-    "price": "170.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9513450642": {
-    "name": "Display op10",
-    "link": "https://www.vinted.fr/items/9513450642-display-op10",
-    "price": "170.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9513535583": {
-    "name": "Display One Piece française - OP15",
-    "link": "https://www.vinted.fr/items/9513535583-display-one-piece-francaise-op15",
-    "price": "200.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9513542231": {
-    "name": "Display Brick ST-04 Animal Kingdom - 5x Sealed (1 in Acrylic Case) + 1x Open",
-    "link": "https://www.vinted.fr/items/9513542231-display-brick-st-04-animal-kingdom-5x-sealed-1-in-acrylic-case-1x-open",
-    "price": "250.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::Pokemon::9517746648": {
-    "name": "Display Pokémon Nuit noire ME05 neuve FR",
-    "link": "https://www.vinted.fr/items/9517746648-display-pokemon-nuit-noire-me05-neuve-fr",
-    "price": "200.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9517423990": {
-    "name": "Display Pokémon 36 boosters Nuit Noire ME05 Me5 Neuf Scellé Fr Darkrai",
-    "link": "https://www.vinted.fr/items/9517423990-display-pokemon-36-boosters-nuit-noire-me05-me5-neuf-scelle-fr-darkrai",
+  "Vinted::Pokemon::9517867255": {
+    "name": "Display EV9 Aventure Ensemble - Scellé",
+    "link": "https://www.vinted.fr/items/9517867255-display-ev9-aventure-ensemble-scelle",
     "price": "220.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9517556888": {
-    "name": "Demi display mega évolution chaos ascendant me4",
-    "link": "https://www.vinted.fr/items/9517556888-demi-display-mega-evolution-chaos-ascendant-me4",
-    "price": "109.9 €",
+  "Vinted::Pokemon::9517746648": {
+    "name": "Display Pokémon Nuit noire ME05 neuve FR",
+    "link": "https://www.vinted.fr/items/9517746648-display-pokemon-nuit-noire-me05-neuve-fr",
+    "price": "200.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
