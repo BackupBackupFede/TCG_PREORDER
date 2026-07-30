@@ -2855,12 +2855,36 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
-  "Vinted::One Piece::9527900148": {
-    "name": "One Piece OP16 booster display eng",
-    "link": "https://www.vinted.fr/items/9527900148-one-piece-op16-booster-display-eng",
-    "price": "159.99 €",
+  "Vinted::One Piece::9533381182": {
+    "name": "Display OP16 the Time of Battle Anglais / Scellé",
+    "link": "https://www.vinted.fr/items/9533381182-display-op16-the-time-of-battle-anglais-scelle",
+    "price": "160.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
+  },
+  "Vinted::Pokemon::9533617441": {
+    "name": "Display SV9 Battle Partners",
+    "link": "https://www.vinted.fr/items/9533617441-display-sv9-battle-partners",
+    "price": "90.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9533585955": {
+    "name": "Display SV8 Super Electric Breaker",
+    "link": "https://www.vinted.fr/items/9533585955-display-sv8-super-electric-breaker",
+    "price": "150.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9533555501": {
+    "name": "4 Boosters Pokémon EV10 Rivalités Destinées FR Scellés Neufs",
+    "link": "https://www.vinted.fr/items/9533555501-4-boosters-pokemon-ev10-rivalites-destinees-fr-scelles-neufs",
+    "price": "39.4 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
   }
 }
