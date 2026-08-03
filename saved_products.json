@@ -1727,6 +1727,30 @@
     "boutique": "Dealabs (Carrefour)",
     "category": "Pokemon"
   },
+  "CardyX::Pokemon::Pokémon TCG - Mega Evolution - Elite Trainer Box - Lucario": {
+    "name": "Pokémon TCG - Mega Evolution - Elite Trainer Box - Lucario",
+    "link": "https://cardyx.sk/products/pokemon-tcg-mega-evolution-elite-trainer-box-lucario",
+    "price": "124.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Journey Together Elite Trainer Box": {
+    "name": "Pokémon TCG: Journey Together Elite Trainer Box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-journey-together-elite-trainer-box",
+    "price": "94.99 €",
+    "stock": "rupture",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Scarlet & Violet - Black Bolt Elite Trainer Box - Pozor mierne poškodená fólia": {
+    "name": "Pokémon TCG: Scarlet & Violet - Black Bolt Elite Trainer Box - Pozor mierne poškodená fólia",
+    "link": "https://cardyx.sk/products/pokemon-tcg-scarlet-violet-black-bolt-elite-trainer-box",
+    "price": "124.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
   "CardyX::Pokemon::Pokémon TCG: Journey Together Booster Box": {
     "name": "Pokémon TCG: Journey Together Booster Box",
     "link": "https://cardyx.sk/products/pokemon-tcg-journey-together-booster-box",
@@ -1855,11 +1879,11 @@
     "boutique": "CardyX",
     "category": "Pokemon"
   },
-  "CardyX::Pokemon::Pokémon TCG Mega Evolution: Phantasmal Flames - Elite Trainer Box - Pozor mierne poškodený": {
-    "name": "Pokémon TCG Mega Evolution: Phantasmal Flames - Elite Trainer Box - Pozor mierne poškodený",
+  "CardyX::Pokemon::Pokémon TCG Mega Evolution: Phantasmal Flames - Elite Trainer Box": {
+    "name": "Pokémon TCG Mega Evolution: Phantasmal Flames - Elite Trainer Box",
     "link": "https://cardyx.sk/products/pokemon-tcg-mega-evolution-phantasmal-flames-elite-trainer-box",
-    "price": "119.99 €",
-    "stock": "rupture",
+    "price": "124.99 €",
+    "stock": "disponible",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -2727,6 +2751,38 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
+  "Vinted::One Piece::9562688925": {
+    "name": "Display one piece op07",
+    "link": "https://www.vinted.fr/items/9562688925-display-one-piece-op07",
+    "price": "210.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::One Piece::9562674339": {
+    "name": "Display one piece prb02 anglais",
+    "link": "https://www.vinted.fr/items/9562674339-display-one-piece-prb02-anglais",
+    "price": "220.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::One Piece::9562315782": {
+    "name": "Display one piece op16 The Time of battle bandai desceller",
+    "link": "https://www.vinted.fr/items/9562315782-display-one-piece-op16-the-time-of-battle-bandai-desceller",
+    "price": "135.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::One Piece::9561267229": {
+    "name": "Booster Box PRB-02 Premium Booster One Piece Card Game TCG Eng Sealed PRB02 En Bandai Display",
+    "link": "https://www.vinted.fr/items/9561267229-booster-box-prb-02-premium-booster-one-piece-card-game-tcg-eng-sealed-prb02-en-bandai-display",
+    "price": "259.9 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
   "Vinted::One Piece::9560496806": {
     "name": "One Piece | Two Legends OP08",
     "link": "https://www.vinted.fr/items/9560496806-one-piece-two-legends-op08",
@@ -2735,10 +2791,10 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9560492846": {
-    "name": "One Piece | 500 Years In The Future OP07",
-    "link": "https://www.vinted.fr/items/9560492846-one-piece-500-years-in-the-future-op07",
-    "price": "199.99 €",
+  "Vinted::One Piece::9559915447": {
+    "name": "One piece display op14 English",
+    "link": "https://www.vinted.fr/items/9559915447-one-piece-display-op14-english",
+    "price": "164.99 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -2746,14 +2802,6 @@
   "Vinted::One Piece::9559921428": {
     "name": "One piece display op16 English",
     "link": "https://www.vinted.fr/items/9559921428-one-piece-display-op16-english",
-    "price": "164.99 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9559915447": {
-    "name": "One piece display op14 English",
-    "link": "https://www.vinted.fr/items/9559915447-one-piece-display-op14-english",
     "price": "164.99 €",
     "stock": "vinted",
     "boutique": "Vinted",
@@ -2775,42 +2823,50 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9558488461": {
-    "name": "One Piece Display OP14 en anglais scellé",
-    "link": "https://www.vinted.fr/items/9558488461-one-piece-display-op14-en-anglais-scelle",
-    "price": "179.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::Pokemon::9561707710": {
-    "name": "lot de 2 display pokémon me05 nuit noire FR",
-    "link": "https://www.vinted.fr/items/9561707710-lot-de-2-display-pokemon-me05-nuit-noire-fr",
-    "price": "400.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9561680470": {
-    "name": "Display ME04 Chaos Ascendant FR 🇫🇷 Booster Box neuve et scellée",
-    "link": "https://www.vinted.fr/items/9561680470-display-me04-chaos-ascendant-fr-booster-box-neuve-et-scellee",
-    "price": "190.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9557076327": {
+  "Vinted::Pokemon::9562957151": {
     "name": "Display de mini tins Pokémon ME03 / ME04 Illumis",
-    "link": "https://www.vinted.fr/items/9557076327-display-de-mini-tins-pokemon-me03-me04-illumis",
+    "link": "https://www.vinted.fr/items/9562957151-display-de-mini-tins-pokemon-me03-me04-illumis",
     "price": "130.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9557081183": {
+  "Vinted::Pokemon::9562977808": {
     "name": "Display Pokémon EV03 Flammes Obsidiennes",
-    "link": "https://www.vinted.fr/items/9557081183-display-pokemon-ev03-flammes-obsidiennes",
+    "link": "https://www.vinted.fr/items/9562977808-display-pokemon-ev03-flammes-obsidiennes",
     "price": "220.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9563223978": {
+    "name": "Display ev2 évolution à paldea fR",
+    "link": "https://www.vinted.fr/items/9563223978-display-ev2-evolution-a-paldea-fr",
+    "price": "239.9 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9563077505": {
+    "name": "Pokémon - Display ME04",
+    "link": "https://www.vinted.fr/items/9563077505-pokemon-display-me04",
+    "price": "205.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9562963267": {
+    "name": "Display 36 Boosters Officiel Sans Doublons EV 10 Rivalités Destinées . Fr",
+    "link": "https://www.vinted.fr/items/9562963267-display-36-boosters-officiel-sans-doublons-ev-10-rivalites-destinees-fr",
+    "price": "45.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9562910818": {
+    "name": "Display Pokémon ME06 Storm Emerald – Scellée",
+    "link": "https://www.vinted.fr/items/9562910818-display-pokemon-me06-storm-emerald-scellee",
+    "price": "165.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
