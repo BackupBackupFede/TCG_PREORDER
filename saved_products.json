@@ -1751,6 +1751,22 @@
     "boutique": "Dealabs (Carrefour)",
     "category": "Pokemon"
   },
+  "CardyX::Pokemon::Pokémon TCG: Scarlet & Violet - Black Bolt Elite Trainer Box - Pozor mierne poškodená fólia": {
+    "name": "Pokémon TCG: Scarlet & Violet - Black Bolt Elite Trainer Box - Pozor mierne poškodená fólia",
+    "link": "https://cardyx.sk/products/pokemon-tcg-scarlet-violet-black-bolt-elite-trainer-box",
+    "price": "124.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - Mega Evolution - Elite Trainer Box - Lucario": {
+    "name": "Pokémon TCG - Mega Evolution - Elite Trainer Box - Lucario",
+    "link": "https://cardyx.sk/products/pokemon-tcg-mega-evolution-elite-trainer-box-lucario",
+    "price": "124.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
   "CardyX::Pokemon::Pokémon TCG: Scarlet & Violet Paradox Rift -  Booster Box": {
     "name": "Pokémon TCG: Scarlet & Violet Paradox Rift -  Booster Box",
     "link": "https://cardyx.sk/products/pokemon-tcg-scarlet-violet-paradox-rift-booster-box",
@@ -2679,10 +2695,10 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
-  "Vinted::One Piece::9588531697": {
-    "name": "Op 11 en français scellé",
-    "link": "https://www.vinted.fr/items/9588531697-op-11-en-francais-scelle",
-    "price": "220.0 €",
+  "Vinted::One Piece::9589575249": {
+    "name": "Display OP16 the Time of Battle Anglais / Scellé",
+    "link": "https://www.vinted.fr/items/9589575249-display-op16-the-time-of-battle-anglais-scelle",
+    "price": "160.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -2691,14 +2707,6 @@
     "name": "One Piece Display PRB-02 The Best Vol.2 Scellé",
     "link": "https://www.vinted.fr/items/9587016920-one-piece-display-prb-02-the-best-vol2-scelle",
     "price": "95.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9586319868": {
-    "name": "Display op 13 one piece",
-    "link": "https://www.vinted.fr/items/9586319868-display-op-13-one-piece",
-    "price": "295.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -2735,34 +2743,10 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9588850564": {
-    "name": "Display Origine Perdue EB11 Épée et Bouclier Pokemon Scellé FR",
-    "link": "https://www.vinted.fr/items/9588850564-display-origine-perdue-eb11-epee-et-bouclier-pokemon-scelle-fr",
-    "price": "400.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9588726753": {
-    "name": "Demi display Épée et bouclier de base EB01",
-    "link": "https://www.vinted.fr/items/9588726753-demi-display-epee-et-bouclier-de-base-eb01",
-    "price": "320.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9588577237": {
-    "name": "Display EV10 Rivalités Destinées Pokémon",
-    "link": "https://www.vinted.fr/items/9588577237-display-ev10-rivalites-destinees-pokemon",
-    "price": "290.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9588285849": {
-    "name": "Display Bundle Flamme Blanche EV10.5",
-    "link": "https://www.vinted.fr/items/9588285849-display-bundle-flamme-blanche-ev105",
-    "price": "560.0 €",
+  "Vinted::Pokemon::9589713114": {
+    "name": "🔥 Display Pokémon ME05 Nuit Noire FR – 36 Boosters – Scellée Neuve",
+    "link": "https://www.vinted.fr/items/9589713114-display-pokemon-me05-nuit-noire-fr-36-boosters-scellee-neuve",
+    "price": "229.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
