@@ -1839,22 +1839,6 @@
     "boutique": "CardyX",
     "category": "Pokemon"
   },
-  "CardyX::Pokemon::Pokémon TCG Sword and Shield - Chilling Reign Elite Trainer Box - Shadow Rider Calyrex - mierne poškodený": {
-    "name": "Pokémon TCG Sword and Shield - Chilling Reign Elite Trainer Box - Shadow Rider Calyrex - mierne poškodený",
-    "link": "https://cardyx.sk/products/pokemon-tcg-sword-and-shield-chilling-reign-elite-trainer-box-shadow-rider-calyrex",
-    "price": "134.99 €",
-    "stock": "disponible",
-    "boutique": "CardyX",
-    "category": "Pokemon"
-  },
-  "CardyX::Pokemon::Pokémon TCG: Ascended Heroes - Mini Tin": {
-    "name": "Pokémon TCG: Ascended Heroes - Mini Tin",
-    "link": "https://cardyx.sk/products/pokemon-tcg-ascended-heroes-mini-tin",
-    "price": "28.99 €",
-    "stock": "disponible",
-    "boutique": "CardyX",
-    "category": "Pokemon"
-  },
   "Biridama::Pokemon::First Partner Illustration Collection Series 3": {
     "name": "First Partner Illustration Collection Series 3",
     "link": "https://biridama.pt/products/first-partner-illustration-collection-series-3",
@@ -2687,26 +2671,10 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
-  "Biridama::Pokemon::Violet Ex Booster Box": {
-    "name": "Violet Ex Booster Box",
-    "link": "https://biridama.pt/products/sv1v-violet-ex-booster-box",
-    "price": "85.00 €",
-    "stock": "rupture",
-    "boutique": "Biridama",
-    "category": "Pokemon"
-  },
-  "Biridama::Pokemon::Scarlet Ex Booster Box": {
-    "name": "Scarlet Ex Booster Box",
-    "link": "https://biridama.pt/products/sv1s-scarlet-ex-booster-box",
-    "price": "71.00 €",
-    "stock": "rupture",
-    "boutique": "Biridama",
-    "category": "Pokemon"
-  },
-  "Vinted::One Piece::9597355940": {
-    "name": "Display One Piece Op 16 scellée",
-    "link": "https://www.vinted.fr/items/9597355940-display-one-piece-op-16-scellee",
-    "price": "180.0 €",
+  "Vinted::One Piece::9596623468": {
+    "name": "Display prb02",
+    "link": "https://www.vinted.fr/items/9596623468-display-prb02",
+    "price": "175.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -2715,14 +2683,6 @@
     "name": "Case of bundle prb01",
     "link": "https://www.vinted.fr/items/9593735364-case-of-bundle-prb01",
     "price": "450.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9596623468": {
-    "name": "Display prb02",
-    "link": "https://www.vinted.fr/items/9596623468-display-prb02",
-    "price": "175.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -2758,37 +2718,5 @@
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
-  },
-  "Vinted::One Piece::9592507263": {
-    "name": "Op03 pillar of strenght booster box",
-    "link": "https://www.vinted.fr/items/9592507263-op03-pillar-of-strenght-booster-box",
-    "price": "300.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::Pokemon::9597687424": {
-    "name": "Demi display ev10",
-    "link": "https://www.vinted.fr/items/9597687424-demi-display-ev10",
-    "price": "155.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9597527256": {
-    "name": "Display jumbo chn csv9c pikachu ev8",
-    "link": "https://www.vinted.fr/items/9597527256-display-jumbo-chn-csv9c-pikachu-ev8",
-    "price": "49.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9597506811": {
-    "name": "Display Rivalités destinées EV10",
-    "link": "https://www.vinted.fr/items/9597506811-display-rivalites-destinees-ev10",
-    "price": "310.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
   }
 }
