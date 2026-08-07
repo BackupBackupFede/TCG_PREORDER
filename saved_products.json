@@ -339,7 +339,7 @@
     "name": "Booster Bundle Ascended Heroes",
     "link": "https://www.tcgpower.nl/product/22999169/booster-bundle-ascended-heroes",
     "price": "N/A",
-    "stock": "rupture",
+    "stock": "disponible",
     "boutique": "TCG Power",
     "category": "Pokemon"
   },
@@ -1895,14 +1895,6 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
-  "Biridama::Pokemon::30th Celebration Elite Trainer Box": {
-    "name": "30th Celebration Elite Trainer Box",
-    "link": "https://biridama.pt/products/etb-30th-celebration",
-    "price": "95.00 €",
-    "stock": "preorder",
-    "boutique": "Biridama",
-    "category": "Pokemon"
-  },
   "Biridama::Pokemon::30th Celebration Booster Bundle": {
     "name": "30th Celebration Booster Bundle",
     "link": "https://biridama.pt/products/30th-celebration-booster-bundle",
@@ -2687,6 +2679,38 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
+  "Biridama::Pokemon::Pokémon Card 151 Booster Box": {
+    "name": "Pokémon Card 151 Booster Box",
+    "link": "https://biridama.pt/products/sv2a-151-booster-box",
+    "price": "81.50 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Violet Ex Booster Box": {
+    "name": "Violet Ex Booster Box",
+    "link": "https://biridama.pt/products/sv1v-violet-ex-booster-box",
+    "price": "85.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Biridama::Pokemon::Scarlet Ex Booster Box": {
+    "name": "Scarlet Ex Booster Box",
+    "link": "https://biridama.pt/products/sv1s-scarlet-ex-booster-box",
+    "price": "71.00 €",
+    "stock": "rupture",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
+  "Vinted::One Piece::9597355940": {
+    "name": "Display One Piece Op 16 scellée",
+    "link": "https://www.vinted.fr/items/9597355940-display-one-piece-op-16-scellee",
+    "price": "180.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
   "Vinted::One Piece::9593735364": {
     "name": "Case of bundle prb01",
     "link": "https://www.vinted.fr/items/9593735364-case-of-bundle-prb01",
@@ -2743,26 +2767,26 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9596124630": {
-    "name": "Pokémon Demi-Display Scellée Équilibre Parfait EV10.5 FR – 18 Boosters",
-    "link": "https://www.vinted.fr/items/9596124630-pokemon-demi-display-scellee-equilibre-parfait-ev105-fr-18-boosters",
-    "price": "110.0 €",
+  "Vinted::Pokemon::9597687424": {
+    "name": "Demi display ev10",
+    "link": "https://www.vinted.fr/items/9597687424-demi-display-ev10",
+    "price": "155.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9597148041": {
-    "name": "ETB ME2.5 + demi display ME1 Pokémon",
-    "link": "https://www.vinted.fr/items/9597148041-etb-me25-demi-display-me1-pokemon",
-    "price": "245.0 €",
+  "Vinted::Pokemon::9597527256": {
+    "name": "Display jumbo chn csv9c pikachu ev8",
+    "link": "https://www.vinted.fr/items/9597527256-display-jumbo-chn-csv9c-pikachu-ev8",
+    "price": "49.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9596965639": {
-    "name": "Pokémon ME04 Chaos Ascendant – Demi Display 18 Boosters FR Scellée",
-    "link": "https://www.vinted.fr/items/9596965639-pokemon-me04-chaos-ascendant-demi-display-18-boosters-fr-scellee",
-    "price": "139.0 €",
+  "Vinted::Pokemon::9597506811": {
+    "name": "Display Rivalités destinées EV10",
+    "link": "https://www.vinted.fr/items/9597506811-display-rivalites-destinees-ev10",
+    "price": "310.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
