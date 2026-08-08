@@ -2663,14 +2663,6 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
-  "Vinted::One Piece::9605675198": {
-    "name": "Display One Piece OP09",
-    "link": "https://www.vinted.fr/items/9605675198-display-one-piece-op09",
-    "price": "150.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
   "Vinted::One Piece::9604814703": {
     "name": "Display op12 français",
     "link": "https://www.vinted.fr/items/9604814703-display-op12-francais",
@@ -2702,5 +2694,21 @@
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
+  },
+  "Vinted::One Piece::9600611052": {
+    "name": "One Piece - Display EB03 US",
+    "link": "https://www.vinted.fr/items/9600611052-one-piece-display-eb03-us",
+    "price": "250.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::Pokemon::9606685840": {
+    "name": "Display Pokémon : Écarlate et Violet – Flammes Obsidiennes (EV03)",
+    "link": "https://www.vinted.fr/items/9606685840-display-pokemon-ecarlate-et-violet-flammes-obsidiennes-ev03",
+    "price": "200.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
   }
 }
