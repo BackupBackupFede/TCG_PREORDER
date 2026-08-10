@@ -2687,6 +2687,14 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
+  "Vinted::One Piece::9628225171": {
+    "name": "Display One Piece Op08 two legends anglais",
+    "link": "https://www.vinted.fr/items/9628225171-display-one-piece-op08-two-legends-anglais",
+    "price": "165.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
   "Vinted::One Piece::9627783801": {
     "name": "One Piece - Robin EB03-054 Round 1 🇯🇵",
     "link": "https://www.vinted.fr/items/9627783801-one-piece-robin-eb03-054-round-1",
@@ -2758,21 +2766,5 @@
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
-  },
-  "Vinted::One Piece::9621241423": {
-    "name": "One Piece display OP07 anglais scellé",
-    "link": "https://www.vinted.fr/items/9621241423-one-piece-display-op07-anglais-scelle",
-    "price": "239.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::Pokemon::9628143142": {
-    "name": "Upc sulfura et display ev10",
-    "link": "https://www.vinted.fr/items/9628143142-upc-sulfura-et-display-ev10",
-    "price": "500.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
   }
 }
