@@ -2330,8 +2330,8 @@
   "Biridama::Pokemon::Prismatic Evolutions Premium Figure Collection": {
     "name": "Prismatic Evolutions Premium Figure Collection",
     "link": "https://biridama.pt/products/prismatic-evolutions-premium-figure-collection",
-    "price": "150.00 €",
-    "stock": "rupture",
+    "price": "230.00 €",
+    "stock": "disponible",
     "boutique": "Biridama",
     "category": "Pokemon"
   },
@@ -2426,16 +2426,16 @@
   "Biridama::Pokemon::Phantasmal Flames Elite Trainer Box": {
     "name": "Phantasmal Flames Elite Trainer Box",
     "link": "https://biridama.pt/products/phantasmal-flames-elite-trainer-box",
-    "price": "80.00 €",
-    "stock": "rupture",
+    "price": "130.00 €",
+    "stock": "disponible",
     "boutique": "Biridama",
     "category": "Pokemon"
   },
   "Biridama::Pokemon::Phantasmal Flames Booster Box": {
     "name": "Phantasmal Flames Booster Box",
     "link": "https://biridama.pt/products/phantasmal-flames-booster-box",
-    "price": "218.00 €",
-    "stock": "rupture",
+    "price": "390.00 €",
+    "stock": "disponible",
     "boutique": "Biridama",
     "category": "Pokemon"
   },
@@ -2687,6 +2687,14 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
+  "Vinted::One Piece::9627783801": {
+    "name": "One Piece - Robin EB03-054 Round 1 🇯🇵",
+    "link": "https://www.vinted.fr/items/9627783801-one-piece-robin-eb03-054-round-1",
+    "price": "69.9 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
   "Vinted::One Piece::9627284257": {
     "name": "One Piece - Zoro PRB02-006 Round 1 🇯🇵",
     "link": "https://www.vinted.fr/items/9627284257-one-piece-zoro-prb02-006-round-1",
@@ -2730,7 +2738,7 @@
   "Vinted::One Piece::9626183516": {
     "name": "Display One Piece OP14. Français.",
     "link": "https://www.vinted.fr/items/9626183516-display-one-piece-op14-francais",
-    "price": "250.0 €",
+    "price": "220.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -2743,6 +2751,14 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
+  "Vinted::One Piece::9624495428": {
+    "name": "Display op13",
+    "link": "https://www.vinted.fr/items/9624495428-display-op13",
+    "price": "180.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
   "Vinted::One Piece::9621241423": {
     "name": "One Piece display OP07 anglais scellé",
     "link": "https://www.vinted.fr/items/9621241423-one-piece-display-op07-anglais-scelle",
@@ -2751,18 +2767,10 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9627504579": {
-    "name": "Display Pokémon ev10",
-    "link": "https://www.vinted.fr/items/9627504579-display-pokemon-ev10",
-    "price": "295.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9627219901": {
-    "name": "Display Battle Partners SV9",
-    "link": "https://www.vinted.fr/items/9627219901-display-battle-partners-sv9",
-    "price": "75.0 €",
+  "Vinted::Pokemon::9628143142": {
+    "name": "Upc sulfura et display ev10",
+    "link": "https://www.vinted.fr/items/9628143142-upc-sulfura-et-display-ev10",
+    "price": "500.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
