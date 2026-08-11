@@ -1250,7 +1250,7 @@
   "Philibert::Pokemon::Pokemon : The Glory Of Team Rocket - Booster": {
     "name": "Pokemon : The Glory Of Team Rocket - Booster",
     "link": "https://www.philibertnet.com/fr/pokemon/174530-pokemon-the-glory-of-team-rocket-booster-8800286277743.html",
-    "price": "2,95€",
+    "price": "4,50€",
     "stock": "disponible",
     "boutique": "Philibert",
     "category": "Pokemon"
@@ -2743,6 +2743,14 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
+  "Vinted::One Piece::9636123930": {
+    "name": "Display OP-08 - Anglais",
+    "link": "https://www.vinted.fr/items/9636123930-display-op-08-anglais",
+    "price": "200.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
   "Vinted::One Piece::9635540469": {
     "name": "One Piece OP14 Bulk x4 Boxes + 21SR cards",
     "link": "https://www.vinted.fr/items/9635540469-one-piece-op14-bulk-x4-boxes-21sr-cards",
@@ -2791,22 +2799,6 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9632925036": {
-    "name": "One Piece OP-12 Legacy of the Master Luffy",
-    "link": "https://www.vinted.fr/items/9632925036-one-piece-op-12-legacy-of-the-master-luffy",
-    "price": "75.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9632887881": {
-    "name": "One Piece OP-11 A Fist of Divine Speed Luffy",
-    "link": "https://www.vinted.fr/items/9632887881-one-piece-op-11-a-fist-of-divine-speed-luffy",
-    "price": "100.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
   "Vinted::One Piece::9628225171": {
     "name": "Display One Piece Op08 two legends anglais",
     "link": "https://www.vinted.fr/items/9628225171-display-one-piece-op08-two-legends-anglais",
@@ -2815,42 +2807,34 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9635537754": {
-    "name": "Upc dracaufeu et demi display ev10",
-    "link": "https://www.vinted.fr/items/9635537754-upc-dracaufeu-et-demi-display-ev10",
-    "price": "350.0 €",
+  "Vinted::Pokemon::9636171750": {
+    "name": "Display me5 nuit noire complète sans les ex et hits.",
+    "link": "https://www.vinted.fr/items/9636171750-display-me5-nuit-noire-complete-sans-les-ex-et-hits",
+    "price": "45.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9635473240": {
-    "name": "Display EV10 Rivalitées Destinées (défaut)",
-    "link": "https://www.vinted.fr/items/9635473240-display-ev10-rivalitees-destinees-defaut",
-    "price": "159.0 €",
+  "Vinted::Pokemon::9608560452": {
+    "name": "Display de mini tins Pokémon Illumis ME03/ME04 scellé",
+    "link": "https://www.vinted.fr/items/9608560452-display-de-mini-tins-pokemon-illumis-me03me04-scelle",
+    "price": "125.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9635359044": {
-    "name": "Display EV 08 Étincelles Déferlantes Pokémon 🇫🇷",
-    "link": "https://www.vinted.fr/items/9635359044-display-ev-08-etincelles-deferlantes-pokemon",
-    "price": "329.0 €",
+  "Vinted::Pokemon::9635988073": {
+    "name": "Display Mini Tins ME 2.5 - Héros Transcendants Pokémon",
+    "link": "https://www.vinted.fr/items/9635988073-display-mini-tins-me-25-heros-transcendants-pokemon",
+    "price": "250.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9635327005": {
-    "name": "Display EV 10 Rivalités Destinées Pokémon 🇫🇷",
-    "link": "https://www.vinted.fr/items/9635327005-display-ev-10-rivalites-destinees-pokemon",
-    "price": "369.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9635273423": {
-    "name": "Display EV 07 Couronne stellaire Pokémon 🇫🇷",
-    "link": "https://www.vinted.fr/items/9635273423-display-ev-07-couronne-stellaire-pokemon",
-    "price": "259.0 €",
+  "Vinted::Pokemon::9608572222": {
+    "name": "Display Pokémon EV03 Flammes Obsidiennes",
+    "link": "https://www.vinted.fr/items/9608572222-display-pokemon-ev03-flammes-obsidiennes",
+    "price": "210.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
