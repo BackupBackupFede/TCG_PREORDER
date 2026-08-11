@@ -1775,6 +1775,30 @@
     "boutique": "Dealabs",
     "category": "Pokemon"
   },
+  "CardyX::Pokemon::Pokémon TCG - Scarlet & Violet - Prismatic Evolutions - Poster Collection": {
+    "name": "Pokémon TCG - Scarlet & Violet - Prismatic Evolutions - Poster Collection",
+    "link": "https://cardyx.sk/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-poster-collection",
+    "price": "48.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Prismatic Evolutions Mini Tin": {
+    "name": "Pokémon TCG: Prismatic Evolutions Mini Tin",
+    "link": "https://cardyx.sk/products/pokemon-tcg-prismatic-evolutions-mini-tin",
+    "price": "29.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Ascended Heroes Premium Poster Collection Mega Lucario": {
+    "name": "Pokémon TCG: Ascended Heroes Premium Poster Collection Mega Lucario",
+    "link": "https://cardyx.sk/products/pokemon-tcg-ascended-heroes-premium-poster-collection-mega-lucario",
+    "price": "169.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
   "CardyX::Pokemon::Pokémon TCG: Shining Fates Mini Tin": {
     "name": "Pokémon TCG: Shining Fates Mini Tin",
     "link": "https://cardyx.sk/products/pokemon-tcg-shining-fates-mini-tin",
@@ -2743,18 +2767,18 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9627783801": {
-    "name": "One Piece - Robin EB03-054 Round 1 🇯🇵",
-    "link": "https://www.vinted.fr/items/9627783801-one-piece-robin-eb03-054-round-1",
-    "price": "69.9 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
   "Vinted::One Piece::9627189045": {
     "name": "20 boosters one piece OP08",
     "link": "https://www.vinted.fr/items/9627189045-20-boosters-one-piece-op08",
     "price": "85.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::One Piece::9627783801": {
+    "name": "One Piece - Robin EB03-054 Round 1 🇯🇵",
+    "link": "https://www.vinted.fr/items/9627783801-one-piece-robin-eb03-054-round-1",
+    "price": "69.9 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -2767,58 +2791,26 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9620849770": {
-    "name": "Display One Piece Card Game The Azure Sea’s Seven (OP-14) -Eng",
-    "link": "https://www.vinted.fr/items/9620849770-display-one-piece-card-game-the-azure-seas-seven-op-14-eng",
-    "price": "169.99 €",
+  "Vinted::Pokemon::9633912520": {
+    "name": "Upc sulfura et display ev10",
+    "link": "https://www.vinted.fr/items/9633912520-upc-sulfura-et-display-ev10",
+    "price": "500.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
-    "category": "One Piece"
+    "category": "Pokemon"
   },
-  "Vinted::One Piece::9626183516": {
-    "name": "Display One Piece OP14. Français.",
-    "link": "https://www.vinted.fr/items/9626183516-display-one-piece-op14-francais",
-    "price": "210.0 €",
+  "Vinted::Pokemon::9633595631": {
+    "name": "Demi-Display Pokémon EV10 Rivalités Destinées 18 Boosters fr",
+    "link": "https://www.vinted.fr/items/9633595631-demi-display-pokemon-ev10-rivalites-destinees-18-boosters-fr",
+    "price": "149.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9627228801": {
-    "name": "One Piece - Sanji Event OP12-079 🇯🇵",
-    "link": "https://www.vinted.fr/items/9627228801-one-piece-sanji-event-op12-079",
-    "price": "67.9 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
+    "category": "Pokemon"
   },
   "Vinted::Pokemon::9633471771": {
     "name": "Remise en main propre Paris et environs uniquement. \nPokémon Demi Display Origine Perdue EB11",
     "link": "https://www.vinted.fr/items/9633471771-remise-en-main-propre-paris-et-environs-uniquement-pokemon-demi-display-origine-perdue-eb11",
     "price": "250.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9633140327": {
-    "name": "Display ME02 Flammes fantasmagoriques Neuve",
-    "link": "https://www.vinted.fr/items/9633140327-display-me02-flammes-fantasmagoriques-neuve",
-    "price": "290.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9633035707": {
-    "name": "Lot Pokémon aventure ensemble EV9",
-    "link": "https://www.vinted.fr/items/9633035707-lot-pokemon-aventure-ensemble-ev9",
-    "price": "800.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9632821915": {
-    "name": "Pokemon display Chaos Ascendant me04 fr",
-    "link": "https://www.vinted.fr/items/9632821915-pokemon-display-chaos-ascendant-me04-fr",
-    "price": "200.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
