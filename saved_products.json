@@ -1615,6 +1615,14 @@
     "boutique": "Maison de la Presse",
     "category": "Pokemon"
   },
+  "MaisonPresse::Pokemon::Protection souple pour coffret ETB Pokémon": {
+    "name": "Protection souple pour coffret ETB Pokémon",
+    "link": "https://www.maisondelapresse.com/protection-souple-pour-coffret-etb-pokemon.html",
+    "price": "19,95 €",
+    "stock": "disponible",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
   "MaisonPresse::Pokemon::Pack 2 Boosters Q3 Blister Pokémon": {
     "name": "Pack 2 Boosters Q3 Blister Pokémon",
     "link": "https://www.maisondelapresse.com/pack-2-boosters-q3-blister-pokemon.html",
@@ -1703,22 +1711,6 @@
     "boutique": "Maison de la Presse",
     "category": "Pokemon"
   },
-  "MaisonPresse::Pokemon::Présentoir 36 Boosters EV08 Etincelles déferlantes Pokémon": {
-    "name": "Présentoir 36 Boosters EV08 Etincelles déferlantes Pokémon",
-    "link": "https://www.maisondelapresse.com/presentoir-08.html",
-    "price": "251,64 €",
-    "stock": "rupture",
-    "boutique": "Maison de la Presse",
-    "category": "Pokemon"
-  },
-  "MaisonPresse::Pokemon::Pack 2 boosters Team Rocket Octobre 2025 Pokémon": {
-    "name": "Pack 2 boosters Team Rocket Octobre 2025 Pokémon",
-    "link": "https://www.maisondelapresse.com/pack-2-boosters-q4-blister-octobre-2025-pokemon.html",
-    "price": "12,99 €",
-    "stock": "rupture",
-    "boutique": "Maison de la Presse",
-    "category": "Pokemon"
-  },
   "MaisonPresse::Pokemon::Protèges Cartes Pokémon Générique": {
     "name": "Protèges Cartes Pokémon Générique",
     "link": "https://www.maisondelapresse.com/proteges-cartes-pokemon-generique.html",
@@ -1795,6 +1787,22 @@
     "name": "Cahier range-cartes 252 cartes Mega Evolution 01 Pokémon",
     "link": "https://www.maisondelapresse.com/cahier-range-cartes-252-cartes-mega-evolution-01-pokemon.html",
     "price": "16,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Présentoir 36 Boosters EV08 Etincelles déferlantes Pokémon": {
+    "name": "Présentoir 36 Boosters EV08 Etincelles déferlantes Pokémon",
+    "link": "https://www.maisondelapresse.com/presentoir-08.html",
+    "price": "251,64 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Pack 2 boosters Team Rocket Octobre 2025 Pokémon": {
+    "name": "Pack 2 boosters Team Rocket Octobre 2025 Pokémon",
+    "link": "https://www.maisondelapresse.com/pack-2-boosters-q4-blister-octobre-2025-pokemon.html",
+    "price": "12,99 €",
     "stock": "rupture",
     "boutique": "Maison de la Presse",
     "category": "Pokemon"
@@ -2010,7 +2018,7 @@
   "Biridama::Pokemon::CSV9.5 Terastal Gathering Booster Box": {
     "name": "CSV9.5 Terastal Gathering Booster Box",
     "link": "https://biridama.pt/products/csv9-5-terastal-gathering-booster-box",
-    "price": "115.00 €",
+    "price": "100.00 €",
     "stock": "disponible",
     "boutique": "Biridama",
     "category": "Pokemon"
@@ -2199,11 +2207,11 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
-  "Biridama::Pokemon::Trainer Collection Gift Box S-Chinese": {
-    "name": "Trainer Collection Gift Box S-Chinese",
+  "Biridama::Pokemon::Sword & Shield Trainer Collection Gift Box": {
+    "name": "Sword & Shield Trainer Collection Gift Box",
     "link": "https://biridama.pt/products/trainer-collection-gift-box-s-chinese",
     "price": "18.00 €",
-    "stock": "rupture",
+    "stock": "disponible",
     "boutique": "Biridama",
     "category": "Pokemon"
   },
@@ -2474,8 +2482,8 @@
   "Biridama::Pokemon::Gem Pack Vol. 3 Booster Box": {
     "name": "Gem Pack Vol. 3 Booster Box",
     "link": "https://biridama.pt/products/gem-pack-vol-3-booster-box",
-    "price": "75.00 €",
-    "stock": "rupture",
+    "price": "81.00 €",
+    "stock": "disponible",
     "boutique": "Biridama",
     "category": "Pokemon"
   },
@@ -2522,8 +2530,8 @@
   "Biridama::Pokemon::151C: Collect 151 Surprises Booster Box": {
     "name": "151C: Collect 151 Surprises Booster Box",
     "link": "https://biridama.pt/products/collect-151-surprise-booster-box",
-    "price": "70.00 €",
-    "stock": "rupture",
+    "price": "66.50 €",
+    "stock": "disponible",
     "boutique": "Biridama",
     "category": "Pokemon"
   },
@@ -2703,70 +2711,6 @@
     "boutique": "Biridama",
     "category": "One Piece"
   },
-  "Biridama::Pokemon::Paradigm Trigger Booster Box": {
-    "name": "Paradigm Trigger Booster Box",
-    "link": "https://biridama.pt/products/paradigm-trigger-booster-box",
-    "price": "100.00 €",
-    "stock": "rupture",
-    "boutique": "Biridama",
-    "category": "Pokemon"
-  },
-  "Biridama::Pokemon::Incandescent Arcana Booster Box": {
-    "name": "Incandescent Arcana Booster Box",
-    "link": "https://biridama.pt/products/incandescent-arcana-booster-box",
-    "price": "105.00 €",
-    "stock": "rupture",
-    "boutique": "Biridama",
-    "category": "Pokemon"
-  },
-  "Biridama::Pokemon::Lost Abyss Booster Box": {
-    "name": "Lost Abyss Booster Box",
-    "link": "https://biridama.pt/products/s11-lost-abyss-booster-box",
-    "price": "190.00 €",
-    "stock": "rupture",
-    "boutique": "Biridama",
-    "category": "Pokemon"
-  },
-  "Biridama::Pokemon::Blue Sky Stream Booster Box": {
-    "name": "Blue Sky Stream Booster Box",
-    "link": "https://biridama.pt/products/s7r-blue-sky-stream-booster-box",
-    "price": "800.00 €",
-    "stock": "rupture",
-    "boutique": "Biridama",
-    "category": "Pokemon"
-  },
-  "Biridama::Pokemon::Vstar Universe Booster Box": {
-    "name": "Vstar Universe Booster Box",
-    "link": "https://biridama.pt/products/s12a-vstar-universe-booster-box",
-    "price": "150.00 €",
-    "stock": "rupture",
-    "boutique": "Biridama",
-    "category": "Pokemon"
-  },
-  "Biridama::Pokemon::Triplet Beat\tBooster Box": {
-    "name": "Triplet Beat\tBooster Box",
-    "link": "https://biridama.pt/products/sv1a-triplet-beat-booster-box",
-    "price": "104.00 €",
-    "stock": "rupture",
-    "boutique": "Biridama",
-    "category": "Pokemon"
-  },
-  "Biridama::Pokemon::Clay Burst Booster Box": {
-    "name": "Clay Burst Booster Box",
-    "link": "https://biridama.pt/products/sv2d-clay-burst-booster-box",
-    "price": "95.00 €",
-    "stock": "disponible",
-    "boutique": "Biridama",
-    "category": "Pokemon"
-  },
-  "Biridama::Pokemon::Pokémon Card 151 Booster Box": {
-    "name": "Pokémon Card 151 Booster Box",
-    "link": "https://biridama.pt/products/sv2a-151-booster-box",
-    "price": "81.50 €",
-    "stock": "rupture",
-    "boutique": "Biridama",
-    "category": "Pokemon"
-  },
   "Vinted::One Piece::9632967815": {
     "name": "Display One Piece Card Game EB-03 en français Scellée + Booster promo",
     "link": "https://www.vinted.fr/items/9632967815-display-one-piece-card-game-eb-03-en-francais-scellee-booster-promo",
@@ -2806,5 +2750,45 @@
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
+  },
+  "Vinted::One Piece::9635540469": {
+    "name": "One Piece OP14 Bulk x4 Boxes + 21SR cards",
+    "link": "https://www.vinted.fr/items/9635540469-one-piece-op14-bulk-x4-boxes-21sr-cards",
+    "price": "80.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::One Piece::9634446090": {
+    "name": "Carton blister OP16",
+    "link": "https://www.vinted.fr/items/9634446090-carton-blister-op16",
+    "price": "240.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::Pokemon::9640507950": {
+    "name": "Display Pokémon EV03 Flammes Obsidiennes – VF – Neuf Scellé",
+    "link": "https://www.vinted.fr/items/9640507950-display-pokemon-ev03-flammes-obsidiennes-vf-neuf-scelle",
+    "price": "254.99 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9640574228": {
+    "name": "Lot 12 Boosters Pokémon EB11",
+    "link": "https://www.vinted.fr/items/9640574228-lot-12-boosters-pokemon-eb11",
+    "price": "82.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9640503342": {
+    "name": "Pokémon - Demi-display Etincelles Déferlantes / EV8 - neuf, scellé",
+    "link": "https://www.vinted.fr/items/9640503342-pokemon-demi-display-etincelles-deferlantes-ev8-neuf-scelle",
+    "price": "160.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
   }
 }
