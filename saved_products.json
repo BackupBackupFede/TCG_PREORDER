@@ -1615,8 +1615,8 @@
     "boutique": "Maison de la Presse",
     "category": "Pokemon"
   },
-  "MaisonPresse::Pokemon::Protection souple pour coffret ETB Pokémon": {
-    "name": "Protection souple pour coffret ETB Pokémon",
+  "MaisonPresse::Pokemon::Protection souple pour coffret ETB Pokémon Phoenix Shield": {
+    "name": "Protection souple pour coffret ETB Pokémon Phoenix Shield",
     "link": "https://www.maisondelapresse.com/protection-souple-pour-coffret-etb-pokemon.html",
     "price": "19,95 €",
     "stock": "disponible",
@@ -2711,18 +2711,18 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9642778781": {
-    "name": "Magazine vol 20  st21-014",
-    "link": "https://www.vinted.fr/items/9642778781-magazine-vol-20-st21-014",
-    "price": "200.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
   "Vinted::One Piece::9642061402": {
     "name": "One Piece Box OP-15 Adventure on Kami's Island Giapponese",
     "link": "https://www.vinted.fr/items/9642061402-one-piece-box-op-15-adventure-on-kamis-island-giapponese",
     "price": "85.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::One Piece::9642778781": {
+    "name": "Magazine vol 20  st21-014",
+    "link": "https://www.vinted.fr/items/9642778781-magazine-vol-20-st21-014",
+    "price": "200.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -2742,5 +2742,21 @@
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
+  },
+  "Vinted::Pokemon::9644546428": {
+    "name": "Display ev1 écarlate et violet et display ev10 rivalités destinées",
+    "link": "https://www.vinted.fr/items/9644546428-display-ev1-ecarlate-et-violet-et-display-ev10-rivalites-destinees",
+    "price": "510.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9644475162": {
+    "name": "Demi display Chaos Ascendant - ME 04 - Pokémon scellés prix ferme",
+    "link": "https://www.vinted.fr/items/9644475162-demi-display-chaos-ascendant-me-04-pokemon-scelles-prix-ferme",
+    "price": "125.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
   }
 }
