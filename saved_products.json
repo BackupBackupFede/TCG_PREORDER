@@ -1895,6 +1895,14 @@
     "boutique": "CardyX",
     "category": "Pokemon"
   },
+  "Biridama::Pokemon::CSV10C: Chasing Glory Together Booster Box": {
+    "name": "CSV10C: Chasing Glory Together Booster Box",
+    "link": "https://biridama.pt/products/csv10c-chasing-glory-together-booster-box",
+    "price": "43.00 €",
+    "stock": "disponible",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
   "Biridama::Pokemon::First Partner Illustration Collection Series 3": {
     "name": "First Partner Illustration Collection Series 3",
     "link": "https://biridama.pt/products/first-partner-illustration-collection-series-3",
@@ -2630,14 +2638,6 @@
     "stock": "rupture",
     "boutique": "Biridama",
     "category": "Pokemon"
-  },
-  "Biridama::One Piece::500 Years into the Future Booster Box (Non-English)": {
-    "name": "500 Years into the Future Booster Box (Non-English)",
-    "link": "https://biridama.pt/products/500-years-into-the-future-booster-box-non-english",
-    "price": "65.00 €",
-    "stock": "rupture",
-    "boutique": "Biridama",
-    "category": "One Piece"
   },
   "Vinted::One Piece::9655075661": {
     "name": "Display one piece EB03 les heroines (english)",
