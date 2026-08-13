@@ -1911,14 +1911,6 @@
     "boutique": "CardyX",
     "category": "Pokemon"
   },
-  "CardyX::Pokemon::Pokémon TCG: Scarlet & Violet Paradox Rift -  Booster Box": {
-    "name": "Pokémon TCG: Scarlet & Violet Paradox Rift -  Booster Box",
-    "link": "https://cardyx.sk/products/pokemon-tcg-scarlet-violet-paradox-rift-booster-box",
-    "price": "274.99 €",
-    "stock": "disponible",
-    "boutique": "CardyX",
-    "category": "Pokemon"
-  },
   "Biridama::Pokemon::First Partner Illustration Collection Series 3": {
     "name": "First Partner Illustration Collection Series 3",
     "link": "https://biridama.pt/products/first-partner-illustration-collection-series-3",
@@ -2663,10 +2655,10 @@
     "boutique": "Biridama",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9648716251": {
-    "name": "One Piece OP17 Display - The World's Strongest",
-    "link": "https://www.vinted.fr/items/9648716251-one-piece-op17-display-the-worlds-strongest",
-    "price": "299.0 €",
+  "Vinted::One Piece::9650688123": {
+    "name": "Display The Azure Sea's Seven OP14 One Piece Card Game",
+    "link": "https://www.vinted.fr/items/9650688123-display-the-azure-seas-seven-op14-one-piece-card-game",
+    "price": "120.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -2679,14 +2671,6 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9648150210": {
-    "name": "One Piece Card Game OP-07 – 500 Years in the Future – Booster Box ENG Sigillato",
-    "link": "https://www.vinted.fr/items/9648150210-one-piece-card-game-op-07-500-years-in-the-future-booster-box-eng-sigillato",
-    "price": "250.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
   "Vinted::One Piece::9647585545": {
     "name": "Display One Piece EB04 – The Azure Sea’s Seven – Neuve & Scellée – EN",
     "link": "https://www.vinted.fr/items/9647585545-display-one-piece-eb04-the-azure-seas-seven-neuve-scellee-en",
@@ -2695,50 +2679,50 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9646247654": {
-    "name": "Display OP16",
-    "link": "https://www.vinted.fr/items/9646247654-display-op16",
-    "price": "199.0 €",
+  "Vinted::One Piece::9648150210": {
+    "name": "One Piece Card Game OP-07 – 500 Years in the Future – Booster Box ENG Sigillato",
+    "link": "https://www.vinted.fr/items/9648150210-one-piece-card-game-op-07-500-years-in-the-future-booster-box-eng-sigillato",
+    "price": "250.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9645776549": {
-    "name": "🇯🇵 One Piece TCG – Playmat Whole Cake Island + Promo Nami OP11-041 🇯🇵",
-    "link": "https://www.vinted.fr/items/9645776549-one-piece-tcg-playmat-whole-cake-island-promo-nami-op11-041",
-    "price": "190.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9641158284": {
-    "name": "Display One Piece OP-14 Chinois (24 boosters de 6 cartes)",
-    "link": "https://www.vinted.fr/items/9641158284-display-one-piece-op-14-chinois-24-boosters-de-6-cartes",
-    "price": "54.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::Pokemon::9650721076": {
-    "name": "9 carte exclusive Me6",
-    "link": "https://www.vinted.fr/items/9650721076-9-carte-exclusive-me6",
-    "price": "115.0 €",
+  "Vinted::Pokemon::9651152106": {
+    "name": "Display Pokémon EV10 rivalité destinée",
+    "link": "https://www.vinted.fr/items/9651152106-display-pokemon-ev10-rivalite-destinee",
+    "price": "320.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9650614473": {
-    "name": "Pokémon Display de 36 boosters EV10 Rivalités Destinées",
-    "link": "https://www.vinted.fr/items/9650614473-pokemon-display-de-36-boosters-ev10-rivalites-destinees",
-    "price": "300.0 €",
+  "Vinted::Pokemon::9651009670": {
+    "name": "Display Pokemon equilibre parfait ME03 FR scelle",
+    "link": "https://www.vinted.fr/items/9651009670-display-pokemon-equilibre-parfait-me03-fr-scelle",
+    "price": "210.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9650461926": {
-    "name": "Display rivalités destinées ev10",
-    "link": "https://www.vinted.fr/items/9650461926-display-rivalites-destinees-ev10",
-    "price": "290.0 €",
+  "Vinted::Pokemon::9651002783": {
+    "name": "Dracaufeu VMAX SV107/SV122",
+    "link": "https://www.vinted.fr/items/9651002783-dracaufeu-vmax-sv107sv122",
+    "price": "319.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9650952361": {
+    "name": "Demi-display Pokémon Chaos Ascendant ME4 (18 Boosters)",
+    "link": "https://www.vinted.fr/items/9650952361-demi-display-pokemon-chaos-ascendant-me4-18-boosters",
+    "price": "112.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9650946376": {
+    "name": "Demi-display Pokémon Equilibre Parfait ME3 (18 Boosters)",
+    "link": "https://www.vinted.fr/items/9650946376-demi-display-pokemon-equilibre-parfait-me3-18-boosters",
+    "price": "105.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
