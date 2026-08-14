@@ -335,6 +335,30 @@
     "boutique": "TCG Power",
     "category": "One Piece"
   },
+  "TCGPower::Pokemon::Halve Booster Box Chaos Rising": {
+    "name": "Halve Booster Box Chaos Rising",
+    "link": "https://www.tcgpower.nl/product/23899943/halve-booster-box-chaos-rising",
+    "price": "N/A",
+    "stock": "disponible",
+    "boutique": "TCG Power",
+    "category": "Pokemon"
+  },
+  "TCGPower::Pokemon::Halve Booster Box Destined Rivals (18 Packs)": {
+    "name": "Halve Booster Box Destined Rivals (18 Packs)",
+    "link": "https://www.tcgpower.nl/product/19305603/halve-booster-box-destined-rivals-18-packs",
+    "price": "N/A",
+    "stock": "disponible",
+    "boutique": "TCG Power",
+    "category": "Pokemon"
+  },
+  "TCGPower::Pokemon::Halve Booster Box Perfect Order": {
+    "name": "Halve Booster Box Perfect Order",
+    "link": "https://www.tcgpower.nl/product/23899932/halve-booster-box-perfect-order",
+    "price": "N/A",
+    "stock": "disponible",
+    "boutique": "TCG Power",
+    "category": "Pokemon"
+  },
   "TCGPower::Pokemon::Booster Bundle Ascended Heroes": {
     "name": "Booster Bundle Ascended Heroes",
     "link": "https://www.tcgpower.nl/product/22999169/booster-bundle-ascended-heroes",
@@ -363,7 +387,7 @@
     "name": "Booster Bundle White Flare",
     "link": "https://www.tcgpower.nl/product/20508376/booster-bundle-white-flare",
     "price": "N/A",
-    "stock": "rupture",
+    "stock": "disponible",
     "boutique": "TCG Power",
     "category": "Pokemon"
   },
@@ -371,7 +395,7 @@
     "name": "Booster Bundle Phantasmal Flames",
     "link": "https://www.tcgpower.nl/product/21432087/booster-bundle-phantasmal-flames",
     "price": "N/A",
-    "stock": "rupture",
+    "stock": "disponible",
     "boutique": "TCG Power",
     "category": "Pokemon"
   },
@@ -419,7 +443,7 @@
     "name": "Booster Bundle Journey Together",
     "link": "https://www.tcgpower.nl/product/18641344/booster-bundle-journey-together",
     "price": "N/A",
-    "stock": "rupture",
+    "stock": "disponible",
     "boutique": "TCG Power",
     "category": "Pokemon"
   },
@@ -435,7 +459,7 @@
     "name": "Booster Bundle Destined Rivals",
     "link": "https://www.tcgpower.nl/product/19389878/booster-bundle-destined-rivals",
     "price": "N/A",
-    "stock": "rupture",
+    "stock": "disponible",
     "boutique": "TCG Power",
     "category": "Pokemon"
   },
@@ -459,7 +483,7 @@
     "name": "Booster Bundle Prismatic Evolutions",
     "link": "https://www.tcgpower.nl/product/18260323/booster-bundle-prismatic-evolutions",
     "price": "N/A",
-    "stock": "rupture",
+    "stock": "disponible",
     "boutique": "TCG Power",
     "category": "Pokemon"
   },
@@ -498,30 +522,6 @@
   "TCGPower::Pokemon::Booster Box Temporal Forces": {
     "name": "Booster Box Temporal Forces",
     "link": "https://www.tcgpower.nl/product/16104430/booster-box-temporal-forces",
-    "price": "N/A",
-    "stock": "rupture",
-    "boutique": "TCG Power",
-    "category": "Pokemon"
-  },
-  "TCGPower::Pokemon::Boosterbox Scarlet & Violet": {
-    "name": "Boosterbox Scarlet & Violet",
-    "link": "https://www.tcgpower.nl/product/16104454/boosterbox-scarlet-violet",
-    "price": "N/A",
-    "stock": "rupture",
-    "boutique": "TCG Power",
-    "category": "Pokemon"
-  },
-  "TCGPower::Pokemon::Booster Bundle 151": {
-    "name": "Booster Bundle 151",
-    "link": "https://www.tcgpower.nl/product/16675439/booster-bundle-151",
-    "price": "N/A",
-    "stock": "rupture",
-    "boutique": "TCG Power",
-    "category": "Pokemon"
-  },
-  "TCGPower::Pokemon::Booster Box Twilight Masquerade": {
-    "name": "Booster Box Twilight Masquerade",
-    "link": "https://www.tcgpower.nl/product/17727413/booster-box-twilight-masquerade",
     "price": "N/A",
     "stock": "rupture",
     "boutique": "TCG Power",
@@ -1743,6 +1743,70 @@
     "boutique": "Maison de la Presse",
     "category": "Pokemon"
   },
+  "MaisonPresse::Pokemon::Bundle 6 boosters Mega Evolution - Nuit Noire ME05 Pokémon": {
+    "name": "Bundle 6 boosters Mega Evolution - Nuit Noire ME05 Pokémon",
+    "link": "https://www.maisondelapresse.com/bundle-boosters-me05-pokemon.html",
+    "price": "35,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Bundle 6 boosters ME04 : Chaos Ascendant - Pokémon": {
+    "name": "Bundle 6 boosters ME04 : Chaos Ascendant - Pokémon",
+    "link": "https://www.maisondelapresse.com/bundle-boosters-me04-chaos-ascendant-pokemon.html",
+    "price": "35,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Pack 3 boosters ME04 : Chaos Ascendant - Pokémon": {
+    "name": "Pack 3 boosters ME04 : Chaos Ascendant - Pokémon",
+    "link": "https://www.maisondelapresse.com/pack-3-boosters-me04-chaos-ascendant-pokemon.html",
+    "price": "17,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Coffret Ogerpon EX Premium Pokémon": {
+    "name": "Coffret Ogerpon EX Premium Pokémon",
+    "link": "https://www.maisondelapresse.com/coffret-premium-ogerpon-2024-pokemon.html",
+    "price": "49,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Cahier range-cartes 252 cartes ME04 : Chaos Ascendant - Pokémon": {
+    "name": "Cahier range-cartes 252 cartes ME04 : Chaos Ascendant - Pokémon",
+    "link": "https://www.maisondelapresse.com/cahier-range-cartes-252-cartes-me04-chaos-ascendant-pokemon.html",
+    "price": "18,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Cahier range-cartes 252 cartes Mega Evolution 01 Pokémon": {
+    "name": "Cahier range-cartes 252 cartes Mega Evolution 01 Pokémon",
+    "link": "https://www.maisondelapresse.com/cahier-range-cartes-252-cartes-mega-evolution-01-pokemon.html",
+    "price": "16,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Présentoir 36 Boosters EV08 Etincelles déferlantes Pokémon": {
+    "name": "Présentoir 36 Boosters EV08 Etincelles déferlantes Pokémon",
+    "link": "https://www.maisondelapresse.com/presentoir-08.html",
+    "price": "251,64 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Pack 2 boosters Team Rocket Octobre 2025 Pokémon": {
+    "name": "Pack 2 boosters Team Rocket Octobre 2025 Pokémon",
+    "link": "https://www.maisondelapresse.com/pack-2-boosters-q4-blister-octobre-2025-pokemon.html",
+    "price": "12,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
   "Dealabs::Pokemon::Coffret Premium - Pokemon - Méga-amphinobi Ex": {
     "name": "Coffret Premium - Pokemon - Méga-amphinobi Ex",
     "link": "https://www.dealabs.com/bons-plans/coffret-premium-pokemon-mega-amphinobi-ex-3385359",
@@ -2599,18 +2663,18 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9656282215": {
-    "name": "Pokémon - Display Terastal Festival ex SV8A - EV8.5 - scellée , Neuve",
-    "link": "https://www.vinted.fr/items/9656282215-pokemon-display-terastal-festival-ex-sv8a-ev85-scellee-neuve",
-    "price": "109.99 €",
+  "Vinted::One Piece::9650688123": {
+    "name": "Display The Azure Sea's Seven OP14 One Piece Card Game",
+    "link": "https://www.vinted.fr/items/9650688123-display-the-azure-seas-seven-op14-one-piece-card-game",
+    "price": "120.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
-    "category": "Pokemon"
+    "category": "One Piece"
   },
-  "Vinted::Pokemon::9458700339": {
-    "name": "Display Étincelle Déferlante scellé EV8",
-    "link": "https://www.vinted.fr/items/9458700339-display-etincelle-deferlante-scelle-ev8",
-    "price": "259.0 €",
+  "Vinted::Pokemon::9657477913": {
+    "name": "Reshiram AR stamp scellé aventure ensemble ev9",
+    "link": "https://www.vinted.fr/items/9657477913-reshiram-ar-stamp-scelle-aventure-ensemble-ev9",
+    "price": "110.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
