@@ -2735,12 +2735,36 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9663811914": {
-    "name": "Display ONE pièce op15 scellé.",
-    "link": "https://www.vinted.fr/items/9663811914-display-one-piece-op15-scelle",
-    "price": "225.0 €",
+  "Vinted::Pokemon::9671560231": {
+    "name": "Display EB11 Origine Perdue",
+    "link": "https://www.vinted.fr/items/9671560231-display-eb11-origine-perdue",
+    "price": "400.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
-    "category": "One Piece"
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9671530695": {
+    "name": "Display Ev8 Étincelles Déferlantes",
+    "link": "https://www.vinted.fr/items/9671530695-display-ev8-etincelles-deferlantes",
+    "price": "240.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9671501473": {
+    "name": "Display Ev2 Évolution à Paldea",
+    "link": "https://www.vinted.fr/items/9671501473-display-ev2-evolution-a-paldea",
+    "price": "230.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9671485132": {
+    "name": "Display Ev1 Écarlate et Violet",
+    "link": "https://www.vinted.fr/items/9671485132-display-ev1-ecarlate-et-violet",
+    "price": "200.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
   }
 }
