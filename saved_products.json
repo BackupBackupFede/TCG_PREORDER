@@ -2750,5 +2750,29 @@
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
+  },
+  "Vinted::Pokemon::9674057292": {
+    "name": "Display Pokémon EV8 Étincelles déferlantes Écarlate et violet",
+    "link": "https://www.vinted.fr/items/9674057292-display-pokemon-ev8-etincelles-deferlantes-ecarlate-et-violet",
+    "price": "280.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9674048944": {
+    "name": "Display Pokémon Flammes obsidiennes Écarlate et violet EV3",
+    "link": "https://www.vinted.fr/items/9674048944-display-pokemon-flammes-obsidiennes-ecarlate-et-violet-ev3",
+    "price": "220.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9674041893": {
+    "name": "Display Pokémon Forces temporelles Écarlate et violet EV5",
+    "link": "https://www.vinted.fr/items/9674041893-display-pokemon-forces-temporelles-ecarlate-et-violet-ev5",
+    "price": "270.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
   }
 }
