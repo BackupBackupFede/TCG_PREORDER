@@ -1783,6 +1783,30 @@
     "boutique": "Maison de la Presse",
     "category": "Pokemon"
   },
+  "MaisonPresse::Pokemon::Cahier range-cartes 252 cartes Mega Evolution 01 Pokémon": {
+    "name": "Cahier range-cartes 252 cartes Mega Evolution 01 Pokémon",
+    "link": "https://www.maisondelapresse.com/cahier-range-cartes-252-cartes-mega-evolution-01-pokemon.html",
+    "price": "16,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Présentoir 36 Boosters EV08 Etincelles déferlantes Pokémon": {
+    "name": "Présentoir 36 Boosters EV08 Etincelles déferlantes Pokémon",
+    "link": "https://www.maisondelapresse.com/presentoir-08.html",
+    "price": "251,64 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Pack 2 boosters Team Rocket Octobre 2025 Pokémon": {
+    "name": "Pack 2 boosters Team Rocket Octobre 2025 Pokémon",
+    "link": "https://www.maisondelapresse.com/pack-2-boosters-q4-blister-octobre-2025-pokemon.html",
+    "price": "12,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
   "Dealabs::Pokemon::Coffret Premium - Pokemon - Méga-amphinobi Ex": {
     "name": "Coffret Premium - Pokemon - Méga-amphinobi Ex",
     "link": "https://www.dealabs.com/bons-plans/coffret-premium-pokemon-mega-amphinobi-ex-3385359",
