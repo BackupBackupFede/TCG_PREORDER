@@ -2719,14 +2719,6 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9690272746": {
-    "name": "Vend display op11 sceller",
-    "link": "https://www.vinted.fr/items/9690272746-vend-display-op11-sceller",
-    "price": "290.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
   "Vinted::One Piece::9690243780": {
     "name": "Vend display eb03 sceller",
     "link": "https://www.vinted.fr/items/9690243780-vend-display-eb03-sceller",
@@ -2735,10 +2727,26 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9698329479": {
-    "name": "Demi display EV9 Aventures Ensemble",
-    "link": "https://www.vinted.fr/items/9698329479-demi-display-ev9-aventures-ensemble",
-    "price": "115.0 €",
+  "Vinted::One Piece::9690272746": {
+    "name": "Vend display op11 sceller",
+    "link": "https://www.vinted.fr/items/9690272746-vend-display-op11-sceller",
+    "price": "290.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
+  "Vinted::Pokemon::9699148921": {
+    "name": "Display ME04 - Chaos ascendant",
+    "link": "https://www.vinted.fr/items/9699148921-display-me04-chaos-ascendant",
+    "price": "190.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9698753276": {
+    "name": "4 artset rivalités destinées ev10 pokémon",
+    "link": "https://www.vinted.fr/items/9698753276-4-artset-rivalites-destinees-ev10-pokemon",
+    "price": "140.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
