@@ -2735,12 +2735,36 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9685988430": {
-    "name": "Display onepiece eb03 héroïnes",
-    "link": "https://www.vinted.fr/items/9685988430-display-onepiece-eb03-heroines",
+  "Vinted::Pokemon::9697794396": {
+    "name": "EV10 Rivalités Destinées, display français de 36 boosters",
+    "link": "https://www.vinted.fr/items/9697794396-ev10-rivalites-destinees-display-francais-de-36-boosters",
+    "price": "300.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9697769085": {
+    "name": "display EV09 Aventures Ensemble français de 36 boosters",
+    "link": "https://www.vinted.fr/items/9697769085-display-ev09-aventures-ensemble-francais-de-36-boosters",
+    "price": "200.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9697741440": {
+    "name": "Display EV3 - Flammes Obsidiennes",
+    "link": "https://www.vinted.fr/items/9697741440-display-ev3-flammes-obsidiennes",
     "price": "210.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
-    "category": "One Piece"
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9697734612": {
+    "name": "display Pokémon Écarlate & Violet – Flammes Obsidiennes (EV03)",
+    "link": "https://www.vinted.fr/items/9697734612-display-pokemon-ecarlate-violet-flammes-obsidiennes-ev03",
+    "price": "250.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
   }
 }
