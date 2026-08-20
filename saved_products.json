@@ -1695,6 +1695,46 @@
     "boutique": "CardyX",
     "category": "Pokemon"
   },
+  "CardyX::Pokemon::Pokémon TCG: Scarlet & Violet - Surging Sparks Booster Box": {
+    "name": "Pokémon TCG: Scarlet & Violet - Surging Sparks Booster Box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-scarlet-violet-surging-sparks-booster-box",
+    "price": "329.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon: Prismatic Evolutions - Booster Bundle": {
+    "name": "Pokémon: Prismatic Evolutions - Booster Bundle",
+    "link": "https://cardyx.sk/products/pokemon-prismatic-evolutions-booster-bundle",
+    "price": "98.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - Black Bolt - Booster Bundle": {
+    "name": "Pokémon TCG - Black Bolt - Booster Bundle",
+    "link": "https://cardyx.sk/products/pokemon-tcg-black-bolt-booster-bundle",
+    "price": "91.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - Destined Rivals - Booster Bundle": {
+    "name": "Pokémon TCG - Destined Rivals - Booster Bundle",
+    "link": "https://cardyx.sk/products/pokemon-tcg-destined-rivals-booster-bundle",
+    "price": "77.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Ascended Heroes Premium Poster Collection Mega Lucario": {
+    "name": "Pokémon TCG: Ascended Heroes Premium Poster Collection Mega Lucario",
+    "link": "https://cardyx.sk/products/pokemon-tcg-ascended-heroes-premium-poster-collection-mega-lucario",
+    "price": "169.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
   "Biridama::Pokemon::CSV10C: Chasing Glory Together Jumbo Booster Box": {
     "name": "CSV10C: Chasing Glory Together Jumbo Booster Box",
     "link": "https://biridama.pt/products/csv10c-chasing-glory-together-jumbo-booster-box",
@@ -2470,6 +2510,22 @@
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
+  },
+  "Vinted::Pokemon::9720692057": {
+    "name": "Display Pokémon origine perdu (EB11)",
+    "link": "https://www.vinted.fr/items/9720692057-display-pokemon-origine-perdu-eb11",
+    "price": "390.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9720457270": {
+    "name": "Display de Tins EV4.5 - Destinée de Paldéa",
+    "link": "https://www.vinted.fr/items/9720457270-display-de-tins-ev45-destinee-de-paldea",
+    "price": "279.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
   },
   "Vinted::Pokemon::9720078349": {
     "name": "Display Couronnes stellaire EV07",
