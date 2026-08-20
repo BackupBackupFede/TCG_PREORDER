@@ -1647,6 +1647,14 @@
     "boutique": "Dealabs (Amazon)",
     "category": "Pokemon"
   },
+  "CardyX::Pokemon::Pokémon TCG: Scarlet & Violet - Black Bolt Elite Trainer Box - Pozor mierne poškodená fólia": {
+    "name": "Pokémon TCG: Scarlet & Violet - Black Bolt Elite Trainer Box - Pozor mierne poškodená fólia",
+    "link": "https://cardyx.sk/products/pokemon-tcg-scarlet-violet-black-bolt-elite-trainer-box",
+    "price": "144.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
   "CardyX::Pokemon::Pokemon TCG: Glaceon VSTAR Special Collection": {
     "name": "Pokemon TCG: Glaceon VSTAR Special Collection",
     "link": "https://cardyx.sk/products/pokemon-tcg-glaceon-vstar-special-collection",
@@ -2511,34 +2519,42 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9720692057": {
-    "name": "Display Pokémon origine perdu (EB11)",
-    "link": "https://www.vinted.fr/items/9720692057-display-pokemon-origine-perdu-eb11",
-    "price": "390.0 €",
+  "Vinted::Pokemon::9721308371": {
+    "name": "Display Pokémon Évolution Céleste (EB07) Neuf et Scellé",
+    "link": "https://www.vinted.fr/items/9721308371-display-pokemon-evolution-celeste-eb07-neuf-et-scelle",
+    "price": "880.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9720457270": {
-    "name": "Display de Tins EV4.5 - Destinée de Paldéa",
-    "link": "https://www.vinted.fr/items/9720457270-display-de-tins-ev45-destinee-de-paldea",
-    "price": "279.0 €",
+  "Vinted::Pokemon::9721166332": {
+    "name": "Display EB10 FR Astres Radieux",
+    "link": "https://www.vinted.fr/items/9721166332-display-eb10-fr-astres-radieux",
+    "price": "275.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9720078349": {
-    "name": "Display Couronnes stellaire EV07",
-    "link": "https://www.vinted.fr/items/9720078349-display-couronnes-stellaire-ev07",
+  "Vinted::Pokemon::9721058354": {
+    "name": "Demi display scellée EV09 Aventures Ensemble Pokémon",
+    "link": "https://www.vinted.fr/items/9721058354-demi-display-scellee-ev09-aventures-ensemble-pokemon",
+    "price": "155.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "Pokemon"
+  },
+  "Vinted::Pokemon::9720941350": {
+    "name": "Display Pokémon Étincelles Déferlantes EV08 Neuve",
+    "link": "https://www.vinted.fr/items/9720941350-display-pokemon-etincelles-deferlantes-ev08-neuve",
     "price": "230.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
   },
-  "Vinted::Pokemon::9719989258": {
-    "name": "Lot de 4 boosters EV10 rivalités destinées booster rivalité destine Pokémon",
-    "link": "https://www.vinted.fr/items/9719989258-lot-de-4-boosters-ev10-rivalites-destinees-booster-rivalite-destine-pokemon",
-    "price": "44.99 €",
+  "Vinted::Pokemon::9720692057": {
+    "name": "Display Pokémon origine perdu (EB11)",
+    "link": "https://www.vinted.fr/items/9720692057-display-pokemon-origine-perdu-eb11",
+    "price": "390.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "Pokemon"
