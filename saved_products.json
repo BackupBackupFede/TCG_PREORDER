@@ -2599,10 +2599,10 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
-  "Vinted::One Piece::9716395194": {
-    "name": "One Piece EB03 EB-03 Booster Box Heroines Edition Display ENG 24 Packs | Sealed",
-    "link": "https://www.vinted.fr/items/9716395194-one-piece-eb03-eb-03-booster-box-heroines-edition-display-eng-24-packs-sealed",
-    "price": "220.0 €",
+  "Vinted::One Piece::9716833743": {
+    "name": "Shanks pl op17-020",
+    "link": "https://www.vinted.fr/items/9716833743-shanks-pl-op17-020",
+    "price": "90.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -2611,14 +2611,6 @@
     "name": "Case complète ONe piece  OP17",
     "link": "https://www.vinted.fr/items/9715446079-case-complete-one-piece-op17",
     "price": "2100.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9712773877": {
-    "name": "Master Set PRB02 One Piece – 285 Cartes",
-    "link": "https://www.vinted.fr/items/9712773877-master-set-prb02-one-piece-285-cartes",
-    "price": "150.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -2639,6 +2631,14 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
+  "Vinted::One Piece::9712773877": {
+    "name": "Master Set PRB02 One Piece – 285 Cartes",
+    "link": "https://www.vinted.fr/items/9712773877-master-set-prb02-one-piece-285-cartes",
+    "price": "150.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
   "Vinted::One Piece::9710606649": {
     "name": "Display One Piece OP10 Sang Royal",
     "link": "https://www.vinted.fr/items/9710606649-display-one-piece-op10-sang-royal",
@@ -2654,29 +2654,5 @@
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
-  },
-  "Vinted::One Piece::9709097109": {
-    "name": "BOX Display One Piece OP05",
-    "link": "https://www.vinted.fr/items/9709097109-box-display-one-piece-op05",
-    "price": "180.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::One Piece::9708004948": {
-    "name": "Don Luffy & Zoro + Luffy Pre Realease OP17",
-    "link": "https://www.vinted.fr/items/9708004948-don-luffy-zoro-luffy-pre-realease-op17",
-    "price": "100.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
-  "Vinted::Pokemon::9716075974": {
-    "name": "Pokémon - Demi-display Etincelles Déferlantes / EV8 - neuf, scellé",
-    "link": "https://www.vinted.fr/items/9716075974-pokemon-demi-display-etincelles-deferlantes-ev8-neuf-scelle",
-    "price": "160.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
   }
 }
