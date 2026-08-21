@@ -2638,21 +2638,5 @@
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
-  },
-  "Vinted::Pokemon::9733404045": {
-    "name": "Display ev8 Pokémon étincelles déferlantes",
-    "link": "https://www.vinted.fr/items/9733404045-display-ev8-pokemon-etincelles-deferlantes",
-    "price": "270.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
-  },
-  "Vinted::Pokemon::9733288617": {
-    "name": "Display EV9",
-    "link": "https://www.vinted.fr/items/9733288617-display-ev9",
-    "price": "190.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "Pokemon"
   }
 }
