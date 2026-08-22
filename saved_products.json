@@ -2631,6 +2631,14 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
+  "Vinted::One Piece::9745488690": {
+    "name": "One piece - display OP17 français",
+    "link": "https://www.vinted.fr/items/9745488690-one-piece-display-op17-francais",
+    "price": "300.0 €",
+    "stock": "vinted",
+    "boutique": "Vinted",
+    "category": "One Piece"
+  },
   "Vinted::One Piece::9745394082": {
     "name": "Display One Piece OP17 spécial 4 ans anniversaire neuf !",
     "link": "https://www.vinted.fr/items/9745394082-display-one-piece-op17-special-4-ans-anniversaire-neuf",
@@ -2650,7 +2658,7 @@
   "Vinted::One Piece::9744794771": {
     "name": "Seltene Diamond Don Don!! Card OP17 one piece tcg",
     "link": "https://www.vinted.fr/items/9744794771-seltene-diamond-don-don-card-op17-one-piece-tcg",
-    "price": "249.0 €",
+    "price": "199.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
     "category": "One Piece"
@@ -2663,14 +2671,6 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::One Piece::9742639344": {
-    "name": "Display One Piece OP14 - The Azure Sea’s Seven",
-    "link": "https://www.vinted.fr/items/9742639344-display-one-piece-op14-the-azure-seas-seven",
-    "price": "183.0 €",
-    "stock": "vinted",
-    "boutique": "Vinted",
-    "category": "One Piece"
-  },
   "Vinted::One Piece::9743296574": {
     "name": "Display OP17 One piece",
     "link": "https://www.vinted.fr/items/9743296574-display-op17-one-piece",
@@ -2679,12 +2679,12 @@
     "boutique": "Vinted",
     "category": "One Piece"
   },
-  "Vinted::Pokemon::9744949602": {
-    "name": "Demi display Équilibre parfait ME03 carte pokémon Neuf SCELLÉ",
-    "link": "https://www.vinted.fr/items/9744949602-demi-display-equilibre-parfait-me03-carte-pokemon-neuf-scelle",
-    "price": "113.0 €",
+  "Vinted::One Piece::9742639344": {
+    "name": "Display One Piece OP14 - The Azure Sea’s Seven",
+    "link": "https://www.vinted.fr/items/9742639344-display-one-piece-op14-the-azure-seas-seven",
+    "price": "183.0 €",
     "stock": "vinted",
     "boutique": "Vinted",
-    "category": "Pokemon"
+    "category": "One Piece"
   }
 }
