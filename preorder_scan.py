@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor
 
 # ======================
 # CONFIG
@@ -56,12 +57,46 @@ MDP_POKEMON = "https://www.maisondelapresse.com/jeux-jouets/cartes-collectionner
 # Vinted — sourcing inversé : displays/cases de particuliers sous le prix
 # retail. (Leboncoin est derrière Datadome → infaisable en requests ;
 # utiliser les recherches sauvegardées de l'app à la place.)
+# Vinted desactive le 2026-08-23. Mesures ayant motive la coupe :
+#  - 88,5 % de particuliers ; sur 384 annonces, 44 vendeurs pro (user.business)
+#    et AUCUN ne vend de display scelle Pokemon/One Piece (cartes a l'unite,
+#    sleeves). Filtrer sur les pros ramenerait le flux a zero annonce utile.
+#  - 44 nouvelles cles/jour contre 1 pour l'ensemble des boutiques, pour
+#    1,2 % de l'etat suivi -> le gros du bruit Telegram.
+#  - 12,0 s sur 40,4 s de scraping (29,7 %), soit 12 des 18 s de marge avant
+#    que les runs passent la barre des 60 s et soient factures 2 min.
+# Le code reste en place : repasser a True suffit a le reactiver.
+VINTED_ENABLED = False
+
 VINTED_QUERIES = [
     ("one piece display", "One Piece"),
     ("pokemon display",   "Pokemon"),
 ]
 VINTED_MAX_ALERTS   = 5      # cap par run (le 1er run voit tout comme nouveau)
 VINTED_DISCOUNT_MIN = 0.10   # deal si ≤ 90% du meilleur prix retail connu
+
+# Filtres propres au sourcing Vinted. Les titres de particuliers sont bruités :
+# demi-displays, lots de boosters et cartes à l'unité se font passer pour des
+# displays. Ces trois garde-fous ne s'appliquent qu'au chemin Vinted, les feeds
+# boutiques restent inchangés.
+#
+# 1. Produits partiels : un demi-display classé "display" ressort à -50% du
+#    retail alors que c'est le prix normal de la moitié → fausse affaire.
+VINTED_PARTIAL_RE = re.compile(
+    r"demi[\s\-]?display|half[\s\-]?display|\bdemi\b|\bhalf\b|moiti[\u00e9e]|"
+    r"\b1/2\b|sous[\s\-]?display|\bsplit\b|\b(?:3|6|9|12|18|24)\s*boosters?\b", re.I)
+
+# 2. Langue : sur vinted.fr une annonce sans mention de langue est FR par
+#    défaut. Le flip vise l'anglais → marqueur EN explicite exigé.
+#    (pas de r"\ben\b" : "en" est un mot français très fréquent dans les titres)
+VINTED_EN_RE = re.compile(r"\benglish\b|\banglais\b|\beng\b|\buk\b|\(en\)", re.I)
+# "EN" nu : accepté en MAJUSCULES uniquement (tag de langue), jamais en
+# minuscules où on ramasserait le "en" français de "en parfait état".
+VINTED_EN_UPPER_RE = re.compile(r"\bEN\b")
+
+def vinted_is_english(title):
+    return bool(VINTED_EN_RE.search(title) or VINTED_EN_UPPER_RE.search(title))
+VINTED_REQUIRE_EN = True   # False = accepter aussi les annonces sans mention de langue
 
 # Une réf. retail n'est crédible que si elle est dans la bande MSRP : sur un
 # set épuisé, la seule boutique restante price au niveau collector (ex: EV02 à
@@ -85,6 +120,15 @@ PREORDER_ML = re.compile(
     r"el[őo]rendel|precomand|προπαραγγελ", re.I)
 
 # Tiers scellés dignes d'intérêt flip (on ignore boosters à l'unité, decks...)
+# Plafond de pagination /products.json (250 produits par page). 8 pages =
+# 2000 produits, ce qui couvre les plus gros catalogues suivis.
+SHOPIFY_MAX_PAGES = 8
+
+# Les scrapers passent leur temps bloques sur le reseau, pas sur le CPU :
+# les lancer en parallele fait tomber le run de ~45 s a ~10 s. Plafonne bas
+# pour rester poli (Philibert a 3 cibles sur le meme hote).
+SCRAPER_WORKERS = 6
+
 SHOPIFY_SEALED_TIERS = ("display", "display-promo", "case", "etb", "coffret", "double-pack")
 
 # Langues : One Piece = EN uniquement ; Pokémon = FR accepté (displays FR
@@ -222,7 +266,12 @@ TIER_RULES = [
     ("deck",          [r"\bdeck\b", r"\bstarter\b"]),
     ("coffret",       [r"\bcoffret\b", r"\bbundle\b", r"\btripack\b",
                        r"illustration box", r"mini[\s\-]?tin",
-                       r"\bcollection\b", r"anniversary set"]),
+                       r"\bcollection\b", r"anniversary set",
+                       # "Greninja ex Box", "Sylveon ex Box" (30th Celebration) : scellé
+                       # de valeur qui ne matchait aucun motif → "other", donc filtré par
+                       # SHOPIFY_SEALED_TIERS. "booster box" reste capté plus haut par
+                       # "display" (règle antérieure), cet ajout ne le vole pas.
+                       r"\bex\s+box\b"]),
     ("booster",       [r"\bbooster\b"]),
 ]
 
@@ -247,6 +296,17 @@ def classify_tier(name, price=None, category=None):
         lo, hi = PRICE_SANITY.get((category, "display"), (60, 900))
         if lo <= p <= hi:
             return "display"
+    return "other"
+
+def classify_tier_strict(name):
+    """classify_tier privé de son repli prix : un mot-clé de tier explicite est
+    exigé. Sur Vinted le repli (code de set + prix dans la bande display) promeut
+    des cartes à l'unité et des lots de boosters au rang de display — utile sur
+    les feeds boutiques mal nommés, toxique sur des titres de particuliers."""
+    n = name.lower()
+    for tier, patterns in TIER_RULES:
+        if any(re.search(p, n) for p in patterns):
+            return tier
     return "other"
 
 # ======================
@@ -739,12 +799,25 @@ def scrape_shopify_generic(url, boutique):
 
     `boutique` = nom d'affichage ; `url` = origine du shop sans slash final."""
     base = url.rstrip("/")
-    r = safe_request(f"{base}/products.json?limit=250")
-    if not r:
-        return {}
-    try:
-        items = r.json().get("products", [])
-    except Exception:
+    # Pagination obligatoire : /products.json plafonne a 250 par appel. Les
+    # gros catalogues (Feenturm ~2000, Pokemillon ~1500) mettent leurs nouveautes
+    # au-dela de la page 1 — sans boucle on rate justement les precos recentes.
+    # On s'arrete des qu'une page est incomplete, et au plus tard a SHOPIFY_MAX_PAGES.
+    items = []
+    for page in range(1, SHOPIFY_MAX_PAGES + 1):
+        r = safe_request(f"{base}/products.json?limit=250&page={page}")
+        if not r:
+            break
+        try:
+            batch = r.json().get("products", [])
+        except Exception:
+            break
+        if not batch:
+            break
+        items += batch
+        if len(batch) < 250:
+            break
+    if not items:
         return {}
 
     products = {}
@@ -774,10 +847,17 @@ def scrape_shopify_generic(url, boutique):
         handle = p.get("handle", "")
         link = f"{base}/products/{handle}" if handle else base
         signal = f"{tagtext} {p.get('product_type', '')} {(p.get('body_html') or '')[:2000]}"
-        if PREORDER_ML.search(signal):
+        # Une préco n'est "ouverte" que si le marchand la tague ET qu'au
+        # moins une variante est commandable. Les tags marchands
+        # ("pre-venda"...) restent collés au produit une fois l'allocation
+        # écoulée : sans ce ET, une préco fermée ressort "preorder" à chaque
+        # scan — état figé, donc aucune transition quand elle rouvre.
+        if not any(v.get("available") for v in variants):
+            stock = "rupture"
+        elif PREORDER_ML.search(signal):
             stock = "preorder"
         else:
-            stock = "disponible" if any(v.get("available") for v in variants) else "rupture"
+            stock = "disponible"
 
         key = f"{boutique}::{category}::{name}"
         products[key] = {"name": name, "link": link, "price": price, "stock": stock,
@@ -814,6 +894,10 @@ def scrape_vinted(query, category):
             continue
         if OPENED_RE.search(title):
             continue
+        if VINTED_PARTIAL_RE.search(title):
+            continue
+        if VINTED_REQUIRE_EN and not vinted_is_english(title):
+            continue
         p = it.get("price")
         amount = p.get("amount") if isinstance(p, dict) else p
         price = f"{amount} €"
@@ -821,7 +905,7 @@ def scrape_vinted(query, category):
         if not is_english(title, category):
             continue
         code = extract_set_code(title)
-        tier = classify_tier(title, price, category)
+        tier = classify_tier_strict(title)
         if not code or tier not in ARBITRAGE_TIERS:
             continue
         pv = parse_price(price)
@@ -867,16 +951,31 @@ def get_all_products():
         # déduite par produit, le 3e champ sert de nom d'affichage boutique
         (scrape_shopify_generic, "https://cardyx.sk",   "CardyX"),
         (scrape_shopify_generic, "https://biridama.pt", "Biridama"),
+        # Ajoutees le 2026-08-23 : les deux listers les plus precoces du
+        # balayage 30th (pokemillon a ouvert le 05/03, feenturm annonce ses
+        # fenetres avec date+heure et plafonne a 1 par client).
+        (scrape_shopify_generic, "https://pokemillon.com", "Pokemillon"),
+        (scrape_shopify_generic, "https://feenturm.de",    "Feenturm"),
     ]
-    scrapers += [(scrape_vinted, q, cat) for q, cat in VINTED_QUERIES]
+    if VINTED_ENABLED:
+        scrapers += [(scrape_vinted, q, cat) for q, cat in VINTED_QUERIES]
 
-    for fn, url, cat in scrapers:
+    def run_one(spec):
+        fn, url, cat = spec
         try:
-            data = fn(url, cat)
-            products.update(data)
-            print(f"✅ {fn.__name__} ({cat}) → {len(data)} produits")
+            return fn, cat, fn(url, cat), None
         except Exception as e:
-            print(f"❌ Erreur {fn.__name__}: {e}")
+            return fn, cat, {}, e
+
+    # pool.map preserve l'ordre de `scrapers`, donc la priorite des cles en cas
+    # de collision reste exactement celle de la version sequentielle.
+    with ThreadPoolExecutor(max_workers=SCRAPER_WORKERS) as pool:
+        for fn, cat, data, err in pool.map(run_one, scrapers):
+            if err:
+                print(f"❌ Erreur {fn.__name__}: {err}")
+            else:
+                products.update(data)
+                print(f"✅ {fn.__name__} ({cat}) → {len(data)} produits")
 
     return products
 
