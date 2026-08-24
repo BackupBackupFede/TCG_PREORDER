@@ -3951,6 +3951,22 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
+  "Pokemillon::Pokemon::Palafin ex Box": {
+    "name": "Palafin ex Box",
+    "link": "https://pokemillon.com/products/palafin-ex-box",
+    "price": "32.90 €",
+    "stock": "disponible",
+    "boutique": "Pokemillon",
+    "category": "Pokemon"
+  },
+  "Pokemillon::Pokemon::Houndstone ex Box": {
+    "name": "Houndstone ex Box",
+    "link": "https://pokemillon.com/products/houndstone-ex-box",
+    "price": "33.90 €",
+    "stock": "disponible",
+    "boutique": "Pokemillon",
+    "category": "Pokemon"
+  },
   "Pokemillon::Pokemon::Case 6 Cajas Sobres Juntos de Aventura | Journey Together Booster Box - sv9 - Español": {
     "name": "Case 6 Cajas Sobres Juntos de Aventura | Journey Together Booster Box - sv9 - Español",
     "link": "https://pokemillon.com/products/case-6-cajas-sobres-juntos-de-aventura-surging-sparks-booster-box-sv9-espanol",
