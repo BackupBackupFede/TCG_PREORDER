@@ -1791,14 +1791,6 @@
     "boutique": "Maison de la Presse",
     "category": "Pokemon"
   },
-  "MaisonPresse::Pokemon::Présentoir 36 Boosters EV08 Etincelles déferlantes Pokémon": {
-    "name": "Présentoir 36 Boosters EV08 Etincelles déferlantes Pokémon",
-    "link": "https://www.maisondelapresse.com/presentoir-08.html",
-    "price": "251,64 €",
-    "stock": "rupture",
-    "boutique": "Maison de la Presse",
-    "category": "Pokemon"
-  },
   "Dealabs::Pokemon::Booster Pokémon nuit noire": {
     "name": "Booster Pokémon nuit noire",
     "link": "https://www.dealabs.com/bons-plans/pokemon-nuit-noire-3398915",
