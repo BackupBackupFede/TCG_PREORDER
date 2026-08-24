@@ -1799,6 +1799,14 @@
     "boutique": "Maison de la Presse",
     "category": "Pokemon"
   },
+  "Dealabs::Pokemon::Booster Pokémon nuit noire": {
+    "name": "Booster Pokémon nuit noire",
+    "link": "https://www.dealabs.com/bons-plans/pokemon-nuit-noire-3398915",
+    "price": "5,90€",
+    "stock": "deal",
+    "boutique": "Dealabs (Cdiscount)",
+    "category": "Pokemon"
+  },
   "Dealabs::Pokemon::Coffret 4 Figurines Funko Bitty POP! Pokemon": {
     "name": "Coffret 4 Figurines Funko Bitty POP! Pokemon",
     "link": "https://www.dealabs.com/bons-plans/funko-bitty-pop-pokemon-coffret-4-figurines-3396869",
