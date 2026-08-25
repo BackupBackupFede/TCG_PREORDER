@@ -1807,6 +1807,46 @@
     "boutique": "Dealabs (Amazon)",
     "category": "Pokemon"
   },
+  "CardyX::Pokemon::Pokémon TCG: 30th Celebration Greninja Ex Box": {
+    "name": "Pokémon TCG: 30th Celebration Greninja Ex Box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-30th-celebration-greninja-ex-box",
+    "price": "64.99 €",
+    "stock": "preorder",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: 30th Celebration Sylveon Ex Box": {
+    "name": "Pokémon TCG: 30th Celebration Sylveon Ex Box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-30th-celebration-sylveon-ex-box",
+    "price": "64.99 €",
+    "stock": "preorder",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: 30th Celebration Binder Collection": {
+    "name": "Pokémon TCG: 30th Celebration Binder Collection",
+    "link": "https://cardyx.sk/products/pokemon-tcg-30th-celebration-binder-collection",
+    "price": "94.99 €",
+    "stock": "preorder",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: 30th Celebration Poster Collection": {
+    "name": "Pokémon TCG: 30th Celebration Poster Collection",
+    "link": "https://cardyx.sk/products/pokemon-tcg-30th-celebration-poster-collection",
+    "price": "54.99 €",
+    "stock": "preorder",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - 30th Anniversary Celebrations - Elite Trainer Box": {
+    "name": "Pokémon TCG - 30th Anniversary Celebrations - Elite Trainer Box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-30th-anniversary-celebrations-elite-trainer-box",
+    "price": "189.99 €",
+    "stock": "preorder",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
   "CardyX::Pokemon::Pokémon TCG: Ascended Heroes First Partners Deluxe Pin Collection": {
     "name": "Pokémon TCG: Ascended Heroes First Partners Deluxe Pin Collection",
     "link": "https://cardyx.sk/products/pokemon-tcg-ascended-heroes-first-partners-deluxe-pin-collection",
