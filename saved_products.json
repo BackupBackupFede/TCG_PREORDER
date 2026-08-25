@@ -527,6 +527,14 @@
     "boutique": "TCG Power",
     "category": "Pokemon"
   },
+  "MysteryMedia::One Piece::One Piece OP-17 The World’s Strongest Warriors": {
+    "name": "One Piece OP-17 The World’s Strongest Warriors",
+    "link": "https://mysterymedia.nl/shop/trading-card-games/one-piece/one-piece-boosterboxen/one-piece-op-17-the-worlds-strongest-warriors/",
+    "price": "€ 179,00",
+    "stock": "preorder",
+    "boutique": "Mystery Media",
+    "category": "One Piece"
+  },
   "MysteryMedia::One Piece::ST-36 – One Piece Starter Deck – Captain Kid": {
     "name": "ST-36 – One Piece Starter Deck – Captain Kid",
     "link": "https://mysterymedia.nl/shop/trading-card-games/one-piece/one-piece-decks/st-36-one-piece-starter-deck-captain-kid/",
@@ -826,14 +834,6 @@
   "MysteryMedia::One Piece::ST-09 – One Piece Starter Deck Yamato": {
     "name": "ST-09 – One Piece Starter Deck Yamato",
     "link": "https://mysterymedia.nl/shop/trading-card-games/one-piece/one-piece-decks/st-09-one-piece-starter-deck-yamato/",
-    "price": "€ 14,99",
-    "stock": "rupture",
-    "boutique": "Mystery Media",
-    "category": "One Piece"
-  },
-  "MysteryMedia::One Piece::ST-08 – One Piece Starter Deck Monkey.D.Luffy": {
-    "name": "ST-08 – One Piece Starter Deck Monkey.D.Luffy",
-    "link": "https://mysterymedia.nl/shop/trading-card-games/one-piece/one-piece-decks/st-08-one-piece-starter-deck-monkey-d-luffy/",
     "price": "€ 14,99",
     "stock": "rupture",
     "boutique": "Mystery Media",
