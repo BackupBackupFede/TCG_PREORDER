@@ -539,7 +539,7 @@
     "name": "ST-36 – One Piece Starter Deck – Captain Kid",
     "link": "https://mysterymedia.nl/shop/trading-card-games/one-piece/one-piece-decks/st-36-one-piece-starter-deck-captain-kid/",
     "price": "€ 20,00",
-    "stock": "preorder",
+    "stock": "disponible",
     "boutique": "Mystery Media",
     "category": "One Piece"
   },
@@ -547,7 +547,7 @@
     "name": "ST-35 – One Piece Starter Deck – Sabo",
     "link": "https://mysterymedia.nl/shop/trading-card-games/one-piece/one-piece-decks/st-35-one-piece-starter-deck-sabo/",
     "price": "€ 20,00",
-    "stock": "preorder",
+    "stock": "disponible",
     "boutique": "Mystery Media",
     "category": "One Piece"
   },
@@ -555,7 +555,7 @@
     "name": "ST-34 – One Piece Starter Deck – Charlotte Katakuri",
     "link": "https://mysterymedia.nl/shop/trading-card-games/one-piece/one-piece-decks/st-34-one-piece-starter-deck-charlotte-katakuri/",
     "price": "€ 20,00",
-    "stock": "preorder",
+    "stock": "disponible",
     "boutique": "Mystery Media",
     "category": "One Piece"
   },
@@ -563,7 +563,7 @@
     "name": "ST-33 – One Piece Starter Deck – Kuzan",
     "link": "https://mysterymedia.nl/shop/trading-card-games/one-piece/one-piece-decks/st-33-one-piece-starter-deck-kuzan/",
     "price": "€ 20,00",
-    "stock": "preorder",
+    "stock": "disponible",
     "boutique": "Mystery Media",
     "category": "One Piece"
   },
@@ -571,7 +571,7 @@
     "name": "ST-32 – One Piece Starter Deck – Zoro",
     "link": "https://mysterymedia.nl/shop/trading-card-games/one-piece/one-piece-decks/st-32-one-piece-starter-deck-zoro/",
     "price": "€ 25,00",
-    "stock": "preorder",
+    "stock": "rupture",
     "boutique": "Mystery Media",
     "category": "One Piece"
   },
@@ -579,7 +579,7 @@
     "name": "ST-31 – One Piece Starter Deck – Luffy",
     "link": "https://mysterymedia.nl/shop/trading-card-games/one-piece/one-piece-decks/st-31-one-piece-starter-deck-luffy/",
     "price": "€ 25,00",
-    "stock": "preorder",
+    "stock": "disponible",
     "boutique": "Mystery Media",
     "category": "One Piece"
   },
@@ -1883,7 +1883,7 @@
     "name": "Pokémon: Prismatic Evolutions - Booster Bundle",
     "link": "https://cardyx.sk/products/pokemon-prismatic-evolutions-booster-bundle",
     "price": "98.99 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
