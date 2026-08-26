@@ -355,7 +355,7 @@
     "name": "Halve Booster Box Perfect Order",
     "link": "https://www.tcgpower.nl/product/23899932/halve-booster-box-perfect-order",
     "price": "N/A",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "TCG Power",
     "category": "Pokemon"
   },
@@ -1805,6 +1805,14 @@
     "price": "8,99€",
     "stock": "deal",
     "boutique": "Dealabs (Amazon)",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: 30th Anniversary Celebrations  - 10x Elite Trainer Box (Case)": {
+    "name": "Pokémon TCG: 30th Anniversary Celebrations  - 10x Elite Trainer Box (Case)",
+    "link": "https://cardyx.sk/products/pokemon-tcg-30th-anniversary-celebrations-10x-elite-trainer-box-case",
+    "price": "1929.99 €",
+    "stock": "preorder",
+    "boutique": "CardyX",
     "category": "Pokemon"
   },
   "CardyX::Pokemon::Pokémon TCG: Unova Heavy Hitters Premium Collection box": {
