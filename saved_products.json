@@ -1811,7 +1811,7 @@
     "name": "Pokémon TCG: 30th Anniversary Celebrations  - 10x Elite Trainer Box (Case)",
     "link": "https://cardyx.sk/products/pokemon-tcg-30th-anniversary-celebrations-10x-elite-trainer-box-case",
     "price": "1929.99 €",
-    "stock": "preorder",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -1859,7 +1859,7 @@
     "name": "Pokémon TCG - 30th Anniversary Celebrations - Elite Trainer Box",
     "link": "https://cardyx.sk/products/pokemon-tcg-30th-anniversary-celebrations-elite-trainer-box",
     "price": "189.99 €",
-    "stock": "preorder",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -2811,7 +2811,7 @@
     "name": "Gem Pack Vol. 4 Booster Box",
     "link": "https://biridama.pt/products/gem-pack-vol-4-booster-box",
     "price": "37.50 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "Biridama",
     "category": "Pokemon"
   },
@@ -4571,7 +4571,7 @@
     "name": "One Piece OP17 The World's Strongest Warriors",
     "link": "https://pokemillon.com/products/caja-op17",
     "price": "239.61 €",
-    "stock": "rupture",
+    "stock": "disponible",
     "boutique": "Pokemillon",
     "category": "One Piece"
   },
