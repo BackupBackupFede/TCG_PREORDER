@@ -1543,14 +1543,6 @@
     "boutique": "Maison de la Presse",
     "category": "Pokemon"
   },
-  "MaisonPresse::Pokemon::Cahier range-cartes 252 cartes ME05 Pokémon": {
-    "name": "Cahier range-cartes 252 cartes ME05 Pokémon",
-    "link": "https://www.maisondelapresse.com/cahier-range-cartes-252-cartes-me05-pokemon.html",
-    "price": "18,99 €",
-    "stock": "rupture",
-    "boutique": "Maison de la Presse",
-    "category": "Pokemon"
-  },
   "MaisonPresse::Pokemon::Booster ME04 : Chaos Ascendant - Pokémon modèle aléatoire": {
     "name": "Booster ME04 : Chaos Ascendant - Pokémon modèle aléatoire",
     "link": "https://www.maisondelapresse.com/booster-unite-me04-chaos-ascendant-pokemon.html",
@@ -1759,6 +1751,14 @@
     "boutique": "Maison de la Presse",
     "category": "Pokemon"
   },
+  "MaisonPresse::Pokemon::Cahier range-cartes 252 cartes ME05 Pokémon": {
+    "name": "Cahier range-cartes 252 cartes ME05 Pokémon",
+    "link": "https://www.maisondelapresse.com/cahier-range-cartes-252-cartes-me05-pokemon.html",
+    "price": "18,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
   "MaisonPresse::Pokemon::Bundle 6 boosters ME04 : Chaos Ascendant - Pokémon": {
     "name": "Bundle 6 boosters ME04 : Chaos Ascendant - Pokémon",
     "link": "https://www.maisondelapresse.com/bundle-boosters-me04-chaos-ascendant-pokemon.html",
@@ -1805,6 +1805,14 @@
     "price": "8,99€",
     "stock": "deal",
     "boutique": "Dealabs (Amazon)",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Unova Heavy Hitters Premium Collection box": {
+    "name": "Pokémon TCG: Unova Heavy Hitters Premium Collection box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-unova-heavy-hitters-premium-collection-box",
+    "price": "164.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
     "category": "Pokemon"
   },
   "CardyX::Pokemon::Pokémon TCG: 30th Celebration Greninja Ex Box": {
