@@ -1843,7 +1843,7 @@
     "name": "Pokémon TCG: 30th Anniversary Celebrations  - 10x Elite Trainer Box (Case)",
     "link": "https://cardyx.sk/products/pokemon-tcg-30th-anniversary-celebrations-10x-elite-trainer-box-case",
     "price": "1929.99 €",
-    "stock": "rupture",
+    "stock": "preorder",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -1891,7 +1891,7 @@
     "name": "Pokémon TCG - 30th Anniversary Celebrations - Elite Trainer Box",
     "link": "https://cardyx.sk/products/pokemon-tcg-30th-anniversary-celebrations-elite-trainer-box",
     "price": "189.99 €",
-    "stock": "rupture",
+    "stock": "preorder",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -1979,14 +1979,6 @@
     "name": "Pokémon: Prismatic Evolutions - Booster Bundle",
     "link": "https://cardyx.sk/products/pokemon-prismatic-evolutions-booster-bundle",
     "price": "98.99 €",
-    "stock": "rupture",
-    "boutique": "CardyX",
-    "category": "Pokemon"
-  },
-  "CardyX::Pokemon::Pokémon TCG - Black Bolt - Booster Bundle": {
-    "name": "Pokémon TCG - Black Bolt - Booster Bundle",
-    "link": "https://cardyx.sk/products/pokemon-tcg-black-bolt-booster-bundle",
-    "price": "91.99 €",
     "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
@@ -2363,7 +2355,7 @@
     "name": "Pokémon TCG: Scarlet & Violet 151- Booster Bundle",
     "link": "https://cardyx.sk/products/pokemon-tcg-scarlet-violet-151-booster-bundle",
     "price": "179.99 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -4579,7 +4571,7 @@
     "name": "Bundle 6 Sobres Oscuridad Absoluta | Pitch Black",
     "link": "https://pokemillon.com/products/bundle-pitch-black",
     "price": "36.90 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "Pokemillon",
     "category": "Pokemon"
   },
