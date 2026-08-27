@@ -1311,18 +1311,18 @@
     "boutique": "Philibert",
     "category": "Pokemon"
   },
-  "Philibert::Pokemon::Pokémon : Collection Illustration Premiers Partenaires – Série 2": {
-    "name": "Pokémon : Collection Illustration Premiers Partenaires – Série 2",
-    "link": "https://www.philibertnet.com/fr/pokemon/176709-pokemon-collection-illustration-premiers-partenaires-serie-2-0196214139770.html",
-    "price": "21,95€",
-    "stock": "disponible",
-    "boutique": "Philibert",
-    "category": "Pokemon"
-  },
   "Philibert::Pokemon::Pokémon : Lot de 5 MiniPokébox - Chaos Ascendant": {
     "name": "Pokémon : Lot de 5 MiniPokébox - Chaos Ascendant",
     "link": "https://www.philibertnet.com/fr/pokemon/176708-pokemon-lot-de-5-minipokebox-chaos-ascendant-2100001357733.html",
     "price": "64,95€",
+    "stock": "disponible",
+    "boutique": "Philibert",
+    "category": "Pokemon"
+  },
+  "Philibert::Pokemon::Pokémon : Boîte Méga Clair de Lune - Méga-Mélodelfe-ex": {
+    "name": "Pokémon : Boîte Méga Clair de Lune - Méga-Mélodelfe-ex",
+    "link": "https://www.philibertnet.com/fr/pokemon/176707-pokemon-boite-mega-clair-de-lune-mega-melodelfe-ex-2100001357320.html",
+    "price": "27,95€",
     "stock": "disponible",
     "boutique": "Philibert",
     "category": "Pokemon"
