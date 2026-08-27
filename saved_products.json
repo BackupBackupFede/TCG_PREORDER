@@ -1090,24 +1090,24 @@
   "Philibert::Pokemon::Pokémon - Pokébox Méga Puissances - Méga-Zeraora-ex": {
     "name": "Pokémon - Pokébox Méga Puissances - Méga-Zeraora-ex",
     "link": "https://www.philibertnet.com/fr/pokemon/180965-pokemon-pokebox-mega-puissances-mega-zeraora-ex-2100001398187.html",
-    "price": "N/A",
-    "stock": "rupture",
+    "price": "27,95€",
+    "stock": "disponible",
     "boutique": "Philibert",
     "category": "Pokemon"
   },
   "Philibert::Pokemon::Pokémon - Pokébox Méga Puissances - Méga-Darkrai-ex": {
     "name": "Pokémon - Pokébox Méga Puissances - Méga-Darkrai-ex",
     "link": "https://www.philibertnet.com/fr/pokemon/180964-pokemon-pokebox-mega-puissances-mega-darkrai-ex-2100001398194.html",
-    "price": "N/A",
-    "stock": "rupture",
+    "price": "27,95€",
+    "stock": "disponible",
     "boutique": "Philibert",
     "category": "Pokemon"
   },
   "Philibert::Pokemon::Pokémon - Pokébox Méga Puissances - Méga-Dracolosse-Ex": {
     "name": "Pokémon - Pokébox Méga Puissances - Méga-Dracolosse-Ex",
     "link": "https://www.philibertnet.com/fr/pokemon/180963-pokemon-pokebox-mega-puissances-mega-dracolosse-ex-2100001398170.html",
-    "price": "N/A",
-    "stock": "rupture",
+    "price": "27,95€",
+    "stock": "disponible",
     "boutique": "Philibert",
     "category": "Pokemon"
   },
@@ -1831,6 +1831,14 @@
     "boutique": "Dealabs (Amazon)",
     "category": "Pokemon"
   },
+  "CardyX::Pokemon::Pokémon Black Bolt and White Flare Unova Poster Collection": {
+    "name": "Pokémon Black Bolt and White Flare Unova Poster Collection",
+    "link": "https://cardyx.sk/products/pokemon-black-bolt-and-white-flare-unova-poster-collection",
+    "price": "54.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
   "CardyX::Pokemon::Pokémon TCG: 30th Anniversary Celebrations  - 10x Elite Trainer Box (Case)": {
     "name": "Pokémon TCG: 30th Anniversary Celebrations  - 10x Elite Trainer Box (Case)",
     "link": "https://cardyx.sk/products/pokemon-tcg-30th-anniversary-celebrations-10x-elite-trainer-box-case",
@@ -1883,7 +1891,7 @@
     "name": "Pokémon TCG - 30th Anniversary Celebrations - Elite Trainer Box",
     "link": "https://cardyx.sk/products/pokemon-tcg-30th-anniversary-celebrations-elite-trainer-box",
     "price": "189.99 €",
-    "stock": "preorder",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -1891,7 +1899,7 @@
     "name": "Pokémon TCG: Ascended Heroes First Partners Deluxe Pin Collection",
     "link": "https://cardyx.sk/products/pokemon-tcg-ascended-heroes-first-partners-deluxe-pin-collection",
     "price": "69.99 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -1955,7 +1963,7 @@
     "name": "Pokémon TCG: Twilight Masquerade Booster Box",
     "link": "https://cardyx.sk/products/pokemon-twilight-masquerade-booster-box",
     "price": "319.99 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -2307,7 +2315,7 @@
     "name": "Pokémon TCG: Ascended Heroes Mega Feraligatr EX Box",
     "link": "https://cardyx.sk/products/pokemon-tcg-ascended-heroes-mega-feraligatr-ex-box",
     "price": "53.99 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -2315,7 +2323,7 @@
     "name": "Pokémon TCG: Ascended Heroes Mega Meganium EX Box",
     "link": "https://cardyx.sk/products/pokemon-tcg-ascended-heroes-mega-meganium-ex-box",
     "price": "53.99 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -2323,7 +2331,7 @@
     "name": "Pokémon TCG: Ascended Heroes Mega Emboar EX Box",
     "link": "https://cardyx.sk/products/pokemon-ascended-heroes-mega-emboar-ex-box",
     "price": "53.99 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
