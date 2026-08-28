@@ -4023,6 +4023,14 @@
     "boutique": "Biridama",
     "category": "Pokemon"
   },
+  "Pokemillon::Pokemon::Pokémon Center ETB Celebrations 30th": {
+    "name": "Pokémon Center ETB Celebrations 30th",
+    "link": "https://pokemillon.com/products/pokemon-center-etb-celebrations-30th",
+    "price": "299.90 €",
+    "stock": "rupture",
+    "boutique": "Pokemillon",
+    "category": "Pokemon"
+  },
   "Pokemillon::Pokemon::Case 10 Mini Lata Lumiose City | Ciudad Luminalia": {
     "name": "Case 10 Mini Lata Lumiose City | Ciudad Luminalia",
     "link": "https://pokemillon.com/products/case-10-mini-lata-lumiose-city-ciudad-luminalia-1",
@@ -5674,7 +5682,7 @@
   "Pokemillon::Pokemon::ETB Celebraciones 30 Aniversario | Élite Celebrations 30th": {
     "name": "ETB Celebraciones 30 Aniversario | Élite Celebrations 30th",
     "link": "https://pokemillon.com/products/etb-30th",
-    "price": "61.90 €",
+    "price": "69.90 €",
     "stock": "rupture",
     "boutique": "Pokemillon",
     "category": "Pokemon"
