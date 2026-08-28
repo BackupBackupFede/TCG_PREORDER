@@ -1831,6 +1831,46 @@
     "boutique": "Dealabs (Amazon)",
     "category": "Pokemon"
   },
+  "CardyX::Pokemon::Pokémon TCG -Mega Brave - Pokémon Center Collection - Lucario": {
+    "name": "Pokémon TCG -Mega Brave - Pokémon Center Collection - Lucario",
+    "link": "https://cardyx.sk/products/pokemon-tcg-mega-brave-pokemon-center-collection-lucario",
+    "price": "179.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - Black Bolt & White Flare - Unova Mini Tin Display": {
+    "name": "Pokémon TCG - Black Bolt & White Flare - Unova Mini Tin Display",
+    "link": "https://cardyx.sk/products/pokemon-tcg-black-bolt-white-flare-unova-mini-tin-display",
+    "price": "239.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon Black Bolt and White Flare Unova Victini Illustration Collection Box": {
+    "name": "Pokémon Black Bolt and White Flare Unova Victini Illustration Collection Box",
+    "link": "https://cardyx.sk/products/pokemon-black-bolt-and-white-flare-unova-victini-illustration-collection-box",
+    "price": "59.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG - Mimikyu ex Box": {
+    "name": "Pokémon TCG - Mimikyu ex Box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-mimikyu-ex-box",
+    "price": "69.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Crown Zenith Elite Trainer Box + Akrilový ochranný box": {
+    "name": "Pokémon TCG: Crown Zenith Elite Trainer Box + Akrilový ochranný box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-crown-zenith-elite-trainer-box-sword-and-shield-12-5",
+    "price": "349.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
   "CardyX::Pokemon::Pokémon Black Bolt and White Flare Unova Poster Collection": {
     "name": "Pokémon Black Bolt and White Flare Unova Poster Collection",
     "link": "https://cardyx.sk/products/pokemon-black-bolt-and-white-flare-unova-poster-collection",
@@ -1843,7 +1883,7 @@
     "name": "Pokémon TCG: 30th Anniversary Celebrations  - 10x Elite Trainer Box (Case)",
     "link": "https://cardyx.sk/products/pokemon-tcg-30th-anniversary-celebrations-10x-elite-trainer-box-case",
     "price": "1929.99 €",
-    "stock": "rupture",
+    "stock": "preorder",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -1892,14 +1932,6 @@
     "link": "https://cardyx.sk/products/pokemon-tcg-30th-anniversary-celebrations-elite-trainer-box",
     "price": "189.99 €",
     "stock": "preorder",
-    "boutique": "CardyX",
-    "category": "Pokemon"
-  },
-  "CardyX::Pokemon::Pokémon TCG: Ascended Heroes First Partners Deluxe Pin Collection": {
-    "name": "Pokémon TCG: Ascended Heroes First Partners Deluxe Pin Collection",
-    "link": "https://cardyx.sk/products/pokemon-tcg-ascended-heroes-first-partners-deluxe-pin-collection",
-    "price": "69.99 €",
-    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -2355,7 +2387,7 @@
     "name": "Pokémon TCG: Scarlet & Violet 151- Booster Bundle",
     "link": "https://cardyx.sk/products/pokemon-tcg-scarlet-violet-151-booster-bundle",
     "price": "179.99 €",
-    "stock": "rupture",
+    "stock": "disponible",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -4555,7 +4587,7 @@
     "name": "Caja 18 Sobres Gem Pack Vol. 5 Horizonts Booster Box",
     "link": "https://pokemillon.com/products/caja-gem-pack-vol-5-horizonts",
     "price": "89.99 €",
-    "stock": "preorder",
+    "stock": "rupture",
     "boutique": "Pokemillon",
     "category": "Pokemon"
   },
