@@ -1883,7 +1883,7 @@
     "name": "Pokémon TCG: 30th Anniversary Celebrations  - 10x Elite Trainer Box (Case)",
     "link": "https://cardyx.sk/products/pokemon-tcg-30th-anniversary-celebrations-10x-elite-trainer-box-case",
     "price": "1929.99 €",
-    "stock": "preorder",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -4054,6 +4054,14 @@
     "stock": "rupture",
     "boutique": "Biridama",
     "category": "Pokemon"
+  },
+  "Pokemillon::One Piece::One Piece | Booster Box 30 Sobres de One Piece by Netflix": {
+    "name": "One Piece | Booster Box 30 Sobres de One Piece by Netflix",
+    "link": "https://pokemillon.com/products/one-piece-booster-box-30-sobres-de-one-piece-by-netflix",
+    "price": "29.90 €",
+    "stock": "disponible",
+    "boutique": "Pokemillon",
+    "category": "One Piece"
   },
   "Pokemillon::Pokemon::Pokémon Center ETB Celebrations 30th": {
     "name": "Pokémon Center ETB Celebrations 30th",
