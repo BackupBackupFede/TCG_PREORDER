@@ -48,11 +48,15 @@ DATA = os.path.join(HERE, "..", "data")
 WATCHLIST = os.path.join(DATA, "watchlist.csv")
 STATE = os.path.join(DATA, "skuwatch_state.json")
 
-# Jamais d'adresse en dur ici : ce fichier peut finir sur un depot public.
-# Le brief demande un User-Agent identifiable -> l'adresse vient du secret
-# CONTACT_EMAIL. Sans lui on annonce un contact neutre plutot que rien.
-CONTACT = os.getenv("CONTACT_EMAIL", "contact-non-renseigne")
-UA = {"User-Agent": f"Mozilla/5.0 (compatible; FlippingResearchBot/1.0; +mailto:{CONTACT})"}
+# Le brief exige un User-Agent identifiable ET joignable. On pointe le depot
+# public plutot qu'une adresse personnelle : un admin qui voit passer ce bot
+# dans ses logs peut lire exactement ce qu'il fait, sa cadence et sa liste de
+# cibles. C'est plus informatif qu'un mailto, et ca n'expose rien de prive.
+# CONTACT_EMAIL reste honore s'il est pose, mais il n'est pas necessaire.
+DEPOT = "https://github.com/BackupBackupFede/TCG_PREORDER"
+CONTACT = os.getenv("CONTACT_EMAIL", "")
+IDENT = f"mailto:{CONTACT}" if CONTACT else DEPOT
+UA = {"User-Agent": f"Mozilla/5.0 (compatible; FlippingResearchBot/1.0; +{IDENT})"}
 
 PAUSE_PAR_PAGE = 1.0      # politesse intra-domaine : une page par seconde, jamais moins
 # Domaines traites en meme temps. La politesse se compte PAR domaine, donc rien

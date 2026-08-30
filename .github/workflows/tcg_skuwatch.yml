@@ -40,7 +40,7 @@ jobs:
           # Connexion datacenter : le plafond local (partage de connexion
           # telephone, 3 fils max) ne s'applique pas ici.
           SKUWATCH_PARALLELE: "8"
-          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+          # CONTACT_EMAIL non pose : le User-Agent pointe le depot public a la place.
           TELEGRAM_TOKEN_2: ${{ secrets.TELEGRAM_TOKEN_2 }}
           TELEGRAM_CHAT_ID_2: ${{ secrets.TELEGRAM_CHAT_ID_2 }}
         run: python tools/skuwatch.py
