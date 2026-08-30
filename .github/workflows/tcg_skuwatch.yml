@@ -1,0 +1,65 @@
+name: TCG SKU Watch
+
+# Veille par diff de SKU sur /products.json (voir watchlist.md).
+# Deux regles seulement : un SKU qui apparait = preco/nouveaute, indispo -> dispo
+# = restock. Le prix est affiche mais ne declenche rien.
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    # Toutes les 30 min de 6h a 21h UTC. Rien la nuit : les boutiques ne
+    # publient pas. 32 runs/jour. Le depot est public -> minutes illimitees,
+    # contrairement au bot preco qui, lui, tient dans les 2000 min gratuites.
+    - cron: "*/30 6-21 * * *"
+  workflow_dispatch:
+
+# Deux runs qui se chevauchent se battraient sur l'etat et sur le push.
+concurrency:
+  group: tcg-skuwatch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # skuwatch.py n'utilise que la bibliotheque standard : pas de pip install.
+
+      - name: Veille SKU
+        env:
+          # Connexion datacenter : le plafond local (partage de connexion
+          # telephone, 3 fils max) ne s'applique pas ici.
+          SKUWATCH_PARALLELE: "8"
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+          TELEGRAM_TOKEN_2: ${{ secrets.TELEGRAM_TOKEN_2 }}
+          TELEGRAM_CHAT_ID_2: ${{ secrets.TELEGRAM_CHAT_ID_2 }}
+        run: python tools/skuwatch.py
+
+      - name: Commit de l'etat
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/skuwatch_state.json
+          git diff --cached --quiet && exit 0
+          # Le bot preco pousse sur la meme branche toutes les 15 min :
+          # on rejoue par-dessus plutot que d'echouer sur un push refuse.
+          for essai in 1 2 3; do
+            git pull --rebase --autostash origin main
+            git add data/skuwatch_state.json
+            git diff --cached --quiet && exit 0
+            git commit -m "skuwatch state $(date -u '+%Y-%m-%d %H:%M')" || true
+            if git push; then exit 0; fi
+            sleep 5
+          done
+          echo "push impossible apres 3 tentatives" >&2
+          exit 1

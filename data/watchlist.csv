@@ -1,0 +1,55 @@
+domaine,pays,statut,refs,en,en_dispo,jp,jp_dispo,livraison_hors_pays,note
+onepiece-cards.com,FR,actif,750,441,140,309,88,OUI,"France : livraison en point relais 3,90 EUR - annoncee sur la boutique"
+fantasiacards.de,DE,actif,528,285,241,243,203,OUI,liste de pays UE explicite - meilleur taux de dispo mesure
+todohits.com,ES,actif,377,287,24,90,63,OUI,envios internacionales (Correos)
+baruzcard.it,IT,actif,356,304,50,52,11,A_CONFIRMER,selecteur pays seulement - verifier au 1er panier
+outpostbrussels.be,BE,actif,353,346,49,7,2,OUI,selecteur pays incl. France
+crispycards.de,DE,actif,310,272,118,38,16,OUI,selecteur pays UE incl. Frankreich
+aquitaz.se,SE,actif,260,225,21,35,6,OUI,international shipping annonce
+otakura.com,IT,actif,248,222,47,26,2,OUI,Spedizioni in Europa (UE) avec grille par zone
+yonko-tcg.de,DE,actif,192,39,5,153,27,OUI,selecteur pays UE incl. Frankreich
+godofcards.de,DE,actif,176,21,1,155,47,OUI,selecteur pays UE incl. Frankreich
+1uprm.com,IT,actif,171,170,21,1,0,OUI,selecteur pays incl. Francia
+cardzone.es,ES,actif,170,87,25,83,36,OUI,resto de Europa
+pokechest.at,AT,actif,157,120,16,37,11,OUI,verifie 2026-08-29 politique + selecteur pays
+tcgdirect.fr,FR,actif,141,0,0,141,109,OUI,JP pur - meilleur taux de dispo JP
+cardcosmos.de,DE,actif,124,112,42,12,5,OUI,liste de pays UE explicite
+evlutcg.com,EU,actif,98,96,37,2,0,OUI,worldwide shipping annonce
+madridnortetcg.com,ES,actif,79,71,20,8,8,OUI,selecteur pays incl. Francia
+relictcg.com,FR,actif,77,37,21,40,20,A_CONFIRMER,boutique FR (Toulouse) - pas de politique d expedition trouvee
+metamorphcenter.com,ES,actif,77,34,12,43,3,OUI,liste de pays dans la politique
+pokedirris.de,DE,actif,75,19,8,56,3,OUI,EU-Inland 6-8 Werktage
+tcgviert.com,DE,actif,63,50,41,13,13,OUI,mention Nicht-EU Laender donc UE couverte
+pokeca.nl,NL,actif,59,15,7,44,15,OUI,Overige EU-landen 14.99 EUR
+collectorstorecards.it,IT,actif,59,58,12,1,0,OUI,politique d expedition europeenne
+gradedzone.it,IT,actif,51,20,1,31,10,OUI,liste de pays dans la politique
+itcg.bg,BG,actif,48,9,5,39,23,UNKNOWN,Speedy courrier BG seul - demander par mail avant de commander
+rarecards.nl,NL,actif,24,0,0,24,11,OUI,wij verzenden naar heel Europa
+pokefamily.nl,NL,actif,24,0,0,24,16,OUI,liste de pays dans la politique
+gs-gameon.com,IT,actif,91,9,9,82,82,OUI,"Spediamo in tutta Italia e in tutta l Unione Europea" - 82 JP dispo sur 82
+starzcollectibles.com,DE,actif,93,3,1,90,34,OUI,"innerhalb Deutschlands und in die Laender der EU" - import direct Japon
+pikamon.eu,EU,actif,111,61,20,50,6,OUI,Insured EU shipping - EN et JP equilibres
+pokejapan.store,EU,actif,75,0,0,75,48,OUI,"Shipped from the EU" - clause douane a lire (vise sans doute le hors-UE)
+biridama.pt,PT,banc,23,16,2,7,1,OUI,Uniao Europeia 3-10 dias - volume en baisse depuis juillet
+kamehousecards.com,ES,banc,16,8,3,8,6,OUI,selecteur pays incl. Francia
+pokybox.com,SI,banc,14,0,0,14,9,UNKNOWN,politique muette
+pokevend.at,AT,banc,19,11,0,8,2,UNKNOWN,non verifie
+magicomens.com,HR,banc,10,0,0,10,0,A_CONFIRMER,selecteur pays seulement
+elduelista.com,ES,banc,9,0,0,9,3,OUI,selecteur pays incl. Francia
+tradingtoys.de,DE,banc,20,13,9,7,2,OUI,Allemagne - petit volume
+tcglevel.com,ES,banc,14,3,3,11,5,OUI,Espagne - petit volume
+pokeninjapan.store,UNKNOWN,banc,30,2,0,28,17,UNKNOWN,pays cites incl. Chine et Hong Kong - origine d expedition a verifier
+zenpan-eu.com,EU,banc,4,0,0,4,0,OUI,antenne UE de Zenpan - en conges estivaux au moment du scan
+cardyx.sk,SK,retrograde,5,1,1,4,4,OUI,ex-coeur - 5 refs au perimetre sur 929 produits
+zadoys.ch,CH,hors_ue,59,4,1,55,49,OUI,HORS UE - TVA import + douane a l entree UE
+cardtreasure.ch,CH,hors_ue,44,4,2,40,29,OUI,HORS UE - worldwide mais douane
+pixel-hub.co.uk,GB,hors_ue,17,1,0,16,2,OUI,HORS UE - port international 49.99 GBP
+japan2uk.com,GB,hors_ue,234,150,7,84,59,OUI,HORS UE - expedie du Royaume-Uni, douane a l entree UE
+zenpan-japan.com,JP,hors_ue,62,11,6,51,26,OUI,HORS UE - expedie du Japon
+pokeunlimited.com,US,hors_ue,105,35,2,70,29,UNKNOWN,HORS UE - CGV de droit americain
+tcg-corner.com,JP,hors_ue,14,5,3,9,5,OUI,HORS UE - expedie du Japon
+titancards.co.uk,GB,hors_ue,11,1,0,10,9,OUI,HORS UE - Royaume-Uni
+itsukijapan.com,JP,hors_ue,7,0,0,7,7,OUI,HORS UE - expedie du Japon
+matraws.dk,DK,exclu,16,0,0,16,11,NON,vi leverer ikke til udlandet
+pockomonsters.dk,DK,exclu,10,10,3,0,0,NON,vi leverer ikke til udlandet
+cardgame-club.it,IT,exclu,38,23,1,15,0,NON,livre en Italie uniquement
