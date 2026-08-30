@@ -55,8 +55,8 @@ STATE = os.path.join(DATA, "skuwatch_state.json")
 # CONTACT_EMAIL reste honore s'il est pose, mais il n'est pas necessaire.
 DEPOT = "https://github.com/BackupBackupFede/TCG_PREORDER"
 CONTACT = os.getenv("CONTACT_EMAIL", "")
-IDENT = f"mailto:{CONTACT}" if CONTACT else DEPOT
-UA = {"User-Agent": f"Mozilla/5.0 (compatible; FlippingResearchBot/1.0; +{IDENT})"}
+IDENT = f"+{DEPOT}" + (f"; mailto:{CONTACT}" if CONTACT else "")
+UA = {"User-Agent": f"Mozilla/5.0 (compatible; FlippingResearchBot/1.0; {IDENT})"}
 
 PAUSE_PAR_PAGE = 1.0      # politesse intra-domaine : une page par seconde, jamais moins
 # Domaines traites en meme temps. La politesse se compte PAR domaine, donc rien
