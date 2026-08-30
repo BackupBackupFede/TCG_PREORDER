@@ -154,9 +154,11 @@ def charge_cibles(avec_banc):
 
 def notifie(lignes):
     texte = "\n".join(lignes)
+    # Toujours tracer, meme quand on envoie sur Telegram : sinon un run GitHub
+    # n'a aucune trace de ce qu'il a notifie et devient impossible a auditer.
+    print(texte, flush=True)
     token, chat = os.getenv("TELEGRAM_TOKEN_2"), os.getenv("TELEGRAM_CHAT_ID_2")
     if not (token and chat):
-        print(texte)
         return
     for i in range(0, len(texte), 3500):
         data = urllib.parse.urlencode({
