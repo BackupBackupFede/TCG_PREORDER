@@ -4162,7 +4162,7 @@
   "Pokemillon::Pokemon::ETB Dominio Delta | Élite Delta Reign": {
     "name": "ETB Dominio Delta | Élite Delta Reign",
     "link": "https://pokemillon.com/products/etb-dominio-delta-elite-delta-reign",
-    "price": "59.90 €",
+    "price": "64.90 €",
     "stock": "rupture",
     "boutique": "Pokemillon",
     "category": "Pokemon"
@@ -4707,7 +4707,7 @@
     "name": "One Piece Caja 24 Sobres OP16 The Time of the Battle",
     "link": "https://pokemillon.com/products/op-16-the-time-of-the-battle",
     "price": "149.90 €",
-    "stock": "disponible",
+    "stock": "preorder",
     "boutique": "Pokemillon",
     "category": "One Piece"
   },
@@ -5194,8 +5194,8 @@
   "Pokemillon::Pokemon::Caja Armarouge ex Premium Collection": {
     "name": "Caja Armarouge ex Premium Collection",
     "link": "https://pokemillon.com/products/armarouge-ex",
-    "price": "56.90 €",
-    "stock": "rupture",
+    "price": "46.90 €",
+    "stock": "preorder",
     "boutique": "Pokemillon",
     "category": "Pokemon"
   },
@@ -5220,6 +5220,14 @@
     "link": "https://pokemillon.com/products/one-piece-double-pack-set-vol-5-ingles-2023",
     "price": "11.90 €",
     "stock": "rupture",
+    "boutique": "Pokemillon",
+    "category": "One Piece"
+  },
+  "Pokemillon::One Piece::One Piece | Caja 24 Sobres OP08 Two Legends": {
+    "name": "One Piece | Caja 24 Sobres OP08 Two Legends",
+    "link": "https://pokemillon.com/products/caja-op-08",
+    "price": "69.90 €",
+    "stock": "preorder",
     "boutique": "Pokemillon",
     "category": "One Piece"
   },
@@ -5291,7 +5299,7 @@
     "name": "Super Premium Collection Charizard ex Figure",
     "link": "https://pokemillon.com/products/super-premium-collection-charizard-ex",
     "price": "89.90 €",
-    "stock": "rupture",
+    "stock": "preorder",
     "boutique": "Pokemillon",
     "category": "Pokemon"
   },
@@ -5323,7 +5331,7 @@
     "name": "Booster Bundle Evoluciones Prismáticas | Prismatic Evolutions",
     "link": "https://pokemillon.com/products/booster-bundle-prismatic-evolutions",
     "price": "79.90 €",
-    "stock": "rupture",
+    "stock": "preorder",
     "boutique": "Pokemillon",
     "category": "Pokemon"
   },
@@ -5795,7 +5803,7 @@
     "name": "One Piece Caja 24 Sobres OP14 The Azure Sea's Seven EB04",
     "link": "https://pokemillon.com/products/caja-op-14-the-azure-sea-seven",
     "price": "74.99 €",
-    "stock": "rupture",
+    "stock": "preorder",
     "boutique": "Pokemillon",
     "category": "One Piece"
   },
