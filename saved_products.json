@@ -167,11 +167,11 @@
     "boutique": "Aiala Ocio",
     "category": "One Piece"
   },
-  "Aiala::One Piece::PREORDER One Piece Card Game OP-17 CASE Inglés (12 boxes)": {
-    "name": "PREORDER One Piece Card Game OP-17 CASE Inglés (12 boxes)",
+  "Aiala::One Piece::One Piece Card Game OP-17 CASE Inglés (12 boxes)": {
+    "name": "One Piece Card Game OP-17 CASE Inglés (12 boxes)",
     "link": "https://aialaocio.com/en/products/preorder-one-piece-card-game-op-17-case-ingles-12-boxes",
-    "price": "€4.099,95 EUR",
-    "stock": "preorder",
+    "price": "€3.899,95 EUR",
+    "stock": "disponible",
     "boutique": "Aiala Ocio",
     "category": "One Piece"
   },
@@ -203,6 +203,14 @@
     "name": "PREORDER Case One Piece TCG EB-03 Extra Booster",
     "link": "https://aialaocio.com/en/products/preorder-case-one-piece-tcg-eb-03-extra-booster",
     "price": "€2.849,95 EUR",
+    "stock": "preorder",
+    "boutique": "Aiala Ocio",
+    "category": "One Piece"
+  },
+  "Aiala::One Piece::PREORDER One Piece Card Game OP-18 CASE Inglés (12 boxes)": {
+    "name": "PREORDER One Piece Card Game OP-18 CASE Inglés (12 boxes)",
+    "link": "https://aialaocio.com/en/products/preorder-one-piece-card-game-op-18-case-ingles-12-boxes",
+    "price": "€2.999,95 EUR",
     "stock": "preorder",
     "boutique": "Aiala Ocio",
     "category": "One Piece"
@@ -531,7 +539,7 @@
     "name": "One Piece OP-17 The World’s Strongest Warriors",
     "link": "https://mysterymedia.nl/shop/trading-card-games/one-piece/one-piece-boosterboxen/one-piece-op-17-the-worlds-strongest-warriors/",
     "price": "€ 179,00",
-    "stock": "preorder",
+    "stock": "rupture",
     "boutique": "Mystery Media",
     "category": "One Piece"
   },
@@ -1831,6 +1839,30 @@
     "boutique": "Dealabs (Amazon)",
     "category": "Pokemon"
   },
+  "CardyX::Pokemon::Pokémon Prismatic Evolutions Figure Collection - Pozor mierne poškodený box": {
+    "name": "Pokémon Prismatic Evolutions Figure Collection - Pozor mierne poškodený box",
+    "link": "https://cardyx.sk/products/pokemon-prismatic-evolutions-figure-collection",
+    "price": "229.99 €",
+    "stock": "rupture",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Fusion Strike - Elite Trainer Box + akrilový ochranný box": {
+    "name": "Pokémon TCG: Fusion Strike - Elite Trainer Box + akrilový ochranný box",
+    "link": "https://cardyx.sk/products/pokemon-tcg-sword-shield-fusion-strike-elite-trainer-box",
+    "price": "399.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon Prismatic Evolutions Elite Trainer Box": {
+    "name": "Pokémon Prismatic Evolutions Elite Trainer Box",
+    "link": "https://cardyx.sk/products/pokemon-prismatic-evolutions-elite-trainer-box",
+    "price": "174.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
   "CardyX::Pokemon::Pokémon TCG -Mega Brave - Pokémon Center Collection - Lucario": {
     "name": "Pokémon TCG -Mega Brave - Pokémon Center Collection - Lucario",
     "link": "https://cardyx.sk/products/pokemon-tcg-mega-brave-pokemon-center-collection-lucario",
@@ -1867,7 +1899,7 @@
     "name": "Pokémon TCG: Crown Zenith Elite Trainer Box + Akrilový ochranný box",
     "link": "https://cardyx.sk/products/pokemon-tcg-crown-zenith-elite-trainer-box-sword-and-shield-12-5",
     "price": "349.99 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -2551,6 +2583,14 @@
     "boutique": "CardyX",
     "category": "Pokemon"
   },
+  "Biridama::Pokemon::Gem Pack Vol. 6 Booster Box": {
+    "name": "Gem Pack Vol. 6 Booster Box",
+    "link": "https://biridama.pt/products/gem-pack-vol-6-booster-box",
+    "price": "43.00 €",
+    "stock": "preorder",
+    "boutique": "Biridama",
+    "category": "Pokemon"
+  },
   "Biridama::Pokemon::[DAMAGED] Ninja Spinner Booster Box": {
     "name": "[DAMAGED] Ninja Spinner Booster Box",
     "link": "https://biridama.pt/products/ninja-spinner-booster-box",
@@ -3106,8 +3146,8 @@
   "Biridama::Pokemon::Prismatic Evolutions Premium Figure Collection": {
     "name": "Prismatic Evolutions Premium Figure Collection",
     "link": "https://biridama.pt/products/prismatic-evolutions-premium-figure-collection",
-    "price": "235.00 €",
-    "stock": "disponible",
+    "price": "230.00 €",
+    "stock": "rupture",
     "boutique": "Biridama",
     "category": "Pokemon"
   },
@@ -4179,7 +4219,7 @@
     "name": "Grass Leafeon Collection VSTAR Special Card Set",
     "link": "https://pokemillon.com/products/grass-leafeon-collection-vstar-special-card-set",
     "price": "39.90 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "Pokemillon",
     "category": "Pokemon"
   },
@@ -5203,7 +5243,7 @@
     "name": "Caja Armarouge ex Premium Collection",
     "link": "https://pokemillon.com/products/armarouge-ex",
     "price": "46.90 €",
-    "stock": "preorder",
+    "stock": "disponible",
     "boutique": "Pokemillon",
     "category": "Pokemon"
   },
