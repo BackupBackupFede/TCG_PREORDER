@@ -1799,6 +1799,30 @@
     "boutique": "Maison de la Presse",
     "category": "Pokemon"
   },
+  "MaisonPresse::Pokemon::Cahier range-cartes 252 cartes ME04 : Chaos Ascendant - Pokémon": {
+    "name": "Cahier range-cartes 252 cartes ME04 : Chaos Ascendant - Pokémon",
+    "link": "https://www.maisondelapresse.com/cahier-range-cartes-252-cartes-me04-chaos-ascendant-pokemon.html",
+    "price": "18,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Cahier range-cartes 80 cartes ME04 : Chaos Ascendant - Pokémon": {
+    "name": "Cahier range-cartes 80 cartes ME04 : Chaos Ascendant - Pokémon",
+    "link": "https://www.maisondelapresse.com/cahier-range-cartes-80-cartes-me04-chaos-ascendant-pokemon.html",
+    "price": "13,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
+  "MaisonPresse::Pokemon::Cahier range-cartes 252 cartes Mega Evolution 01 Pokémon": {
+    "name": "Cahier range-cartes 252 cartes Mega Evolution 01 Pokémon",
+    "link": "https://www.maisondelapresse.com/cahier-range-cartes-252-cartes-mega-evolution-01-pokemon.html",
+    "price": "16,99 €",
+    "stock": "rupture",
+    "boutique": "Maison de la Presse",
+    "category": "Pokemon"
+  },
   "Dealabs::Pokemon::Booster Pokémon nuit noire": {
     "name": "Booster Pokémon nuit noire",
     "link": "https://www.dealabs.com/bons-plans/pokemon-nuit-noire-3398915",
@@ -1835,7 +1859,7 @@
     "name": "Pokémon Prismatic Evolutions Elite Trainer Box - pozor mierne poškodený box",
     "link": "https://cardyx.sk/products/pokemon-prismatic-evolutions-elite-trainer-box",
     "price": "164.99 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -1891,7 +1915,7 @@
     "name": "Pokémon TCG: 30th Anniversary Celebrations  - 10x Elite Trainer Box (Case)",
     "link": "https://cardyx.sk/products/pokemon-tcg-30th-anniversary-celebrations-10x-elite-trainer-box-case",
     "price": "1929.99 €",
-    "stock": "rupture",
+    "stock": "preorder",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -1939,7 +1963,7 @@
     "name": "Pokémon TCG - 30th Anniversary Celebrations - Elite Trainer Box",
     "link": "https://cardyx.sk/products/pokemon-tcg-30th-anniversary-celebrations-elite-trainer-box",
     "price": "189.99 €",
-    "stock": "preorder",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -4667,7 +4691,7 @@
     "name": "Dialga Forma Origen VAstro Premium Collection",
     "link": "https://pokemillon.com/products/dialga-vstar-box",
     "price": "49.90 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "Pokemillon",
     "category": "Pokemon"
   },
@@ -5699,7 +5723,7 @@
     "name": "One Piece Caja 24 Sobres Memorial Collection EB04 Egghead Crisis",
     "link": "https://pokemillon.com/products/one-piece-memorial-collection-eb-04",
     "price": "119.90 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "Pokemillon",
     "category": "One Piece"
   },
