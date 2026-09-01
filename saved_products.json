@@ -1783,46 +1783,6 @@
     "boutique": "Maison de la Presse",
     "category": "Pokemon"
   },
-  "MaisonPresse::Pokemon::Cahier range-cartes 252 cartes ME05 Pokémon": {
-    "name": "Cahier range-cartes 252 cartes ME05 Pokémon",
-    "link": "https://www.maisondelapresse.com/cahier-range-cartes-252-cartes-me05-pokemon.html",
-    "price": "18,99 €",
-    "stock": "rupture",
-    "boutique": "Maison de la Presse",
-    "category": "Pokemon"
-  },
-  "MaisonPresse::Pokemon::Bundle 6 boosters ME04 : Chaos Ascendant - Pokémon": {
-    "name": "Bundle 6 boosters ME04 : Chaos Ascendant - Pokémon",
-    "link": "https://www.maisondelapresse.com/bundle-boosters-me04-chaos-ascendant-pokemon.html",
-    "price": "35,99 €",
-    "stock": "rupture",
-    "boutique": "Maison de la Presse",
-    "category": "Pokemon"
-  },
-  "MaisonPresse::Pokemon::Cahier range-cartes 252 cartes ME04 : Chaos Ascendant - Pokémon": {
-    "name": "Cahier range-cartes 252 cartes ME04 : Chaos Ascendant - Pokémon",
-    "link": "https://www.maisondelapresse.com/cahier-range-cartes-252-cartes-me04-chaos-ascendant-pokemon.html",
-    "price": "18,99 €",
-    "stock": "rupture",
-    "boutique": "Maison de la Presse",
-    "category": "Pokemon"
-  },
-  "MaisonPresse::Pokemon::Cahier range-cartes 80 cartes ME04 : Chaos Ascendant - Pokémon": {
-    "name": "Cahier range-cartes 80 cartes ME04 : Chaos Ascendant - Pokémon",
-    "link": "https://www.maisondelapresse.com/cahier-range-cartes-80-cartes-me04-chaos-ascendant-pokemon.html",
-    "price": "13,99 €",
-    "stock": "rupture",
-    "boutique": "Maison de la Presse",
-    "category": "Pokemon"
-  },
-  "MaisonPresse::Pokemon::Cahier range-cartes 252 cartes Mega Evolution 01 Pokémon": {
-    "name": "Cahier range-cartes 252 cartes Mega Evolution 01 Pokémon",
-    "link": "https://www.maisondelapresse.com/cahier-range-cartes-252-cartes-mega-evolution-01-pokemon.html",
-    "price": "16,99 €",
-    "stock": "rupture",
-    "boutique": "Maison de la Presse",
-    "category": "Pokemon"
-  },
   "Dealabs::Pokemon::Booster Pokémon nuit noire": {
     "name": "Booster Pokémon nuit noire",
     "link": "https://www.dealabs.com/bons-plans/pokemon-nuit-noire-3398915",
@@ -1839,11 +1799,27 @@
     "boutique": "Dealabs (Amazon)",
     "category": "Pokemon"
   },
-  "CardyX::Pokemon::Pokémon Prismatic Evolutions Figure Collection - Pozor mierne poškodený box": {
-    "name": "Pokémon Prismatic Evolutions Figure Collection - Pozor mierne poškodený box",
-    "link": "https://cardyx.sk/products/pokemon-prismatic-evolutions-figure-collection",
-    "price": "229.99 €",
-    "stock": "rupture",
+  "CardyX::Pokemon::Pokémon TCG: Silver Tempest Elite Trainer Box Sword and Shield 12": {
+    "name": "Pokémon TCG: Silver Tempest Elite Trainer Box Sword and Shield 12",
+    "link": "https://cardyx.sk/products/pokemon-tcg-silver-tempest-elite-trainer-box-sword-and-shield-12",
+    "price": "149.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon TCG: Ascended Heroes First Partners Deluxe Pin Collection": {
+    "name": "Pokémon TCG: Ascended Heroes First Partners Deluxe Pin Collection",
+    "link": "https://cardyx.sk/products/pokemon-tcg-ascended-heroes-first-partners-deluxe-pin-collection",
+    "price": "69.99 €",
+    "stock": "disponible",
+    "boutique": "CardyX",
+    "category": "Pokemon"
+  },
+  "CardyX::Pokemon::Pokémon Mega Latias ex Box": {
+    "name": "Pokémon Mega Latias ex Box",
+    "link": "https://cardyx.sk/products/pokemon-mega-latias-ex-box",
+    "price": "39.99 €",
+    "stock": "disponible",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -1852,14 +1828,6 @@
     "link": "https://cardyx.sk/products/pokemon-tcg-sword-shield-fusion-strike-elite-trainer-box",
     "price": "399.99 €",
     "stock": "disponible",
-    "boutique": "CardyX",
-    "category": "Pokemon"
-  },
-  "CardyX::Pokemon::Pokémon Prismatic Evolutions Elite Trainer Box - pozor mierne poškodený box": {
-    "name": "Pokémon Prismatic Evolutions Elite Trainer Box - pozor mierne poškodený box",
-    "link": "https://cardyx.sk/products/pokemon-prismatic-evolutions-elite-trainer-box",
-    "price": "164.99 €",
-    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -1895,19 +1863,11 @@
     "boutique": "CardyX",
     "category": "Pokemon"
   },
-  "CardyX::Pokemon::Pokémon TCG: Crown Zenith Elite Trainer Box + Akrilový ochranný box": {
-    "name": "Pokémon TCG: Crown Zenith Elite Trainer Box + Akrilový ochranný box",
-    "link": "https://cardyx.sk/products/pokemon-tcg-crown-zenith-elite-trainer-box-sword-and-shield-12-5",
-    "price": "349.99 €",
-    "stock": "rupture",
-    "boutique": "CardyX",
-    "category": "Pokemon"
-  },
   "CardyX::Pokemon::Pokémon Black Bolt and White Flare Unova Poster Collection": {
     "name": "Pokémon Black Bolt and White Flare Unova Poster Collection",
     "link": "https://cardyx.sk/products/pokemon-black-bolt-and-white-flare-unova-poster-collection",
     "price": "54.99 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -1923,7 +1883,7 @@
     "name": "Pokémon TCG: Unova Heavy Hitters Premium Collection box",
     "link": "https://cardyx.sk/products/pokemon-tcg-unova-heavy-hitters-premium-collection-box",
     "price": "164.99 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -2091,7 +2051,7 @@
     "name": "Pokémon TCG: Lost Origin Elite Trainer Box",
     "link": "https://cardyx.sk/products/pokemon-tcg-lost-origin-elite-trainer-box-pozor-poskodeny-box-copy",
     "price": "219.99 €",
-    "stock": "disponible",
+    "stock": "rupture",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
@@ -2387,7 +2347,7 @@
     "name": "Pokémon TCG: Ascended Heroes Mega Emboar EX Box",
     "link": "https://cardyx.sk/products/pokemon-ascended-heroes-mega-emboar-ex-box",
     "price": "53.99 €",
-    "stock": "rupture",
+    "stock": "disponible",
     "boutique": "CardyX",
     "category": "Pokemon"
   },
