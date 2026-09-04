@@ -5252,6 +5252,13 @@
   }
  },
  "fantasiacards.de": {
+  "union-arena-tengen-toppa-gurren-lagann-booster-jp": {
+   "titre": "Union Arena - Tengen Toppa Gurren Lagann - Booster [JP]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 5.99,
+   "url": "https://fantasiacards.de/products/union-arena-tengen-toppa-gurren-lagann-booster-jp"
+  },
   "weiss-schwarz-rent-a-girlfriend-vol-2-display-eng-vorbestellung-release-29-01-27": {
    "titre": "Weiß Schwarz - Rent a Girlfriend Vol.2 - Display [ENG] (Vorbestellung - Release: 29.01.27)",
    "langue": "EN",
@@ -5319,7 +5326,7 @@
    "titre": "Union Arena - Tengen Toppa Gurren Lagann - Display [JP]",
    "langue": "JP",
    "dispo": true,
-   "prix": 99.99,
+   "prix": 89.99,
    "url": "https://fantasiacards.de/products/union-arena-tengen-toppa-gurren-lagann-display-jp-vorbestellung-release-anfang-september-2026"
   },
   "one-piece-card-game-4th-anniversary-treasure-campaign-pack-jp": {
@@ -6344,13 +6351,6 @@
    "prix": 49.99,
    "url": "https://fantasiacards.de/products/hololive-official-card-game-diva-fever-display-jp"
   },
-  "weiss-schwarz-ga-bunko-display-jp": {
-   "titre": "Weiß Schwarz - GA Bunko - Display [JP]",
-   "langue": "JP",
-   "dispo": false,
-   "prix": 79.99,
-   "url": "https://fantasiacards.de/products/weiss-schwarz-ga-bunko-display-jp"
-  },
   "one-piece-card-game-op13-carrying-on-his-will-booster-eng": {
    "titre": "One Piece Card Game - OP13 - Carrying on his Will - Booster [ENG]",
    "langue": "EN",
@@ -6617,13 +6617,6 @@
    "prix": 99.99,
    "url": "https://fantasiacards.de/products/weiss-schwarz-date-a-live-vol-2-display-eng"
   },
-  "weiss-schwarz-azur-lane-vol-2-display-eng": {
-   "titre": "Weiß Schwarz - Azur Lane Vol. 2 - Display [ENG]",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 89.99,
-   "url": "https://fantasiacards.de/products/weiss-schwarz-azur-lane-vol-2-display-eng"
-  },
   "weiss-schwarz-grandblue-fantasy-display-jp-vorbestellung-release-26-06-2026": {
    "titre": "Weiß Schwarz - Granblue Fantasy - Display [JP]",
    "langue": "JP",
@@ -6875,13 +6868,6 @@
    "dispo": true,
    "prix": 99.99,
    "url": "https://fantasiacards.de/products/dragon-ball-super-card-game-masters-rise-of-the-unison-warrior-display-eng"
-  },
-  "weiss-schwarz-captain-tsubasa-display-jp": {
-   "titre": "Weiß Schwarz - Captain Tsubasa - Display [JP]",
-   "langue": "JP",
-   "dispo": false,
-   "prix": 49.99,
-   "url": "https://fantasiacards.de/products/weiss-schwarz-captain-tsubasa-display-jp"
   },
   "weiss-schwarz-dandadan-jp-1": {
    "titre": "Weiß Schwarz - Dandadan - Display [JP]",
@@ -7362,8 +7348,8 @@
   "union-arena-sakamoto-days-display-jp": {
    "titre": "Union Arena - Sakamoto Days - Display [JP]",
    "langue": "JP",
-   "dispo": false,
-   "prix": 69.99,
+   "dispo": true,
+   "prix": 79.99,
    "url": "https://fantasiacards.de/products/union-arena-sakamoto-days-display-jp"
   },
   "weiss-schwarz-yuru-camp-season-3-display-jp": {
@@ -7972,7 +7958,7 @@
    "titre": "Union Arena - Sword Art Online Vol.2 - Display [ENG]",
    "langue": "EN",
    "dispo": true,
-   "prix": 129.99,
+   "prix": 139.99,
    "url": "https://fantasiacards.de/products/union-arena-sword-art-online-vol-2-display-eng-1"
   },
   "build-divide-bright-the-irregular-at-magic-highschool-display-jp": {
@@ -8237,8 +8223,8 @@
   "union-arena-kaiju-no-8-display-eng": {
    "titre": "Union Arena - Kaiju No.8 - Display [ENG]",
    "langue": "EN",
-   "dispo": false,
-   "prix": 119.99,
+   "dispo": true,
+   "prix": 149.99,
    "url": "https://fantasiacards.de/products/union-arena-kaiju-no-8-display-eng"
   },
   "union-arena-code-geass-lelouch-of-the-rebellion-vol-2-display-eng": {
@@ -26261,7 +26247,7 @@
   "vault-bundle-vendetta-riftbound-league-of-legends-tcg-ingles": {
    "titre": "Vault Bundle Vendetta - Riftbound: League of Legends TCG - Ingles",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 35.95,
    "url": "https://cardzone.es/products/vault-bundle-vendetta-riftbound-league-of-legends-tcg-ingles"
   },
