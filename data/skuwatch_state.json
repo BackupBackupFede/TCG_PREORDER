@@ -7037,13 +7037,6 @@
    "prix": 119.99,
    "url": "https://fantasiacards.de/products/pokemon-ascended-heroes-booster-bundle-eng"
   },
-  "weiss-schwarz-umamusume-pretty-derby-beginning-of-a-new-era-display-jp-vorbestellung-release-06-11-26": {
-   "titre": "Weiß Schwarz - Umamusume: Pretty Derby - Beginning of a New Era - Display [ENG]",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 74.99,
-   "url": "https://fantasiacards.de/products/weiss-schwarz-umamusume-pretty-derby-beginning-of-a-new-era-display-jp-vorbestellung-release-06-11-26"
-  },
   "pokemon-chaos-rising-display-eng": {
    "titre": "Pokemon - Chaos Rising - Display [ENG]",
    "langue": "EN",
@@ -7103,7 +7096,7 @@
   "haikyu-hv-p03-all-japan-youth-miyagi-first-years-selection-training-camp-display-jp-vorbestellung-release-27-06-26": {
    "titre": "Haikyu!! - HV-P03 - All-Japan Youth & Miyagi First Years' Selection Training Camp - Display [JP]",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 69.99,
    "url": "https://fantasiacards.de/products/haikyu-hv-p03-all-japan-youth-miyagi-first-years-selection-training-camp-display-jp-vorbestellung-release-27-06-26"
   },
@@ -7380,13 +7373,6 @@
    "prix": 59.99,
    "url": "https://fantasiacards.de/products/weiss-schwarz-yuru-camp-season-3-display-jp"
   },
-  "weiss-schwarz-rose-lose-whisp-display-jp": {
-   "titre": "Weiß Schwarz Rose - Lose Whisp - Display [JP]",
-   "langue": "JP",
-   "dispo": false,
-   "prix": 79.99,
-   "url": "https://fantasiacards.de/products/weiss-schwarz-rose-lose-whisp-display-jp"
-  },
   "weiss-schwarz-too-many-losing-heroines-display-eng": {
    "titre": "Weiß Schwarz - Too Many Losing Heroines! Display [ENG]",
    "langue": "EN",
@@ -7442,13 +7428,6 @@
    "dispo": true,
    "prix": 69.99,
    "url": "https://fantasiacards.de/products/weiss-schwarz-rose-interspecies-reviewers-display-jp"
-  },
-  "weiss-schwarz-toy-story-30-years-and-beyond-display-jp": {
-   "titre": "Weiß Schwarz - Toy Story 30 Years and Beyond - Display [JP]",
-   "langue": "JP",
-   "dispo": false,
-   "prix": 59.99,
-   "url": "https://fantasiacards.de/products/weiss-schwarz-toy-story-30-years-and-beyond-display-jp"
   },
   "weiss-schwarz-kaiju-no-8-display-jp": {
    "titre": "Weiß Schwarz - Kaiju No. 8 - Display [JP]",
@@ -7799,13 +7778,6 @@
    "dispo": true,
    "prix": 21.99,
    "url": "https://fantasiacards.de/products/one-piece-op03-pillars-of-strength-booster-englisch"
-  },
-  "weiss-schwarz-blau-fire-force-display-jp-vorbestellung-release-10-04-26": {
-   "titre": "Weiß Schwarz Blau - Detektiv Conan 30th Aniversary - Premium Display [JP]",
-   "langue": "JP",
-   "dispo": false,
-   "prix": 49.99,
-   "url": "https://fantasiacards.de/products/weiss-schwarz-blau-fire-force-display-jp-vorbestellung-release-10-04-26"
   },
   "pokemon-prismatic-evolutions-booster-eng": {
    "titre": "Pokemon - Prismatic Evolutions - Booster [ENG]",
@@ -11643,8 +11615,8 @@
   "cyberpunk-tcg-beta-display-box-24-buste-eng": {
    "titre": "Cyberpunk TCG Welcome to Night City Beta Booster Box 36 Buste – ENG",
    "langue": "EN",
-   "dispo": false,
-   "prix": 229.9,
+   "dispo": true,
+   "prix": 244.9,
    "url": "https://baruzcard.it/products/cyberpunk-tcg-beta-display-box-24-buste-eng"
   },
   "one-piece-card-game-3rd-anniversary-set-luffy-ace-sabo-eng": {
@@ -12413,7 +12385,7 @@
   "digimon-card-game-bt24-time-stranger-box-display-eng": {
    "titre": "Digimon Card Game BT24 Time Stranger Box Display ENG",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 99.9,
    "url": "https://baruzcard.it/products/digimon-card-game-bt24-time-stranger-box-display-eng"
   },
@@ -22615,7 +22587,7 @@
   "jp-one-piece-saikyo-jump-2026-promokarten-set-luffy-ace-newgate": {
    "titre": "[JP] One Piece Saikyo Jump 2026 Promokarten Set: Luffy, Ace & Newgate",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 44.95,
    "url": "https://yonko-tcg.de/products/jp-one-piece-saikyo-jump-2026-promokarten-set-luffy-ace-newgate"
   },
@@ -30428,7 +30400,7 @@
    "titre": "Yu-Gi-Oh! Magnificent Monsters - EU English - Sealed Case (12x Displays) Preorder",
    "langue": "EN",
    "dispo": true,
-   "prix": 550.0,
+   "prix": 420.0,
    "url": "https://evlutcg.com/products/yu-gi-oh-magnificent-monsters-eu-english-sealed-case-12x-displays"
   },
   "one-piece-card-game-eb05-sealed-case-12x-booster-boxes-english-preorder": {
@@ -33328,7 +33300,7 @@
   "pokemon-tcg-mega-evolutions-pitch-black-me05-3-pack-blister-en-preorder-17-07-26-limit-1-person-beschreibung-beachten": {
    "titre": "Pokémon TCG | Mega Evolutions: Pitch Black (ME05) | 3-Pack Blister (EN)  (Limit: 1/Person)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 16.99,
    "url": "https://tcgviert.com/products/pokemon-tcg-mega-evolutions-pitch-black-me05-3-pack-blister-en-preorder-17-07-26-limit-1-person-beschreibung-beachten"
   },
