@@ -5252,6 +5252,41 @@
   }
  },
  "fantasiacards.de": {
+  "weiss-schwarz-rent-a-girlfriend-vol-2-display-eng-vorbestellung-release-29-01-27": {
+   "titre": "Weiß Schwarz - Rent a Girlfriend Vol.2 - Display [ENG] (Vorbestellung - Release: 29.01.27)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 59.99,
+   "url": "https://fantasiacards.de/products/weiss-schwarz-rent-a-girlfriend-vol-2-display-eng-vorbestellung-release-29-01-27"
+  },
+  "weiss-schwarz-persona-30th-anniversary-display-eng-vorbestellung-release-18-12-27": {
+   "titre": "Weiß Schwarz - Persona 30th Anniversary - Display [ENG] (Vorbestellung - Release: 18.12.27)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 59.99,
+   "url": "https://fantasiacards.de/products/weiss-schwarz-persona-30th-anniversary-display-eng-vorbestellung-release-18-12-27"
+  },
+  "weiss-schwarz-cosmic-princess-kaguya-premium-booster-display-jp-vorbestellung-release-18-12-26": {
+   "titre": "Weiß Schwarz - Cosmic Princess Kaguya - Premium Booster Display [JP] (Vorbestellung - Release: 18.12.26)",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 39.99,
+   "url": "https://fantasiacards.de/products/weiss-schwarz-cosmic-princess-kaguya-premium-booster-display-jp-vorbestellung-release-18-12-26"
+  },
+  "hololive-official-card-game-bouncer-bound-hbp08e-display-jp-vorbestellung-release-29-01-2027": {
+   "titre": "Hololive Official Card Game - Bouncer Bound hBP08e - Display [JP] (Vorbestellung - Release: 29.01.2027)",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 49.99,
+   "url": "https://fantasiacards.de/products/hololive-official-card-game-bouncer-bound-hbp08e-display-jp-vorbestellung-release-29-01-2027"
+  },
+  "yugioh-magnificent-monsters-box-eng-vorbestellung-release-12-11-26": {
+   "titre": "YuGiOh! - Magnificent Monsters Box [ENG] (Vorbestellung - Release: 12.11.26)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 34.99,
+   "url": "https://fantasiacards.de/products/yugioh-magnificent-monsters-box-eng-vorbestellung-release-12-11-26"
+  },
   "weiss-schwarz-rose-august-display-jp-vorbestellung-release-ende-oktober-2026": {
    "titre": "Weiß Schwarz Rose - August - Display [JP] (Vorbestellung - Release: Ende Oktober 2026)",
    "langue": "JP",
@@ -5325,7 +5360,7 @@
   "the-quintessential-quintuplets-trading-card-game-vol-7-display-jp-1": {
    "titre": "The Quintessential Quintuplets Trading Card Game Vol.7 - Display [JP]",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 59.99,
    "url": "https://fantasiacards.de/products/the-quintessential-quintuplets-trading-card-game-vol-7-display-jp-1"
   },
@@ -5339,7 +5374,7 @@
   "one-piece-card-game-op17-the-worlds-strongest-warriors-booster-jp": {
    "titre": "One Piece Card Game - OP17 - The Worlds Strongest Warriors - Booster [JP]",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 6.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op17-the-worlds-strongest-warriors-booster-jp"
   },
@@ -6802,7 +6837,7 @@
   "pokemon-30th-celebration-elite-trainer-box-eng": {
    "titre": "Pokemon - 30th Celebration - Elite Trainer Box [ENG] (Vorbestellung)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 229.99,
    "url": "https://fantasiacards.de/products/pokemon-30th-celebration-elite-trainer-box-eng"
   },
@@ -7320,7 +7355,7 @@
   "one-piece-card-game-op17-display-eng": {
    "titre": "One Piece Card Game - OP17 - The Worlds Strongest Warriors - Display [ENG]",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 429.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op17-display-eng"
   },
@@ -9100,7 +9135,7 @@
   "op-16-booster-box-one-piece-the-time-of-battle-japones": {
    "titre": "OP-16 Booster Box | ONE PIECE | The Time of Battle | Japonés",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 99.99,
    "url": "https://todohits.com/products/op-16-booster-box-one-piece-the-time-of-battle-japones"
   },
@@ -11608,7 +11643,7 @@
   "cyberpunk-tcg-beta-display-box-24-buste-eng": {
    "titre": "Cyberpunk TCG Welcome to Night City Beta Booster Box 36 Buste – ENG",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 229.9,
    "url": "https://baruzcard.it/products/cyberpunk-tcg-beta-display-box-24-buste-eng"
   },
@@ -17961,8 +17996,8 @@
   "one-piece-double-pack-set-vol-9-eng": {
    "titre": "One Piece Double Pack Set Vol.9 (ENG)",
    "langue": "EN",
-   "dispo": false,
-   "prix": 34.99,
+   "dispo": true,
+   "prix": 59.99,
    "url": "https://crispycards.de/products/one-piece-double-pack-set-vol-9-eng"
   },
   "riftbound-spiritforged-display-eng": {
@@ -18318,8 +18353,8 @@
   "one-piece-ib-06-illustration-box-vol-6-eng": {
    "titre": "One Piece IB-06 Illustration Box Vol.6 (ENG)",
    "langue": "EN",
-   "dispo": false,
-   "prix": 99.99,
+   "dispo": true,
+   "prix": 114.99,
    "url": "https://crispycards.de/products/one-piece-ib-06-illustration-box-vol-6-eng"
   },
   "one-piece-legacy-of-the-master-op-12-display-case-eng": {
@@ -18584,8 +18619,8 @@
   "one-piece-double-pack-set-dp-07": {
    "titre": "One Piece Double Pack Set DP-07 - OP11 (ENG)",
    "langue": "EN",
-   "dispo": false,
-   "prix": 59.99,
+   "dispo": true,
+   "prix": 149.99,
    "url": "https://crispycards.de/products/one-piece-double-pack-set-dp-07"
   },
   "one-piece-op-07-500-years-in-the-future-double-pack-eng": {
@@ -32180,6 +32215,20 @@
   }
  },
  "metamorphcenter.com": {
+  "caja-union-arena-precious-nikke-pc02bt-japones": {
+   "titre": "Union Arena Precious Booster Pack NIKKE PC02BT - Japonés",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 84.95,
+   "url": "https://metamorphcenter.com/products/caja-union-arena-precious-nikke-pc02bt-japones"
+  },
+  "caja-riftbound-origins-booster-display-ingles": {
+   "titre": "Caja Riftbound Origins Booster Display - Inglés",
+   "langue": "EN",
+   "dispo": false,
+   "prix": 139.95,
+   "url": "https://metamorphcenter.com/products/caja-riftbound-origins-booster-display-ingles"
+  },
   "booster-bundle-pitch-black-ingles": {
    "titre": "[ RESERVA ] Booster Bundle Pitch Black ME05 - Inglés",
    "langue": "EN",
@@ -36265,13 +36314,6 @@
    "prix": 58.98,
    "url": "https://gs-gameon.com/products/monkey-d-luffy-op13-118-v-2-carrying-on-his-will-non-english-alternate-art-118-845672"
   },
-  "monkey-d-luffy-op13-118-v-1-carrying-on-his-will-non-english-secret-rare-118-845671": {
-   "titre": "Monkey.D.Luffy (OP13-118) - Carrying on his Will (Non-English) (Secret Rare) [OP13-JP-118]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 3.78,
-   "url": "https://gs-gameon.com/products/monkey-d-luffy-op13-118-v-1-carrying-on-his-will-non-english-secret-rare-118-845671"
-  },
   "lim-op09-022-v-2-emperors-in-the-new-world-non-english-alternate-art-022-786329": {
    "titre": "Lim (OP09-022) - Emperors in the New World (Non-English) (Alternate Art) [OP09-JP-022]",
    "langue": "JP",
@@ -36299,13 +36341,6 @@
    "dispo": true,
    "prix": 1.0,
    "url": "https://gs-gameon.com/products/charlotte-katakuri-op03-123-v-1-pillars-of-strength-japanese-secret-rare-123-744887"
-  },
-  "kaido-op05-118-v-1-awakening-of-the-new-era-japanese-secret-rare-118-733459": {
-   "titre": "Kaido (OP05-118) - Awakening of the New Era (Non-English) (Secret Rare) [OP05-JP-118]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 1.0,
-   "url": "https://gs-gameon.com/products/kaido-op05-118-v-1-awakening-of-the-new-era-japanese-secret-rare-118-733459"
   },
   "tashigi-op10-032-v-1-unnumbered-promos-non-english-super-rare-op10-032-896402": {
    "titre": "Tashigi (OP10-032) - Unnumbered Promos (Non-English) (Super Rare) [UP-JP-OP10-032]",
