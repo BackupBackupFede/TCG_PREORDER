@@ -16897,7 +16897,7 @@
   "pokemon-pitch-black-elite-trainer-box": {
    "titre": "Pokémon Pitch Black Elite Trainer Box (ENG)",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 99.99,
    "url": "https://crispycards.de/products/pokemon-pitch-black-elite-trainer-box"
   },
@@ -16912,7 +16912,7 @@
    "titre": "Pokémon Celebrations Deluxe Pin Collection (ENG)",
    "langue": "EN",
    "dispo": true,
-   "prix": 199.99,
+   "prix": 229.99,
    "url": "https://crispycards.de/products/pokemon-celebrations-deluxe-pin-collection-eng"
   },
   "yu-gi-oh-chaos-origins-display-eng": {
@@ -17332,7 +17332,7 @@
    "titre": "Pokemon Go Kokowei Box (ENG)",
    "langue": "EN",
    "dispo": true,
-   "prix": 44.99,
+   "prix": 49.99,
    "url": "https://crispycards.de/products/pokemon-go-kokowei-box-eng"
   },
   "pokemon-go-mini-tin-eng": {
@@ -17528,7 +17528,7 @@
    "titre": "Pokémon GO Premium Collection Radiant Eevee (ENG)",
    "langue": "EN",
    "dispo": false,
-   "prix": 94.99,
+   "prix": 149.99,
    "url": "https://crispycards.de/products/pokemon-go-premium-collection-radiant-eevee-eng"
   },
   "pokemon-celebrations-dark-sylveon-v-tin-eng": {
@@ -17604,7 +17604,7 @@
   "one-piece-eb03-heroines-edition-extra-booster-display-eng": {
    "titre": "One Piece EB03 Heroines Edition Extra Booster Display (ENG)",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 329.99,
    "url": "https://crispycards.de/products/one-piece-eb03-heroines-edition-extra-booster-display-eng"
   },
@@ -17836,7 +17836,7 @@
    "titre": "Pokémon Champion's Path Marnie Premium Collection (ENG)",
    "langue": "EN",
    "dispo": true,
-   "prix": 129.99,
+   "prix": 199.99,
    "url": "https://crispycards.de/products/pokemon-champions-path-marnie-premium-collection-eng"
   },
   "pokemon-brilliant-stars-3-pack-blister-eng": {
@@ -31719,7 +31719,7 @@
   "booster-pokemon-card-151-sv2a-jpn": {
    "titre": "Booster - Pokémon Card 151  - SV2a - JPN",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 15.0,
    "url": "https://relictcg.com/products/booster-pokemon-card-151-sv2a-jpn"
   },
@@ -36327,6 +36327,13 @@
    "dispo": true,
    "prix": 0.97,
    "url": "https://gs-gameon.com/products/nami-op01-016-ultimate-deck-the-three-captains-non-english-rare-op01-016-747206"
+  },
+  "op-17-the-world-s-strongest-warriors-busta-6-carte-jap": {
+   "titre": "OP-17 The World’s Strongest Warriors - Busta 6 Carte (JAP)",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 6.0,
+   "url": "https://gs-gameon.com/products/op-17-the-world-s-strongest-warriors-busta-6-carte-jap"
   }
  },
  "starzcollectibles.com": {
@@ -36606,7 +36613,7 @@
   "boa-hancock-op07-051-emperors-in-the-new-world-non-english-special-rare-op07-051-786299": {
    "titre": "Boa Hancock (OP07-051) - Emperors in the New World (Non-English) (Special Rare) [OP09-JP-OP07-051]",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 275.0,
    "url": "https://starzcollectibles.com/products/boa-hancock-op07-051-emperors-in-the-new-world-non-english-special-rare-op07-051-786299"
   },
