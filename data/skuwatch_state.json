@@ -7082,7 +7082,7 @@
   "pokemon-paradox-rift-display-eng": {
    "titre": "Pokemon - Paradox Rift - Display [ENG]",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 349.99,
    "url": "https://fantasiacards.de/products/pokemon-paradox-rift-display-eng"
   },
@@ -7369,7 +7369,7 @@
   "one-piece-card-game-op17-display-eng": {
    "titre": "One Piece Card Game - OP17 - The Worlds Strongest Warriors - Display [ENG]",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 429.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op17-display-eng"
   },
@@ -16674,7 +16674,7 @@
    "titre": "Pokémon Pitch Black Expansion Premium Checklane Blister (ENG)",
    "langue": "EN",
    "dispo": true,
-   "prix": 16.99,
+   "prix": 10.99,
    "url": "https://crispycards.de/products/pokemon-pitch-black-expansion-premium-checklane-blister-eng"
   },
   "pokemon-chaos-rising-premium-checklane-blister-eng": {
@@ -16778,7 +16778,7 @@
   "one-piece-illustration-box-vol-7-eng": {
    "titre": "One Piece Illustration Box Vol.7 (ENG)",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 59.99,
    "url": "https://crispycards.de/products/one-piece-illustration-box-vol-7-eng"
   },
@@ -16967,7 +16967,7 @@
   "pokemon-paradox-rift-premium-checklane-blister-eng": {
    "titre": "Pokémon Paradox Rift Premium Checklane Blister (ENG)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 11.99,
    "url": "https://crispycards.de/products/pokemon-paradox-rift-premium-checklane-blister-eng"
   },
@@ -17416,7 +17416,7 @@
    "titre": "Pokémon Mythical Collection Magearna (ENG) (B-Ware)",
    "langue": "EN",
    "dispo": true,
-   "prix": 1499.99,
+   "prix": 1999.99,
    "url": "https://crispycards.de/products/pokemon-mythical-collection-magearna-eng-b-ware"
   },
   "pokemon-back-to-school-2023-pencil-case-eng": {
@@ -17443,15 +17443,15 @@
   "pokemon-hisuian-electrode-v-box-eng": {
    "titre": "Pokémon Hisuian Electrode V Box (ENG)",
    "langue": "EN",
-   "dispo": false,
-   "prix": 44.99,
+   "dispo": true,
+   "prix": 64.99,
    "url": "https://crispycards.de/products/pokemon-hisuian-electrode-v-box-eng"
   },
   "pokemon-infernape-v-box-eng": {
    "titre": "Pokémon Infernape V Box (ENG)",
    "langue": "EN",
-   "dispo": false,
-   "prix": 49.99,
+   "dispo": true,
+   "prix": 79.99,
    "url": "https://crispycards.de/products/pokemon-infernape-v-box-eng"
   },
   "pokemon-shining-fates-shiny-crobat-vmax-collection-eng": {
@@ -17717,7 +17717,7 @@
    "titre": "Pokémon Fusion Strike Premium Checklande Blister (ENG)",
    "langue": "EN",
    "dispo": true,
-   "prix": 27.99,
+   "prix": 29.99,
    "url": "https://crispycards.de/products/pokemon-fusion-strike-premium-checklande-blister-eng"
   },
   "pokemon-chilling-reign-1-pack-blister-eng": {
@@ -17803,13 +17803,6 @@
    "dispo": true,
    "prix": 10.99,
    "url": "https://crispycards.de/products/pokemon-scarlet-violet-premium-checklane-blister-eng"
-  },
-  "pokemon-scarlet-violet-1-pack-blister-eng": {
-   "titre": "Pokémon Scarlet & Violet 1-Pack Blister (ENG)",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 7.99,
-   "url": "https://crispycards.de/products/pokemon-scarlet-violet-1-pack-blister-eng"
   },
   "pokemon-v-forces-tin-eng": {
    "titre": "Pokémon V Forces Tin (ENG)",
@@ -18018,7 +18011,7 @@
    "titre": "Pokémon Astral Radiance 1 Pack Blister (ENG)",
    "langue": "EN",
    "dispo": true,
-   "prix": 10.99,
+   "prix": 14.99,
    "url": "https://crispycards.de/products/pokemon-astral-radiance-1-pack-blister-eng"
   },
   "pokemon-lost-origin-1-pack-blister-eng": {
@@ -18039,7 +18032,7 @@
    "titre": "Pokémon Armarouge EX Premium-Collection (ENG)",
    "langue": "EN",
    "dispo": true,
-   "prix": 49.99,
+   "prix": 59.99,
    "url": "https://crispycards.de/products/pokemon-armarouge-ex-premium-collection-eng"
   },
   "one-piece-dash-pack-2025-eng": {
@@ -36159,13 +36152,6 @@
    "dispo": true,
    "prix": 5.81,
    "url": "https://gs-gameon.com/products/sanji-op10-005-v-2-royal-blood-non-english-alternate-art-005-802170"
-  },
-  "kaido-op17-062-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-062-904885": {
-   "titre": "Kaido (OP17-062) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-062]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 14.99,
-   "url": "https://gs-gameon.com/products/kaido-op17-062-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-062-904885"
   },
   "shanks-op12-008-v-2-unnumbered-promos-non-english-rare-op12-008-894085": {
    "titre": "Shanks (OP12-008) - Unnumbered Promos (Non-English) (Rare) [UP-JP-OP12-008]",
