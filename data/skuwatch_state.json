@@ -8220,13 +8220,6 @@
    "prix": 149.99,
    "url": "https://fantasiacards.de/products/union-arena-attack-on-titan-display-eng"
   },
-  "union-arena-kaiju-no-8-display-eng": {
-   "titre": "Union Arena - Kaiju No.8 - Display [ENG]",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 149.99,
-   "url": "https://fantasiacards.de/products/union-arena-kaiju-no-8-display-eng"
-  },
   "union-arena-code-geass-lelouch-of-the-rebellion-vol-2-display-eng": {
    "titre": "Union Arena - Code Geass Lelouch of the Rebellion Vol. 2 - Display [ENG]",
    "langue": "EN",
@@ -26422,7 +26415,7 @@
   "rocket-s-hitmonchan-1998-japanese-gym-booster-1-holo-cgc-9": {
    "titre": "Rocket´s Hitmonchan (1998) Japanese Gym Booster 1 Holo - CGC 9",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 95.0,
    "url": "https://cardzone.es/products/rocket-s-hitmonchan-1998-japanese-gym-booster-1-holo-cgc-9"
   },
@@ -36250,13 +36243,6 @@
    "dispo": true,
    "prix": 109.94,
    "url": "https://gs-gameon.com/products/boa-hancock-op13-051-v-2-unnumbered-promos-non-english-rare-op13-051-894106"
-  },
-  "boa-hancock-op13-051-v-1-unnumbered-promos-non-english-rare-op13-051-894105": {
-   "titre": "Boa Hancock (OP13-051) - Unnumbered Promos (Non-English) (Rare) [UP-JP-OP13-051]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 149.99,
-   "url": "https://gs-gameon.com/products/boa-hancock-op13-051-v-1-unnumbered-promos-non-english-rare-op13-051-894105"
   },
   "o-nami-op05-062-v-1-unnumbered-promos-non-english-uncommon-op05-062-865621": {
    "titre": "O-Nami (OP05-062) - Unnumbered Promos (Non-English) (Uncommon) [UP-JP-OP05-062]",
