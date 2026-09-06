@@ -5344,7 +5344,7 @@
    "url": "https://fantasiacards.de/products/weiss-schwarz-rent-a-girlfriend-vol-2-display-eng-vorbestellung-release-29-01-27"
   },
   "weiss-schwarz-persona-30th-anniversary-display-eng-vorbestellung-release-18-12-27": {
-   "titre": "Weiß Schwarz - Persona 30th Anniversary - Display [ENG] (Vorbestellung - Release: 18.12.27)",
+   "titre": "Weiß Schwarz - Persona 30th Anniversary - Display [ENG] (Vorbestellung - Release: 18.12.26)",
    "langue": "EN",
    "dispo": true,
    "prix": 59.99,
@@ -10990,7 +10990,7 @@
   "apertura-en-directo-booster-box-terastal-festival-pokemon-japones": {
    "titre": "Booster Box Terastal Festival | POKÉMON | Japonés",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 164.99,
    "url": "https://todohits.com/products/apertura-en-directo-booster-box-terastal-festival-pokemon-japones"
   },
@@ -20744,7 +20744,7 @@
   "collezione-premium-mega-zygarde-ex-pokemon-tcg-eng": {
    "titre": "Collezione Premium Mega Zygarde-EX – Pokémon TCG (ENG)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 49.9,
    "url": "https://otakura.com/products/collezione-premium-mega-zygarde-ex-pokemon-tcg-eng"
   },
@@ -22367,6 +22367,13 @@
   }
  },
  "yonko-tcg.de": {
+  "jp-one-piece-card-game-x-nike-promokarten": {
+   "titre": "[JP] One Piece · Card Game x NIKE - Promokarten",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 49.95,
+   "url": "https://yonko-tcg.de/products/jp-one-piece-card-game-x-nike-promokarten"
+  },
   "jp-one-piece-v-jump-oktober-2026-promokarten-set-luffy-zoro-sanji": {
    "titre": "[JP] One Piece V-Jump Oktober 2026 Promokarten Set - Luffy/Zoro/Sanji (ohne Magazin)",
    "langue": "JP",
@@ -31684,14 +31691,14 @@
   "salameche-ar-168-165-sv2a-collectaura-9-5-jpn": {
    "titre": "Salamèche AR - 168/165 - sv2a - CollectAura 9.5 - JPN",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 50.0,
    "url": "https://relictcg.com/products/salameche-ar-168-165-sv2a-collectaura-9-5-jpn"
   },
   "reptincel-ar-169-165-sv2a-collectaura-9-5-jpn": {
    "titre": "Reptincel AR - 169/165 - sv2a - CollectAura 9.5 - JPN",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 50.0,
    "url": "https://relictcg.com/products/reptincel-ar-169-165-sv2a-collectaura-9-5-jpn"
   },
@@ -36389,7 +36396,7 @@
   "shanks-op09-004-v-2-emperors-in-the-new-world-non-english-alternate-art-004-786307": {
    "titre": "Shanks (OP09-004) (V.2) - Emperors in the New World (Non-English) (Alternate Art) [OP09-JP-004]",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 7.99,
    "url": "https://starzcollectibles.com/products/shanks-op09-004-v-2-emperors-in-the-new-world-non-english-alternate-art-004-786307"
   },
