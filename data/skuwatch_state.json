@@ -5252,6 +5252,13 @@
   }
  },
  "fantasiacards.de": {
+  "dragon-ball-super-fusion-world-fb02-display-englisch": {
+   "titre": "Dragon Ball Super Card Game - Fusion World - FB02 - Blazing Aura - Display [ENG]",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 129.99,
+   "url": "https://fantasiacards.de/products/dragon-ball-super-fusion-world-fb02-display-englisch"
+  },
   "weiss-schwarz-frieren-display-eng": {
    "titre": "Weiß Schwarz - Frieren - Display [ENG]",
    "langue": "EN",
@@ -5451,7 +5458,7 @@
   "union-arena-tengen-toppa-gurren-lagann-display-jp-vorbestellung-release-anfang-september-2026": {
    "titre": "Union Arena - Tengen Toppa Gurren Lagann - Display [JP]",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 89.99,
    "url": "https://fantasiacards.de/products/union-arena-tengen-toppa-gurren-lagann-display-jp-vorbestellung-release-anfang-september-2026"
   },
@@ -5494,7 +5501,7 @@
    "titre": "Palworld - BP01 - Dawn of Palpagos - Display [JP]",
    "langue": "JP",
    "dispo": true,
-   "prix": 99.99,
+   "prix": 79.99,
    "url": "https://fantasiacards.de/products/palworld-bp01-dawn-of-palpagos-display-jp-kopie"
   },
   "one-piece-card-game-op17-the-worlds-strongest-warriors-booster-jp": {
@@ -8891,13 +8898,6 @@
    "dispo": true,
    "prix": 79.99,
    "url": "https://fantasiacards.de/products/dragon-ball-super-card-game-fb01-fusion-world-awakened-pulse-display-jp"
-  },
-  "dragon-ball-super-fusion-world-fb02-display-englisch": {
-   "titre": "Dragon Ball Super Card Game - Fusion World - FB02 - Blazing Aura - Display [ENG]",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 129.99,
-   "url": "https://fantasiacards.de/products/dragon-ball-super-fusion-world-fb02-display-englisch"
   }
  },
  "todohits.com": {
@@ -16757,7 +16757,7 @@
   "one-piece-double-pack-set-12-eng": {
    "titre": "One Piece Double Pack Set 12 The World’s Strongest Warriors (ENG)",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 59.99,
    "url": "https://crispycards.de/products/one-piece-double-pack-set-12-eng"
   },
@@ -17177,7 +17177,7 @@
   "one-piece-double-pack-set-11-the-time-of-battle-eng": {
    "titre": "One Piece Double Pack Set 11 The Time of Battle (ENG)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 34.99,
    "url": "https://crispycards.de/products/one-piece-double-pack-set-11-the-time-of-battle-eng"
   },
@@ -31894,7 +31894,7 @@
   "booster-pokemon-card-151-sv2a-jpn": {
    "titre": "Booster - Pokémon Card 151  - SV2a - JPN",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 15.0,
    "url": "https://relictcg.com/products/booster-pokemon-card-151-sv2a-jpn"
   },
@@ -32309,7 +32309,7 @@
   "caja-pitch-black-ingles": {
    "titre": "Caja Pitch Black ME05 - Inglés",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 219.95,
    "url": "https://metamorphcenter.com/products/caja-pitch-black-ingles"
   },
@@ -34214,7 +34214,7 @@
   "one-piece-monkey-d-luffy-secret-rare-op10-118-eng": {
    "titre": "One Piece Monkey.D.Luffy Secret Rare OP10-118 ENG",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 5.0,
    "url": "https://collectorstorecards.it/products/one-piece-monkey-d-luffy-secret-rare-op10-118-eng"
   },
@@ -34515,7 +34515,7 @@
   "one-piece-dracule-mihawk-super-rare-op09-048-eng": {
    "titre": "One Piece Dracule Mihawk Super Rare OP09-048 ENG",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 1.0,
    "url": "https://collectorstorecards.it/products/one-piece-dracule-mihawk-super-rare-op09-048-eng"
   },
@@ -34662,7 +34662,7 @@
   "one-piece-trafalgar-law-super-rare-op12-073-eng": {
    "titre": "One Piece Trafalgar Law Super Rare OP12-073 ENG",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 1.0,
    "url": "https://collectorstorecards.it/products/one-piece-trafalgar-law-super-rare-op12-073-eng"
   },
@@ -34746,7 +34746,7 @@
   "one-piece-ms-all-sunday-uper-rare-op14-84-eng": {
    "titre": "One Piece Ms. All Sunday Super Rare OP14-084 ENG",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 2.0,
    "url": "https://collectorstorecards.it/products/one-piece-ms-all-sunday-uper-rare-op14-84-eng"
   },
@@ -36279,6 +36279,27 @@
   }
  },
  "gs-gameon.com": {
+  "loki-op17-119-v-1-the-world-s-strongest-warriors-asia-region-legal-secret-rare-119-904995": {
+   "titre": "Loki (OP17-119) - The World’s Strongest Warriors (Asia Region Legal) (Secret Rare) [OP17-JP-119]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 14.99,
+   "url": "https://gs-gameon.com/products/loki-op17-119-v-1-the-world-s-strongest-warriors-asia-region-legal-secret-rare-119-904995"
+  },
+  "miss-buckingham-stussy-op17-054-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-054-904874": {
+   "titre": "Miss Buckingham Stussy (OP17-054) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-054]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 24.98,
+   "url": "https://gs-gameon.com/products/miss-buckingham-stussy-op17-054-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-054-904874"
+  },
+  "gloriosa-op17-046-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-046-904863": {
+   "titre": "Gloriosa (OP17-046) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-046]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 13.49,
+   "url": "https://gs-gameon.com/products/gloriosa-op17-046-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-046-904863"
+  },
   "charlotte-linlin-op17-112-v-1-the-world-s-strongest-warriors-asia-region-legal-super-rare-112-904983": {
    "titre": "Charlotte Linlin (OP17-112) - The World’s Strongest Warriors (Asia Region Legal) (Super Rare) [OP17-JP-112]",
    "langue": "JP",
@@ -36299,13 +36320,6 @@
    "dispo": true,
    "prix": 0.5,
    "url": "https://gs-gameon.com/products/kaido-op17-063-v-1-the-world-s-strongest-warriors-asia-region-legal-super-rare-063-904888"
-  },
-  "kaido-op17-062-v-1-the-world-s-strongest-warriors-asia-region-legal-super-rare-062-904884": {
-   "titre": "Kaido (OP17-062) - The World’s Strongest Warriors (Asia Region Legal) (Super Rare) [OP17-JP-062]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 0.59,
-   "url": "https://gs-gameon.com/products/kaido-op17-062-v-1-the-world-s-strongest-warriors-asia-region-legal-super-rare-062-904884"
   },
   "shiki-op17-048-v-1-the-world-s-strongest-warriors-asia-region-legal-super-rare-048-904865": {
    "titre": "Shiki (OP17-048) - The World’s Strongest Warriors (Asia Region Legal) (Super Rare) [OP17-JP-048]",
@@ -36342,13 +36356,6 @@
    "prix": 285.0,
    "url": "https://gs-gameon.com/products/op-17-the-world-s-strongest-warriors-booster-box-da-24-buste-eng"
   },
-  "op-17-the-world-s-strongest-warriors-case-sigillato-12-booster-box-eng": {
-   "titre": "OP-17 The World’s Strongest Warriors - Case Sigillato 12 Booster Box (ENG)",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 3600.0,
-   "url": "https://gs-gameon.com/products/op-17-the-world-s-strongest-warriors-case-sigillato-12-booster-box-eng"
-  },
   "monkey-d-luffy-op13-001-v-2-carrying-on-his-will-non-english-alternate-art-001-845244": {
    "titre": "Monkey.D.Luffy (OP13-001) - Carrying on his Will (Non-English) (Alternate Art) [OP13-JP-001]",
    "langue": "JP",
@@ -36362,13 +36369,6 @@
    "dispo": false,
    "prix": 5.94,
    "url": "https://gs-gameon.com/products/caesar-clown-op10-002-v-2-royal-blood-non-english-alternate-art-002-802165"
-  },
-  "trafalgar-law-op10-119-v-1-royal-blood-non-english-secret-rare-119-802336": {
-   "titre": "Trafalgar Law (OP10-119) - Royal Blood (Non-English) (Secret Rare) [OP10-JP-119]",
-   "langue": "JP",
-   "dispo": false,
-   "prix": 1.0,
-   "url": "https://gs-gameon.com/products/trafalgar-law-op10-119-v-1-royal-blood-non-english-secret-rare-119-802336"
   },
   "sakazuki-op05-041-v-2-awakening-of-the-new-era-non-english-alternate-art-041-733329": {
    "titre": "Sakazuki (OP05-041) - Awakening of the New Era (Non-English) (Alternate Art) [OP05-JP-041]",
@@ -36524,13 +36524,6 @@
    "prix": 1.0,
    "url": "https://gs-gameon.com/products/meloetta-ex-black-bolt-jp-double-rare-047-828499"
   },
-  "sanji-op10-005-v-2-royal-blood-non-english-alternate-art-005-802170": {
-   "titre": "Sanji (OP10-005) - Royal Blood (Non-English) (Alternate Art) [OP10-JP-005]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 5.81,
-   "url": "https://gs-gameon.com/products/sanji-op10-005-v-2-royal-blood-non-english-alternate-art-005-802170"
-  },
   "shanks-op12-008-v-2-unnumbered-promos-non-english-rare-op12-008-894085": {
    "titre": "Shanks (OP12-008) - Unnumbered Promos (Non-English) (Rare) [UP-JP-OP12-008]",
    "langue": "JP",
@@ -36552,13 +36545,6 @@
    "prix": 68.99,
    "url": "https://gs-gameon.com/products/monkey-d-luffy-op07-073-unnumbered-promos-non-english-rare-op07-073-855002"
   },
-  "five-elders-op13-082-v-2-carrying-on-his-will-non-english-alternate-art-082-845622": {
-   "titre": "Five Elders (OP13-082) - Carrying on his Will (Non-English) (Alternate Art) [OP13-JP-082]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 6.88,
-   "url": "https://gs-gameon.com/products/five-elders-op13-082-v-2-carrying-on-his-will-non-english-alternate-art-082-845622"
-  },
   "shanks-op09-001-v-2-emperors-in-the-new-world-non-english-alternate-art-001-786302": {
    "titre": "Shanks (OP09-001) - Emperors in the New World (Non-English) (Alternate Art) [OP09-JP-001]",
    "langue": "JP",
@@ -36572,13 +36558,6 @@
    "dispo": true,
    "prix": 99.97,
    "url": "https://gs-gameon.com/products/uta-op02-120-awakening-of-the-new-era-non-english-special-rare-op02-120-733270"
-  },
-  "charlotte-katakuri-op03-123-v-1-pillars-of-strength-japanese-secret-rare-123-744887": {
-   "titre": "Charlotte Katakuri (OP03-123) - Pillars of Strength (Japanese) (Secret Rare) [OP03-JP-123]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 1.0,
-   "url": "https://gs-gameon.com/products/charlotte-katakuri-op03-123-v-1-pillars-of-strength-japanese-secret-rare-123-744887"
   },
   "tashigi-op10-032-v-1-unnumbered-promos-non-english-super-rare-op10-032-896402": {
    "titre": "Tashigi (OP10-032) - Unnumbered Promos (Non-English) (Super Rare) [UP-JP-OP10-032]",
@@ -36608,13 +36587,6 @@
    "prix": 179.99,
    "url": "https://gs-gameon.com/products/o-nami-op05-062-v-1-unnumbered-promos-non-english-uncommon-op05-062-865621"
   },
-  "don-op13-roger-v-2-carrying-on-his-will-non-english-don-845696": {
-   "titre": "DON!! (OP13 Roger) - Carrying on his Will (Non-English) (DON!!)",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 2.94,
-   "url": "https://gs-gameon.com/products/don-op13-roger-v-2-carrying-on-his-will-non-english-don-845696"
-  },
   "tornadus-white-flare-jp-illustration-rare-158-829517": {
    "titre": "Tornadus - White Flare JP (Illustration Rare) [sv11W-158]",
    "langue": "JP",
@@ -36635,13 +36607,6 @@
    "dispo": true,
    "prix": 199.99,
    "url": "https://gs-gameon.com/products/op-16-the-time-of-battle-booster-box-da-24-buste-eng"
-  },
-  "charlotte-katakuri-op03-123-v-1-the-best-non-english-secret-rare-op03-123-781068": {
-   "titre": "Charlotte Katakuri (OP03-123) - The Best (Non-English) (Secret Rare) [PRB01-JP-OP03-123]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 1.0,
-   "url": "https://gs-gameon.com/products/charlotte-katakuri-op03-123-v-1-the-best-non-english-secret-rare-op03-123-781068"
   },
   "trafalgar-law-op10-119-v-3-royal-blood-non-english-manga-rare-119-802338": {
    "titre": "Trafalgar Law (OP10-119) - Royal Blood (Non-English) (Manga Rare) [OP10-JP-119]",
