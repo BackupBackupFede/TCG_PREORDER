@@ -92,9 +92,22 @@ TCG = re.compile(r"pok[ée]mon|one\s*piece|\bop-?\d\d\b|\bsv\d|\bme\d\d\b|"
 # une alerte Pokemon/One Piece : aucun de ces mots n'apparait dans leurs titres.
 # Les variantes d'ecriture comptent (weiss/weiss, yu-gi-oh/yugioh, dragonball).
 AUTRES_TCG = re.compile(
+    # Jeux nommes.
     r"wei(?:ss|ß)\s*schwarz|union\s*arena|magic\s*the\s*gathering|magic\s*:|\bmtg\b|"
     r"yu\W?gi\W?oh|digimon|dragon\s*ball|lorcana|riftbound|gundam|"
-    r"star\s*wars\s*unlimited|cyberpunk|palworld|naruto|quintessential", re.I)
+    r"star\s*wars\s*unlimited|cyberpunk|palworld|naruto|quintessential|"
+    r"flesh\s*(?:and|&)\s*blood|\bfab\b|altered|hololive|detective\s*conan|"
+    r"rebirth\s*for\s*you|blue\s*archive|build\s*divide|\btopps\b|"
+    # Sets Magic sous licence : le titre ne dit pas toujours "Magic". On ne peut
+    # pas filtrer "magic" seul ni "panini" -- ces mots apparaissent dans de vraies
+    # refs One Piece (bundle OP13, Film Red Collectors Box).
+    r"final\s*fantasy|teenage\s*mutant|ninja\s*turtles|avatar|disney|"
+    r"lord\s*of\s*the\s*rings|middle[-\s]*earth|lorwyn|bloomburrow|foundations|"
+    r"duskmourn|aetherdrift|tarkir|edge\s*of\s*eternities|"
+    # Mots de gamme propres a Magic : ca tient pour les sets a venir, sans avoir a
+    # rallonger la liste a chaque sortie. \b devant "play" car "display" contient
+    # deja "play" -- sans lui, "Display Booster" de Pokemon/OP sautait aussi.
+    r"\bcommander\b|\bplay\s+booster|collector'?s?\s*booster|scene\s*box|jumpstart", re.I)
 
 
 def maintenant():
