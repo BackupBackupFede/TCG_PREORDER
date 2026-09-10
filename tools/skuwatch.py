@@ -85,6 +85,16 @@ JP = re.compile(r"\b(jp|jpn|jap|japanese|japonais|japanisch|giapponese|japones|j
 # jamais écrire « Pokémon » (« Black Bolt JP Booster Box » chez biridama.pt).
 TCG = re.compile(r"pok[ée]mon|one\s*piece|\bop-?\d\d\b|\bsv\d|\bme\d\d\b|"
                  r"booster|display|\betb\b|elite trainer|coffret|bundle|\btin\b|\bbox\b|ボックス", re.I)
+# Franchises hors perimetre. TCG accepte volontairement des mots generiques
+# ("booster", "display", "box") pour ne pas rater un set Pokemon/One Piece nomme
+# sans sa marque ; la contrepartie est que le scelle de TOUS les autres jeux le
+# passe aussi. On les ecarte donc nommement. Une exclusion ici ne peut pas couter
+# une alerte Pokemon/One Piece : aucun de ces mots n'apparait dans leurs titres.
+# Les variantes d'ecriture comptent (weiss/weiss, yu-gi-oh/yugioh, dragonball).
+AUTRES_TCG = re.compile(
+    r"wei(?:ss|ß)\s*schwarz|union\s*arena|magic\s*the\s*gathering|magic\s*:|\bmtg\b|"
+    r"yu\W?gi\W?oh|digimon|dragon\s*ball|lorcana|riftbound|gundam|"
+    r"star\s*wars\s*unlimited|cyberpunk|palworld|naruto|quintessential", re.I)
 
 
 def maintenant():
@@ -129,7 +139,7 @@ def catalogue(domaine):
     out = {}
     for p in produits:
         titre = p.get("title", "")
-        if BRUIT.search(titre) or not TCG.search(titre):
+        if BRUIT.search(titre) or AUTRES_TCG.search(titre) or not TCG.search(titre):
             continue
         lang = langue(titre)
         if not lang:
