@@ -36363,20 +36363,6 @@
    "prix": 0.5,
    "url": "https://gs-gameon.com/products/usopp-op17-080-v-1-the-world-s-strongest-warriors-asia-region-legal-super-rare-080-904909"
   },
-  "kaido-op17-062-v-1-the-world-s-strongest-warriors-asia-region-legal-super-rare-062-904884": {
-   "titre": "Kaido (OP17-062) - The World’s Strongest Warriors (Asia Region Legal) (Super Rare) [OP17-JP-062]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 0.59,
-   "url": "https://gs-gameon.com/products/kaido-op17-062-v-1-the-world-s-strongest-warriors-asia-region-legal-super-rare-062-904884"
-  },
-  "charlotte-linlin-op17-112-v-1-the-world-s-strongest-warriors-asia-region-legal-super-rare-112-904983": {
-   "titre": "Charlotte Linlin (OP17-112) - The World’s Strongest Warriors (Asia Region Legal) (Super Rare) [OP17-JP-112]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 0.5,
-   "url": "https://gs-gameon.com/products/charlotte-linlin-op17-112-v-1-the-world-s-strongest-warriors-asia-region-legal-super-rare-112-904983"
-  },
   "shanks-op17-022-v-1-the-world-s-strongest-warriors-asia-region-legal-super-rare-022-904829": {
    "titre": "Shanks (OP17-022) - The World’s Strongest Warriors (Asia Region Legal) (Super Rare) [OP17-JP-022]",
    "langue": "JP",
@@ -36537,13 +36523,6 @@
    "dispo": true,
    "prix": 11.98,
    "url": "https://gs-gameon.com/products/marshall-d-teach-op16-119-v-1-the-time-of-battle-asia-region-legal-secret-rare-119-890517"
-  },
-  "monkey-d-luffy-op16-015-v-1-the-time-of-battle-asia-region-legal-super-rare-015-890385": {
-   "titre": "Monkey.D.Luffy (OP16-015) - The Time of Battle (Asia Region Legal) (Super Rare) [OP16-JP-015]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 0.68,
-   "url": "https://gs-gameon.com/products/monkey-d-luffy-op16-015-v-1-the-time-of-battle-asia-region-legal-super-rare-015-890385"
   },
   "monkey-d-dragon-op12-094-v-2-legacy-of-the-master-non-english-alternate-art-094-830338": {
    "titre": "Monkey.D.Dragon (OP12-094) - Legacy of the Master (Non-English) (Alternate Art) [OP12-JP-094]",
@@ -36977,7 +36956,7 @@
   "monkey-d-luffy-op17-093-v-1-the-world-s-strongest-warriors-asia-region-legal-super-rare-093-904946": {
    "titre": "Monkey.D.Luffy (OP17-093) (V.1) - The World’s Strongest Warriors (Asia Region Legal) (Super Rare) [OP17-JP-093]",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 1.75,
    "url": "https://starzcollectibles.com/products/monkey-d-luffy-op17-093-v-1-the-world-s-strongest-warriors-asia-region-legal-super-rare-093-904946"
   },
