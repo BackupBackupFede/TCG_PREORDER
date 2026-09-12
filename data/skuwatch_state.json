@@ -28691,6 +28691,27 @@
   }
  },
  "tcgdirect.fr": {
+  "mega-dragonite-ex-psa10-232-193-pokemon-japonais": {
+   "titre": "Mega Dragonite ex PSA10 · 232/193 Pokémon Japonais",
+   "langue": "JP",
+   "dispo": false,
+   "prix": 0.0,
+   "url": "https://tcgdirect.fr/products/mega-dragonite-ex-psa10-232-193-pokemon-japonais"
+  },
+  "bulbizarre-psa10-064-063-pokemon-japonais": {
+   "titre": "Bulbizarre PSA10 · 064/063 Pokémon Japonais",
+   "langue": "JP",
+   "dispo": false,
+   "prix": 0.0,
+   "url": "https://tcgdirect.fr/products/bulbizarre-psa10-064-063-pokemon-japonais"
+  },
+  "pikachu-v-psa10-005-015-pokemon-japonais": {
+   "titre": "Pikachu V PSA10 · 005/015 Pokémon Japonais",
+   "langue": "JP",
+   "dispo": false,
+   "prix": 0.0,
+   "url": "https://tcgdirect.fr/products/pikachu-v-psa10-005-015-pokemon-japonais"
+  },
   "display-dragon-ball-st-01-story-booster-01-japonais": {
    "titre": "Display Dragon Ball ST-01 Story Booster 01 japonais",
    "langue": "JP",
@@ -32225,7 +32246,7 @@
   "danada-etb-pitch-black-me05-ingles": {
    "titre": "[ DAÑADA ] ETB Pitch Black ME05 - Inglés",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 86.95,
    "url": "https://metamorphcenter.com/products/danada-etb-pitch-black-me05-ingles"
   },
