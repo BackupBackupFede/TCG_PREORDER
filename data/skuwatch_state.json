@@ -7254,13 +7254,6 @@
    "prix": 9.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op16-the-time-of-battle-booster-eng"
   },
-  "dragon-ball-super-card-game-fusion-world-fb10-cross-force-booster-eng": {
-   "titre": "Dragon Ball Super Card Game - Fusion World - FB10 - Cross Force - Booster [ENG]",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 11.99,
-   "url": "https://fantasiacards.de/products/dragon-ball-super-card-game-fusion-world-fb10-cross-force-booster-eng"
-  },
   "weiss-schwarz-fujimi-fantasia-bunko-vol-2-jp": {
    "titre": "Weiß Schwarz - Fujimi Fantasia Bunko Vol. 2 - Display [JP]",
    "langue": "JP",
@@ -8034,7 +8027,7 @@
   "union-arena-sword-art-online-vol-2-display-eng-1": {
    "titre": "Union Arena - Sword Art Online Vol.2 - Display [ENG]",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 139.99,
    "url": "https://fantasiacards.de/products/union-arena-sword-art-online-vol-2-display-eng-1"
   },
