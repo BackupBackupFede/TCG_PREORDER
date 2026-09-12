@@ -6368,7 +6368,7 @@
   "dragon-ball-super-card-game-masters-b30-three-glorious-fighters-booster-eng-1": {
    "titre": "Dragon Ball Super Card Game - Masters - B30 - Three Glorious Fighters - Booster [ENG]",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 8.99,
    "url": "https://fantasiacards.de/products/dragon-ball-super-card-game-masters-b30-three-glorious-fighters-booster-eng-1"
   },
@@ -36594,13 +36594,6 @@
    "prix": 0.5,
    "url": "https://gs-gameon.com/products/krieg-op15-008-v-1-adventure-on-kami-s-island-asia-region-legal-super-rare-008-874995"
   },
-  "jack-op08-084-v-1-special-tournament-promos-non-english-super-rare-op08-084-804888": {
-   "titre": "Jack (OP08-084) - Special Tournament Promos (Non-English) (Super Rare) [STP-JP-OP08-084]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 24.99,
-   "url": "https://gs-gameon.com/products/jack-op08-084-v-1-special-tournament-promos-non-english-super-rare-op08-084-804888"
-  },
   "shanks-op09-004-v-1-emperors-in-the-new-world-non-english-super-rare-004-786306": {
    "titre": "Shanks (OP09-004) - Emperors in the New World (Non-English) (Super Rare) [OP09-JP-004]",
    "langue": "JP",
@@ -36863,7 +36856,7 @@
   "op-17-the-worlds-strongest-warriors-double-pack-set-vol-12-eng": {
    "titre": "OP-17 The World's Strongest Warriors - Double Pack Set Vol. 12 (ENG)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 39.99,
    "url": "https://gs-gameon.com/products/op-17-the-worlds-strongest-warriors-double-pack-set-vol-12-eng"
   },
