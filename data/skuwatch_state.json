@@ -5683,7 +5683,7 @@
    "titre": "YuGiOh! - Magnificent Monsters Box [ENG]",
    "langue": "EN",
    "dispo": true,
-   "prix": 34.99,
+   "prix": 39.99,
    "url": "https://fantasiacards.de/products/yugioh-magnificent-monsters-box-eng"
   },
   "dragon-ball-super-card-game-fusion-world-st01-story-booster-01-eng-1": {
@@ -26688,7 +26688,7 @@
   "blister-pokemon-pitch-black-ingles": {
    "titre": "Blister Pokemon Pitch Black - Ingles",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 22.95,
    "url": "https://cardzone.es/products/blister-pokemon-pitch-black-ingles"
   },
@@ -33573,7 +33573,7 @@
   "pokemon-tcg-darkness-houndoom-ex-start-deckjp": {
    "titre": "Pokémon TCG: Darkness Houndoom Ex - Start Deck(JP)",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 5.99,
    "url": "https://tcgviert.com/products/pokemon-tcg-darkness-houndoom-ex-start-deckjp"
   },
@@ -37641,6 +37641,13 @@
   }
  },
  "pikamon.eu": {
+  "pokemon-tcg-destined-rivals-elite-trainer-box-english": {
+   "titre": "Pokémon TCG: Destined Rivals - Elite Trainer Box - English",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 160.0,
+   "url": "https://pikamon.eu/products/pokemon-tcg-destined-rivals-elite-trainer-box-english"
+  },
   "pokemon-tcg-pokemon-center-hiroshima-special-box-box-set-japanese": {
    "titre": "Pokémon TCG: Pokémon Center Hiroshima Special Box - Box Set - Japanese",
    "langue": "JP",
@@ -37728,14 +37735,14 @@
   "pokemon-tcg-jolteon-vmax-premium-collection-box-set-english": {
    "titre": "Pokémon TCG: Jolteon VMAX Premium Collection - Box Set - English",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 290.0,
    "url": "https://pikamon.eu/products/pokemon-tcg-jolteon-vmax-premium-collection-box-set-english"
   },
   "pokemon-tcg-twilight-masquerade-pokemon-center-elite-trainer-box-english": {
    "titre": "Pokémon TCG: Twilight Masquerade - Pokémon Center Elite Trainer Box - English",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 220.0,
    "url": "https://pikamon.eu/products/pokemon-tcg-twilight-masquerade-pokemon-center-elite-trainer-box-english"
   },
@@ -37763,7 +37770,7 @@
   "pokemon-tcg-mega-evolution-mega-lucario-pokemon-center-elite-trainer-box-english": {
    "titre": "Pokémon TCG: Mega Evolution Mega Lucario - Pokémon Center Elite Trainer Box - English",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 305.0,
    "url": "https://pikamon.eu/products/pokemon-tcg-mega-evolution-mega-lucario-pokemon-center-elite-trainer-box-english"
   },
@@ -38001,7 +38008,7 @@
   "pokemon-tcg-paldean-fates-pokemon-center-elite-trainer-box-english": {
    "titre": "Pokémon TCG: Paldean Fates Pokemon Center - Elite Trainer Box - English",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 450.0,
    "url": "https://pikamon.eu/products/pokemon-tcg-paldean-fates-pokemon-center-elite-trainer-box-english"
   },
@@ -38288,7 +38295,7 @@
   "one-piece-awakening-of-the-new-era-japanese-booster-box": {
    "titre": "One Piece Awakening of the New Era (OP-05) Booster Box - Japanese",
    "langue": "JP",
-   "dispo": false,
+   "dispo": true,
    "prix": 98.0,
    "url": "https://pikamon.eu/products/one-piece-awakening-of-the-new-era-japanese-booster-box"
   },
