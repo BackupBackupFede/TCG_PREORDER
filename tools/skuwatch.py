@@ -98,9 +98,11 @@ AUTRES_TCG = re.compile(
     r"star\s*wars\s*unlimited|cyberpunk|palworld|naruto|quintessential|"
     r"flesh\s*(?:and|&)\s*blood|\bfab\b|altered|hololive|detective\s*conan|"
     r"rebirth\s*for\s*you|blue\s*archive|build\s*divide|\btopps\b|"
-    # Sets Magic sous licence : le titre ne dit pas toujours "Magic". On ne peut
-    # pas filtrer "magic" seul ni "panini" -- ces mots apparaissent dans de vraies
-    # refs One Piece (bundle OP13, Film Red Collectors Box).
+    r"kayou|my\s*little\s*pony|haiky[uū]+|world'?s\s*monarchs|"
+    # Sets Magic sous licence : le titre ne dit pas toujours "Magic". Pas de
+    # "magic" seul ni de "panini" : trop larges (bundle OP13 + Magic Marvel,
+    # One Piece Film Red edite par Panini). SAUVEGARDE rattraperait ces deux
+    # titres-la, mais pas un set OP designe par son seul code (EB01, PRB01...).
     r"final\s*fantasy|teenage\s*mutant|ninja\s*turtles|avatar|disney|"
     r"lord\s*of\s*the\s*rings|middle[-\s]*earth|lorwyn|bloomburrow|foundations|"
     r"duskmourn|aetherdrift|tarkir|edge\s*of\s*eternities|"
@@ -108,6 +110,18 @@ AUTRES_TCG = re.compile(
     # rallonger la liste a chaque sortie. \b devant "play" car "display" contient
     # deja "play" -- sans lui, "Display Booster" de Pokemon/OP sautait aussi.
     r"\bcommander\b|\bplay\s+booster|collector'?s?\s*booster|scene\s*box|jumpstart", re.I)
+# Garde-fou : un titre qui nomme Pokemon ou One Piece n'est jamais jete par
+# AUTRES_TCG (bundles mixtes ; Bandai edite One Piece ET Dragon Ball).
+SAUVEGARDE = re.compile(r"pok[ée]mon|one\s*piece", re.I)
+# Produit abime. Pas de garde-fou ici : c'est justement du Pokemon/One Piece
+# B-Ware ou "embalaje dañado" qu'on ne veut pas voir passer.
+ENDOMMAGE = re.compile(r"da[ñn]ad[oa]|\bb-?ware\b|besch(?:ä|ae|a)digt|seconda\s*scelta|"
+                       r"danneggiat|damaged", re.I)
+# Prix bidons poses sur les fiches pas encore tarifees (aquitaz.se, en SEK :
+# 999 ou 1499 y sont de vrais prix, 1337/6999/9999 jamais). Ecarter la fiche tant
+# qu'elle porte ce prix fait sortir l'alerte NOUVEAU quand le vrai prix est pose,
+# c'est-a-dire a l'ouverture effective de la preco.
+PRIX_BIDON = {1337.0, 6999.0, 9999.0}
 
 
 def maintenant():
@@ -152,13 +166,17 @@ def catalogue(domaine):
     out = {}
     for p in produits:
         titre = p.get("title", "")
-        if BRUIT.search(titre) or AUTRES_TCG.search(titre) or not TCG.search(titre):
+        if BRUIT.search(titre) or ENDOMMAGE.search(titre) or not TCG.search(titre):
+            continue
+        if AUTRES_TCG.search(titre) and not SAUVEGARDE.search(titre):
             continue
         lang = langue(titre)
         if not lang:
             continue
         variantes = p.get("variants") or []
         prix = min((float(v["price"]) for v in variantes if v.get("price")), default=None)
+        if prix in PRIX_BIDON:
+            continue
         out[p["handle"]] = {
             "titre": titre[:120],
             "langue": lang,
