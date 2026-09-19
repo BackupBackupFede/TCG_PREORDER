@@ -12,7 +12,7 @@
 > **Deux règles seulement** : un SKU qui apparaît = préco/nouveauté, `indispo → dispo`
 > = restock. Le prix est affiché dans l'alerte mais ne déclenche rien.
 
-## Actives — 35 boutiques (31 ci-dessous + 4 ajoutées le 19/09, voir plus bas)
+## Actives — 33 boutiques (31 ci-dessous + 2 ajoutées le 19/09, voir plus bas)
 
 | # | Boutique | Pays | Réfs | EN (dispo) | JP (dispo) | Livraison |
 |---|---|---|---|---|---|---|
@@ -77,13 +77,22 @@ identiques à ce que le bot verrait. Nouveauté de méthode : `/meta.json` de Sh
 donne le pays de la boutique **et la liste des pays livrés**, ce qui tranche la
 question « livre en France ? » sans lire les CGV.
 
-**16 sur 104 sont joignables par le mécanisme.** Quatre passent en actif :
+> **Correctif du 19/09 au soir — `meta.json` ne suffit pas pour la livraison.**
+> toy-treasure.com et superelf-cards.de annonçaient la France dans
+> `ships_to_countries`, mais leur politique d'expédition dit l'inverse
+> (toy-treasure : DE/AT/IT seulement ; superelf : international suspendu, PPWR).
+> Les deux repassent en `exclu`. Règle : `meta.json` sert à **écarter** (FR absent
+> = ne livre pas), jamais à **valider** — la validation se fait sur
+> `/policies/shipping-policy`.
+
+**16 sur 104 sont joignables par le mécanisme.** Deux restent en actif (les
+deux lignes barrées ont été retirées après lecture des politiques d'expédition) :
 
 | Boutique | Pays | Réfs | EN (dispo) | JP (dispo) | Pourquoi |
 |---|---|---|---|---|---|
-| **toy-treasure.com** | DE | **235** | 151 (**90**) | 84 (**56**) | la trouvaille : équilibrée, 146 réfs en stock |
+| ~~toy-treasure.com~~ | DE | 235 | 151 (90) | 84 (56) | **ne livre pas la France** (DE/AT/IT) |
 | **lerepaireducollectionneur.fr** | FR | 62 | 1 | 61 (25) | FR, import JP direct |
-| superelf-cards.de | DE | 115 | 115 (19) | 0 | EN pur ; > 1000 produits, seules 4 pages lues |
+| ~~superelf-cards.de~~ | DE | 115 | 115 (19) | 0 | **international suspendu** (PPWR) |
 | hikarudistribution.com | FR | 31 | 0 | 31 (6) | FR ; > 1000 produits, sous-mesurée |
 
 Au banc — **invisibles tant que la langue n'est pas déduite** : kantovault.se
