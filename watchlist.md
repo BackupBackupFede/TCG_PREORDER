@@ -12,7 +12,7 @@
 > **Deux règles seulement** : un SKU qui apparaît = préco/nouveauté, `indispo → dispo`
 > = restock. Le prix est affiché dans l'alerte mais ne déclenche rien.
 
-## Actives — 31 boutiques
+## Actives — 35 boutiques (31 ci-dessous + 4 ajoutées le 19/09, voir plus bas)
 
 | # | Boutique | Pays | Réfs | EN (dispo) | JP (dispo) | Livraison |
 |---|---|---|---|---|---|---|
@@ -67,6 +67,61 @@ direct du Japon, 90 réfs JP. **pikamon.eu** est la seule des quatre à être
 
 À noter : `oupi.eu`, que le brief moniteur classe « haute priorité », n'a **pas** de
 `/products.json` — même cas que vinticards / ptmerch / fyft. Hors mécanisme.
+
+## Prospection du 2026-09-19
+
+Deuxième passage externe : 30 requêtes en 14 langues (FR, DE, NL, IT, ES, PT, PL,
+CZ, SK, SL, HR, RO, LT, SV, HU, EL), **104 domaines inédits** sondés avec le vrai
+`catalogue()` de skuwatch — donc après tous les filtres négatifs, chiffres
+identiques à ce que le bot verrait. Nouveauté de méthode : `/meta.json` de Shopify
+donne le pays de la boutique **et la liste des pays livrés**, ce qui tranche la
+question « livre en France ? » sans lire les CGV.
+
+**16 sur 104 sont joignables par le mécanisme.** Quatre passent en actif :
+
+| Boutique | Pays | Réfs | EN (dispo) | JP (dispo) | Pourquoi |
+|---|---|---|---|---|---|
+| **toy-treasure.com** | DE | **235** | 151 (**90**) | 84 (**56**) | la trouvaille : équilibrée, 146 réfs en stock |
+| **lerepaireducollectionneur.fr** | FR | 62 | 1 | 61 (25) | FR, import JP direct |
+| superelf-cards.de | DE | 115 | 115 (19) | 0 | EN pur ; > 1000 produits, seules 4 pages lues |
+| hikarudistribution.com | FR | 31 | 0 | 31 (6) | FR ; > 1000 produits, sous-mesurée |
+
+Au banc — **invisibles tant que la langue n'est pas déduite** : kantovault.se
+(~250 réfs EN), poke-power.eu (~336), pokepopspot.com (114 EN + 29 JP). Ces
+boutiques vendent de l'anglais sans jamais l'écrire (« Prismatic Evolutions Elite
+Trainer Box »), donc `langue()` renvoie `None` et tout est jeté.
+
+Écartées : misticards.com, 2sleeve.de, tcgoost.nl (ne livrent pas la France selon
+`meta.json` — dommage pour misticards, 45 réfs sur 46 en stock) ;
+**starzcollectibles.de = doublon de starzcollectibles.com** (même catalogue, ne
+pas activer) ; cartespokemon.com (chinois) ; japondemande.com, japandco.net,
+chitoroshop.com basées **au Japon** malgré un site en français.
+
+### Hors mécanisme — 88 domaines
+
+- **19 Shopify derrière l'anti-bot Cloudflare** : même URL, même User-Agent,
+  `curl` reçoit 200 et Python 429. Cloudflare reconnaît le client HTTP. On ne
+  contourne pas. variety-cards.de, breakthecase.de, opcards.de, kroko-games.com,
+  cardbuddys.de, mikiscardshop.at, debroergrot.nl, lichcards.nl, pokemillon.com,
+  collectowny.com, wakaistore.com, pokecarta.com, igabiba.si, tcgarena.ro,
+  tcgstore.se, poketalk.se, rogerz.dk, pokebundles.ie, poke-collect.com.
+- **48 sans `/products.json`** (WooCommerce, PrestaShop, Shoptet…), dont mymesis.fr,
+  nippontcg.fr, blazingtail.fr, pokuji.fr, card-corner.de, ktcards.de, gengar.cz,
+  cardempire.sk, pokegemcollector.pl.
+- **8 en 403** (flash-cards.be, masterpacks.pt, pokeshop.pl…) et 13 injoignables.
+
+**Le plafond de 4 pages ne fait rater aucune préco** : `/products.json` renvoie
+du plus récent au plus ancien (fantasiacards.de : page 1 jusqu'au 19/09, page 4
+en 2023-2025). Il ne coûte que les restocks de vieux produits au-delà de la
+page 4, chez les boutiques à gros catalogue (superelf, hikaru).
+
+### Leçon d'exploitation
+
+Sonder 8 boutiques Shopify en parallèle depuis une seule IP déclenche un
+**bridage global de Shopify** sur cette IP (429 partout, y compris sur les
+boutiques déjà suivies), pendant plusieurs minutes. La politesse se compte par
+domaine, mais le plafond, lui, est partagé par toute la plateforme. Une
+prospection se fait en séquentiel avec des pauses.
 
 ## Hors UE — à traiter à part
 

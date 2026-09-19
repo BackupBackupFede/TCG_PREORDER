@@ -53,3 +53,19 @@ itsukijapan.com,JP,hors_ue,7,0,0,7,7,OUI,HORS UE - expedie du Japon
 matraws.dk,DK,exclu,16,0,0,16,11,NON,vi leverer ikke til udlandet
 pockomonsters.dk,DK,exclu,10,10,3,0,0,NON,vi leverer ikke til udlandet
 cardgame-club.it,IT,exclu,38,23,1,15,0,NON,livre en Italie uniquement
+toy-treasure.com,DE,actif,235,151,90,84,56,OUI,"prospection 19/09 - livre FR selon meta.json - EN et JP equilibres, 146 refs en stock"
+lerepaireducollectionneur.fr,FR,actif,62,1,0,61,25,OUI,"FR - import JP direct ; ses titres sans langue sont du chinois, ignores a juste titre"
+superelf-cards.de,DE,actif,115,115,19,0,0,OUI,"EN pur - catalogue > 1000 produits (singles) : seules les 4 premieres pages sont lues"
+hikarudistribution.com,FR,actif,31,0,0,31,6,OUI,"FR (Ile-de-France) import JP direct - catalogue > 1000 produits, sous-mesure probable"
+pokepopspot.com,SK,banc,29,0,0,29,1,OUI,"livre FR selon meta.json - + 114 refs EN jamais etiquetees (angle mort langue)"
+kantovault.se,SE,banc,0,0,0,0,0,OUI,"prix en SEK - ~250 refs EN jamais etiquetees : invisible tant que la langue n'est pas deduite"
+poke-power.eu,SI,banc,0,0,0,0,0,OUI,"~336 refs EN (dont starters One Piece) jamais etiquetees : invisible tant que la langue n'est pas deduite"
+misticards.com,AT,exclu,46,13,13,33,32,NON,"FR absent des pays livres (meta.json) - dommage : 45 refs sur 46 en stock"
+2sleeve.de,DE,exclu,83,71,36,12,8,NON,"FR absent des pays livres (meta.json)"
+tcgoost.nl,NL,exclu,2,0,0,2,0,NON,"FR absent des pays livres (meta.json) - 2 refs seulement"
+starzcollectibles.de,DE,exclu,133,3,1,130,44,OUI,"DOUBLON de starzcollectibles.com (meme catalogue) - ne pas activer, doublerait les alertes"
+cartespokemon.com,BE,exclu,0,0,0,0,0,OUI,"asiatique surtout chinois (66 refs CN) - hors perimetre EN/JP"
+poke-geek.fr,FR,exclu,1,0,0,1,0,OUI,"1 ref au perimetre sur plus de 1000 produits"
+japondemande.com,JP,hors_ue,0,0,0,0,0,OUI,"HORS UE - boutique basee au Japon (meta.json) malgre un site en francais"
+japandco.net,JP,hors_ue,0,0,0,0,0,OUI,"HORS UE - boutique basee au Japon (meta.json) malgre un site en francais"
+chitoroshop.com,JP,hors_ue,0,0,0,0,0,OUI,"HORS UE - basee au Japon, prix en JPY"
