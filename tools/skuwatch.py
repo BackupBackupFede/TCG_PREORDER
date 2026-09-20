@@ -122,6 +122,15 @@ ENDOMMAGE = re.compile(r"da[ñn]ad[oa]|\bb-?ware\b|besch(?:ä|ae|a)digt|seconda\
 # qu'elle porte ce prix fait sortir l'alerte NOUVEAU quand le vrai prix est pose,
 # c'est-a-dire a l'ouverture effective de la preco.
 PRIX_BIDON = {1337.0, 6999.0, 9999.0}
+# Plancher : en dessous, ce n'est pas un display (carte a l'unite, booster seul,
+# deck, tin). Mesure du 19/09 sur 4077 refs : a 20 EUR, 73 % des cartes a l'unite
+# et ~800 petits produits sortent, aucun display ; a 30 EUR on perdait deja des
+# collection boxes. Un prix a 0 n'est PAS ecarte : c'est une fiche creee avant
+# l'ouverture de la preco, exactement celle qu'on veut voir apparaitre.
+PRIX_MIN_EUR = 20.0
+# Unites locales pour 1 EUR, boutiques hors zone euro. Un ordre de grandeur
+# suffit pour un plancher : pas de taux du jour a aller chercher.
+DEVISE_PAR_PAYS = {"SE": 11.0, "DK": 7.5, "PL": 4.3, "CZ": 25.0, "HU": 400.0, "RO": 5.0}
 
 
 def maintenant():
@@ -152,8 +161,9 @@ def lit_page(url):
     raise RuntimeError("inatteignable")
 
 
-def catalogue(domaine):
+def catalogue(domaine, pays=""):
     """Retourne {handle: {...}} du scellé EN/JP. Leve si l'endpoint est mort."""
+    plancher = PRIX_MIN_EUR * DEVISE_PAR_PAYS.get(pays, 1.0)
     produits, page = [], 1
     while page <= PAGES_MAX:
         lot = lit_page(f"https://{domaine}/products.json?limit=250&page={page}").get("products", [])
@@ -175,7 +185,7 @@ def catalogue(domaine):
             continue
         variantes = p.get("variants") or []
         prix = min((float(v["price"]) for v in variantes if v.get("price")), default=None)
-        if prix in PRIX_BIDON:
+        if prix in PRIX_BIDON or (prix and prix < plancher):
             continue
         out[p["handle"]] = {
             "titre": titre[:120],
@@ -230,7 +240,7 @@ def main():
         fait apres, dans le fil principal, pour rester deterministe."""
         d = cible["domaine"]
         try:
-            return d, catalogue(d), None
+            return d, catalogue(d, cible.get("pays", "")), None
         except Exception as e:
             return d, None, type(e).__name__
 
