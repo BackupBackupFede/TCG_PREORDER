@@ -1353,13 +1353,6 @@
   }
  },
  "fantasiacards.de": {
-  "pokemon-30th-celebration-booster-eng": {
-   "titre": "Pokemon - 30th Celebration - Booster [ENG]",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 29.99,
-   "url": "https://fantasiacards.de/products/pokemon-30th-celebration-booster-eng"
-  },
   "pokemon-first-partner-illustration-collection-series-3-eng": {
    "titre": "Pokemon - First Partner Illustration Collection Series 3 [ENG]",
    "langue": "EN",
@@ -3716,6 +3709,13 @@
   }
  },
  "baruzcard.it": {
+  "one-piece-card-game-heroines-special-set-premium-bandai-eng": {
+   "titre": "One Piece Card Game Heroines Special Set Premium Bandai – ENG",
+   "langue": "EN",
+   "dispo": false,
+   "prix": 249.9,
+   "url": "https://baruzcard.it/products/one-piece-card-game-heroines-special-set-premium-bandai-eng"
+  },
   "one-piece-sealed-case-op17-the-worlds-strongest-warriors-12x-booster-box-24-buste-eng": {
    "titre": "One Piece Sealed Case  OP17 The World's Strongest Warriors 12x Booster Box 24 Buste – ENG",
    "langue": "EN",
@@ -3761,7 +3761,7 @@
   "one-piece-card-game-op17-the-worlds-strongest-warriors-booster-box-24-buste-eng": {
    "titre": "One Piece Card Game OP17 The World's Strongest Warriors Booster Box 24 Buste – ENG",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 349.9,
    "url": "https://baruzcard.it/products/one-piece-card-game-op17-the-worlds-strongest-warriors-booster-box-24-buste-eng"
   },
@@ -4751,13 +4751,6 @@
    "dispo": false,
    "prix": 79.9,
    "url": "https://baruzcard.it/products/one-pieceset-box-prb01-premium-booster-the-best-box-jap"
-  },
-  "pokemon-stellar-miracle-booster-box-jap": {
-   "titre": "Pokemon Stellar Miracle Booster Box JAP",
-   "langue": "JP",
-   "dispo": false,
-   "prix": 69.9,
-   "url": "https://baruzcard.it/products/pokemon-stellar-miracle-booster-box-jap"
   }
  },
  "outpostbrussels.be": {
