@@ -1984,10 +1984,10 @@
    "url": "https://fantasiacards.de/products/one-piece-magazine-vol-20-promo-card-monkey-d-luffy-st21-014-jp"
   },
   "pokemon-30th-celebration-booster-bundle-eng": {
-   "titre": "Pokemon - 30th Celebration - Booster Bundle [ENG]",
+   "titre": "Pokemon - 30th Celebration - Booster Bundle [ENG] (Vorbestellung - Versand: Mitte Oktober 2026)",
    "langue": "EN",
-   "dispo": false,
-   "prix": 0.0,
+   "dispo": true,
+   "prix": 124.99,
    "url": "https://fantasiacards.de/products/pokemon-30th-celebration-booster-bundle-eng"
   },
   "pokemon-30th-celebration-mini-tin-display-eng": {
@@ -2409,7 +2409,7 @@
    "titre": "Booster Box Storm Emerald | POKÉMON | Japonés",
    "langue": "JP",
    "dispo": true,
-   "prix": 124.99,
+   "prix": 109.99,
    "url": "https://todohits.com/products/reserva-booster-box-storm-emerald-pokemon-japones"
   },
   "reserva-booster-box-pitch-black-pokemon-ingles": {
@@ -2486,7 +2486,7 @@
    "titre": "Booster Box Abyss Eye | POKÉMON | Japonés",
    "langue": "JP",
    "dispo": true,
-   "prix": 124.99,
+   "prix": 99.99,
    "url": "https://todohits.com/products/booster-box-abyss-eye-pokemon-japones"
   },
   "booster-bundle-chaos-rising-pokemon-ingles": {
@@ -2591,7 +2591,7 @@
    "titre": "Booster Box Ninja Spinner | POKÉMON | Japonés",
    "langue": "JP",
    "dispo": true,
-   "prix": 109.99,
+   "prix": 99.99,
    "url": "https://todohits.com/products/booster-box-ninja-spinner-pokemon-japones"
   },
   "mega-charizard-2026-spring-tin-4-sobres-pokemon-ingles": {
@@ -2759,7 +2759,7 @@
    "titre": "Booster Box Mega Dream EX | POKÉMON | Japonés",
    "langue": "JP",
    "dispo": true,
-   "prix": 137.99,
+   "prix": 129.99,
    "url": "https://todohits.com/products/booster-box-mega-dream-ex-pokemon-japones"
   },
   "op-13-booster-box-one-piece-carrying-on-his-will-ingles": {
@@ -2794,7 +2794,7 @@
    "titre": "Booster Box Inferno X | POKÉMON | Japonés",
    "langue": "JP",
    "dispo": true,
-   "prix": 179.99,
+   "prix": 169.99,
    "url": "https://todohits.com/products/booster-box-inferno-x-pokemon-japones"
   },
   "booster-box-triplet-beat-pokemon-japones": {
@@ -3109,7 +3109,7 @@
    "titre": "Booster Box Shiny Treasure | POKÉMON | Japonés",
    "langue": "JP",
    "dispo": true,
-   "prix": 174.99,
+   "prix": 164.99,
    "url": "https://todohits.com/products/booster-box-shiny-treasure-pokemon-japones"
   },
   "booster-box-crimson-haze-pokemon-japones": {
@@ -3662,7 +3662,7 @@
    "titre": "Booster Box Scarlet EX | POKÉMON | Japonés",
    "langue": "JP",
    "dispo": true,
-   "prix": 99.99,
+   "prix": 109.99,
    "url": "https://todohits.com/products/booster-box-scarlet-ex-pokemon-japones"
   },
   "booster-box-violet-ex-pokemon-japones": {
@@ -3683,7 +3683,7 @@
    "titre": "Booster Box Raging Surf | POKÉMON | Japonés",
    "langue": "JP",
    "dispo": true,
-   "prix": 124.99,
+   "prix": 129.99,
    "url": "https://todohits.com/products/booster-box-raging-surf-pokemon-japones"
   },
   "booster-box-wild-force-pokemon-japones": {
@@ -9025,6 +9025,20 @@
   }
  },
  "yonko-tcg.de": {
+  "eng-one-piece-card-game-display-heroines-edition-vol-2-eb-05": {
+   "titre": "[ENG] One Piece · Card Game Display - Heroines Edition Vol.2 (EB-05)",
+   "langue": "EN",
+   "dispo": false,
+   "prix": 0.0,
+   "url": "https://yonko-tcg.de/products/eng-one-piece-card-game-display-heroines-edition-vol-2-eb-05"
+  },
+  "jp-one-piece-card-game-display-the-dominance-of-god-op-18": {
+   "titre": "[JP] One Piece · Card Game Display - The Dominance of God (OP-18)",
+   "langue": "JP",
+   "dispo": false,
+   "prix": 0.0,
+   "url": "https://yonko-tcg.de/products/jp-one-piece-card-game-display-the-dominance-of-god-op-18"
+  },
   "jp-one-piece-card-game-x-nike-promokarten": {
    "titre": "[JP] One Piece · Card Game x NIKE - Promokarten",
    "langue": "JP",
@@ -11786,6 +11800,13 @@
   }
  },
  "tcgdirect.fr": {
+  "set-complet-pikachu-30-ans-japonais": {
+   "titre": "Set complet 30 ans Célébration Pikachu M6a Pokémon Japonais (Collectaura)",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 99.95,
+   "url": "https://tcgdirect.fr/products/set-complet-pikachu-30-ans-japonais"
+  },
   "coffret-30-ans-anniversary-celebration-first-partners-pokemon-chinois-copie": {
    "titre": "Coffret 30 ans Célébration First Partners 9G Pokémon Japonais (Pré-commande)",
    "langue": "JP",
@@ -11793,8 +11814,15 @@
    "prix": 249.95,
    "url": "https://tcgdirect.fr/products/coffret-30-ans-anniversary-celebration-first-partners-pokemon-chinois-copie"
   },
+  "30th-celebration-premium-deck-set-mentali-noctali": {
+   "titre": "Coffret 30 ans Célébration Premium Deck Set Mentali & Noctali Pokémon Japonais (En stock)",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 179.95,
+   "url": "https://tcgdirect.fr/products/30th-celebration-premium-deck-set-mentali-noctali"
+  },
   "display-m6a-30-booster-pokemon-japonais": {
-   "titre": "Display 30 ans Celebration M6a 20 Booster Pokémon Japonais",
+   "titre": "Display 30 ans Célébration M6a 20 Booster Pokémon Japonais (En stock)",
    "langue": "JP",
    "dispo": true,
    "prix": 179.95,
@@ -15454,13 +15482,6 @@
    "prix": 73.88,
    "url": "https://gs-gameon.com/products/boa-hancock-op07-038-v-2-500-years-into-the-future-non-english-alternate-art-038-759052"
   },
-  "donquixote-doflamingo-op04-019-v-2-kingdoms-of-intrigue-non-english-alternate-art-019-733096": {
-   "titre": "Donquixote Doflamingo (OP04-019) - Kingdoms of Intrigue (Non-English) (Alternate Art) [OP04-JP-019]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 24.99,
-   "url": "https://gs-gameon.com/products/donquixote-doflamingo-op04-019-v-2-kingdoms-of-intrigue-non-english-alternate-art-019-733096"
-  },
   "op-17-the-world-s-strongest-warriors-booster-box-da-24-buste-eng": {
    "titre": "OP-17 The World’s Strongest Warriors - Booster Box da 24 Buste (ENG)",
    "langue": "EN",
@@ -15495,13 +15516,6 @@
    "dispo": true,
    "prix": 42.98,
    "url": "https://gs-gameon.com/products/monkey-d-luffy-op07-109-unnumbered-promos-non-english-super-rare-op07-109-792764"
-  },
-  "30th-celebration-display-20-buste-jap-senza-pellicola": {
-   "titre": "30th Celebration Display 20 Buste (JAP) - Senza Pellicola",
-   "langue": "JP",
-   "dispo": false,
-   "prix": 174.99,
-   "url": "https://gs-gameon.com/products/30th-celebration-display-20-buste-jap-senza-pellicola"
   },
   "one-piece-card-game-op-17-the-worlds-strongest-warriors-bundle-12-bustine-jp": {
    "titre": "One Piece Card Game OP-17 The World's Strongest Warriors – Bundle 12 Bustine JP",
@@ -16850,7 +16864,7 @@
    "titre": "Pokemon 30th Celebration Japanese Booster BOX",
    "langue": "JP",
    "dispo": true,
-   "prix": 195.9,
+   "prix": 198.9,
    "url": "https://pokejapan.store/products/pokemon-30th-celebration-japanese-booster-box"
   },
   "pokemon-storm-emeralda-japanese-booster-box": {
@@ -17362,14 +17376,14 @@
   "premium-deck-set-pokemon-30th-celebration-japonais-mentali-noctali": {
    "titre": "Premium Deck Set Pokémon 30th Célébration (Japonais) – Mentali & Noctali",
    "langue": "JP",
-   "dispo": false,
+   "dispo": true,
    "prix": 149.9,
    "url": "https://lerepaireducollectionneur.fr/products/premium-deck-set-pokemon-30th-celebration-japonais-mentali-noctali"
   },
   "one-piece-card-game-premium-card-collection-one-piece-day26-japonais": {
    "titre": "One Piece Card Game Premium Card Collection - One Piece Day'26 Japonais",
    "langue": "JP",
-   "dispo": false,
+   "dispo": true,
    "prix": 49.9,
    "url": "https://lerepaireducollectionneur.fr/products/one-piece-card-game-premium-card-collection-one-piece-day26-japonais"
   },
@@ -17875,7 +17889,7 @@
   "futuristic-box-30th-celebration-coffret-ultra-premium-30-ans-japonais": {
    "titre": "Futuristic Box 30th Celebration - Coffret Ultra Premium 30 ans Japonais",
    "langue": "JP",
-   "dispo": false,
+   "dispo": true,
    "prix": 684.9,
    "url": "https://hikarudistribution.com/products/futuristic-box-30th-celebration-coffret-ultra-premium-30-ans-japonais"
   },
