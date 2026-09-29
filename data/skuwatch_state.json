@@ -3818,7 +3818,7 @@
    "titre": "One Piece Sealed Case  OP17 The World's Strongest Warriors 12x Booster Box 24 Buste – ENG",
    "langue": "EN",
    "dispo": true,
-   "prix": 4199.99,
+   "prix": 3999.9,
    "url": "https://baruzcard.it/products/one-piece-sealed-case-op17-the-worlds-strongest-warriors-12x-booster-box-24-buste-eng"
   },
   "one-piece-card-game-3rd-anniversary-set-luffy-ace-sabo-eng": {
@@ -7575,7 +7575,7 @@
   "one-piece-op-19-booster-display-24-pack-eng": {
    "titre": "One Piece: (OP 19) Booster Display (24 Pack) (ENG) Max 1 per person",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 2299.0,
    "url": "https://aquitaz.se/products/one-piece-op-19-booster-display-24-pack-eng"
   },
@@ -7861,6 +7861,13 @@
   }
  },
  "otakura.com": {
+  "30th-celebration-ex-box-greninja-ex-pokemon-tcg-eng": {
+   "titre": "30th Celebration: ex Box Greninja ex - Pokémon TCG (ENG)",
+   "langue": "EN",
+   "dispo": false,
+   "prix": 46.9,
+   "url": "https://otakura.com/products/30th-celebration-ex-box-greninja-ex-pokemon-tcg-eng"
+  },
   "30th-celebration-bundle-2-ex-tin-sylveon-greninja-pokemon-tcg-eng": {
    "titre": "Bundle 2 ex Tin Sylveon ex + Greninja ex - 30th Celebration Pokémon TCG (ENG)",
    "langue": "EN",
@@ -10362,7 +10369,7 @@
   "one-piece-card-game-eb06-display-box-24-buste-eng": {
    "titre": "One Piece Card Game : EB06 Display Box 24 Buste (ENG)",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 180.0,
    "url": "https://1uprm.com/products/one-piece-card-game-eb06-display-box-24-buste-eng"
   },
@@ -14134,7 +14141,7 @@
   "pokemon-tcg-mega-greninja-ex-premium-collection-en-limit-1-person": {
    "titre": "Pokémon TCG | Mega Greninja ex | Premium Collection (EN) (Limit: 1/Person)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 49.99,
    "url": "https://tcgviert.com/products/pokemon-tcg-mega-greninja-ex-premium-collection-en-limit-1-person"
   },
@@ -17889,7 +17896,7 @@
   "futuristic-box-30th-celebration-coffret-ultra-premium-30-ans-japonais": {
    "titre": "Futuristic Box 30th Celebration - Coffret Ultra Premium 30 ans Japonais",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 684.9,
    "url": "https://hikarudistribution.com/products/futuristic-box-30th-celebration-coffret-ultra-premium-30-ans-japonais"
   },
