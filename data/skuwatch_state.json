@@ -1325,13 +1325,6 @@
    "prix": 99.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op15-the-adventure-of-the-island-of-god-display-jp-1"
   },
-  "one-piece-card-game-eb03-heroines-edition-display-jp-1": {
-   "titre": "One Piece Card Game - EB03 - Heroines Edition - Display [JP]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 159.99,
-   "url": "https://fantasiacards.de/products/one-piece-card-game-eb03-heroines-edition-display-jp-1"
-  },
   "pokemon-phantasmal-flames-display-eng": {
    "titre": "Pokemon - Phantasmal Flames - Display [ENG]",
    "langue": "EN",
@@ -13979,7 +13972,7 @@
    "titre": "Pikachu SVP EN 214 Illustration Contest 2024 Pokemon SV Black Star Promo (SEALED)",
    "langue": "EN",
    "dispo": true,
-   "prix": 54.99,
+   "prix": 42.99,
    "url": "https://pokedirris.de/products/pikachu-svp-en-214-illustration-contest-2024-pokemon-sv-black-star-promo-sealed"
   },
   "pokemon-paldea-partners-tin-box-bailonda-ex-en": {
@@ -14091,7 +14084,7 @@
    "titre": "Pikachu SVP EN 214 Illustration Contest 2024 Pokemon SV Black Star Promo",
    "langue": "EN",
    "dispo": true,
-   "prix": 39.99,
+   "prix": 27.99,
    "url": "https://pokedirris.de/products/pikachu-svp-en-214-illustration-contest-2024-pokemon-sv-black-star-promo"
   }
  },
@@ -15468,6 +15461,76 @@
   }
  },
  "gs-gameon.com": {
+  "monkey-d-luffy-op09-061-v-2-emperors-in-the-new-world-non-english-alternate-art-061-786434": {
+   "titre": "Monkey.D.Luffy (OP09-061) - Emperors in the New World (Non-English) (Alternate Art) [OP09-JP-061]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 53.94,
+   "url": "https://gs-gameon.com/products/monkey-d-luffy-op09-061-v-2-emperors-in-the-new-world-non-english-alternate-art-061-786434"
+  },
+  "buggy-p-084-the-world-s-strongest-warriors-asia-region-legal-special-rare-p-084-905030": {
+   "titre": "Buggy (P-084) - The World’s Strongest Warriors (Asia Region Legal) (Special Rare) [OP17-JP-P-084]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 169.98,
+   "url": "https://gs-gameon.com/products/buggy-p-084-the-world-s-strongest-warriors-asia-region-legal-special-rare-p-084-905030"
+  },
+  "portgas-d-ace-st15-005-the-time-of-battle-asia-region-legal-special-rare-st15-005-890524": {
+   "titre": "Portgas.D.Ace (ST15-005) - The Time of Battle (Asia Region Legal) (Special Rare) [OP16-JP-ST15-005]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 139.97,
+   "url": "https://gs-gameon.com/products/portgas-d-ace-st15-005-the-time-of-battle-asia-region-legal-special-rare-st15-005-890524"
+  },
+  "nefeltari-vivi-op13-012-unnumbered-promos-non-english-rare-op13-012-883602": {
+   "titre": "Nefeltari Vivi (OP13-012) - Unnumbered Promos (Non-English) (Rare) [UP-JP-OP13-012]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 68.99,
+   "url": "https://gs-gameon.com/products/nefeltari-vivi-op13-012-unnumbered-promos-non-english-rare-op13-012-883602"
+  },
+  "boa-hancock-op01-078-kingdoms-of-intrigue-non-english-special-rare-op01-078-733070": {
+   "titre": "Boa Hancock (OP01-078) - Kingdoms of Intrigue (Non-English) (Special Rare) [OP04-JP-OP01-078]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 649.99,
+   "url": "https://gs-gameon.com/products/boa-hancock-op01-078-kingdoms-of-intrigue-non-english-special-rare-op01-078-733070"
+  },
+  "boa-hancock-op13-051-v-1-unnumbered-promos-non-english-rare-op13-051-894105": {
+   "titre": "Boa Hancock (OP13-051) - Unnumbered Promos (Non-English) (Rare) [UP-JP-OP13-051]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 69.99,
+   "url": "https://gs-gameon.com/products/boa-hancock-op13-051-v-1-unnumbered-promos-non-english-rare-op13-051-894105"
+  },
+  "trafalgar-law-op10-119-v-2-the-best-vol-2-non-english-special-rare-op10-119-839412": {
+   "titre": "Trafalgar Law (OP10-119) - The Best Vol. 2 (Non-English) (Special Rare) [PRB02-JP-OP10-119]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 47.99,
+   "url": "https://gs-gameon.com/products/trafalgar-law-op10-119-v-2-the-best-vol-2-non-english-special-rare-op10-119-839412"
+  },
+  "eustass-captain-kid-op05-074-500-years-into-the-future-non-english-special-rare-op05-074-758920": {
+   "titre": "Eustass\"Captain\"Kid (OP05-074) - 500 Years into the Future (Non-English) (Special Rare) [OP07-JP-OP05-074]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 34.37,
+   "url": "https://gs-gameon.com/products/eustass-captain-kid-op05-074-500-years-into-the-future-non-english-special-rare-op05-074-758920"
+  },
+  "roronoa-zoro-op15-113-v-2-special-tournament-promos-non-english-super-rare-op15-113-901278": {
+   "titre": "Roronoa Zoro (OP15-113) - Special Tournament Promos (Non-English) (Super Rare) [STP-JP-OP15-113]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 199.99,
+   "url": "https://gs-gameon.com/products/roronoa-zoro-op15-113-v-2-special-tournament-promos-non-english-super-rare-op15-113-901278"
+  },
+  "charlotte-flampe-eb01-056-royal-blood-non-english-special-rare-eb01-056-802160": {
+   "titre": "Charlotte Flampe (EB01-056) - Royal Blood (Non-English) (Special Rare) [OP10-JP-EB01-056]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 25.98,
+   "url": "https://gs-gameon.com/products/charlotte-flampe-eb01-056-royal-blood-non-english-special-rare-eb01-056-802160"
+  },
   "my-era-begins-op09-096-v-2-the-best-vol-2-non-english-alternate-art-op09-096-839369": {
    "titre": "My Era...Begins!! (OP09-096) - The Best Vol. 2 (Non-English) (Alternate Art) [PRB02-JP-OP09-096]",
    "langue": "JP",
@@ -15495,13 +15558,6 @@
    "dispo": true,
    "prix": 26.98,
    "url": "https://gs-gameon.com/products/gol-d-roger-op09-118-v-2-emperors-in-the-new-world-non-english-alternate-art-118-786548"
-  },
-  "roronoa-zoro-op06-118-v-2-wings-of-the-captain-non-english-alternate-art-118-746391": {
-   "titre": "Roronoa Zoro (OP06-118) - Wings of the Captain (Non-English) (Alternate Art) [OP06-JP-118]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 54.99,
-   "url": "https://gs-gameon.com/products/roronoa-zoro-op06-118-v-2-wings-of-the-captain-non-english-alternate-art-118-746391"
   },
   "crocodile-op01-062-v-2-romance-dawn-japanese-alternate-art-062-768314": {
    "titre": "Crocodile (OP01-062) - Romance Dawn (Japanese) (Alternate Art) [OP01-JP-062]",
