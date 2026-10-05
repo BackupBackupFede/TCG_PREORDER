@@ -1304,19 +1304,61 @@
   }
  },
  "fantasiacards.de": {
+  "pokemon-terastal-festival-ex-sv8a-display-jp": {
+   "titre": "Pokemon - Terastal Festival EX - Display [JP]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 179.99,
+   "url": "https://fantasiacards.de/products/pokemon-terastal-festival-ex-sv8a-display-jp"
+  },
+  "pokemon-white-flare-display-jp-1": {
+   "titre": "Pokemon - White Flare - Display [JP]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 179.99,
+   "url": "https://fantasiacards.de/products/pokemon-white-flare-display-jp-1"
+  },
+  "pokemon-heat-wave-arena-display-jp": {
+   "titre": "Pokemon - Heat Wave Arena - Display [JP]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 159.99,
+   "url": "https://fantasiacards.de/products/pokemon-heat-wave-arena-display-jp"
+  },
+  "pokemon-stellar-miracle-display-jp-1": {
+   "titre": "Pokemon - Stellar Miracle - Display [JP]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 109.99,
+   "url": "https://fantasiacards.de/products/pokemon-stellar-miracle-display-jp-1"
+  },
+  "pokemon-ninja-spinner-display-jp-1": {
+   "titre": "Pokemon - Ninja Spinner - Display [JP]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 89.99,
+   "url": "https://fantasiacards.de/products/pokemon-ninja-spinner-display-jp-1"
+  },
+  "pokemon-battle-partners-display-jp": {
+   "titre": "Pokemon - Battle Partners - Display [JP]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 99.99,
+   "url": "https://fantasiacards.de/products/pokemon-battle-partners-display-jp"
+  },
+  "one-piece-card-game-op18-the-dominance-of-god-display-jp": {
+   "titre": "One Piece Card Game - OP18 - The Dominance of God - Display [JP] (Vorbestellung - Release: 21.11.26)",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 169.99,
+   "url": "https://fantasiacards.de/products/one-piece-card-game-op18-the-dominance-of-god-display-jp"
+  },
   "one-piece-card-game-eb05-heroines-edition-vol-2-display-jp": {
    "titre": "One Piece Card Game - EB05 - Heroines Edition Vol.2 - Display [JP] (Vorbestellung - Release: 31.10.26)",
    "langue": "JP",
    "dispo": true,
    "prix": 169.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-eb05-heroines-edition-vol-2-display-jp"
-  },
-  "one-piece-card-game-op17-the-worlds-strongest-warriors-display-jp-kopie": {
-   "titre": "One Piece Card Game - OP17 - The Worlds Strongest Warriors - Display [JP]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 119.99,
-   "url": "https://fantasiacards.de/products/one-piece-card-game-op17-the-worlds-strongest-warriors-display-jp-kopie"
   },
   "one-piece-card-game-op12-bonds-of-master-and-disciple-display-jp-1": {
    "titre": "One Piece Card Game - OP12 - Bonds of Master and Disciple - Display [JP]",
@@ -1380,20 +1422,6 @@
    "dispo": true,
    "prix": 49.99,
    "url": "https://fantasiacards.de/products/osica-my-dress-up-darling-season-2-display-jp-vorbestellung-release-18-12-26"
-  },
-  "pokemon-30th-celebration-sylveon-ex-tin-eng": {
-   "titre": "Pokemon - 30th Celebration - Sylveon ex Tin [ENG]",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 79.99,
-   "url": "https://fantasiacards.de/products/pokemon-30th-celebration-sylveon-ex-tin-eng"
-  },
-  "pokemon-30th-celebration-greninja-ex-tin-eng": {
-   "titre": "Pokemon - 30th Celebration - Greninja ex Tin [ENG]",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 79.99,
-   "url": "https://fantasiacards.de/products/pokemon-30th-celebration-greninja-ex-tin-eng"
   },
   "pokemon-paldea-evolved-display-eng": {
    "titre": "Pokemon - Paldea Evolved - Display [ENG]",
@@ -1461,7 +1489,7 @@
   "pokemon-30th-celebration-display-jp": {
    "titre": "Pokemon - 30th Celebration - Display [JP]",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 229.99,
    "url": "https://fantasiacards.de/products/pokemon-30th-celebration-display-jp"
   },
@@ -1762,7 +1790,7 @@
   "one-piece-card-game-prb02-display-eng": {
    "titre": "One Piece Card Game - PRB02 - Display [ENG]",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 349.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-prb02-display-eng"
   },
@@ -1914,7 +1942,7 @@
    "url": "https://fantasiacards.de/products/one-piece-magazine-vol-20-promo-card-monkey-d-luffy-st21-014-jp"
   },
   "pokemon-30th-celebration-booster-bundle-eng": {
-   "titre": "Pokemon - 30th Celebration - Booster Bundle [ENG] (Vorbestellung - Versand: Mitte Oktober 2026)",
+   "titre": "Pokemon - 30th Celebration - Booster Bundle [ENG]",
    "langue": "EN",
    "dispo": true,
    "prix": 119.99,
@@ -2307,6 +2335,13 @@
   }
  },
  "todohits.com": {
+  "op-16-booster-box-one-piece-the-time-of-battle-japones": {
+   "titre": "OP-16 Booster Box | ONE PIECE | The Time of Battle | Japonés",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 99.99,
+   "url": "https://todohits.com/products/op-16-booster-box-one-piece-the-time-of-battle-japones"
+  },
   "op-17-booster-box-one-piece-the-worlds-strongest-warriors-japones": {
    "titre": "OP-17 Booster Box | ONE PIECE | The World's Strongest Warriors | Japonés",
    "langue": "JP",
@@ -2317,7 +2352,7 @@
   "booster-box-30-aniversario-pokemon-japones": {
    "titre": "[Reserva] Booster Box 30 Aniversario | POKÉMON | Japonés",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 209.99,
    "url": "https://todohits.com/products/booster-box-30-aniversario-pokemon-japones"
   },
@@ -2397,13 +2432,6 @@
    "dispo": true,
    "prix": 29.99,
    "url": "https://todohits.com/products/world-championship-decks-2025-4-variantes-pokemon-ingles"
-  },
-  "op-16-booster-box-one-piece-the-time-of-battle-japones": {
-   "titre": "OP-16 Booster Box | ONE PIECE | The Time of Battle | Japonés",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 99.99,
-   "url": "https://todohits.com/products/op-16-booster-box-one-piece-the-time-of-battle-japones"
   },
   "double-pack-op-16-set-vol-11-one-piece-the-time-of-battle-ingles": {
    "titre": "Double Pack OP-16 [Set Vol.11] | ONE PIECE | The Time of Battle | Inglés",
@@ -4772,20 +4800,6 @@
    "dispo": false,
    "prix": 254.9,
    "url": "https://baruzcard.it/products/one-piece-card-game-japanese-2nd-anniversary-set-english-version"
-  },
-  "force-of-will-the-battle-at-the-sacred-ruins-box-36-buste-eng": {
-   "titre": "Force of Will The Battle At the Sacred Ruins Box 36 buste ENG",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 119.9,
-   "url": "https://baruzcard.it/products/force-of-will-the-battle-at-the-sacred-ruins-box-36-buste-eng"
-  },
-  "one-pieceset-box-prb01-premium-booster-the-best-box-jap": {
-   "titre": "One Piece Set Box PRB01 Premium Booster The Best Box JAP",
-   "langue": "JP",
-   "dispo": false,
-   "prix": 79.9,
-   "url": "https://baruzcard.it/products/one-pieceset-box-prb01-premium-booster-the-best-box-jap"
   }
  },
  "outpostbrussels.be": {
@@ -6479,30 +6493,30 @@
    "url": "https://crispycards.de/products/one-piece-rob-lucci-op03-092-special-alt-art-eng-aog-10"
   },
   "one-piece-monkey-d-dragon-op07-015-special-alt-art-eng-aog-10": {
-   "titre": "One Piece Monkey D. Dragon OP07-015 Special Alt Art (ENG) AOG 10",
+   "titre": "One Piece Monkey D. Dragon OP07-015 Special Alt Art (ENG) Pristine 10",
    "langue": "EN",
-   "dispo": false,
-   "prix": 299.99,
+   "dispo": true,
+   "prix": 349.99,
    "url": "https://crispycards.de/products/one-piece-monkey-d-dragon-op07-015-special-alt-art-eng-aog-10"
   },
   "one-piece-kaido-op04-044-special-alt-art-eng-aog-10": {
-   "titre": "One Piece Kaido OP04-044 Special Alt Art (ENG) AOG 10",
+   "titre": "One Piece Kaido OP04-044 Special Alt Art (ENG) Pristine 10",
    "langue": "EN",
-   "dispo": false,
-   "prix": 299.99,
+   "dispo": true,
+   "prix": 399.99,
    "url": "https://crispycards.de/products/one-piece-kaido-op04-044-special-alt-art-eng-aog-10"
   },
   "one-piece-shanks-st16-004-manga-rare-alternate-art-parallel-eng-cgc-10": {
    "titre": "One Piece Shanks ST16-004 Alternate Art Parallel (ENG) CGC 10",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 399.99,
    "url": "https://crispycards.de/products/one-piece-shanks-st16-004-manga-rare-alternate-art-parallel-eng-cgc-10"
   },
   "one-piece-monkey-d-luffy-op09-061-alternate-art-eng-aog-10": {
    "titre": "One Piece Monkey D. Luffy OP09-061 Alternate Art (ENG) AOG 10",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 299.99,
    "url": "https://crispycards.de/products/one-piece-monkey-d-luffy-op09-061-alternate-art-eng-aog-10"
   },
@@ -6600,8 +6614,8 @@
   "pokemon-victini-208-scarlet-violet-promos-eng-aog-10": {
    "titre": "Pokémon Victini 208 Scarlet & Violet Promos (ENG) AOG 10",
    "langue": "EN",
-   "dispo": false,
-   "prix": 89.99,
+   "dispo": true,
+   "prix": 289.99,
    "url": "https://crispycards.de/products/pokemon-victini-208-scarlet-violet-promos-eng-aog-10"
   },
   "pokemon-mega-lucario-ex-088-063-mega-brave-jp-aog-10": {
@@ -7690,6 +7704,13 @@
    "dispo": true,
    "prix": 999.0,
    "url": "https://aquitaz.se/products/pokemon-mega-30th-celebration-collection-box-sylveon-ex-4-pack-eng"
+  },
+  "pokemon-mega-30th-celebration-ditto-premium-collection-box-8-pack-eng": {
+   "titre": "Pokémon Mega: 30th Celebration Ditto Premium Collection Box (8 Pack) (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 1599.0,
+   "url": "https://aquitaz.se/products/pokemon-mega-30th-celebration-ditto-premium-collection-box-8-pack-eng"
   },
   "pokemon-mega-30th-celebration-collection-box-greninja-ex-4-pack-eng": {
    "titre": "Pokémon Mega: 30th Celebration Collection Box (Greninja ex) (4 Pack) (ENG)",
@@ -9364,7 +9385,7 @@
   "jp-one-piece-card-game-display-bonds-of-master-disciple-op12": {
    "titre": "[JP] One Piece · Card Game Display - Bonds of Master & Disciple (OP-12)",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 124.95,
    "url": "https://yonko-tcg.de/products/jp-one-piece-card-game-display-bonds-of-master-disciple-op12"
   },
@@ -9658,7 +9679,7 @@
   "jp-one-piece-display-500-years-in-the-future": {
    "titre": "[JP] One Piece · Card Game Display - 500 Years in the Future (OP-07)",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 119.95,
    "url": "https://yonko-tcg.de/products/jp-one-piece-display-500-years-in-the-future"
   },
@@ -14874,6 +14895,13 @@
   }
  },
  "itcg.bg": {
+  "pokemon-tcg-30th-anniversary-celebration-elite-trainer-box-9-бустъра-english": {
+   "titre": "Pokémon TCG: 30th Celebration Elite Trainer Box (9 бустъра, English)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 239.9,
+   "url": "https://itcg.bg/products/pokemon-tcg-30th-anniversary-celebration-elite-trainer-box-9-бустъра-english"
+  },
   "one-piece-tcg-op17-the-worlds-strongest-warriors-booster-display-24-бустъра-japanese": {
    "titre": "One Piece TCG: OP17 The World's Strongest Warriors Booster Display (24 бустъра, Japanese)",
    "langue": "JP",
@@ -15538,13 +15566,6 @@
    "prix": 34.37,
    "url": "https://gs-gameon.com/products/eustass-captain-kid-op05-074-500-years-into-the-future-non-english-special-rare-op05-074-758920"
   },
-  "roronoa-zoro-op15-113-v-2-special-tournament-promos-non-english-super-rare-op15-113-901278": {
-   "titre": "Roronoa Zoro (OP15-113) - Special Tournament Promos (Non-English) (Super Rare) [STP-JP-OP15-113]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 199.99,
-   "url": "https://gs-gameon.com/products/roronoa-zoro-op15-113-v-2-special-tournament-promos-non-english-super-rare-op15-113-901278"
-  },
   "charlotte-flampe-eb01-056-royal-blood-non-english-special-rare-eb01-056-802160": {
    "titre": "Charlotte Flampe (EB01-056) - Royal Blood (Non-English) (Special Rare) [OP10-JP-EB01-056]",
    "langue": "JP",
@@ -15579,13 +15600,6 @@
    "dispo": true,
    "prix": 27.99,
    "url": "https://gs-gameon.com/products/crocodile-op01-062-v-2-romance-dawn-japanese-alternate-art-062-768314"
-  },
-  "monkey-d-luffy-op05-060-v-2-awakening-of-the-new-era-non-english-alternate-art-060-733358": {
-   "titre": "Monkey.D.Luffy (OP05-060) - Awakening of the New Era (Non-English) (Alternate Art) [OP05-JP-060]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 51.43,
-   "url": "https://gs-gameon.com/products/monkey-d-luffy-op05-060-v-2-awakening-of-the-new-era-non-english-alternate-art-060-733358"
   },
   "monkey-d-luffy-op05-119-v-1-a-fist-of-divine-speed-non-english-special-rare-op05-119-817345": {
    "titre": "Monkey.D.Luffy (OP05-119) - A Fist of Divine Speed (Non-English) (Special Rare) [OP11-JP-OP05-119]",
@@ -17615,7 +17629,7 @@
    "titre": "Display Pokémon Storm Emeralda (m6) - Japonais",
    "langue": "JP",
    "dispo": true,
-   "prix": 99.99,
+   "prix": 89.9,
    "url": "https://lerepaireducollectionneur.fr/products/display-pokemon-japonais-mega-storm-emeralda-m6"
   },
   "carte-promo-one-piece-round-one-japanese-edition": {
@@ -17691,8 +17705,8 @@
   "precommande-display-one-piece-eb-03-japonais": {
    "titre": "Display One Piece EB-04 - The Azure Sea's Seven japonais",
    "langue": "JP",
-   "dispo": false,
-   "prix": 99.0,
+   "dispo": true,
+   "prix": 109.9,
    "url": "https://lerepaireducollectionneur.fr/products/precommande-display-one-piece-eb-03-japonais"
   },
   "display-one-piece-eb03-japonais": {
@@ -17706,7 +17720,7 @@
    "titre": "DISPLAY ONE PIECE OP14 JAPONAIS THE AZURE SEA’S SEVEN",
    "langue": "JP",
    "dispo": true,
-   "prix": 89.9,
+   "prix": 84.9,
    "url": "https://lerepaireducollectionneur.fr/products/display-one-piece-op14-japonais-the-azure-sea-s-seven"
   },
   "boite-en-metal-pokemon-aleatoire-tin-cube-pokebox-mini-tins-gratuite": {
@@ -18078,7 +18092,7 @@
   "display-op-16-one-piece": {
    "titre": "Display OP-16 - One Piece - The Time of Battle - Japonais",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 79.9,
    "url": "https://hikarudistribution.com/products/display-op-16-one-piece"
   },
