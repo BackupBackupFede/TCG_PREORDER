@@ -1818,7 +1818,7 @@
   "one-piece-card-game-op07-op08-op10-englisch-booster-bundle-eng": {
    "titre": "One Piece Card Game - OP07, OP08 & OP10 - ENGLISCH Booster Bundle [ENG]",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 29.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op07-op08-op10-englisch-booster-bundle-eng"
   },
@@ -9235,12 +9235,12 @@
    "prix": 119.95,
    "url": "https://yonko-tcg.de/products/jp-one-piece-card-game-display-the-azure-sea-s-seven-op14"
   },
-  "pre-orderjp-pokemon-display-mega-dream-ex-m2a": {
+  "jp-pokemon-display-mega-dream-ex-m2a": {
    "titre": "[JP] Pokémon Display - Mega Dream ex (M2a)",
    "langue": "JP",
    "dispo": true,
    "prix": 114.95,
-   "url": "https://yonko-tcg.de/products/pre-orderjp-pokemon-display-mega-dream-ex-m2a"
+   "url": "https://yonko-tcg.de/products/jp-pokemon-display-mega-dream-ex-m2a"
   },
   "jp-one-piece-card-game-display-heroines-edition-eb-03": {
    "titre": "[JP] One Piece · Card Game Display - Heroines Edition (EB-03)",
@@ -15475,6 +15475,13 @@
   }
  },
  "gs-gameon.com": {
+  "loki-op17-119-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-119-904996": {
+   "titre": "Loki (OP17-119) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-119]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 28.48,
+   "url": "https://gs-gameon.com/products/loki-op17-119-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-119-904996"
+  },
   "shanks-op09-004-v-3-emperors-in-the-new-world-non-english-special-rare-004-786308": {
    "titre": "Shanks (OP09-004) - Emperors in the New World (Non-English) (Special Rare) [OP09-JP-004]",
    "langue": "JP",
