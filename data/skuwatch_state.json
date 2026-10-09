@@ -1304,6 +1304,13 @@
   }
  },
  "fantasiacards.de": {
+  "divine-cross-kakeguri-display-jp-vorbestellung-release-25-11-26": {
+   "titre": "Divine Cross - Kakeguri - Display [JP] (Vorbestellung - Release: 25.11.26)",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 99.99,
+   "url": "https://fantasiacards.de/products/divine-cross-kakeguri-display-jp-vorbestellung-release-25-11-26"
+  },
   "one-piece-card-game-op17-the-worlds-strongest-warriors-display-jp-1": {
    "titre": "One Piece Card Game - OP17 - The Worlds Strongest Warriors - Display [JP]",
    "langue": "JP",
@@ -1314,7 +1321,7 @@
   "one-piece-card-game-op17-the-worlds-strongest-warriors-display-eng": {
    "titre": "One Piece Card Game - OP17 - The Worlds Strongest Warriors - Display [ENG]",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 399.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op17-the-worlds-strongest-warriors-display-eng"
   },
@@ -2345,7 +2352,7 @@
   "op-17-booster-box-one-piece-the-worlds-strongest-warriors-japones": {
    "titre": "OP-17 Booster Box | ONE PIECE | The World's Strongest Warriors | Japonés",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 117.99,
    "url": "https://todohits.com/products/op-17-booster-box-one-piece-the-worlds-strongest-warriors-japones"
   },
@@ -7684,13 +7691,6 @@
    "prix": 2649.0,
    "url": "https://aquitaz.se/products/futera-2025-2026-fc-barcelona-soccer-booster-display-10-pack-eng"
   },
-  "futera-2025-2026-fc-barcelona-soccer-booster-pack-3-kort-eng": {
-   "titre": "Futera: 2025-2026 FC Barcelona Soccer Booster Pack (3 Kort) (ENG)",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 299.0,
-   "url": "https://aquitaz.se/products/futera-2025-2026-fc-barcelona-soccer-booster-pack-3-kort-eng"
-  },
   "pokemon-mega-30th-celebration-night-ultra-premium-collection-box-case-4-box-eng": {
    "titre": "Pokémon Mega: 30th Celebration Night Ultra Premium Collection Box Case (4 Box) (ENG)",
    "langue": "EN",
@@ -7830,6 +7830,20 @@
    "dispo": false,
    "prix": 699.0,
    "url": "https://aquitaz.se/products/one-piece-gc-2026-heroines-gift-collection-2-pack-eng"
+  },
+  "monkey-d-luffy-op12-015-sr-eng": {
+   "titre": "Monkey.D.Luffy OP12-015 SR (ENG)",
+   "langue": "EN",
+   "dispo": false,
+   "prix": 229.0,
+   "url": "https://aquitaz.se/products/monkey-d-luffy-op12-015-sr-eng"
+  },
+  "gol-d-roger-op13-064-sr-eng": {
+   "titre": "Gol.D.Roger OP13-064 SR (ENG)",
+   "langue": "EN",
+   "dispo": false,
+   "prix": 499.0,
+   "url": "https://aquitaz.se/products/gol-d-roger-op13-064-sr-eng"
   }
  },
  "otakura.com": {
@@ -11877,6 +11891,13 @@
    "prix": 39.95,
    "url": "https://tcgdirect.fr/products/lot-de-cartes-ar-alt-rare-populaire-pokemon-japonais-copie"
   },
+  "lot-de-cartes-rr-mega-ex-pokemon-japonais": {
+   "titre": "Lot de cartes EX Mega Pokémon Japonais",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 40.95,
+   "url": "https://tcgdirect.fr/products/lot-de-cartes-rr-mega-ex-pokemon-japonais"
+  },
   "lot-de-cartes-rr-gx-pokemon-japonais": {
    "titre": "Lot de cartes GX Pokémon Japonais",
    "langue": "JP",
@@ -12433,7 +12454,7 @@
   "display-copie": {
    "titre": "Display Super Electric Breaker SV8 30 Booster Pokémon Japonais",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 169.95,
    "url": "https://tcgdirect.fr/products/display-copie"
   },
@@ -13553,6 +13574,20 @@
   }
  },
  "metamorphcenter.com": {
+  "build-battle-box-chaos-rising-ingles": {
+   "titre": "Build & Battle Box Chaos Rising - Inglés",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 44.95,
+   "url": "https://metamorphcenter.com/products/build-battle-box-chaos-rising-ingles"
+  },
+  "gift-bundle-el-hobbit-magic-ingles": {
+   "titre": "Gift Bundle El Hobbit - Inglés",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 99.95,
+   "url": "https://metamorphcenter.com/products/gift-bundle-el-hobbit-magic-ingles"
+  },
   "caja-fusion-world-st01-story-booster-01-dragon-ball-japones": {
    "titre": "Caja Fusion World ST01 Story Booster 01 - Japonés",
    "langue": "JP",
@@ -13591,7 +13626,7 @@
   "caja-op17-the-worlds-strongest-warriors-one-piece-japones": {
    "titre": "Caja OP17 The World's Strongest Warriors - Japonés",
    "langue": "JP",
-   "dispo": false,
+   "dispo": true,
    "prix": 115.95,
    "url": "https://metamorphcenter.com/products/caja-op17-the-worlds-strongest-warriors-one-piece-japones"
   },
@@ -15524,13 +15559,6 @@
    "prix": 39.99,
    "url": "https://gs-gameon.com/products/monkey-d-luffy-st01-012-v-1-awakening-of-the-new-era-non-english-special-rare-st01-012-733464"
   },
-  "loki-op17-119-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-119-904996": {
-   "titre": "Loki (OP17-119) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-119]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 23.99,
-   "url": "https://gs-gameon.com/products/loki-op17-119-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-119-904996"
-  },
   "monkey-d-luffy-op15-119-v-2-adventure-on-kami-s-island-asia-region-legal-alternate-art-119-875138": {
    "titre": "Monkey.D.Luffy (OP15-119) - Adventure on Kami’s Island (Asia Region Legal) (Alternate Art) [OP15-JP-119]",
    "langue": "JP",
@@ -15789,6 +15817,13 @@
    "dispo": true,
    "prix": 320.0,
    "url": "https://gs-gameon.com/products/op-17-the-world-s-strongest-warriors-booster-box-da-24-buste-eng"
+  },
+  "rebecca-op05-091-wings-of-the-captain-non-english-special-rare-op05-091-746400": {
+   "titre": "Rebecca (OP05-091) - Wings of the Captain (Non-English) (Special Rare) [OP06-JP- OP05-091]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 149.99,
+   "url": "https://gs-gameon.com/products/rebecca-op05-091-wings-of-the-captain-non-english-special-rare-op05-091-746400"
   }
  },
  "starzcollectibles.com": {
