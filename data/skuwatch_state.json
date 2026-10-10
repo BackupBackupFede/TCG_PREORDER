@@ -5219,7 +5219,7 @@
   "pokemon-me3-etb-perfect-order-en": {
    "titre": "Pokémon – ME3 – Perfect Order Elite Trainer Box – EN",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 74.99,
    "url": "https://outpostbrussels.be/products/pokemon-me3-etb-perfect-order-en"
   },
@@ -6037,6 +6037,20 @@
   }
  },
  "crispycards.de": {
+  "one-piece-heroines-special-set-english-version-eng": {
+   "titre": "ONE PIECE Heroines Special Set English Version (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 199.99,
+   "url": "https://crispycards.de/products/one-piece-heroines-special-set-english-version-eng"
+  },
+  "pokemon-rowlet-mep-043-ap-9-5-eng": {
+   "titre": "Pokémon Rowlet MEP 043 (AP 9.5) (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 29.99,
+   "url": "https://crispycards.de/products/pokemon-rowlet-mep-043-ap-9-5-eng"
+  },
   "pokemon-cosmic-eclipse-booster-eng": {
    "titre": "Pokémon Cosmic Eclipse Booster (ENG)",
    "langue": "EN",
@@ -15831,13 +15845,6 @@
    "dispo": true,
    "prix": 22.99,
    "url": "https://gs-gameon.com/products/brook-op15-032-v-2-adventure-on-kami-s-island-asia-region-legal-alternate-art-032-875023"
-  },
-  "monkey-d-luffy-op05-119-v-1-a-fist-of-divine-speed-non-english-special-rare-op05-119-817345": {
-   "titre": "Monkey.D.Luffy (OP05-119) - A Fist of Divine Speed (Non-English) (Special Rare) [OP11-JP-OP05-119]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 4000.0,
-   "url": "https://gs-gameon.com/products/monkey-d-luffy-op05-119-v-1-a-fist-of-divine-speed-non-english-special-rare-op05-119-817345"
   },
   "sabo-op13-120-v-5-carrying-on-his-will-non-english-special-rare-120-845685": {
    "titre": "Sabo (OP13-120) - Carrying on his Will (Non-English) (Special Rare) [OP13-JP-120]",
