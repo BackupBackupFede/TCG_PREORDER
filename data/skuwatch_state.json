@@ -7457,20 +7457,6 @@
    "dispo": false,
    "prix": 39.99,
    "url": "https://crispycards.de/products/one-piece-learn-together-deck-set-eng"
-  },
-  "one-piece-tin-pack-set-vol-2-eng": {
-   "titre": "One Piece Tin Vol.2 (ENG)",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 69.99,
-   "url": "https://crispycards.de/products/one-piece-tin-pack-set-vol-2-eng"
-  },
-  "one-piece-the-azure-sea-s-seven-op14-eb04-display-case-eng": {
-   "titre": "One Piece The Azure Sea’s Seven OP14-EB04 Display Case (ENG)",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 2449.99,
-   "url": "https://crispycards.de/products/one-piece-the-azure-sea-s-seven-op14-eb04-display-case-eng"
   }
  },
  "aquitaz.se": {
@@ -15874,13 +15860,6 @@
    "prix": 28.97,
    "url": "https://gs-gameon.com/products/rocks-d-xebec-op17-118-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-118-904993"
   },
-  "gum-gum-giant-op09-078-v-2-the-best-vol-2-non-english-alternate-art-op09-078-839018": {
-   "titre": "Gum-Gum Giant (OP09-078) - The Best Vol. 2 (Non-English) (Alternate Art) [PRB02-JP-OP09-078]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 159.99,
-   "url": "https://gs-gameon.com/products/gum-gum-giant-op09-078-v-2-the-best-vol-2-non-english-alternate-art-op09-078-839018"
-  },
   "trafalgar-law-op05-069-v-3-awakening-of-the-new-era-non-english-manga-rare-069-733377": {
    "titre": "Trafalgar Law (OP05-069) - Awakening of the New Era (Non-English) (Manga Rare) [OP05-JP-069]",
    "langue": "JP",
@@ -17902,7 +17881,7 @@
    "titre": "Display One Piece Japonais OP-17 - The World’s Strongest Warrior",
    "langue": "JP",
    "dispo": true,
-   "prix": 109.9,
+   "prix": 104.9,
    "url": "https://lerepaireducollectionneur.fr/products/display-one-piece-japonais-op-17-the-worlds-strongest-warrior"
   },
   "carte-promo-one-piece-round-one-japanese-edition": {
