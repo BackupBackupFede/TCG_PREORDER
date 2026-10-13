@@ -1304,6 +1304,13 @@
   }
  },
  "fantasiacards.de": {
+  "one-piece-card-game-double-pack-set-dp12-eng": {
+   "titre": "One Piece Card Game - Double Pack Set DP12 [ENG]",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 51.99,
+   "url": "https://fantasiacards.de/products/one-piece-card-game-double-pack-set-dp12-eng"
+  },
   "divine-cross-kakeguri-display-jp-vorbestellung-release-25-11-26": {
    "titre": "Divine Cross - Kakeguri - Display [JP] (Vorbestellung - Release: 25.11.26)",
    "langue": "JP",
@@ -1314,7 +1321,7 @@
   "one-piece-card-game-op17-the-worlds-strongest-warriors-display-jp-1": {
    "titre": "One Piece Card Game - OP17 - The Worlds Strongest Warriors - Display [JP]",
    "langue": "JP",
-   "dispo": false,
+   "dispo": true,
    "prix": 119.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op17-the-worlds-strongest-warriors-display-jp-1"
   },
@@ -14702,6 +14709,13 @@
   }
  },
  "collectorstorecards.it": {
+  "one-piece-roronoa-zoro-alternate-art-st21-015-eng": {
+   "titre": "One Piece Roronoa Zoro Alternate Art ST21-015 ENG",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 20.0,
+   "url": "https://collectorstorecards.it/products/one-piece-roronoa-zoro-alternate-art-st21-015-eng"
+  },
   "one-piece-monkey-d-luffy-alternate-art-st21-012-eng": {
    "titre": "One Piece Monkey.D.Luffy Alternate Art ST21-014 ENG",
    "langue": "EN",
@@ -14811,7 +14825,7 @@
    "titre": "One Piece Zehahahahaha! Alternate Rare OP16-116 ENG",
    "langue": "EN",
    "dispo": true,
-   "prix": 80.0,
+   "prix": 70.0,
    "url": "https://collectorstorecards.it/products/one-piece-zehahahahaha-alternate-rare-op16-116-eng"
   },
   "one-piece-card-game-set-sail-deck-set-sd-01-eng": {
@@ -15727,6 +15741,13 @@
   }
  },
  "gs-gameon.com": {
+  "loki-op17-119-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-119-904996": {
+   "titre": "Loki (OP17-119) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-119]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 23.99,
+   "url": "https://gs-gameon.com/products/loki-op17-119-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-119-904996"
+  },
   "portgas-d-ace-op02-013-v-1-unnumbered-promos-non-english-super-rare-op02-013-804369": {
    "titre": "Portgas.D.Ace (OP02-013) - Unnumbered Promos (Non-English) (Super Rare) [UP-JP-OP02-013]",
    "langue": "JP",
@@ -15992,20 +16013,6 @@
    "dispo": true,
    "prix": 66.64,
    "url": "https://gs-gameon.com/products/charlotte-linlin-op03-114-wings-of-the-captain-non-english-special-rare-op03-114-746396"
-  },
-  "op-17-the-world-s-strongest-warriors-booster-box-da-24-buste-eng": {
-   "titre": "OP-17 The World’s Strongest Warriors - Booster Box da 24 Buste (ENG)",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 320.0,
-   "url": "https://gs-gameon.com/products/op-17-the-world-s-strongest-warriors-booster-box-da-24-buste-eng"
-  },
-  "rebecca-op05-091-wings-of-the-captain-non-english-special-rare-op05-091-746400": {
-   "titre": "Rebecca (OP05-091) - Wings of the Captain (Non-English) (Special Rare) [OP06-JP- OP05-091]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 149.99,
-   "url": "https://gs-gameon.com/products/rebecca-op05-091-wings-of-the-captain-non-english-special-rare-op05-091-746400"
   }
  },
  "starzcollectibles.com": {
