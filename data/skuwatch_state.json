@@ -1528,13 +1528,6 @@
    "prix": 49.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-bunte-tute-bundle-7x-booster-jp"
   },
-  "pokemon-30th-celebration-premium-deck-set-umbreon-espeon-jp": {
-   "titre": "Pokemon - 30th Celebration - Premium Deck Set - Umbreon & Espeon [JP]",
-   "langue": "JP",
-   "dispo": false,
-   "prix": 199.99,
-   "url": "https://fantasiacards.de/products/pokemon-30th-celebration-premium-deck-set-umbreon-espeon-jp"
-  },
   "pokemon-30th-celebration-display-jp": {
    "titre": "Pokemon - 30th Celebration - Display [JP]",
    "langue": "JP",
@@ -1832,7 +1825,7 @@
   "one-piece-card-game-op13-carrying-on-his-will-display-eng": {
    "titre": "One Piece Card Game - OP13 - Carrying on his Will - Display [ENG]",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 499.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op13-carrying-on-his-will-display-eng"
   },
@@ -15488,7 +15481,7 @@
   "pokemon-jp-ninja-spinner-booster-box-no-shrink": {
    "titre": "Pokémon (JP) Ninja Spinner: Booster Box (no shrink)",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 69.95,
    "url": "https://rarecards.nl/products/pokemon-jp-ninja-spinner-booster-box-no-shrink"
   },
@@ -15720,6 +15713,27 @@
   }
  },
  "gs-gameon.com": {
+  "shanks-op17-020-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-020-904827": {
+   "titre": "Shanks (OP17-020) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-020]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 20.99,
+   "url": "https://gs-gameon.com/products/shanks-op17-020-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-020-904827"
+  },
+  "rocks-d-xebec-op17-039-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-039-904854": {
+   "titre": "Rocks.D.Xebec (OP17-039) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-039]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 26.98,
+   "url": "https://gs-gameon.com/products/rocks-d-xebec-op17-039-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-039-904854"
+  },
+  "magnificent-monsters-case-sigillato-12-box-eng": {
+   "titre": "Magnificent Monsters - Case Sigillato 12 Box (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 400.0,
+   "url": "https://gs-gameon.com/products/magnificent-monsters-case-sigillato-12-box-eng"
+  },
   "monkey-d-garp-op12-056-the-world-s-strongest-warriors-asia-region-legal-special-rare-op12-056-904799": {
    "titre": "Monkey.D.Garp (OP12-056) - The World’s Strongest Warriors (Asia Region Legal) (Special Rare) [OP17-JP-OP12-056]",
    "langue": "JP",
@@ -18239,7 +18253,7 @@
   "set-complet-27-27-ar-first-partners-japonais-pokemon-30th-celebration": {
    "titre": "Set Complet 27/27 AR First Partners japonais – Pokémon 30th Celebration",
    "langue": "JP",
-   "dispo": false,
+   "dispo": true,
    "prix": 59.9,
    "url": "https://hikarudistribution.com/products/set-complet-27-27-ar-first-partners-japonais-pokemon-30th-celebration"
   },
