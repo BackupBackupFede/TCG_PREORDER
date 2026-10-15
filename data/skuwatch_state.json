@@ -1304,6 +1304,20 @@
   }
  },
  "fantasiacards.de": {
+  "one-piece-card-game-op05-awakening-of-the-new-era-booster-eng": {
+   "titre": "One Piece Card Game - OP05 - Awakening of the New Era - Booster [ENG]",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 44.99,
+   "url": "https://fantasiacards.de/products/one-piece-card-game-op05-awakening-of-the-new-era-booster-eng"
+  },
+  "one-piece-card-game-op05-awakening-of-the-new-era-display-eng": {
+   "titre": "One Piece Card Game - OP05 - Awakening of the New Era - Display [ENG]",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 999.99,
+   "url": "https://fantasiacards.de/products/one-piece-card-game-op05-awakening-of-the-new-era-display-eng"
+  },
   "one-piece-card-game-double-pack-set-dp12-eng": {
    "titre": "One Piece Card Game - Double Pack Set DP12 [ENG]",
    "langue": "EN",
@@ -7750,7 +7764,7 @@
   "pokemon-mega-30th-celebration-elite-trainer-box-etb-sealed-case-10-boxes-eng": {
    "titre": "Pokémon Mega: 30th Celebration Elite Trainer Box (ETB) Sealed Case (10 Boxes) (ENG)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 25990.0,
    "url": "https://aquitaz.se/products/pokemon-mega-30th-celebration-elite-trainer-box-etb-sealed-case-10-boxes-eng"
   },
@@ -9070,8 +9084,8 @@
   "jp-one-piece-card-game-display-heroines-edition-vol-2eb-05": {
    "titre": "[JP] One Piece · Card Game Display - Heroines Edition Vol.2 (EB-05)",
    "langue": "JP",
-   "dispo": false,
-   "prix": 0.0,
+   "dispo": true,
+   "prix": 124.95,
    "url": "https://yonko-tcg.de/products/jp-one-piece-card-game-display-heroines-edition-vol-2eb-05"
   },
   "jp-one-piece-premium-card-collection-one-piece-day-2026": {
@@ -9176,7 +9190,7 @@
    "titre": "[JP] One Piece Saikyo Jump 2026 Promokarten Set: Luffy, Ace & Newgate",
    "langue": "JP",
    "dispo": true,
-   "prix": 44.95,
+   "prix": 29.95,
    "url": "https://yonko-tcg.de/products/jp-one-piece-saikyo-jump-2026-promokarten-set-luffy-ace-newgate"
   },
   "jp-one-piece-magazine-vol-21-promokarte-monkey-d-luffy-st29-001": {
@@ -12101,13 +12115,6 @@
    "prix": 67.95,
    "url": "https://tcgdirect.fr/products/display-13-boosters-one-piece-opc-13-inherited-will-chinois"
   },
-  "booster-pokemon-promo-pikachu-mcdonald-s-japon-2025": {
-   "titre": "Booster Pokémon Promo Pikachu McDonald’s Japon 2025 Pokémon Japonais",
-   "langue": "JP",
-   "dispo": false,
-   "prix": 26.95,
-   "url": "https://tcgdirect.fr/products/booster-pokemon-promo-pikachu-mcdonald-s-japon-2025"
-  },
   "coffret-pokemon-center-hiroshima-special-box-pokemon-japonais-copie": {
    "titre": "Coffret Pokémon Center Fukuoka Special Box Pokémon Japonais",
    "langue": "JP",
@@ -12688,14 +12695,14 @@
    "titre": "Pokémon - 30th Celebration Sylveon ex Collection - EN",
    "langue": "EN",
    "dispo": false,
-   "prix": 0.0,
+   "prix": 54.9,
    "url": "https://cardcosmos.de/products/pokemon-30th-celebration-sylveon-ex-collection-englisch"
   },
   "pokemon-30th-celebration-greninja-ex-collection-englisch": {
    "titre": "Pokémon - 30th Celebration Greninja ex Collection - EN",
    "langue": "EN",
    "dispo": false,
-   "prix": 0.0,
+   "prix": 54.9,
    "url": "https://cardcosmos.de/products/pokemon-30th-celebration-greninja-ex-collection-englisch"
   },
   "one-piece-card-game-ts-02-mini-tin-vol-2-1-zufallige-tin-japanisch": {
@@ -14334,13 +14341,6 @@
    "prix": 32.99,
    "url": "https://tcgviert.com/products/one-piece-tcg-luffy-ace-st30-starter-deck-en-limit-2-person"
   },
-  "pokemon-tcg-first-partner-illustration-collection-booster-collection-vol-3-en": {
-   "titre": "Pokémon TCG | First Partner Illustration Collection | Booster Collection Vol. 3 (EN) (Limit: 1/Person)",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 34.99,
-   "url": "https://tcgviert.com/products/pokemon-tcg-first-partner-illustration-collection-booster-collection-vol-3-en"
-  },
   "pokemon-tcg-phantasmal-flames-me02-booster-display-box-36-packs-en": {
    "titre": "Pokémon TCG: Phantasmal Flames (ME02) - Display (EN) (Limit: 1/Person)",
    "langue": "EN",
@@ -14389,13 +14389,6 @@
    "dispo": true,
    "prix": 194.99,
    "url": "https://tcgviert.com/products/pokemon-tcg-destined-rivals-sv10-elite-trainer-box-en"
-  },
-  "pokemon-tcg-mega-greninja-ex-premium-collection-en-limit-1-person": {
-   "titre": "Pokémon TCG | Mega Greninja ex | Premium Collection (EN) (Limit: 1/Person)",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 49.99,
-   "url": "https://tcgviert.com/products/pokemon-tcg-mega-greninja-ex-premium-collection-en-limit-1-person"
   },
   "pokemon-tcg-battle-academy-2022-en": {
    "titre": "Pokémon TCG: Battle Academy 2022 (EN)",
@@ -15727,6 +15720,13 @@
   }
  },
  "gs-gameon.com": {
+  "monkey-d-garp-op12-056-the-world-s-strongest-warriors-asia-region-legal-special-rare-op12-056-904799": {
+   "titre": "Monkey.D.Garp (OP12-056) - The World’s Strongest Warriors (Asia Region Legal) (Special Rare) [OP17-JP-OP12-056]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 79.98,
+   "url": "https://gs-gameon.com/products/monkey-d-garp-op12-056-the-world-s-strongest-warriors-asia-region-legal-special-rare-op12-056-904799"
+  },
   "boa-hancock-op14-112-v-3-the-azure-sea-s-seven-asia-region-legal-special-rare-112-861938": {
    "titre": "Boa Hancock (OP14-112) - The Azure Sea's Seven (Asia Region Legal) (Special Rare) [OP14-JP-112]",
    "langue": "JP",
@@ -18239,8 +18239,8 @@
   "set-complet-27-27-ar-first-partners-japonais-pokemon-30th-celebration": {
    "titre": "Set Complet 27/27 AR First Partners japonais – Pokémon 30th Celebration",
    "langue": "JP",
-   "dispo": true,
-   "prix": 99.9,
+   "dispo": false,
+   "prix": 59.9,
    "url": "https://hikarudistribution.com/products/set-complet-27-27-ar-first-partners-japonais-pokemon-30th-celebration"
   },
   "display-one-piece-card-game-pillars-of-strength-op03-japonais": {
