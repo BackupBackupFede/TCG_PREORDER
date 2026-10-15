@@ -1412,7 +1412,7 @@
   "one-piece-card-game-op18-the-dominance-of-god-display-jp": {
    "titre": "One Piece Card Game - OP18 - The Dominance of God - Display [JP] (Vorbestellung - Release: 21.11.26)",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 169.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op18-the-dominance-of-god-display-jp"
   },
@@ -14740,7 +14740,7 @@
   "one-piece-rocks-pirates-diamond-gold-don-card-op17-eng": {
    "titre": "One Piece Rocks Pirates Diamond Gold DON!! Card OP17 ENG",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 45.0,
    "url": "https://collectorstorecards.it/products/one-piece-rocks-pirates-diamond-gold-don-card-op17-eng"
   },
@@ -14754,7 +14754,7 @@
   "one-piece-nico-robin-alternate-rare-op17-087-eng": {
    "titre": "One Piece Nico Robin Alternate Rare OP17-087 ENG",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 25.0,
    "url": "https://collectorstorecards.it/products/one-piece-nico-robin-alternate-rare-op17-087-eng"
   },
@@ -15530,7 +15530,7 @@
   "one-piece-jp-a-fist-of-divine-speed-op-11-booster-box-shrink": {
    "titre": "One Piece (JP) A Fist of Divine Speed (OP-11): Booster Box",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 189.95,
    "url": "https://rarecards.nl/products/one-piece-jp-a-fist-of-divine-speed-op-11-booster-box-shrink"
   },
@@ -15713,6 +15713,13 @@
   }
  },
  "gs-gameon.com": {
+  "monkey-d-luffy-op09-061-v-2-emperors-in-the-new-world-non-english-alternate-art-061-786434": {
+   "titre": "Monkey.D.Luffy (OP09-061) - Emperors in the New World (Non-English) (Alternate Art) [OP09-JP-061]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 38.98,
+   "url": "https://gs-gameon.com/products/monkey-d-luffy-op09-061-v-2-emperors-in-the-new-world-non-english-alternate-art-061-786434"
+  },
   "shanks-op17-020-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-020-904827": {
    "titre": "Shanks (OP17-020) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-020]",
    "langue": "JP",
@@ -15894,13 +15901,6 @@
    "dispo": true,
    "prix": 650.0,
    "url": "https://gs-gameon.com/products/trafalgar-law-op05-069-v-3-awakening-of-the-new-era-non-english-manga-rare-069-733377"
-  },
-  "charlotte-pudding-op03-112-two-legends-non-english-special-rare-op03-112-771774": {
-   "titre": "Charlotte Pudding (OP03-112) - Two Legends (Non-English) (Special Rare) [OP08-JP-OP03-112]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 54.98,
-   "url": "https://gs-gameon.com/products/charlotte-pudding-op03-112-two-legends-non-english-special-rare-op03-112-771774"
   },
   "op-17-the-world-s-strongest-warriors-case-sigillato-12-booster-box-eng": {
    "titre": "OP-17 The World’s Strongest Warriors - Case Sigillato 12 Booster Box (ENG)",
@@ -18267,7 +18267,7 @@
   "premium-card-collection-one-piece-card-game-6-assort-vol-1-japonais": {
    "titre": "Premium Card Collection One Piece Card Game  -6 Assort Vol.1- (Japonais)",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 59.9,
    "url": "https://hikarudistribution.com/products/premium-card-collection-one-piece-card-game-6-assort-vol-1-japonais"
   },
