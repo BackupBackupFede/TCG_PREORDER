@@ -1364,7 +1364,7 @@
    "titre": "One Piece Card Game - OP17 - The Worlds Strongest Warriors - Display [ENG]",
    "langue": "EN",
    "dispo": true,
-   "prix": 379.99,
+   "prix": 349.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op17-the-worlds-strongest-warriors-display-eng"
   },
   "one-piece-card-game-eb05-heroines-edition-vol-2-sealed-case-jp-vorbestellung-release-31-10-26": {
@@ -1433,7 +1433,7 @@
   "one-piece-card-game-op18-the-dominance-of-god-display-jp": {
    "titre": "One Piece Card Game - OP18 - The Dominance of God - Display [JP] (Vorbestellung - Release: 21.11.26)",
    "langue": "JP",
-   "dispo": false,
+   "dispo": true,
    "prix": 169.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op18-the-dominance-of-god-display-jp"
   },
@@ -7893,13 +7893,6 @@
    "dispo": false,
    "prix": 599.0,
    "url": "https://aquitaz.se/products/pokemon-mega-mega-eevee-eevee-ex-set-starter-deck-jp"
-  },
-  "one-piece-eb-06-extra-booster-display-24-pack-eng-max-1-per-person": {
-   "titre": "One Piece: (EB 06) Extra Booster Display (24 Pack) (ENG) Max 1 per person",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 2499.0,
-   "url": "https://aquitaz.se/products/one-piece-eb-06-extra-booster-display-24-pack-eng-max-1-per-person"
   }
  },
  "otakura.com": {
@@ -14507,7 +14500,7 @@
   "one-piece-choppers-vol-1-eb02-003-promo-eb-02-003-jp": {
    "titre": "One Piece Chopper's Vol.1 JUMP Comics Promo EB02-003 JP",
    "langue": "JP",
-   "dispo": false,
+   "dispo": true,
    "prix": 24.99,
    "url": "https://pokeca.nl/products/one-piece-choppers-vol-1-eb02-003-promo-eb-02-003-jp"
   },
@@ -14692,6 +14685,13 @@
    "dispo": false,
    "prix": 114.99,
    "url": "https://pokeca.nl/products/bandai-one-piece-the-new-emperor-booster-box-op-09-jp"
+  },
+  "bandai-one-piece-premium-the-best-prb-01-booster-box": {
+   "titre": "One Piece Premium The Best Booster Box [PRB-01] JP",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 144.99,
+   "url": "https://pokeca.nl/products/bandai-one-piece-premium-the-best-prb-01-booster-box"
   }
  },
  "collectorstorecards.it": {
@@ -15957,6 +15957,13 @@
    "dispo": true,
    "prix": 3800.0,
    "url": "https://gs-gameon.com/products/op-17-the-world-s-strongest-warriors-case-sigillato-12-booster-box-eng"
+  },
+  "reshiram-ex-white-flare-jp-special-illustration-rare-168-829527": {
+   "titre": "Reshiram ex - White Flare JP (Special Illustration Rare) [sv11W-168]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 164.99,
+   "url": "https://gs-gameon.com/products/reshiram-ex-white-flare-jp-special-illustration-rare-168-829527"
   }
  },
  "starzcollectibles.com": {
