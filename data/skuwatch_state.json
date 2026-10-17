@@ -2228,13 +2228,6 @@
    "prix": 199.99,
    "url": "https://fantasiacards.de/products/pokemon-pokemon-center-special-box-tohoku-jp"
   },
-  "one-piece-card-game-illustration-box-vol-6-eng": {
-   "titre": "One Piece Card Game - Illustration Box Vol. 6 [ENG]",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 119.99,
-   "url": "https://fantasiacards.de/products/one-piece-card-game-illustration-box-vol-6-eng"
-  },
   "pokemon-fusion-strike-booster-englisch-1": {
    "titre": "Pokemon - Fusion Strike - Booster [ENG]",
    "langue": "EN",
@@ -17001,6 +16994,20 @@
   }
  },
  "gs-gameon.com": {
+  "roronoa-zoro-op01-001-v-2-romance-dawn-japanese-alternate-art-001-768236": {
+   "titre": "Roronoa Zoro (OP01-001) - Romance Dawn (Japanese) (Alternate Art) [OP01-JP-001]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 198.99,
+   "url": "https://gs-gameon.com/products/roronoa-zoro-op01-001-v-2-romance-dawn-japanese-alternate-art-001-768236"
+  },
+  "trafalgar-law-op01-002-v-2-romance-dawn-japanese-alternate-art-002": {
+   "titre": "Trafalgar Law (OP01-002) - Romance Dawn (Japanese) (Alternate Art) [OP01-JP-002]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 109.99,
+   "url": "https://gs-gameon.com/products/trafalgar-law-op01-002-v-2-romance-dawn-japanese-alternate-art-002"
+  },
   "uso-hachi-st18-001-royal-blood-non-english-special-rare-st18-001-802343": {
    "titre": "Uso-Hachi (ST18-001) - Royal Blood (Non-English) (Special Rare) [OP10-JP-ST18-001]",
    "langue": "JP",
