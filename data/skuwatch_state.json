@@ -1364,7 +1364,7 @@
    "titre": "One Piece Card Game - OP17 - The Worlds Strongest Warriors - Display [ENG]",
    "langue": "EN",
    "dispo": true,
-   "prix": 349.99,
+   "prix": 339.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op17-the-worlds-strongest-warriors-display-eng"
   },
   "one-piece-card-game-eb05-heroines-edition-vol-2-sealed-case-jp-vorbestellung-release-31-10-26": {
@@ -1587,7 +1587,7 @@
   "one-piece-card-game-treasure-chest-vol-2-jp": {
    "titre": "One Piece Card Game - Treasure Chest Vol.2 [JP] (Vorbestellung)",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 299.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-treasure-chest-vol-2-jp"
   },
@@ -1667,20 +1667,6 @@
    "dispo": true,
    "prix": 59.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-illustration-box-vol-8-eng"
-  },
-  "pokemon-30th-celebration-greninja-ex-box-eng": {
-   "titre": "Pokemon - 30th Celebration - Greninja ex Box [ENG]",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 69.99,
-   "url": "https://fantasiacards.de/products/pokemon-30th-celebration-greninja-ex-box-eng"
-  },
-  "pokemon-30th-celebration-sylveon-ex-box-eng": {
-   "titre": "Pokemon - 30th Celebration - Sylveon ex Box [ENG]",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 69.99,
-   "url": "https://fantasiacards.de/products/pokemon-30th-celebration-sylveon-ex-box-eng"
   },
   "pokemon-storm-emeralda-display-jp": {
    "titre": "Pokemon - Storm Emeralda - Display [JP]",
@@ -17186,7 +17172,7 @@
   "magnificent-monsters-case-sigillato-12-box-eng": {
    "titre": "Magnificent Monsters - Case Sigillato 12 Box (ENG)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 400.0,
    "url": "https://gs-gameon.com/products/magnificent-monsters-case-sigillato-12-box-eng"
   },
