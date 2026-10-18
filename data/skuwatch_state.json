@@ -14998,7 +14998,7 @@
   "build-battle-box-chaos-rising-ingles": {
    "titre": "Build & Battle Box Chaos Rising - Inglés",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 44.95,
    "url": "https://metamorphcenter.com/products/build-battle-box-chaos-rising-ingles"
   },
@@ -15117,7 +15117,7 @@
   "caja-op16-the-time-of-battle-japones": {
    "titre": "Caja OP16 The Time of Battle - Japonés",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 89.95,
    "url": "https://metamorphcenter.com/products/caja-op16-the-time-of-battle-japones"
   },
@@ -17029,26 +17029,12 @@
    "prix": 44.88,
    "url": "https://gs-gameon.com/products/bartholomew-kuma-eb04-054-the-time-of-battle-asia-region-legal-special-rare-eb04-054-890519"
   },
-  "charlotte-katakuri-op11-067-v-1-unnumbered-promos-non-english-super-rare-op11-067-874402": {
-   "titre": "Charlotte Katakuri (OP11-067) - Unnumbered Promos (Non-English) (Super Rare) [UP-JP-OP11-067]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 29.98,
-   "url": "https://gs-gameon.com/products/charlotte-katakuri-op11-067-v-1-unnumbered-promos-non-english-super-rare-op11-067-874402"
-  },
   "tashigi-st06-006-two-legends-non-english-special-rare-st06-006-771772": {
    "titre": "Tashigi (ST06-006) - Two Legends (Non-English) (Special Rare) [OP08-JP-ST06-006]",
    "langue": "JP",
    "dispo": true,
    "prix": 39.99,
    "url": "https://gs-gameon.com/products/tashigi-st06-006-two-legends-non-english-special-rare-st06-006-771772"
-  },
-  "are-you-that-afraid-of-the-new-era-op17-037-v-2-the-world-s-strongest-warriors-asia-region-legal-special-rare-037-904851": {
-   "titre": "Are You That Afraid of the New Era?!! (OP17-037) - The World’s Strongest Warriors (Asia Region Legal) (Special Rare) [OP",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 48.98,
-   "url": "https://gs-gameon.com/products/are-you-that-afraid-of-the-new-era-op17-037-v-2-the-world-s-strongest-warriors-asia-region-legal-special-rare-037-904851"
   },
   "divine-departure-op13-076-v-2-carrying-on-his-will-non-english-alternate-art-076-845612": {
    "titre": "Divine Departure (OP13-076) - Carrying on his Will (Non-English) (Alternate Art) [OP13-JP-076]",
@@ -17239,13 +17225,6 @@
    "prix": 28.98,
    "url": "https://gs-gameon.com/products/edward-newgate-op02-001-v-2-paramount-war-japanese-alternate-art-001-768395"
   },
-  "i-know-you-re-strong-so-i-ll-go-all-out-from-the-very-start-op13-040-v-3-unnumbered-promos-non-english-rare-op13-040-896395": {
-   "titre": "I Know You're Strong... So I'll Go All Out from the Very Start!!! (OP13-040) - Unnumbered Promos (Non-English) (Rare) [U",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 28.98,
-   "url": "https://gs-gameon.com/products/i-know-you-re-strong-so-i-ll-go-all-out-from-the-very-start-op13-040-v-3-unnumbered-promos-non-english-rare-op13-040-896395"
-  },
   "monkey-d-luffy-op15-119-v-2-adventure-on-kami-s-island-asia-region-legal-alternate-art-119-875138": {
    "titre": "Monkey.D.Luffy (OP15-119) - Adventure on Kami’s Island (Asia Region Legal) (Alternate Art) [OP15-JP-119]",
    "langue": "JP",
@@ -17301,13 +17280,6 @@
    "dispo": true,
    "prix": 164.99,
    "url": "https://gs-gameon.com/products/reshiram-ex-white-flare-jp-special-illustration-rare-168-829527"
-  },
-  "prisoner-of-impel-down-op16-042-v-2-the-time-of-battle-asia-region-legal-treasure-rare-042-890420": {
-   "titre": "Prisoner of Impel Down (OP16-042) - The Time of Battle (Asia Region Legal) (Treasure Rare) [OP16-JP-042]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 24.99,
-   "url": "https://gs-gameon.com/products/prisoner-of-impel-down-op16-042-v-2-the-time-of-battle-asia-region-legal-treasure-rare-042-890420"
   }
  },
  "starzcollectibles.com": {
