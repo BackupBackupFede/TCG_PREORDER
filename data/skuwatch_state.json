@@ -5995,6 +5995,34 @@
   }
  },
  "crispycards.de": {
+  "pokemon-battle-styles-premium-3-pack-blister-eng": {
+   "titre": "Pokémon Battle Styles 3-Pack Blister (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 49.99,
+   "url": "https://crispycards.de/products/pokemon-battle-styles-premium-3-pack-blister-eng"
+  },
+  "pokemon-phantasmal-flames-display-eng": {
+   "titre": "Pokémon Phantasmal Flames Display (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 429.99,
+   "url": "https://crispycards.de/products/pokemon-phantasmal-flames-display-eng"
+  },
+  "pokemon-chilling-reign-display-eng": {
+   "titre": "Pokémon Chilling Reign Display (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 549.99,
+   "url": "https://crispycards.de/products/pokemon-chilling-reign-display-eng"
+  },
+  "pokemon-galar-power-mini-tin-display-eng": {
+   "titre": "Pokémon Galar Power Mini Tin Display (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 899.99,
+   "url": "https://crispycards.de/products/pokemon-galar-power-mini-tin-display-eng"
+  },
   "pokemon-lapras-ex-99-109-aog-8-eng": {
    "titre": "Pokémon Lapras ex 99/109 (AOG 8) (ENG)",
    "langue": "EN",
@@ -7415,27 +7443,6 @@
    "dispo": false,
    "prix": 32.99,
    "url": "https://crispycards.de/products/pokemon-pokemon-go-tin-eng"
-  },
-  "pokemon-tag-kollektion-2026-eng": {
-   "titre": "Pokémon Day Collection 2026 (ENG)",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 49.99,
-   "url": "https://crispycards.de/products/pokemon-tag-kollektion-2026-eng"
-  },
-  "pokemon-super-electric-breaker-jp": {
-   "titre": "Pokémon Super Electric Breaker (JP)",
-   "langue": "JP",
-   "dispo": false,
-   "prix": 99.99,
-   "url": "https://crispycards.de/products/pokemon-super-electric-breaker-jp"
-  },
-  "one-piece-learn-together-deck-set-eng": {
-   "titre": "One Piece Learn Together Deck Set (ENG)",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 39.99,
-   "url": "https://crispycards.de/products/one-piece-learn-together-deck-set-eng"
   }
  },
  "aquitaz.se": {
@@ -17036,13 +17043,6 @@
    "prix": 199.99,
    "url": "https://gs-gameon.com/products/monkey-d-luffy-op05-119-v-2-awakening-of-the-new-era-non-english-alternate-art-119-733462"
   },
-  "boa-hancock-op07-038-v-2-500-years-into-the-future-non-english-alternate-art-038-759052": {
-   "titre": "Boa Hancock (OP07-038) - 500 Years into the Future (Non-English) (Alternate Art) [OP07-JP-038]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 73.88,
-   "url": "https://gs-gameon.com/products/boa-hancock-op07-038-v-2-500-years-into-the-future-non-english-alternate-art-038-759052"
-  },
   "jewelry-bonney-op12-118-v-3-legacy-of-the-master-non-english-manga-rare-118-830366": {
    "titre": "Jewelry Bonney (OP12-118) - Legacy of the Master (Non-English) (Manga Rare) [OP12-JP-118]",
    "langue": "JP",
@@ -17280,6 +17280,20 @@
    "dispo": true,
    "prix": 64.98,
    "url": "https://gs-gameon.com/products/monkey-d-garp-op12-056-the-world-s-strongest-warriors-asia-region-legal-special-rare-op12-056-904799"
+  },
+  "boa-hancock-op14-112-v-3-the-azure-sea-s-seven-asia-region-legal-special-rare-112-861938": {
+   "titre": "Boa Hancock (OP14-112) - The Azure Sea's Seven (Asia Region Legal) (Special Rare) [OP14-JP-112]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 329.89,
+   "url": "https://gs-gameon.com/products/boa-hancock-op14-112-v-3-the-azure-sea-s-seven-asia-region-legal-special-rare-112-861938"
+  },
+  "gecko-moria-st03-004-two-legends-non-english-special-rare-st03-004-771770": {
+   "titre": "Gecko Moria (ST03-004) - Two Legends (Non-English) (Special Rare) [OP08-JP-ST03-004]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 34.89,
+   "url": "https://gs-gameon.com/products/gecko-moria-st03-004-two-legends-non-english-special-rare-st03-004-771770"
   }
  },
  "starzcollectibles.com": {
