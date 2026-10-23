@@ -2343,7 +2343,7 @@
    "url": "https://todohits.com/products/op-17-booster-box-one-piece-the-worlds-strongest-warriors-japones"
   },
   "booster-box-30-aniversario-pokemon-japones": {
-   "titre": "Booster Box 30 Aniversario | POKÉMON | Japonés",
+   "titre": "Booster Box 30 Aniversario | POKÉMON | 30th Celebration Japonés",
    "langue": "JP",
    "dispo": true,
    "prix": 224.99,
@@ -4855,7 +4855,7 @@
   "pokemon-30th-celebration-ditto-premium-collection-en-s": {
    "titre": "Pokémon · 30th Celebration - Ditto Premium Collection - EN",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 109.99,
    "url": "https://outpostbrussels.be/products/pokemon-30th-celebration-ditto-premium-collection-en-s"
   },
@@ -16085,27 +16085,6 @@
    "dispo": false,
    "prix": 89.99,
    "url": "https://pokeca.nl/products/one-piece-the-bond-of-master-and-disciple-op-12-jp"
-  },
-  "currency-series-4-collector-box": {
-   "titre": "Currency Series 4 - Collector Box - EN",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 45.99,
-   "url": "https://pokeca.nl/products/currency-series-4-collector-box"
-  },
-  "currency-series-4-mega-box-en": {
-   "titre": "Currency Series 4 - Mega Box - EN",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 129.99,
-   "url": "https://pokeca.nl/products/currency-series-4-mega-box-en"
-  },
-  "one-piece-fist-of-divine-speed-booster-box-op-11-jp": {
-   "titre": "One Piece Fist of Divine Speed Booster Box [OP-11] JP",
-   "langue": "JP",
-   "dispo": false,
-   "prix": 59.99,
-   "url": "https://pokeca.nl/products/one-piece-fist-of-divine-speed-booster-box-op-11-jp"
   }
  },
  "collectorstorecards.it": {
@@ -16276,13 +16255,6 @@
    "dispo": false,
    "prix": 45.0,
    "url": "https://collectorstorecards.it/products/one-piece-card-game-premium-card-collection-best-selection-vol-6-eng"
-  },
-  "pokemon-leafeon-vstar-gg35-gg70-zenit-regale-eng": {
-   "titre": "Pokémon Leafeon VSTAR GG35/GG70 Zenit Regale ENG",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 80.0,
-   "url": "https://collectorstorecards.it/products/pokemon-leafeon-vstar-gg35-gg70-zenit-regale-eng"
   }
  },
  "gradedzone.it": {
