@@ -1409,13 +1409,6 @@
    "prix": 119.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op17-the-worlds-strongest-warriors-display-jp-1"
   },
-  "one-piece-card-game-op17-the-worlds-strongest-warriors-display-eng": {
-   "titre": "One Piece Card Game - OP17 - The Worlds Strongest Warriors - Display [ENG]",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 329.99,
-   "url": "https://fantasiacards.de/products/one-piece-card-game-op17-the-worlds-strongest-warriors-display-eng"
-  },
   "one-piece-card-game-eb05-heroines-edition-vol-2-sealed-case-jp-vorbestellung-release-31-10-26": {
    "titre": "One Piece Card Game - EB05 - Heroines Edition Vol.2 - Sealed Case [JP] (Vorbestellung - Release: 31.10.26)",
    "langue": "JP",
@@ -1480,7 +1473,7 @@
    "url": "https://fantasiacards.de/products/one-piece-card-game-op18-the-dominance-of-god-display-jp"
   },
   "one-piece-card-game-eb05-heroines-edition-vol-2-display-jp": {
-   "titre": "One Piece Card Game - EB05 - Heroines Edition Vol.2 - Display [JP]",
+   "titre": "One Piece Card Game - EB05 - Heroines Edition Vol.2 - Display [JP] (Vorbestellung - Release: 31.10.26)",
    "langue": "JP",
    "dispo": true,
    "prix": 149.99,
@@ -1620,9 +1613,9 @@
    "url": "https://fantasiacards.de/products/pokemon-pitch-black-display-eng"
   },
   "one-piece-card-game-treasure-chest-vol-2-jp": {
-   "titre": "One Piece Card Game - Treasure Chest Vol.2 [JP] (Vorbestellung)",
+   "titre": "One Piece Card Game - Treasure Chest Vol.2 [JP]",
    "langue": "JP",
-   "dispo": false,
+   "dispo": true,
    "prix": 299.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-treasure-chest-vol-2-jp"
   },
@@ -7481,6 +7474,13 @@
   }
  },
  "aquitaz.se": {
+  "pokemon-scarlet-violet-stellar-crown-pokemon-center-elite-trainer-box-etb-11-pack-eng": {
+   "titre": "Pokémon Scarlet & Violet: Stellar Crown Pokémon Center Elite Trainer Box (ETB) (11 Pack) (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 2899.0,
+   "url": "https://aquitaz.se/products/pokemon-scarlet-violet-stellar-crown-pokemon-center-elite-trainer-box-etb-11-pack-eng"
+  },
   "one-piece-op-20-booster-display-24-pack-eng": {
    "titre": "One Piece: (OP 20) Booster Display (24 Pack) (ENG)",
    "langue": "EN",
@@ -14776,6 +14776,13 @@
   }
  },
  "relictcg.com": {
+  "booster-collector-magic-realite-fracturee-en": {
+   "titre": "Booster Collector - Magic - Réalité fracturée - EN",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 37.0,
+   "url": "https://relictcg.com/products/booster-collector-magic-realite-fracturee-en"
+  },
   "mewtwo-rainbow-vstar-084-071-s10b-psa10-jpn": {
    "titre": "Mewtwo Rainbow VSTAR 084/071 - s10b - Pokémon GO - PSA10 - JPN",
    "langue": "JP",
@@ -17050,13 +17057,6 @@
    "prix": 3000.0,
    "url": "https://gs-gameon.com/products/monkey-d-luffy-st01-012-v-2-awakening-of-the-new-era-non-english-special-rare-st01-012-733465"
   },
-  "enel-op15-058-v-2-adventure-on-kami-s-island-asia-region-legal-alternate-art-058-875062": {
-   "titre": "Enel (OP15-058) - Adventure on Kami’s Island (Asia Region Legal) (Alternate Art) [OP15-JP-058]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 24.99,
-   "url": "https://gs-gameon.com/products/enel-op15-058-v-2-adventure-on-kami-s-island-asia-region-legal-alternate-art-058-875062"
-  },
   "monkey-d-luffy-op17-093-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-093-904948": {
    "titre": "Monkey.D.Luffy (OP17-093) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-093]",
    "langue": "JP",
@@ -17064,26 +17064,12 @@
    "prix": 26.94,
    "url": "https://gs-gameon.com/products/monkey-d-luffy-op17-093-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-093-904948"
   },
-  "monkey-d-luffy-op17-079-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-079-904907": {
-   "titre": "Monkey.D.Luffy (OP17-079) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-079]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 33.84,
-   "url": "https://gs-gameon.com/products/monkey-d-luffy-op17-079-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-079-904907"
-  },
   "yamato-op16-098-the-world-s-strongest-warriors-asia-region-legal-special-rare-op16-098-904802": {
    "titre": "Yamato (OP16-098) - The World’s Strongest Warriors (Asia Region Legal) (Special Rare) [OP17-JP-OP16-098]",
    "langue": "JP",
    "dispo": true,
    "prix": 168.98,
    "url": "https://gs-gameon.com/products/yamato-op16-098-the-world-s-strongest-warriors-asia-region-legal-special-rare-op16-098-904802"
-  },
-  "portgas-d-ace-op16-118-v-2-the-time-of-battle-asia-region-legal-alternate-art-118-890516": {
-   "titre": "Portgas.D.Ace (OP16-118) - The Time of Battle (Asia Region Legal) (Alternate Art) [OP16-JP-118]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 24.98,
-   "url": "https://gs-gameon.com/products/portgas-d-ace-op16-118-v-2-the-time-of-battle-asia-region-legal-alternate-art-118-890516"
   },
   "trafalgar-law-op01-002-v-2-romance-dawn-japanese-alternate-art-002": {
    "titre": "Trafalgar Law (OP01-002) - Romance Dawn (Japanese) (Alternate Art) [OP01-JP-002]",
