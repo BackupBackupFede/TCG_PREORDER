@@ -1409,13 +1409,6 @@
    "prix": 999.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op05-awakening-of-the-new-era-display-eng"
   },
-  "one-piece-card-game-double-pack-set-dp12-eng": {
-   "titre": "One Piece Card Game - Double Pack Set DP12 [ENG]",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 51.99,
-   "url": "https://fantasiacards.de/products/one-piece-card-game-double-pack-set-dp12-eng"
-  },
   "divine-cross-kakeguri-display-jp-vorbestellung-release-25-11-26": {
    "titre": "Divine Cross - Kakeguri - Display [JP] (Vorbestellung - Release: 25.11.26)",
    "langue": "JP",
@@ -7746,6 +7739,13 @@
    "dispo": true,
    "prix": 1499.0,
    "url": "https://aquitaz.se/products/one-piece-29th-anniversary-edition-premium-card-collection-8-kort-jp"
+  },
+  "one-piece-premium-card-collection-best-selection-vol-7-12-cards-eng": {
+   "titre": "One Piece: Premium Card Collection Best Selection Vol. 7 (12 Cards) (ENG)",
+   "langue": "EN",
+   "dispo": false,
+   "prix": 649.0,
+   "url": "https://aquitaz.se/products/one-piece-premium-card-collection-best-selection-vol-7-12-cards-eng"
   }
  },
  "otakura.com": {
@@ -13979,6 +13979,13 @@
    "prix": 199.9,
    "url": "https://cardcosmos.de/products/pokemon-30th-celebration-card-set-komplettset-mit-9-sets-regionen-japanisch"
   },
+  "pokemon-30th-celebration-card-set-johto-endivie-feurigel-karnimani-japanisch": {
+   "titre": "Pokémon - 30th Celebration Card Set Johto: Endivie, Feurigel & Karnimani - JPN",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 24.9,
+   "url": "https://cardcosmos.de/products/pokemon-30th-celebration-card-set-johto-endivie-feurigel-karnimani-japanisch"
+  },
   "pokemon-30th-celebration-card-set-kanto-bisasam-glumanda-schiggy-japanisch": {
    "titre": "Pokémon - 30th Celebration Card Set Kanto: Bisasam, Glumanda & Schiggy - JPN",
    "langue": "JP",
@@ -16994,10 +17001,17 @@
   }
  },
  "gs-gameon.com": {
+  "monkey-d-luffy-op17-079-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-079-904907": {
+   "titre": "Monkey.D.Luffy (OP17-079) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-079]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 33.84,
+   "url": "https://gs-gameon.com/products/monkey-d-luffy-op17-079-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-079-904907"
+  },
   "op-13-carrying-on-his-will-booster-box-eng-copy": {
    "titre": "OP-14 EB-04 Azure Sea's Seven Booster Box (ENG)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 199.99,
    "url": "https://gs-gameon.com/products/op-13-carrying-on-his-will-booster-box-eng-copy"
   },
@@ -18963,7 +18977,7 @@
  },
  "lerepaireducollectionneur.fr": {
   "display-one-piece-heroines-edition-vol-2-japonais": {
-   "titre": "Display Extra Booster Heroines Edition Vol. 2 – One Piece Card Game (Japonais)",
+   "titre": "Display Extra Booster Heroines Edition Vol. 2 – One Piece Card Game EB05 (Japonais)",
    "langue": "JP",
    "dispo": true,
    "prix": 109.9,
@@ -19359,7 +19373,7 @@
   "set-complet-27-27-ar-first-partners-japonais-pokemon-30th-celebration": {
    "titre": "Set Complet 27/27 AR First Partners japonais – Pokémon 30th Celebration",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 59.9,
    "url": "https://hikarudistribution.com/products/set-complet-27-27-ar-first-partners-japonais-pokemon-30th-celebration"
   },
