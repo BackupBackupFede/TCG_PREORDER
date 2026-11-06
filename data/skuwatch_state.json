@@ -15774,7 +15774,7 @@
   "one-piece-tin-pack-set-vol-3-ts-03-set-van-6": {
    "titre": "One Piece Tin Pack Set Vol.3 [TS-03] - Set van 6 Max 2 p.p. EN",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 169.99,
    "url": "https://pokeca.nl/products/one-piece-tin-pack-set-vol-3-ts-03-set-van-6"
   },
@@ -16952,6 +16952,13 @@
   }
  },
  "gs-gameon.com": {
+  "monkey-d-luffy-op17-079-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-079-904907": {
+   "titre": "Monkey.D.Luffy (OP17-079) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-079]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 33.84,
+   "url": "https://gs-gameon.com/products/monkey-d-luffy-op17-079-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-079-904907"
+  },
   "shanks-op06-007-v-2-the-best-vol-2-non-english-special-rare-op06-007-838819": {
    "titre": "Shanks (OP06-007) - The Best Vol. 2 (Non-English) (Special Rare) [PRB02-JP-OP06-007]",
    "langue": "JP",
@@ -17130,7 +17137,7 @@
   "one-piece-card-game-illustration-box-ib-03-eng": {
    "titre": "One Piece Card Game - Illustration Box IB-03 (ENG)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 84.99,
    "url": "https://gs-gameon.com/products/one-piece-card-game-illustration-box-ib-03-eng"
   },
