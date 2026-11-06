@@ -2378,7 +2378,7 @@
    "url": "https://todohits.com/products/tin-pack-set-vol-3-op-17-one-piece-ingles"
   },
   "30th-celebration-premium-deck-set-espeon-umbreon-pokemon-japones": {
-   "titre": "[Reserva] 30 Aniversario Premium Deck Set Espeon & Umbreon | POKÉMON | 30th Celebration Japonés",
+   "titre": "30 Aniversario Premium Deck Set Espeon & Umbreon | POKÉMON | 30th Celebration Japonés",
    "langue": "JP",
    "dispo": true,
    "prix": 164.99,
@@ -2430,7 +2430,7 @@
    "titre": "Booster Box Storm Emerald | POKÉMON | Japonés",
    "langue": "JP",
    "dispo": true,
-   "prix": 97.99,
+   "prix": 94.99,
    "url": "https://todohits.com/products/reserva-booster-box-storm-emerald-pokemon-japones"
   },
   "reserva-booster-box-pitch-black-pokemon-ingles": {
@@ -2591,7 +2591,7 @@
    "titre": "OP-15 Booster Box | ONE PIECE | Adventure on Kami's Island | Japonés",
    "langue": "JP",
    "dispo": true,
-   "prix": 89.99,
+   "prix": 87.99,
    "url": "https://todohits.com/products/op-15-booster-box-one-piece-adventure-on-kamis-island-japones"
   },
   "venusaur-charizard-blastoise-special-deck-set-ex-pokemon-japones": {
@@ -2661,7 +2661,7 @@
    "titre": "Booster Box Nihil Zero [Munikis Zero] | POKÉMON | Japonés",
    "langue": "JP",
    "dispo": true,
-   "prix": 74.99,
+   "prix": 83.99,
    "url": "https://todohits.com/products/reserva-booster-munikis-zero-pokemon-japones"
   },
   "illustration-box-vol-4-ib-05-one-piece-ingles": {
@@ -2688,8 +2688,8 @@
   "op-10-booster-box-one-piece-royal-blood-japones": {
    "titre": "OP-10 Booster Box | ONE PIECE | Royal Blood | Japonés",
    "langue": "JP",
-   "dispo": false,
-   "prix": 89.99,
+   "dispo": true,
+   "prix": 99.99,
    "url": "https://todohits.com/products/op-10-booster-box-one-piece-royal-blood-japones"
   },
   "mega-latias-ex-box-pokemon-ingles": {
@@ -2745,7 +2745,7 @@
    "titre": "OP-14 Booster Box | ONE PIECE | The Seven Warlords of the Blue Sea | Japonés",
    "langue": "JP",
    "dispo": true,
-   "prix": 89.99,
+   "prix": 99.99,
    "url": "https://todohits.com/products/op-14-booster-box-one-piece-carrying-on-his-will-japones"
   },
   "etb-fuegos-fantasmales-elite-trainer-box-pokemon-ingles": {
@@ -6054,7 +6054,7 @@
   "pokemon-phantasmal-flames-display-eng": {
    "titre": "Pokémon Phantasmal Flames Display (ENG)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 429.99,
    "url": "https://crispycards.de/products/pokemon-phantasmal-flames-display-eng"
   },
@@ -6250,7 +6250,7 @@
   "one-piece-heroines-special-set-english-version-eng": {
    "titre": "ONE PIECE Heroines Special Set English Version (ENG)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 199.99,
    "url": "https://crispycards.de/products/one-piece-heroines-special-set-english-version-eng"
   },
@@ -16966,12 +16966,33 @@
   }
  },
  "gs-gameon.com": {
-  "monkey-d-luffy-op17-079-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-079-904907": {
-   "titre": "Monkey.D.Luffy (OP17-079) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-079]",
+  "op-18-the-dominance-of-god-case-sigillato-12-booster-box-jap": {
+   "titre": "OP-18 The Dominance of God - Case Sigillato 12 Booster Box (JAP)",
    "langue": "JP",
    "dispo": true,
-   "prix": 33.84,
-   "url": "https://gs-gameon.com/products/monkey-d-luffy-op17-079-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-079-904907"
+   "prix": 1450.0,
+   "url": "https://gs-gameon.com/products/op-18-the-dominance-of-god-case-sigillato-12-booster-box-jap"
+  },
+  "op-18-the-dominance-of-god-booster-box-da-24-buste-jap": {
+   "titre": "OP-18 The Dominance of God - Booster Box da 24 Buste (JAP)",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 124.99,
+   "url": "https://gs-gameon.com/products/op-18-the-dominance-of-god-booster-box-da-24-buste-jap"
+  },
+  "op-18-the-dominance-of-god-case-sigillato-12-booster-box-eng": {
+   "titre": "OP-18 The Dominance of God - Case Sigillato 12 Booster Box (ENG)",
+   "langue": "EN",
+   "dispo": false,
+   "prix": 1728.0,
+   "url": "https://gs-gameon.com/products/op-18-the-dominance-of-god-case-sigillato-12-booster-box-eng"
+  },
+  "op-18-the-dominance-of-god-booster-box-da-24-buste-eng": {
+   "titre": "OP-18 The Dominance of God - Booster Box da 24 Buste (ENG)",
+   "langue": "EN",
+   "dispo": false,
+   "prix": 144.0,
+   "url": "https://gs-gameon.com/products/op-18-the-dominance-of-god-booster-box-da-24-buste-eng"
   },
   "shanks-op06-007-v-2-the-best-vol-2-non-english-special-rare-op06-007-838819": {
    "titre": "Shanks (OP06-007) - The Best Vol. 2 (Non-English) (Special Rare) [PRB02-JP-OP06-007]",
@@ -19464,7 +19485,7 @@
   "display-op-17-one-piece-the-worlds-strongest-warrior-japonais": {
    "titre": "Display OP-17 - One Piece - The World's Strongest Warrior - Japonais",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 84.9,
    "url": "https://hikarudistribution.com/products/display-op-17-one-piece-the-worlds-strongest-warrior-japonais"
   },
