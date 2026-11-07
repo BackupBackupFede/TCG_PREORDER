@@ -1304,6 +1304,13 @@
   }
  },
  "fantasiacards.de": {
+  "one-piece-card-game-op17-the-worlds-strongest-warriors-display-eng-kopie": {
+   "titre": "One Piece Card Game - OP17 - The Worlds Strongest Warriors - Display [ENG]",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 329.99,
+   "url": "https://fantasiacards.de/products/one-piece-card-game-op17-the-worlds-strongest-warriors-display-eng-kopie"
+  },
   "one-piece-card-game-mini-tin-ts03-eng": {
    "titre": "One Piece Card Game - Mini-Tin - TS03 [ENG]",
    "langue": "EN",
@@ -1317,13 +1324,6 @@
    "dispo": true,
    "prix": 139.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-eb05-heroines-edition-vol-2-display-jp-2"
-  },
-  "one-piece-card-game-op17-the-worlds-strongest-warriors-display-eng": {
-   "titre": "One Piece Card Game - OP17 - The Worlds Strongest Warriors - Display [ENG]",
-   "langue": "EN",
-   "dispo": false,
-   "prix": 329.99,
-   "url": "https://fantasiacards.de/products/one-piece-card-game-op17-the-worlds-strongest-warriors-display-eng"
   },
   "one-piece-card-game-waifu-hunt-booster-bundle-jp": {
    "titre": "One Piece Card Game - Waifu Hunt Booster Bundle [JP]",
@@ -1590,13 +1590,6 @@
    "dispo": true,
    "prix": 259.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op14-the-azure-seas-seven-display-eng"
-  },
-  "pokemon-paradigm-trigger-display-jp": {
-   "titre": "Pokemon - Paradigm Trigger - Display [JP]",
-   "langue": "JP",
-   "dispo": false,
-   "prix": 149.99,
-   "url": "https://fantasiacards.de/products/pokemon-paradigm-trigger-display-jp"
   },
   "pokemon-crown-zenith-booster-eng": {
    "titre": "Pokemon - Crown Zenith - Booster [ENG]",
@@ -10341,7 +10334,7 @@
   "one-piece-card-game-eb06-display-box-24-buste-eng": {
    "titre": "One Piece Card Game : EB06 Display Box 24 Buste (ENG)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 180.0,
    "url": "https://1uprm.com/products/one-piece-card-game-eb06-display-box-24-buste-eng"
   },
@@ -16966,6 +16959,20 @@
   }
  },
  "gs-gameon.com": {
+  "monkey-d-luffy-op17-079-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-079-904907": {
+   "titre": "Monkey.D.Luffy (OP17-079) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-079]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 33.84,
+   "url": "https://gs-gameon.com/products/monkey-d-luffy-op17-079-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-079-904907"
+  },
+  "portgas-d-ace-op02-013-two-legends-non-english-special-rare-op02-013-771773": {
+   "titre": "Portgas.D.Ace (OP02-013) - Two Legends (Non-English) (Special Rare) [OP08-JP-OP02-013]",
+   "langue": "JP",
+   "dispo": true,
+   "prix": 144.98,
+   "url": "https://gs-gameon.com/products/portgas-d-ace-op02-013-two-legends-non-english-special-rare-op02-013-771773"
+  },
   "op-18-the-dominance-of-god-case-sigillato-12-booster-box-jap": {
    "titre": "OP-18 The Dominance of God - Case Sigillato 12 Booster Box (JAP)",
    "langue": "JP",
@@ -17056,13 +17063,6 @@
    "dispo": true,
    "prix": 79.94,
    "url": "https://gs-gameon.com/products/uta-op02-120-awakening-of-the-new-era-non-english-special-rare-op02-120-733270"
-  },
-  "rob-lucci-op03-092-awakening-of-the-new-era-non-english-special-rare-op03-092-733271": {
-   "titre": "Rob Lucci (OP03-092) - Awakening of the New Era (Non-English) (Special Rare) [OP05-JP-OP03-092]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 29.98,
-   "url": "https://gs-gameon.com/products/rob-lucci-op03-092-awakening-of-the-new-era-non-english-special-rare-op03-092-733271"
   },
   "nami-op01-016-awakening-of-the-new-era-non-english-special-rare-op01-016-733268": {
    "titre": "Nami (OP01-016) - Awakening of the New Era (Non-English) (Special Rare) [OP05-JP-OP01-016]",
