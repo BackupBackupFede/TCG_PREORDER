@@ -1636,7 +1636,7 @@
   "one-piece-card-game-double-pack-set-dp05-eng": {
    "titre": "One Piece Card Game - Double Pack Set DP05 - [ENG]",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 39.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-double-pack-set-dp05-eng"
   },
@@ -5058,7 +5058,7 @@
   "pokemon-me05-pitch-black-booster-bundle-6-en": {
    "titre": "Pokémon - ME05 - Pitch Black Booster Bundle (6) - EN",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 44.99,
    "url": "https://outpostbrussels.be/products/pokemon-me05-pitch-black-booster-bundle-6-en"
   },
@@ -6229,7 +6229,7 @@
   "pokemon-jolteon-ex-209-187-aog-9-5-jp-2": {
    "titre": "Pokémon Jolteon ex 209/187 (AOG 9.5) (JP)",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 89.99,
    "url": "https://crispycards.de/products/pokemon-jolteon-ex-209-187-aog-9-5-jp-2"
   },
@@ -11860,7 +11860,7 @@
    "titre": "Coffret 30 ans Célébration First Partners 9G Pokémon Japonais (Pré-commande)",
    "langue": "JP",
    "dispo": true,
-   "prix": 199.95,
+   "prix": 159.95,
    "url": "https://tcgdirect.fr/products/coffret-30-ans-anniversary-celebration-first-partners-pokemon-chinois-copie"
   },
   "starter-deck-set-ex-eevee-copie": {
@@ -14964,7 +14964,7 @@
    "titre": "Caja Fusion World ST01 Story Booster 01 - Japonés",
    "langue": "JP",
    "dispo": true,
-   "prix": 186.95,
+   "prix": 124.95,
    "url": "https://metamorphcenter.com/products/caja-fusion-world-st01-story-booster-01-dragon-ball-japones"
   },
   "caja-pitch-black-ingles": {
@@ -16966,13 +16966,6 @@
   }
  },
  "gs-gameon.com": {
-  "monkey-d-luffy-op17-079-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-079-904907": {
-   "titre": "Monkey.D.Luffy (OP17-079) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-079]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 33.84,
-   "url": "https://gs-gameon.com/products/monkey-d-luffy-op17-079-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-079-904907"
-  },
   "portgas-d-ace-op02-013-two-legends-non-english-special-rare-op02-013-771773": {
    "titre": "Portgas.D.Ace (OP02-013) - Two Legends (Non-English) (Special Rare) [OP08-JP-OP02-013]",
    "langue": "JP",
@@ -17224,13 +17217,6 @@
    "dispo": true,
    "prix": 29.98,
    "url": "https://gs-gameon.com/products/nami-op11-041-v-2-a-fist-of-divine-speed-non-english-alternate-art-041-817403"
-  },
-  "rocks-d-xebec-op17-039-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-039-904854": {
-   "titre": "Rocks.D.Xebec (OP17-039) - The World’s Strongest Warriors (Asia Region Legal) (Alternate Art) [OP17-JP-039]",
-   "langue": "JP",
-   "dispo": true,
-   "prix": 25.94,
-   "url": "https://gs-gameon.com/products/rocks-d-xebec-op17-039-v-2-the-world-s-strongest-warriors-asia-region-legal-alternate-art-039-904854"
   }
  },
  "starzcollectibles.com": {
