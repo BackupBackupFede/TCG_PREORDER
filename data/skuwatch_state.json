@@ -3807,6 +3807,13 @@
   }
  },
  "baruzcard.it": {
+  "one-piece-dp13-op18-double-pack-sealed-display-8-box-eng": {
+   "titre": "One Piece DP13 OP18 Double Pack Sealed Display 8 Box ENG",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 319.9,
+   "url": "https://baruzcard.it/products/one-piece-dp13-op18-double-pack-sealed-display-8-box-eng"
+  },
   "one-piece-card-game-gift-collection-heroines-gc2026-eng": {
    "titre": "One Piece Card Game Gift Collection Heroines GC2026 ENG",
    "langue": "EN",
@@ -10994,7 +11001,7 @@
   "booster-bundle-chaos-rising-ingles": {
    "titre": "Booster Bundle Chaos Rising - Ingles",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 54.95,
    "url": "https://cardzone.es/products/booster-bundle-chaos-rising-ingles"
   },
@@ -13889,7 +13896,7 @@
   "display-copie-1": {
    "titre": "Display Stellar Miracle SV7 30 Booster Pokémon Japonais",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 69.95,
    "url": "https://tcgdirect.fr/products/display-copie-1"
   },
