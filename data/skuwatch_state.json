@@ -1314,7 +1314,7 @@
   "one-piece-card-game-op18-the-dominance-of-god-display-eng": {
    "titre": "One Piece Card Game - OP18 - The Dominance of God - Display [ENG] (Vorbestellung - Release: 21.11.26)",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 229.99,
    "url": "https://fantasiacards.de/products/one-piece-card-game-op18-the-dominance-of-god-display-eng"
   },
@@ -2387,7 +2387,7 @@
   "op-17-booster-box-one-piece-the-worlds-strongest-warriors-japones": {
    "titre": "OP-17 Booster Box | ONE PIECE | The World's Strongest Warriors | Japonés",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 99.99,
    "url": "https://todohits.com/products/op-17-booster-box-one-piece-the-worlds-strongest-warriors-japones"
   },
@@ -6705,7 +6705,7 @@
   "one-piece-starter-deck-st-16-green-uta-eng": {
    "titre": "One Piece Starter Deck ST-16 Green Uta (ENG)",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 79.99,
    "url": "https://crispycards.de/products/one-piece-starter-deck-st-16-green-uta-eng"
   },
@@ -6733,7 +6733,7 @@
   "one-piece-ultra-deck-st-30-ex-luffy-ace-eng": {
    "titre": "One Piece Ultra Deck ST-30 EX Luffy & Ace (ENG)",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 54.99,
    "url": "https://crispycards.de/products/one-piece-ultra-deck-st-30-ex-luffy-ace-eng"
   },
@@ -7714,6 +7714,27 @@
   }
  },
  "otakura.com": {
+  "mega-evolution-delta-reign-booster-bundle-6-bustine-pokemon-tcg-eng": {
+   "titre": "Mega Evolution: Delta Reign - Booster Bundle 6 Bustine - Pokémon TCG (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 44.9,
+   "url": "https://otakura.com/products/mega-evolution-delta-reign-booster-bundle-6-bustine-pokemon-tcg-eng"
+  },
+  "mega-evolution-delta-reign-elite-trainer-box-pokemon-tcg-eng": {
+   "titre": "Mega Evolution: Delta Reign - Elite Trainer Box - Pokémon TCG (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 79.9,
+   "url": "https://otakura.com/products/mega-evolution-delta-reign-elite-trainer-box-pokemon-tcg-eng"
+  },
+  "mega-evolution-delta-reign-booster-box-36-bustine-pokemon-tcg-eng": {
+   "titre": "Mega Evolution: Delta Reign - Booster Box da 36 Bustine - Pokémon TCG (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 199.99,
+   "url": "https://otakura.com/products/mega-evolution-delta-reign-booster-box-36-bustine-pokemon-tcg-eng"
+  },
   "30th-celebration-battle-deck-espeon-umbreon-pokemon-tcg-eng": {
    "titre": "30th Celebration: Battle Deck Espeon ex / Umbreon ex - Pokémon TCG (ENG)",
    "langue": "EN",
@@ -14807,7 +14828,7 @@
   "booster-collector-magic-kaldheim-jpn": {
    "titre": "Booster Collector Magic - Kaldheim - JPN",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 25.0,
    "url": "https://relictcg.com/products/booster-collector-magic-kaldheim-jpn"
   },
@@ -14919,7 +14940,7 @@
   "booster-collector-magic-marvel-super-heroes-en": {
    "titre": "Booster Collector - Magic - Marvel Super Heroes - EN",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 39.0,
    "url": "https://relictcg.com/products/booster-collector-magic-marvel-super-heroes-en"
   },
