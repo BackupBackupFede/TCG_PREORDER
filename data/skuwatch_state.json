@@ -95,7 +95,7 @@
    "titre": "OP10 Display Box - 24 boosters - Royal Blood JAP",
    "langue": "JP",
    "dispo": false,
-   "prix": 88.0,
+   "prix": 87.0,
    "url": "https://onepiece-cards.com/products/op10-display-box-24-boosters-royal-blood-jap"
   },
   "prb01-premium-booster-pack-booster-de-10-cartes-jap": {
@@ -277,7 +277,7 @@
    "titre": "OP07-051 SR JAP Boa Hancock (Manga Parallèle)",
    "langue": "JP",
    "dispo": false,
-   "prix": 2662.0,
+   "prix": 2661.0,
    "url": "https://onepiece-cards.com/products/op07-051-sr-jap-boa-hancock-manga-parallele"
   },
   "op07-059-l-jap-foxy-parallele": {
@@ -816,7 +816,7 @@
    "titre": "OP06-093 SR JAP Perona (Parallèle) Carte personnage super rare",
    "langue": "JP",
    "dispo": false,
-   "prix": 70.0,
+   "prix": 69.0,
    "url": "https://onepiece-cards.com/products/op06-093-sr-jap-perona-parallele-carte-personnage-super-rare"
   },
   "op06-101-r-jap-o-nami-parallele-carte-personnage-rare": {
@@ -977,7 +977,7 @@
    "titre": "OP05-119 SEC ENG Monkey D. Luffy Carte personnage secret rare (Manga Parallèle)",
    "langue": "EN",
    "dispo": false,
-   "prix": 1806.0,
+   "prix": 1805.0,
    "url": "https://onepiece-cards.com/products/op05-119-sec-eng-monkey-d-luffy-carte-personnage-secret-rare-manga-parallele"
   },
   "op05-119-sec-eng-monkey-d-luffy-carte-personnage-secret-rare-parallele": {
@@ -1166,7 +1166,7 @@
    "titre": "OP01-016 R SP ENG Nami Carte personnage rare (Spéciale parallèle)",
    "langue": "EN",
    "dispo": false,
-   "prix": 139.0,
+   "prix": 138.0,
    "url": "https://onepiece-cards.com/products/op01-016-r-sp-eng-nami-carte-personnage-rare-speciale-parallele"
   },
   "op01-121-sec-sp-eng-yamato-carte-personnage-secret-rare-speciale-parallele": {
@@ -1342,7 +1342,7 @@
   "pokemon-30th-celebration-2-pack-blister-eng-vorbestellung": {
    "titre": "Pokemon - 30th Celebration - 2-Pack Blister [ENG]",
    "langue": "EN",
-   "dispo": false,
+   "dispo": true,
    "prix": 49.99,
    "url": "https://fantasiacards.de/products/pokemon-30th-celebration-2-pack-blister-eng-vorbestellung"
   },
@@ -6128,6 +6128,27 @@
   }
  },
  "crispycards.de": {
+  "one-piece-the-dominance-of-god-double-pack-set-dp13-eng": {
+   "titre": "One Piece The Dominance of God Double-Pack-Set DP13 (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 29.99,
+   "url": "https://crispycards.de/products/one-piece-the-dominance-of-god-double-pack-set-dp13-eng"
+  },
+  "one-piece-gift-collection-2026-heroines": {
+   "titre": "One Piece Gift Collection 2026 Heroines (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 99.99,
+   "url": "https://crispycards.de/products/one-piece-gift-collection-2026-heroines"
+  },
+  "one-piece-op-18-the-dominance-of-god-display-eng": {
+   "titre": "One Piece OP 18 The Dominance of God Display (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 189.99,
+   "url": "https://crispycards.de/products/one-piece-op-18-the-dominance-of-god-display-eng"
+  },
   "one-piece-eb-05-heroines-edition-vol-2-display-eng": {
    "titre": "One Piece EB-05 Heroines Edition Vol.2 Display (ENG)",
    "langue": "EN",
@@ -7534,13 +7555,6 @@
    "dispo": false,
    "prix": 129.99,
    "url": "https://crispycards.de/products/pokemon-phantasmal-flames-elite-trainer-box-eng"
-  },
-  "pokemon-armarouge-ex-premium-collection-eng": {
-   "titre": "Pokémon Armarouge EX Premium-Collection (ENG)",
-   "langue": "EN",
-   "dispo": true,
-   "prix": 59.99,
-   "url": "https://crispycards.de/products/pokemon-armarouge-ex-premium-collection-eng"
   }
  },
  "aquitaz.se": {
@@ -9470,7 +9484,7 @@
    "titre": "[JP] One Piece · Card Game Display - Egghead Crisis (EB-04)",
    "langue": "JP",
    "dispo": true,
-   "prix": 102.95,
+   "prix": 119.95,
    "url": "https://yonko-tcg.de/products/jp-one-piece-card-game-display-heroines-edition-eb-04"
   },
   "eng-one-piece-card-game-display-carrying-on-his-will-op-13": {
@@ -13686,7 +13700,7 @@
   "display-30-boosters-pokemon-sv10-glory-of-team-rocket": {
    "titre": "Display Glory of Team Rocket SV10 30 Booster Pokémon Japonais",
    "langue": "JP",
-   "dispo": true,
+   "dispo": false,
    "prix": 139.95,
    "url": "https://tcgdirect.fr/products/display-30-boosters-pokemon-sv10-glory-of-team-rocket"
   }
@@ -15566,6 +15580,20 @@
   }
  },
  "tcgviert.com": {
+  "preis-pokemon-tcg-prismatic-evolutions-sv8-5-elite-trainer-box-en-limit-2-kunde-preorder-mitte-mai": {
+   "titre": "Pokémon TCG: Prismatic Evolutions (SV8.5) - Elite Trainer Box (EN) (Limit 2/Kunde) (NM)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 199.99,
+   "url": "https://tcgviert.com/products/preis-pokemon-tcg-prismatic-evolutions-sv8-5-elite-trainer-box-en-limit-2-kunde-preorder-mitte-mai"
+  },
+  "pokemon-tcg-mega-evolution-delta-reign-me06-elite-trainer-box-en-preorder-06-11-26-limit-1-kunde-beschreibung-beachten": {
+   "titre": "Pokémon TCG | Mega Evolution: Delta Reign (ME06) | Elite Trainer Box (EN) Limit: 1/Kunde)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 84.99,
+   "url": "https://tcgviert.com/products/pokemon-tcg-mega-evolution-delta-reign-me06-elite-trainer-box-en-preorder-06-11-26-limit-1-kunde-beschreibung-beachten"
+  },
   "pokemon-tcg-paradigm-trigger-s12-display-jp": {
    "titre": "Pokémon TCG: Paradigm Trigger (s12) - Display (JP)",
    "langue": "JP",
@@ -15574,7 +15602,7 @@
    "url": "https://tcgviert.com/products/pokemon-tcg-paradigm-trigger-s12-display-jp"
   },
   "pokemon-tcg-mega-evolution-pitch-black-me05-elite-trainer-box-en-preorder-17-07-26-limit-1-kunde": {
-   "titre": "Pokémon TCG | Mega Evolution: Pitch Black (ME05) | Elite Trainer Box (EN) (Preorder: 17.07.26) (Limit: 1/Kunde)",
+   "titre": "Pokémon TCG | Mega Evolution: Pitch Black (ME05) | Elite Trainer Box (EN) (Preorder: 17.07.26) (Limit: 1/Kunde) Beschrei",
    "langue": "EN",
    "dispo": true,
    "prix": 69.99,
@@ -15895,7 +15923,7 @@
   "one-piece-boa-hancock-promo-op02-059-eng": {
    "titre": "One Piece Boa Hancock Promo OP02-059 ENG",
    "langue": "EN",
-   "dispo": true,
+   "dispo": false,
    "prix": 50.0,
    "url": "https://collectorstorecards.it/products/one-piece-boa-hancock-promo-op02-059-eng"
   },
@@ -16972,6 +17000,27 @@
    "dispo": false,
    "prix": 1000.0,
    "url": "https://gs-gameon.com/products/romance-dawn-booster-box-24-buste-white-bottom-eng-lieve-taglio-sulla-pellicola"
+  },
+  "op-04-booster-box-eng": {
+   "titre": "OP-04 Kingdom of Intrigue Booster Box (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 400.0,
+   "url": "https://gs-gameon.com/products/op-04-booster-box-eng"
+  },
+  "op-16-the-time-of-battle-booster-box-da-24-buste-eng": {
+   "titre": "OP-16 The Time of Battle - Booster Box da 24 Buste (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 199.99,
+   "url": "https://gs-gameon.com/products/op-16-the-time-of-battle-booster-box-da-24-buste-eng"
+  },
+  "op-16-the-hour-of-the-decisive-battle-case-sigillato-12-booster-box-eng": {
+   "titre": "OP-16 The Hour of the Decisive Battle - Case Sigillato 12 Booster Box (ENG)",
+   "langue": "EN",
+   "dispo": true,
+   "prix": 2400.0,
+   "url": "https://gs-gameon.com/products/op-16-the-hour-of-the-decisive-battle-case-sigillato-12-booster-box-eng"
   }
  },
  "starzcollectibles.com": {
@@ -17485,7 +17534,7 @@
    "titre": "Pokémon TCG: 30th Celebration - Booster Box - Japanese",
    "langue": "JP",
    "dispo": true,
-   "prix": 139.93,
+   "prix": 138.28,
    "url": "https://pikamon.eu/products/pokemon-tcg-30th-celebration-booster-box-japanese"
   },
   "pokemon-tcg-destined-rivals-elite-trainer-box-english": {
@@ -17939,8 +17988,8 @@
   "pokemon-tcg-destined-rivals-booster-bundle-english": {
    "titre": "Pokémon TCG: Destined Rivals - Booster Bundle - English",
    "langue": "EN",
-   "dispo": false,
-   "prix": 72.0,
+   "dispo": true,
+   "prix": 68.5,
    "url": "https://pikamon.eu/products/pokemon-tcg-destined-rivals-booster-bundle-english"
   },
   "pokemon-surging-sparks-elite-trainer-box-english": {
@@ -18903,7 +18952,7 @@
    "titre": "Display One Piece Japonais OP-17 - The World’s Strongest Warrior",
    "langue": "JP",
    "dispo": true,
-   "prix": 94.9,
+   "prix": 84.9,
    "url": "https://lerepaireducollectionneur.fr/products/display-one-piece-japonais-op-17-the-worlds-strongest-warrior"
   },
   "carte-promo-one-piece-round-one-japanese-edition": {
@@ -19254,8 +19303,8 @@
   "set-complet-27-27-ar-first-partners-japonais-pokemon-30th-celebration": {
    "titre": "Set Complet 27/27 AR First Partners japonais – Pokémon 30th Celebration",
    "langue": "JP",
-   "dispo": false,
-   "prix": 39.9,
+   "dispo": true,
+   "prix": 59.9,
    "url": "https://hikarudistribution.com/products/set-complet-27-27-ar-first-partners-japonais-pokemon-30th-celebration"
   },
   "display-one-piece-card-game-pillars-of-strength-op03-japonais": {
@@ -19360,7 +19409,7 @@
    "titre": "Futuristic Box 30th Celebration - Coffret Ultra Premium 30 ans Japonais",
    "langue": "JP",
    "dispo": true,
-   "prix": 449.9,
+   "prix": 549.9,
    "url": "https://hikarudistribution.com/products/futuristic-box-30th-celebration-coffret-ultra-premium-30-ans-japonais"
   },
   "display-mega-aura-seeker-hadou-seeker-m-japonais": {
